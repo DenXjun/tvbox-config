@@ -471,15 +471,6 @@
    "filterable": 1
   },
   {
-   "key": "iqiyi_2",
-   "name": "爱奇艺",
-   "api": "https://iqiyizyapi.com/api.php/provide/vod",
-   "type": 1,
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "yzzy",
    "name": "优质资源",
    "api": "https://api.yzzy-api.com/inc/apijson.php",
@@ -906,6 +897,15 @@
    "key": "心魔📚在线_csp_xml_ikun",
    "name": "心魔📚在线·❤ikun资源",
    "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+   "type": 1,
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "请勿贩卖📚在线_采集集合",
+   "name": "请勿贩卖📚在线·采集集合",
+   "api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
    "type": 1,
    "searchable": 1,
    "quickSearch": 1,
@@ -10430,15 +10430,6 @@
    "ext": "./js/央视频.js"
   },
   {
-   "key": "youtube",
-   "name": "YouTube",
-   "type": 3,
-   "api": "csp_YouTube",
-   "searchable": 1,
-   "changeable": 0,
-   "ext": "./lib/youtube.json"
-  },
-  {
    "key": "上海看看",
    "name": "上海看看",
    "type": 3,
@@ -10455,6 +10446,16 @@
    "ext": {
     "host": "https://www.dandanqi.cc"
    }
+  },
+  {
+   "key": "youtube",
+   "name": "YouTube",
+   "type": 3,
+   "api": "csp_YouTube",
+   "jar": "./jar/yt-vce.jar",
+   "searchable": 1,
+   "changeable": 0,
+   "ext": "./lib/yt-vce.json"
   },
   {
    "key": "youtube2",
@@ -11745,6 +11746,30 @@
    "type": 0,
    "url": "http://home.jundie.top:81/Cat/tv/live.txt",
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+  },
+  {
+   "name": "Guovin·央视",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/lives/live_cctv.txt",
+   "epg": "https://live.fanmingming.cn/e.xml"
+  },
+  {
+   "name": "Guovin·卫视",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/lives/live_weishi.txt",
+   "epg": "https://live.fanmingming.cn/e.xml"
+  },
+  {
+   "name": "Guovin·港台",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/lives/live_gangtai.txt",
+   "epg": "https://live.fanmingming.cn/e.xml"
+  },
+  {
+   "name": "Guovin·其他",
+   "type": 0,
+   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/lives/live_other.txt",
+   "epg": "https://live.fanmingming.cn/e.xml"
   }
  ],
  "parses": [
