@@ -1,5 +1,5 @@
 {
- "spider": "https://ghproxy.felicity.land/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/LIBVIO.jar;md5;da018b4f9e93e66d29be9ff5013a2059",
+ "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/LIBVIO.jar;md5;da018b4f9e93e66d29be9ff5013a2059",
  "wallpaper": "https://t.alcy.cc/ys",
  "parses": [
   {
@@ -2279,6 +2279,45 @@
  ],
  "sites": [
   {
+   "key": "*美少女",
+   "name": "*美少女",
+   "type": 0,
+   "api": "https://www.msnii.com/api/xml.php",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "group": "综合-直连点播"
+  },
+  {
+   "key": "*白嫖",
+   "name": "*白嫖",
+   "type": 0,
+   "api": "https://www.kxgav.com/api/xml.php",
+   "group": "综合-直连点播",
+   "searchable": 1
+  },
+  {
+   "key": "白嫖",
+   "name": "白嫖 | 采集",
+   "type": 0,
+   "api": "https://www.kxgav.com/api/xml.php",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "proxy",
+   "group": "综合-直连点播"
+  },
+  {
+   "key": "小湿妹",
+   "name": "湿妹 | 采集",
+   "type": 0,
+   "api": "http://www.afasu.com/api/xml.php",
+   "searchable": 0,
+   "quickSearch": 1,
+   "ext": "proxy",
+   "group": "综合-直连点播"
+  },
+  {
    "key": "s48",
    "name": "小乐｜星源",
    "type": 1,
@@ -2319,16 +2358,6 @@
    "group": "综合-直连点播"
   },
   {
-   "key": "小湿妹",
-   "name": "湿妹 | 采集",
-   "type": 0,
-   "api": "http://www.afasu.com/api/xml.php",
-   "searchable": 0,
-   "quickSearch": 1,
-   "ext": "proxy",
-   "group": "综合-直连点播"
-  },
-  {
    "key": "cctv-3",
    "name": "CCTV",
    "type": 1,
@@ -2341,42 +2370,15 @@
    "group": "综合-直连点播"
   },
   {
-   "key": "米色",
-   "name": "米色(18)",
+   "key": "cctv-3",
+   "name": "CCTV",
    "type": 1,
-   "api": "https://www.msnii.com/api/json.php",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "group": "综合-直连点播"
-  },
-  {
-   "key": "*美少女",
-   "name": "*美少女",
-   "type": 0,
-   "api": "https://www.msnii.com/api/xml.php",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "group": "综合-直连点播"
-  },
-  {
-   "key": "*白嫖",
-   "name": "*白嫖",
-   "type": 0,
-   "api": "https://www.kxgav.com/api/xml.php",
-   "group": "综合-直连点播",
-   "searchable": 1
-  },
-  {
-   "key": "白嫖",
-   "name": "白嫖 | 采集",
-   "type": 0,
-   "api": "https://www.kxgav.com/api/xml.php",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "proxy",
+   "api": "https://zhangqun19.serv00.net/cctv.php",
+   "style": {
+    "type": "rect",
+    "ratio": 1.33
+   },
+   "changeable": 1,
    "group": "综合-直连点播"
   }
  ]

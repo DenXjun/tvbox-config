@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-04T00:10:52",
- "total": 4200,
+ "generated_at": "2026-10-04T00:55:30",
+ "total": 4728,
  "summary": {
-  "unknown": 2083,
+  "unknown": 2611,
   "healthy": 167,
   "degraded": 1512,
   "dead": 438
@@ -4894,6 +4894,13 @@
    "_level": "C1",
    "_source": null
   },
+  "myali": {
+   "_health": "degraded",
+   "_checked_at": "2026-10-02 12:15:33",
+   "_latency_ms": 168,
+   "_level": "C1",
+   "_source": null
+  },
   "KanSJ_spider": {
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -8409,6 +8416,13 @@
    "_source": null
   },
   "csp_YQKAPP": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "七新影视": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -18152,20 +18166,6 @@
    "_level": null,
    "_source": null
   },
-  "七新影视": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "乌鸦影视": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "yppan": {
    "_health": "dead",
    "_checked_at": "2026-09-28 23:47:07",
@@ -18195,13 +18195,6 @@
    "_source": null
   },
   "115Shareme": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "好戏影视": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -18797,20 +18790,6 @@
    "_source": null
   },
   "天启": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "一三九": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "不开心": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,

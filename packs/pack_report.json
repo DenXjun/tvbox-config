@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-04 00:10:58",
+ "generated_at": "2026-10-04 00:55:36",
  "zip": "tvbox-latest.zip",
- "zip_size_mb": 86.16,
+ "zip_size_mb": 86.17,
  "tvbox": {
-  "sites": 3693,
-  "lives": 510,
+  "sites": 4221,
+  "lives": 511,
   "parses": 183,
   "drop_dead": 438,
   "drop_missing_dep": 41
  },
- "short": 225,
+ "short": 255,
  "live": {
   "kept": 1,
   "drop_dead": 0

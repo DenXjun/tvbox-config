@@ -2307,7 +2307,7 @@
   "cnzz.com"
  ],
  "version": "2026-10-04-b2",
- "updated_at": "2026-10-04T07:33:46+08:00",
+ "updated_at": "2026-10-04T08:16:57+08:00",
  "sites": [
   {
    "key": "围观短剧",
@@ -2372,7 +2372,7 @@
    "name": "♨️统一影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
@@ -2530,7 +2530,7 @@
     "分类": "抖音短剧$20#快手短剧$21#视频号短剧$22#热播短剧$23",
     "分类链接": "http://www.duanjutv.cc/vodtype/{cateId}-{catePg}.html;;m"
    },
-   "jar": "https://ghproxy.felicity.land/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "短剧",
    "searchable": 0
   },
@@ -2598,7 +2598,7 @@
     "搜索url": "https://www.duanjuxia.cn/index.php/vod/search.html?wd={wd}",
     "分类url": "https://www.duanjuxia.cn/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/year/{year}/page/{catePg}.html"
    },
-   "jar": "https://ghproxy.felicity.land/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "短剧"
   },
   {
@@ -3098,7 +3098,7 @@
     "分类url": "http://vip.zhuiying.cyou/index.php/vod/show/id/{cateId}/page/{catePg}/are/{are}/by/{by}/class/{class}/lang/{lang}/year/{year}.html",
     "分类": "電影$2#剧集$1#綜藝$3#動漫$4#短剧$20#體育$21"
    },
-   "jar": "https://ghproxy.felicity.land/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "短剧",
    "searchable": 0
   },
@@ -3867,7 +3867,7 @@
    "name": "11♨️游子视频",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -3887,7 +3887,7 @@
    "name": "13♨️可可｜影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -3983,7 +3983,7 @@
     "分类url": "https://www.kkys1.com/show/{cateId}-{class}-{area}-{lang}-{year}-{by}-{catePg}.html",
     "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$6#今日更新$https://www.kkys1.com/label/new.html"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -4006,7 +4006,7 @@
     "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$41#🔞18$20",
     "类型": "动作片$7#喜剧片$6#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#犯罪片$21#冒险片$22#动画片$23#记录片$5#悬疑片$39||内地剧$13#台剧$14#港剧$15#日剧$16#韩剧$24#泰剧$26#欧美剧$25#其它$40||国产动漫$33#日本动漫$34#欧美动漫$35#其它动漫$36||大陆综艺$27#港台综艺$28#日本综艺$29#韩国综艺$30#欧美综艺$31#其它综艺$32||无||无||无"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -4018,7 +4018,7 @@
    "quickSearch": 0,
    "filterable": 1,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "数组": "module-item&&/span>",
     "副标题": "<span>&&<",
@@ -4074,7 +4074,7 @@
     "简介": "detail-desc\">&&</p>",
     "倒序": "0"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -4082,7 +4082,7 @@
    "name": "2♨️老王影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4107,7 +4107,7 @@
    "name": "32♨️剧剧吧",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4126,7 +4126,7 @@
    "name": "33♨️云播短剧",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4145,7 +4145,7 @@
    "name": "34♨️若片电影",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4164,7 +4164,7 @@
    "name": "35♨️好剧屋",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4185,7 +4185,7 @@
    "name": "36♨️短剧网",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4208,7 +4208,7 @@
    "quickSearch": 0,
    "filterable": 1,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
@@ -4234,7 +4234,7 @@
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
     "类型": "动作片$5#爱情片$6#科幻片$7#恐怖片$8#战争片$9#喜剧片$10#剧情片$12||国产剧$13#港台剧$14#欧美剧$15#韩剧$16#日剧$27#泰剧$29#海外剧$30#爽文短剧$39||大陆综艺$26#港台综艺$28#欧美综艺$31#日韩综艺$32||国产动漫$34#日韩动漫$35#欧美动漫$36#动漫电影$37#海外动漫$38"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -4245,7 +4245,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
@@ -4265,7 +4265,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
@@ -4285,7 +4285,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
@@ -4310,7 +4310,7 @@
     "分类url": "https://www.yuenjinggong.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
     "分类": "短剧$duanju#电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#动画片$donghuapian#邵氏电影$shaoshi#伦理电影$lilun#演唱会$yanchanghui#电影解说$dianyingjieshuo"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -4322,7 +4322,7 @@
    "filterable": 1,
    "changeable": 1,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "搜索url": "https://www.darkvod.cc/tag/?wd={wd}&submit=",
     "线路标题": "[不包含:海外看资源#高清云播放器]",
@@ -4401,7 +4401,7 @@
     "分类url": "https://www.03yy.live/{cateId}-{catePg}.html",
     "分类": "电影$type/index1#电视剧$type/index2#动漫$type/index4#综艺$type/index3#纪录片$type/index11#福利$type/index66#豆瓣电影Top250$topiclist/1#奥斯卡最佳影片$topiclist/17#网飞专场$topiclist/24#热映电影$topiclist/25#96届奥斯卡奖$topiclist/23.html#经典韩剧$topiclist/19#经典港剧$topiclist/18#经典美剧$topiclist/21#格斗$topiclist/16#奇幻$topiclist/15#僵尸$topiclist/6#犯罪$topiclist/5#烧脑$topiclist/4#灾难$topiclist/8#爱情$topiclist/7#top100$topiclist/9#人物传记$topiclist/11#历史人物传记$topiclist/12#励志$topiclist/14#飙车$topiclist/13#短剧$type/index48#动作片$type/index5#喜剧片$type/index10#爱情片$type/index6#科幻片$type/index7#恐怖片$type/index8#战争片$type/index9#剧情片$type/index12#动画片$type/index25#大陆剧$type/index13#欧美剧$type/index27#韩国剧$type/index26#香港剧$type/index14#台湾剧$type/index46#日本剧$type/index16#泰国剧$type/index47#海外剧$type/index28#大陆动漫$type/index33#日韩动漫$type/index34#欧美动漫$type/index35#少儿动画$type/index64#大陆综艺$type/index29#港台综艺$type/index30#日韩综艺$type/index31#欧美综艺$type/index32"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -4409,7 +4409,7 @@
    "name": "♨️VS影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4437,7 +4437,7 @@
     "分类": "电影$movie#电视剧$Series#综艺$variety#动漫$cartoon#短剧$duanju",
     "分类url": "https://www.rarbt.fun/vod/show/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -4448,7 +4448,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "搜索url": "http://www.wuyevod.com/vodsearch/-------------.html?wd={wd}",
     "播放数组": " <ul class=\"row ewave-tab-content ewave-playlist-content ewave-playlist-sort-content\" id=\"ewave-playlist-1\">&&</ul> ",
@@ -4463,7 +4463,7 @@
    "name": "♨️水晶影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4481,7 +4481,7 @@
    "name": "♨️琪琪影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4500,7 +4500,7 @@
    "name": "♨️私人影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4524,7 +4524,7 @@
    "quickSearch": 0,
    "filterable": 1,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "播放数组": "<div class=\"video_list fn-clear\">&&</div>",
     "线路数组": "class=\"down-title\">&&</div>",
@@ -4538,7 +4538,7 @@
    "name": "♨️轨道影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4569,7 +4569,7 @@
     "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju",
     "类型": "动作片$dongzuopian#喜剧片$xijupian#剧情片$juqingpian#动画片$donghuapian#爱情片$aiqingpian#恐怖片$kongbupian#科幻片$kehuanpian#奇幻片$qihuanpian#战争片$zhanzhengpian#记录片$jilupian||国产剧$guochanju#欧美剧$oumeiju#韩剧$hanju#日剧$riju#台湾剧$taiwanju#港剧$gangju#泰剧$taiju#其他剧$haiwai||内地综艺$neidizongyi#港台综艺$gangtaizongyi#日韩综艺$rihanzongyi#欧美综艺$oumeizongyi||国产动漫$guochandongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#其他动漫$qita||无"
    },
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "group": "短剧"
   },
   {
@@ -4577,7 +4577,7 @@
    "name": "♾️影视┃大全",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -4611,7 +4611,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
@@ -4644,7 +4644,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "changeable": 1,
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "免嗅": "1",
     "线路数组": "<div class=\"module-tab-item tab-item&&</div>",
@@ -4666,7 +4666,7 @@
    "name": "🌈PTT视频",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4696,7 +4696,7 @@
     "分类url": "https://www.gtrgt.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
     "分类": "电影$dy#电视剧$dsj#综艺$zy#动漫$dm#短剧$duanju#伦理$lunlipian"
    },
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "group": "短剧"
   },
   {
@@ -4706,7 +4706,7 @@
    "api": "csp_XBPQ",
    "searchable": 1,
    "quickSearch": 1,
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "filterable": 1,
    "ext": {
     "简介": "product-excerpt\">剧情简介：&&</span>",
@@ -4727,7 +4727,7 @@
    "api": "csp_XBPQ",
    "searchable": 1,
    "quickSearch": 0,
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "filterable": 1,
    "ext": {
     "播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad",
@@ -4758,7 +4758,7 @@
    "name": "🌺蜂鸟影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4800,7 +4800,7 @@
    "name": "🍄一起看",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4825,7 +4825,7 @@
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$30",
     "类型": "无"
    },
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "group": "短剧"
   },
   {
@@ -4842,7 +4842,7 @@
     "分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$30#"
    },
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "group": "短剧"
   },
   {
@@ -4850,7 +4850,7 @@
    "name": "🍇葡萄影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4951,7 +4951,7 @@
    "name": "🍞面包影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4970,7 +4970,7 @@
    "name": "🎃南瓜影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -4998,7 +4998,7 @@
     "分类": "电影&电视剧&动漫&综艺&动画片&邵氏电影&短剧",
     "分类值": "1&2&4&3&37&38&41"
    },
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "group": "短剧"
   },
   {
@@ -5006,7 +5006,7 @@
    "name": "🎠乐游┃影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -5110,7 +5110,7 @@
     "分类": "TV动画$1#剧场版$2#绅士$3#电影$4#短剧$21#3D$22#里番$20#热血$13#剧情$14#情感$15#其它$16",
     "分类url": "https://1anime2024.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
    },
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "group": "短剧"
   },
   {
@@ -5145,7 +5145,7 @@
    "quickSearch": 0,
    "filterable": 1,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "ext": {
     "播放数组": "<div class=\"scroll-content\">&&</div>",
     "分类": "电影$1#电视剧$2#动漫$4#综艺$3#记录片$5#短剧$6#",
@@ -5158,7 +5158,7 @@
    "name": "🏳️白嫖┃联盟",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -5190,7 +5190,7 @@
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$42",
     "类型": "动作片$5#喜剧片$10#爱情片$6#科幻片$7#恐怖片$8#剧情片$12#战争片$9#记录片$25||国产剧$13#港台剧$14#日剧$27#欧美剧$15#泰国剧$29#海外剧$30||大陆综艺$26#港台综艺$28#欧美综艺$31#日韩综艺$32||国产动漫$34#日韩动漫$35#欧美动漫$36#动漫电影$37#海外动漫$38||无"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -5201,7 +5201,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "ext": {
     "播放线路": "<li class=\"col-lg-3 col-md-2 col-sm-5 col-xs-4 active\">&&</li>",
     "主页url": "https://www.zhuzhu2028.com/",
@@ -5222,7 +5222,7 @@
    "name": "🐘大象①┃影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -5262,7 +5262,7 @@
     "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#记录片$jilupian",
     "类型": "动作片$dzp#科幻片$khp#战争片$zzp#恐怖片$kbp#喜剧片$xjp#爱情片$aqp#剧情片$jqp||国产剧$gcj#热门短剧$rmdj#港台剧$gtj#日韩剧$rhj#海外剧$hwj||无||空||无"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -5270,7 +5270,7 @@
    "name": "👀久看┃电影",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
@@ -5313,7 +5313,7 @@
     "分类url": "https://www.gymboreejn.com/vodtype/{cateId}-{catePg}.html",
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$31#影视解说$32#邵氏电影$39"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -5341,7 +5341,7 @@
     "分类url": "https://freeys.org/menu/{catePg}/{cateId}/{class}/{year}/{area}/0/0",
     "倒序": "1"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -5351,7 +5351,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "api": "csp_XBPQ",
    "ext": {
     "简介": "剧情介绍:+content_desc full_text clearfix\" style=*>&&</div>",
@@ -5370,7 +5370,7 @@
    "name": "💖片吧影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -5389,7 +5389,7 @@
    "name": "💖碟调影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -5415,7 +5415,7 @@
     "分类url": "https://www.lilanghq.com/vodtype/{cateId}-{catePg}.html",
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#动画片$34#短剧$36#香港电影$37#预告片$35"
    },
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "group": "短剧"
   },
   {
@@ -5450,7 +5450,7 @@
    "name": "😾夜猫短剧",
    "type": 3,
    "api": "csp_YMduanju",
-   "jar": "https://ghproxy.felicity.land/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0,
@@ -5461,7 +5461,7 @@
    "name": "🦊妖狐影视",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 1,
@@ -5485,7 +5485,7 @@
    "name": "5️⃣555┃电影",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
@@ -5535,7 +5535,7 @@
     "分类url": "https://www.kjbkjb.com/cat/?{cateId}-{catePg}.html",
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
    },
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "group": "短剧"
   },
   {
@@ -5566,7 +5566,7 @@
    "name": "🌊四海┃影院",
    "type": 3,
    "api": "csp_XBPQ",
-   "jar": "./deps/auto/66-137s/lwlxh/tvhome/raw/master/o.jar",
+   "jar": "./deps/localized/858cb4948d-o.jar",
    "ext": {
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
@@ -5611,7 +5611,7 @@
     "分类url": "https://www.8q8k.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
     "分类": "电影$dy#电视剧$dsj#动漫$dm#综艺$zy#记录片$jilupian#短剧$duanju"
    },
-   "jar": "./deps/auto/108-82s/jar/xyqxbpq.jar",
+   "jar": "./deps/auto/103-82s/jar/xyqxbpq.jar",
    "group": "短剧"
   },
   {

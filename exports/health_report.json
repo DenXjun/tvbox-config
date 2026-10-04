@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T00:10:54",
+ "generated_at": "2026-10-04T00:55:32",
  "is_baseline": false,
  "vod": {
   "total": 8593,
@@ -214,20 +214,36 @@
   }
  },
  "live": {
-  "total": 686,
+  "total": 689,
   "summary": {
-   "degraded": 256,
-   "healthy": 159,
-   "unknown": 250,
+   "degraded": 257,
+   "healthy": 164,
+   "unknown": 247,
    "dead": 21
   },
   "counts": {
-   "new": 0,
+   "new": 3,
    "gone": 0,
    "down": 0,
    "recovered": 0
   },
-  "new": [],
+  "new": [
+   {
+    "key": "https://gh-proxy.com/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
+    "name": "Ryukyou┃中文精选(自动更新)",
+    "health": "healthy"
+   },
+   {
+    "key": "https://gh-proxy.com/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+    "name": "备用-CollectIPTV",
+    "health": "healthy"
+   },
+   {
+    "key": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.2/live.m3u",
+    "name": "WKC电视直播",
+    "health": "healthy"
+   }
+  ],
   "down": []
  }
 }

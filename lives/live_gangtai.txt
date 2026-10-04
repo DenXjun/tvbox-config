@@ -1,21 +1,23 @@
 港台,#genre#
 TVB News,http://r.jdshipin.com/CkuBd
+TVBPearl,http://r.jdshipin.com/ZQ4kN
 TVBPearl,http://r.jdshipin.com/jUx8K
 TVBPearl,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 TVBPearl,http://r.jdshipin.com/ZQ4kN
 TVBS亚洲,https://m.italkbbtv.com/live/62cc940d4725b5305843ac53
 TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
-TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8
+TVBS亚洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
 TVBS亞洲,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
 TVBS亞洲台,http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
-TVB无线新闻,http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 TVB无线新闻,http://r.jdshipin.com/CkuBd
+TVB无线新闻,http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
+TVB明珠,http://r.jdshipin.com/ZQ4kN
 TVB明珠,http://r.jdshipin.com/jUx8K
 TVB明珠,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 TVB明珠,http://r.jdshipin.com/ZQ4kN
 TVB星河,https://o11.163189.xyz/stream/live/tvbxh/
 TVB星河,http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
-TVB星河,http://r.jdshipin.com/sXuuD
+TVB星河,http://r.jdshipin.com/Voac4
 TVB翡翠台,http://r.jdshipin.com/62WM7
 TVB翡翠台,http://r.jdshipin.com/n90gt
 TVB翡翠台,http://r.jdshipin.com/qrfbg
@@ -35,6 +37,7 @@ TVB翡翠台,http://r.jdshipin.com/qrfbg
 凤凰资讯,http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv
 凤凰资讯,http://173.208.234.146/live/fhzx.m3u8
 凤凰香港,http://173.208.234.146/live/fhxg.m3u8
+明珠台,http://r.jdshipin.com/ZQ4kN
 明珠台,http://r.jdshipin.com/jUx8K
 明珠台,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 明珠台,http://r.jdshipin.com/ZQ4kN
