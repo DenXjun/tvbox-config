@@ -2719,7 +2719,7 @@
    "name": "软件小哥哥",
    "type": 0,
    "playerType": 1,
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/jhzone/TVbox/main/result.txt",
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/jhzone/TVbox/main/result.txt",
    "ua": "okhttp/3.15",
    "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
    "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2868,7 +2868,7 @@
    "name": "🐬国际TV 有🔞",
    "type": 0,
    "ua": "okhttp",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yihad168/tv/refs/heads/main/tv.m3u"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/yihad168/tv/refs/heads/main/tv.m3u"
   },
   {
    "name": "🐬UnifiTV(马来节点)",
@@ -2892,7 +2892,7 @@
    "name": "🐬洋片XD",
    "type": 0,
    "ua": "okhttp",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/洋片XD.m3u"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/洋片XD.m3u"
   },
   {
    "name": "🐬港台",
@@ -3100,7 +3100,7 @@
    "type": 0,
    "playerType": 2,
    "ua": "okhttp",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit"
   },
   {
    "name": "易发源 有🔞",
@@ -3174,7 +3174,7 @@
    "name": "地方直播2",
    "type": 0,
    "ua": "okhttp/5.3.2",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
   },
   {
    "name": "薄荷直播",
@@ -3222,7 +3222,7 @@
    "name": "国际TV",
    "type": 0,
    "ua": "okhttp",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xJEYDAin/iptv/main/output/all_merged.m3u"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/xJEYDAin/iptv/main/output/all_merged.m3u"
   },
   {
    "name": "裤TV",
@@ -3470,7 +3470,7 @@
   {
    "name": "Ryukyou┃中文精选(自动更新)",
    "type": 0,
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
    "playerType": 2
   },
   {
@@ -3512,7 +3512,7 @@
   {
    "name": "备用-CollectIPTV",
    "type": 0,
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
    "playerType": 2
   },
   {
@@ -3887,7 +3887,7 @@
   {
    "name": "WKC电视直播",
    "type": 0,
-   "url": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.2/live.m3u",
+   "url": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.3/live.m3u",
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={id}&date={date}",
    "playerType": 2,
    "timeout": 15
@@ -6210,8 +6210,8 @@
  "tihuan": [
   "cnzz.com"
  ],
- "version": "2026-10-04-b2",
- "updated_at": "2026-10-04T08:16:57+08:00",
+ "version": "2026-10-04-b3",
+ "updated_at": "2026-10-04T09:00:10+08:00",
  "sites": [
   {
    "key": "sou4k",
@@ -6238,7 +6238,6 @@
    "type": 3,
    "api": "csp_AppQi",
    "ext": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/blurl.txt|5f2b7ed203a3a581|qiji| ",
-   "jar": "./deps/auto/191-36s/%E5%B0%8F%E7%B1%B3/spider.jar",
    "group": "4K-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -6917,7 +6916,7 @@
     "分类url": "https://sc1080.top/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;akm",
     "分类": "電視劇$2#電影$1#動漫$4#綜藝$3"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "4K-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -6956,7 +6955,7 @@
     "分类url": "https://rebozj.pro/show/{cateId}--{area}------{catePg}---{year}.html;;a",
     "跳转播放链接": "urlDecode(vod_class*url\":\"&&\")"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "4K-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -6974,7 +6973,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "ext": "{\"主演\":\"主演：&&</div>\",\"简介\":\"<p>&&<p>\",\"副标题\":\"class=\\\"module-item-note\\\">&&</div>\",\"线路数组\":\"class=\\\"module-tab-itemtab-item&&</div>\",\"线路标题\":\"<span>&&</small>[不包含:夸克4K]\",\"播放数组\":\"class=\\\"module-play-list&&</div>\",\"分类\":\"電影$1#電視劇$2#動漫$4#綜藝$3\",\"分类url\":\"https://www.3ayy.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html\"}",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "4K-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -7194,7 +7193,7 @@
     "分类url": "https://www.4kvm.org/{cateId}/page/{catePg};;d0",
     "分类": "電影$movies#美剧$classify/meiju#国产剧$classify/guochan#韩剧$classify/hanju#番剧$classify/fanju"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "4K-网盘",
    "searchable": 0,
    "_health": "degraded",
@@ -7378,7 +7377,6 @@
    "type": 3,
    "api": "csp_AppQi",
    "ext": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt|da61247f5b662597|qiji| ",
-   "jar": "./deps/auto/191-36s/%E5%B0%8F%E7%B1%B3/spider.jar",
    "group": "综合-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -7505,7 +7503,6 @@
    "quickSearch": 0,
    "api": "csp_AppQi",
    "ext": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt|staraugust123456|qiji| ",
-   "jar": "./deps/auto/191-36s/%E5%B0%8F%E7%B1%B3/spider.jar",
    "group": "综合-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -7541,7 +7538,6 @@
    "quickSearch": 0,
    "filterable": 1,
    "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt|sda1231sasddad21|qiji| ",
-   "jar": "./deps/auto/191-36s/%E5%B0%8F%E7%B1%B3/spider.jar",
    "group": "综合-网盘",
    "searchable": 0,
    "_health": "degraded",
@@ -7871,24 +7867,6 @@
    "_type": "综合-网盘"
   },
   {
-   "key": "九九六",
-   "name": "九九六",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 0,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "./deps/auto/115-77s/%E5%BD%B1%E8%A7%86/XBPQ/九九六.json",
-   "jar": "https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;9733ac5a326a4ce26dea8a5a1e3be41b",
-   "group": "综合-网盘",
-   "_health": "degraded",
-   "_checked_at": "2026-10-02 12:15:33",
-   "_latency_ms": 109,
-   "_level": "C1",
-   "_source": null,
-   "_type": "综合-网盘"
-  },
-  {
    "key": "音海",
    "name": "🔍音海丨网盘搜索",
    "type": 3,
@@ -7902,42 +7880,6 @@
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
    "_latency_ms": 152,
-   "_level": "C1",
-   "_source": null,
-   "_type": "综合-网盘"
-  },
-  {
-   "key": "麻衣呀呼",
-   "name": "麻衣呀呼",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 0,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "./deps/auto/115-77s/%E5%BD%B1%E8%A7%86/XBPQ/麻衣呀呼.json",
-   "jar": "https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;9733ac5a326a4ce26dea8a5a1e3be41b",
-   "group": "综合-网盘",
-   "_health": "degraded",
-   "_checked_at": "2026-10-02 12:15:33",
-   "_latency_ms": 164,
-   "_level": "C1",
-   "_source": null,
-   "_type": "综合-网盘"
-  },
-  {
-   "key": "威士影视",
-   "name": "威士影视",
-   "type": 3,
-   "api": "csp_XBPQ",
-   "searchable": 0,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "./deps/auto/115-77s/%E5%BD%B1%E8%A7%86/XBPQ/威士影视.json",
-   "jar": "https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;9733ac5a326a4ce26dea8a5a1e3be41b",
-   "group": "综合-网盘",
-   "_health": "degraded",
-   "_checked_at": "2026-10-02 12:15:33",
-   "_latency_ms": 167,
    "_level": "C1",
    "_source": null,
    "_type": "综合-网盘"
@@ -8274,7 +8216,7 @@
     "分类url": "http://dyxz.tv/list/{cateId}_{catePg}.html",
     "分类": "電影$1#電視劇$2#動漫$3#綜藝$4"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -8321,6 +8263,28 @@
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
    "_latency_ms": 1431,
+   "_level": "C1",
+   "_source": null,
+   "_type": "综合-网盘"
+  },
+  {
+   "key": "夸克玩偶弹幕",
+   "name": "夸克｜玩偶",
+   "type": 3,
+   "api": "csp_Wobg",
+   "searchable": 0,
+   "quickSearch": 1,
+   "filterable": 1,
+   "changeable": 1,
+   "ext": {
+    "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+    "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+    "danmu": true
+   },
+   "group": "综合-网盘",
+   "_health": "degraded",
+   "_checked_at": "2026-10-02 12:15:33",
+   "_latency_ms": 1438,
    "_level": "C1",
    "_source": null,
    "_type": "综合-网盘"
@@ -8594,7 +8558,7 @@
     "分类url": "http://www.xingchenwu.com/{cateId}/index{catePg}.html[http://www.xingchenwu.com/{cateId}/index.html];;ak",
     "分类": "電影$dianying#電視劇$dianshiju#綜藝$zongyi#動漫$dongman"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -8727,7 +8691,7 @@
     "分类": "電影$1#電視劇$2#動漫$3#綜藝$4",
     "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -9715,7 +9679,7 @@
      ]
     }
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-网盘",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -9842,7 +9806,7 @@
     "type": "list"
    },
    "timeout": 30,
-   "ext": "https://v6.gh-proxy.org/https://github.com/chitue/dongliTV/blob/main/config/myquark.json",
+   "ext": "./deps/feishu-sync/chitue/dongliTV/blob/main/config/myquark.json",
    "group": "综合-网盘",
    "_health": "degraded",
    "_checked_at": "2026-09-28 01:58:29",

@@ -1,5 +1,5 @@
 {
- "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/LIBVIO.jar;md5;da018b4f9e93e66d29be9ff5013a2059",
+ "spider": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/LIBVIO.jar;md5;da018b4f9e93e66d29be9ff5013a2059",
  "wallpaper": "https://t.alcy.cc/ys",
  "parses": [
   {
@@ -2286,7 +2286,7 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/deepseek/8815wmz/tvbox/9527.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/deepseek/8815wmz/tvbox/9527.jar",
    "group": "4K-网盘"
   },
   {
@@ -2392,7 +2392,7 @@
       "花絮"
      ]
     },
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
    },
    "group": "4K-网盘"
   },
@@ -2407,8 +2407,8 @@
     "siteUrl": "http://127.0.0.1:9999",
     "count": 4,
     "channelUsername": "+P4IU1QbK4ChlNTYx,+h10ulzfxiQZiYTdi,+cpJ_dIx_hlYxMWQx,+Jc37JCr1diEzNDMx,leoziyuan,ResourceUniverse,BaiduCloudDisk,SharePanBaidu,bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,yunpanchat,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,Lsp115,alyp_1",
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json",
-    "filter": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/douban.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json",
+    "filter": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/douban.json"
    },
    "group": "4K-网盘"
   },
@@ -2455,7 +2455,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓多/duo.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓多/duo.jar",
    "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|fhd|auto",
    "group": "4K-网盘"
   },
@@ -2467,7 +2467,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓多/duo.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓多/duo.jar",
    "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|fhd|auto",
    "group": "4K-网盘"
   },
@@ -2579,7 +2579,7 @@
    "timeout": 120,
    "quickSearch": 1,
    "changeable": 0,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/franksun/cks2026/heads/main/WEX/spider.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/franksun/cks2026/heads/main/WEX/spider.jar",
    "group": "4K-网盘"
   },
   {
@@ -2801,7 +2801,7 @@
     "danmu": true
    },
    "timeout": 15,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
    "group": "4K-网盘"
   },
   {
@@ -2928,7 +2928,7 @@
     "type": "list",
     "ratio": 1.433
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/deepseek/8815wmz/tvbox/9527.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/deepseek/8815wmz/tvbox/9527.jar",
    "group": "综合-网盘"
   },
   {
@@ -3048,7 +3048,7 @@
    "quickSearch": 0,
    "filterable": 1,
    "changeable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/f4fc1ee86d-alist05155.txt",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/f4fc1ee86d-alist05155.txt",
    "group": "综合-网盘"
   },
   {
@@ -3144,7 +3144,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "changeable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/dec6d93875-alist.json",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/dec6d93875-alist.json",
    "timeout": 15,
    "group": "综合-网盘"
   },
@@ -3203,7 +3203,7 @@
    "quickSearch": 0,
    "filterable": 0,
    "timeout": 60,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/deepseek/8815wmz/tvbox/9527.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/deepseek/8815wmz/tvbox/9527.jar",
    "group": "综合-网盘"
   },
   {
@@ -3215,7 +3215,7 @@
    "searchable": 0,
    "quickSearch": 0,
    "changeable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/dc0e3473d2-115share.txt$$$db$$$1",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/dc0e3473d2-115share.txt$$$db$$$1",
    "group": "综合-网盘"
   },
   {
@@ -3284,7 +3284,23 @@
    "ext": {
     "siteUrl": "https://www.leijing1.com/",
     "cookie": "JSESSIONID=B24E6992236274BD6A636FE8EAA2FDA; cms_token=25968d70e1c64c3fa475c5bb15946443; cms_accessToken=8c67340ebecb46b88f9c85492bfe1cf1; cms_refreshToken=0af0ab743ae243be99b29c2af5b449a",
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
+   },
+   "group": "综合-网盘"
+  },
+  {
+   "key": "夸克玩偶弹幕",
+   "name": "夸克｜玩偶",
+   "type": 3,
+   "api": "csp_Wobg",
+   "searchable": 0,
+   "quickSearch": 1,
+   "filterable": 1,
+   "changeable": 1,
+   "ext": {
+    "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+    "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+    "danmu": true
    },
    "group": "综合-网盘"
   },
@@ -3297,8 +3313,8 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$https://xiaocgege.shop/$$$proxy$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/wogg.json$$$LABI",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$https://xiaocgege.shop/$$$proxy$$$1$$$https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/wogg.json$$$LABI",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
    "group": "综合-网盘",
    "searchable": 0
   },
@@ -3318,7 +3334,7 @@
     "danmu": true
    },
    "timeout": 25,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
    "group": "综合-网盘"
   },
   {
@@ -3337,7 +3353,7 @@
     "danmu": true
    },
    "timeout": 25,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
    "group": "综合-网盘"
   },
   {
@@ -3376,7 +3392,7 @@
    "searchable": 0,
    "changeable": 0,
    "ext": {
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json",
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json",
     "siteUrl": "https://www.xn--wcv59z.com//",
     "username": "",
     "password": "",
@@ -3393,8 +3409,8 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$http://123.666291.xyz/$$$noproxy$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/wogg.json$$$MOGG",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$http://123.666291.xyz/$$$noproxy$$$1$$$https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/wogg.json$$$MOGG",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
    "group": "综合-网盘"
   },
   {
@@ -3479,7 +3495,7 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/deepseek/8815wmz/tvbox/9527.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/deepseek/8815wmz/tvbox/9527.jar",
    "group": "综合-网盘"
   },
   {
@@ -3492,7 +3508,7 @@
    "switchable": 0,
    "ext": {
     "siteUrl": "https://1.star2.cn/",
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
    },
    "group": "综合-网盘"
   },
@@ -3537,7 +3553,7 @@
       "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/花絮"
      ]
     },
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/679c3d78da-peizhi.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/679c3d78da-peizhi.json"
    },
    "group": "综合-网盘"
   },
@@ -3555,7 +3571,7 @@
     "type": "list"
    },
    "timeout": 30,
-   "ext": "https://v6.gh-proxy.org/https://github.com/chitue/dongliTV/blob/main/config/myquark.json",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/chitue/dongliTV/blob/main/config/myquark.json",
    "group": "综合-网盘"
   },
   {
@@ -3585,7 +3601,7 @@
    "switchable": 0,
    "ext": {
     "siteUrl": "https://www.tianyiso.com",
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
    },
    "group": "综合-网盘"
   },
@@ -3608,7 +3624,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/a58f0ffed7-alist_drpy.json",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/a58f0ffed7-alist_drpy.json",
    "group": "综合-网盘"
   },
   {
@@ -3626,7 +3642,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_pansou.py",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_pansou.py",
    "group": "综合-网盘"
   },
   {
@@ -3729,8 +3745,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/930ff1af40-token.txt",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E7%BD%91%E7%9B%98jar/up%E2%98%81%EF%B8%8F.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/930ff1af40-token.txt",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E7%BD%91%E7%9B%98jar/up%E2%98%81%EF%B8%8F.jar",
    "group": "综合-网盘"
   },
   {
@@ -3900,42 +3916,6 @@
    "group": "综合-网盘"
   },
   {
-   "key": "DOVX搜索",
-   "name": "云盘｜七夜",
-   "type": 3,
-   "api": "csp_XYQHiker",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/202-32s/%E4%BA%91%E7%9B%98/XYQHiker/DOVX搜索.json",
-   "jar": "https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;9733ac5a326a4ce26dea8a5a1e3be41b",
-   "group": "综合-网盘"
-  },
-  {
-   "key": "土拨鼠搜索",
-   "name": "云盘｜土拨鼠",
-   "type": 3,
-   "api": "csp_XYQHiker",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/202-32s/%E4%BA%91%E7%9B%98/XYQHiker/土拨鼠搜索.json",
-   "jar": "https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;9733ac5a326a4ce26dea8a5a1e3be41b",
-   "group": "综合-网盘"
-  },
-  {
-   "key": "豆豆飞搜索",
-   "name": "云盘｜豆豆飞",
-   "type": 3,
-   "api": "csp_XYQHikerAL",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/202-32s/%E4%BA%91%E7%9B%98/XYQHiker/豆豆飞搜索.json",
-   "jar": "https://mirror.ghproxy.com/raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;9733ac5a326a4ce26dea8a5a1e3be41b",
-   "group": "综合-网盘"
-  },
-  {
    "key": "115Shareme",
    "name": "六花@115云盘分享",
    "type": 3,
@@ -4021,7 +4001,7 @@
     "quarkCookie": "",
     "notice": "需要访问本地服务"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/305-6s/spider.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/47f65156e4-spider.jar",
    "group": "综合-网盘"
   },
   {
@@ -4032,8 +4012,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/云盘资源分享.json",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/XYQ.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/云盘资源分享.json",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/XYQ.jar",
    "group": "综合-网盘"
   },
   {
@@ -4044,8 +4024,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/盘搜索.json",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/XYQ.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/盘搜索.json",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/XYQ.jar",
    "group": "综合-网盘"
   },
   {
@@ -4056,8 +4036,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/阿里云盘网.json",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/XYQ.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/阿里云盘网.json",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/3-427s/box/tm/sites/码上👓香/XYQ.jar",
    "group": "综合-网盘"
   },
   {
@@ -4070,12 +4050,12 @@
    "changeable": 1,
    "filterable": 0,
    "timeout": 60,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/alishare.txt$$$db$$$1",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/alishare.txt$$$db$$$1",
    "style": {
     "type": "list",
     "ratio": 1.1
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
    "group": "综合-网盘"
   },
   {
@@ -4087,7 +4067,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/8fcd6ab778-token.json",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/8fcd6ab778-token.json",
    "group": "综合-网盘"
   },
   {
@@ -4099,7 +4079,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "changeable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/8fcd6ab778-token.json",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/8fcd6ab778-token.json",
    "group": "综合-网盘"
   },
   {
@@ -4177,7 +4157,7 @@
     "danmu": true
    },
    "timeout": 15,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
    "group": "综合-网盘"
   },
   {
@@ -4364,8 +4344,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/930ff1af40-token.txt",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E7%BD%91%E7%9B%98jar/%E5%96%B5%E7%9B%98%E6%90%9C.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/930ff1af40-token.txt",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E7%BD%91%E7%9B%98jar/%E5%96%B5%E7%9B%98%E6%90%9C.jar",
    "group": "综合-网盘"
   },
   {
@@ -4388,7 +4368,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "changeable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/8fcd6ab778-token.json",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/8fcd6ab778-token.json",
    "group": "综合-网盘"
   },
   {
@@ -4425,7 +4405,7 @@
    "ext": {
     "cloudDrives": "123"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
    "group": "综合-网盘"
   },
   {
@@ -4440,7 +4420,7 @@
    "ext": {
     "cloudDrives": "uc"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
    "group": "综合-网盘"
   },
   {
@@ -4452,7 +4432,7 @@
    "quickSearch": 1,
    "filterable": 0,
    "api": "csp_TianYiSou",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/bocai/x4pro/5/lib/p.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/bocai/x4pro/5/lib/p.jar",
    "group": "综合-网盘"
   },
   {
@@ -4467,7 +4447,7 @@
    "ext": {
     "cloudDrives": "tianyi"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
    "group": "综合-网盘"
   },
   {
@@ -4482,7 +4462,7 @@
    "ext": {
     "cloudDrives": "quark"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
    "group": "综合-网盘"
   },
   {
@@ -4497,7 +4477,7 @@
    "ext": {
     "cloudDrives": "baidu"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
    "group": "综合-网盘"
   },
   {
@@ -4523,7 +4503,7 @@
    "filterable": 1,
    "changeable": 1,
    "ext": "b4242bebe6f144d3aa6a2cd842ac65aa$$$satoken=abfceef7-ca8f-40b6-afd8-5c11fab10336",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/118-66s/HeChengChaXiu.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-网盘"
   },
   {
@@ -4551,7 +4531,6 @@
    "filterable": 1,
    "changeable": 0,
    "timeout": 25,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/110-76s/OK/spider.jar",
    "group": "综合-网盘"
   },
   {
@@ -4567,7 +4546,7 @@
     "danmu": true
    },
    "timeout": 15,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
    "group": "综合-网盘"
   },
   {
@@ -4596,7 +4575,7 @@
     "type": "list"
    },
    "timeout": 30,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/spider.jar",
    "group": "综合-网盘"
   },
   {
@@ -4608,8 +4587,8 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$null$$$proxy",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$null$$$proxy",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
    "group": "综合-网盘"
   },
   {
@@ -4619,7 +4598,6 @@
    "api": "csp_Xunlei8",
    "changeable": 1,
    "timeout": 60,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/79-108s/pg/pg.jar",
    "group": "综合-网盘"
   },
   {
@@ -4717,7 +4695,7 @@
    "type": 3,
    "api": "./deps/auto/26-243s/lib/sharenice_open.js",
    "playerType": "2",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/26-243s/f.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/26-243s/f.jar",
    "group": "综合-网盘"
   },
   {
@@ -4729,8 +4707,8 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$https://www.hjzhencai.top$$$noproxy$$$1$$$https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/wogg.json$$$HJZC",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json$$$https://www.hjzhencai.top$$$noproxy$$$1$$$https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/wogg.json$$$HJZC",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
    "group": "综合-网盘"
   },
   {
@@ -4742,8 +4720,8 @@
    "changeable": 1,
    "filterable": 1,
    "timeout": 60,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/lib/tokenm.json",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/cluntop/jsm/pg.jar",
    "group": "综合-网盘"
   },
   {
@@ -4804,6 +4782,18 @@
    "group": "综合-网盘"
   },
   {
+   "key": "云盘登录",
+   "name": "云盘登录",
+   "type": 3,
+   "api": "csp_AliYunPan",
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 0,
+   "changeable": 0,
+   "ext": "http://127.0.0.1:9978/file/TVBox/token.txt",
+   "group": "综合-网盘"
+  },
+  {
    "key": "AliYunPan",
    "name": "🅱️云盘登录|T签到",
    "type": 3,
@@ -4811,7 +4801,7 @@
    "searchable": 0,
    "filterable": 0,
    "ext": "b4242bebe6f144d3aa6a2cd842ac65aa",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/118-66s/HeChengChaXiu.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-网盘"
   },
   {
@@ -4822,7 +4812,7 @@
    "searchable": 0,
    "changeable": 0,
    "ext": {
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/679c3d78da-peizhi.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/679c3d78da-peizhi.json"
    },
    "group": "综合-网盘"
   },
@@ -4872,7 +4862,6 @@
     "type": "list"
    },
    "timeout": 30,
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/auto/110-76s/OK/spider.jar",
    "group": "综合-网盘"
   },
   {
@@ -4952,7 +4941,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_alist.py",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_alist.py",
    "group": "综合-网盘"
   },
   {
@@ -4963,7 +4952,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_gitcafe.py",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_gitcafe.py",
    "group": "综合-网盘"
   },
   {
@@ -4974,7 +4963,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_zhaozy.py",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_zhaozy.py",
    "group": "综合-网盘"
   },
   {
@@ -4985,29 +4974,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_yiso.py",
-   "group": "综合-网盘"
-  },
-  {
-   "key": "Yiso",
-   "name": "Py | 易搜(仅搜索)",
-   "type": 3,
-   "api": "py_yiso",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "https://agit.ai/comeonbaby0122/Q/raw/branch/master/plugin/py_yiso.py",
-   "group": "综合-网盘"
-  },
-  {
-   "key": "py_yunso",
-   "name": "py_yunso(Pyramid)",
-   "type": 3,
-   "api": "py_yunso",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "ext": "http://101.34.67.237/txt/py/py_yunso.py",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_yiso.py",
    "group": "综合-网盘"
   },
   {
@@ -5283,7 +5250,7 @@
    "switchable": 0,
    "ext": {
     "siteUrl": "https://www.qwnull.com",
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
    },
    "group": "综合-网盘"
   },
@@ -5296,7 +5263,7 @@
    "searchable": 1,
    "quickSearch": 0,
    "changeable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/8fcd6ab778-token.json$$$https://662688.xyz",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/localized/8fcd6ab778-token.json$$$https://662688.xyz",
    "group": "综合-网盘"
   },
   {
@@ -5339,7 +5306,7 @@
    "ext": {
     "cloudDrives": "mobile"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar",
    "group": "综合-网盘"
   },
   {
@@ -5360,7 +5327,7 @@
    "switchable": 0,
    "ext": {
     "siteUrl": "https://www.91panta.cn/",
-    "commonConfig": "https://gh-proxy.com/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
+    "commonConfig": "https://github.dpik.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/sv/fongmi-z/z/json/peizhi.json"
    },
    "group": "成人"
   }

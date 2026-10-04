@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-04T00:55:30",
- "total": 4728,
+ "generated_at": "2026-10-04T01:30:37",
+ "total": 4160,
  "summary": {
-  "unknown": 2611,
+  "unknown": 2045,
   "healthy": 167,
-  "degraded": 1512,
-  "dead": 438
+  "degraded": 1508,
+  "dead": 440
  },
  "items": {
   "官源蓝光": {
@@ -211,18 +211,18 @@
    "_level": "L3",
    "_source": null
   },
-  "heiheizy": {
-   "_health": "healthy",
-   "_checked_at": "2026-10-02T03:14:24",
-   "_latency_ms": 1341,
-   "_level": "L3",
-   "_source": null
-  },
   "jinying": {
    "_health": "degraded",
    "_checked_at": "2026-09-29T00:40:11",
    "_latency_ms": 501,
    "_level": "L2",
+   "_source": null
+  },
+  "heiheizy": {
+   "_health": "healthy",
+   "_checked_at": "2026-10-02T03:14:24",
+   "_latency_ms": 1341,
+   "_level": "L3",
    "_source": null
   },
   "didizy.com": {
@@ -1089,48 +1089,6 @@
   "全民视界": {
    "_health": "unknown",
    "_checked_at": "2026-09-30T01:53:05",
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "bwzyz": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "wolongzyw": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "xmm": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "cms_p2100net": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "mozhuazy": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "qilinzyz": {
-   "_health": "unknown",
-   "_checked_at": null,
    "_latency_ms": null,
    "_level": null,
    "_source": null
@@ -2262,13 +2220,6 @@
    "_level": null,
    "_source": null
   },
-  "✨Youtube✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "JuShi": {
    "_health": "unknown",
    "_checked_at": null,
@@ -2298,6 +2249,13 @@
    "_source": null
   },
   "csp_appys_影盒": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "影探蓝光": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -2399,20 +2357,6 @@
    "_health": "unknown",
    "_checked_at": "2026-10-02 10:20:22",
    "_latency_ms": 168,
-   "_level": null,
-   "_source": null
-  },
-  "csp_阿里七夜": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "csp_TuGou": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
    "_level": null,
    "_source": null
   },
@@ -6588,18 +6532,18 @@
    "_level": null,
    "_source": null
   },
-  "csp_Ddys": {
-   "_health": "degraded",
-   "_checked_at": "2026-10-02 12:15:33",
-   "_latency_ms": 28305,
-   "_level": "C1",
-   "_source": null
-  },
   "线路5": {
    "_health": "degraded",
    "_checked_at": "2026-09-28 01:58:29",
    "_latency_ms": 782,
    "_level": null,
+   "_source": null
+  },
+  "csp_Ddys": {
+   "_health": "degraded",
+   "_checked_at": "2026-10-02 12:15:33",
+   "_latency_ms": 28305,
+   "_level": "C1",
    "_source": null
   },
   "VIP电影": {
@@ -8240,112 +8184,7 @@
    "_level": null,
    "_source": null
   },
-  "✨85PO✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨7ddav✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨一区✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨三区✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨以茎制洞✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨啊哈DJ网✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨FC2官网✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "✨xmxone影视✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨唐人影视✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨影视大全✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨爱你影视✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨草草视频✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨那个搜索✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨高清SEX国产✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨高清福利社✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "✨黑猫AV✨": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -8836,6 +8675,20 @@
    "_source": null
   },
   "七夜弹幕": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "白嫖弹幕": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "酷看弹幕": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -9927,7 +9780,28 @@
    "_level": null,
    "_source": null
   },
+  "酷云七七": {
+   "_health": "dead",
+   "_checked_at": "2026-09-28 23:47:07",
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "酷看影视": {
+   "_health": "dead",
+   "_checked_at": "2026-09-28 23:47:07",
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
   "csp_appysv2_爱酷影视": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "csp_XBPQ_金牌": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -11698,6 +11572,13 @@
    "_level": null,
    "_source": null
   },
+  "一起看弹幕": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
   "http://iyiwang.com/花姐": {
    "_health": "unknown",
    "_checked_at": null,
@@ -11723,13 +11604,6 @@
    "_health": "unknown",
    "_checked_at": "2026-09-30 07:17:48",
    "_latency_ms": 9,
-   "_level": null,
-   "_source": null
-  },
-  "八号影视": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
    "_level": null,
    "_source": null
   },
@@ -12468,13 +12342,6 @@
    "_level": null,
    "_source": null
   },
-  "韩国": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "csp_XYQH_17kan": {
    "_health": "unknown",
    "_checked_at": null,
@@ -12622,13 +12489,6 @@
    "_level": null,
    "_source": null
   },
-  "✨豆瓣✨": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "yy": {
    "_health": "unknown",
    "_checked_at": "2026-09-30 07:17:48",
@@ -12636,21 +12496,7 @@
    "_level": null,
    "_source": null
   },
-  "一起看直播": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "csp_xpath_bttoo": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "关注": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -15996,13 +15842,6 @@
    "_level": "S1",
    "_source": null
   },
-  "直转点": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "360ba": {
    "_health": "unknown",
    "_checked_at": null,
@@ -16039,13 +15878,6 @@
    "_source": null
   },
   "haudu": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "iKanbot": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -16192,13 +16024,6 @@
    "_level": null,
    "_source": null
   },
-  "抓饭体育": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "230ts": {
    "_health": "unknown",
    "_checked_at": null,
@@ -16255,13 +16080,6 @@
    "_level": null,
    "_source": null
   },
-  "drpy_js_酷吧": {
-   "_health": "degraded",
-   "_checked_at": "2026-09-29 00:34:23",
-   "_latency_ms": 229,
-   "_level": null,
-   "_source": null
-  },
   "yinyuetai": {
    "_health": "unknown",
    "_checked_at": null,
@@ -16270,20 +16088,6 @@
    "_source": null
   },
   "js_搜狗": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "drpy_js_88ball": {
-   "_health": "degraded",
-   "_checked_at": "2026-09-29 00:34:23",
-   "_latency_ms": 2357,
-   "_level": null,
-   "_source": null
-  },
-  "蜻蜓收音机": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -17368,31 +17172,10 @@
    "_level": "C3",
    "_source": null
   },
-  "九九六": {
-   "_health": "degraded",
-   "_checked_at": "2026-10-02 12:15:33",
-   "_latency_ms": 109,
-   "_level": "C1",
-   "_source": null
-  },
   "音海": {
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
    "_latency_ms": 152,
-   "_level": "C1",
-   "_source": null
-  },
-  "麻衣呀呼": {
-   "_health": "degraded",
-   "_checked_at": "2026-10-02 12:15:33",
-   "_latency_ms": 164,
-   "_level": "C1",
-   "_source": null
-  },
-  "威士影视": {
-   "_health": "degraded",
-   "_checked_at": "2026-10-02 12:15:33",
-   "_latency_ms": 167,
    "_level": "C1",
    "_source": null
   },
@@ -17512,6 +17295,13 @@
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
    "_latency_ms": 1431,
+   "_level": "C1",
+   "_source": null
+  },
+  "夸克玩偶弹幕": {
+   "_health": "degraded",
+   "_checked_at": "2026-10-02 12:15:33",
+   "_latency_ms": 1438,
    "_level": "C1",
    "_source": null
   },
@@ -18173,28 +17963,14 @@
    "_level": null,
    "_source": null
   },
-  "DOVX搜索": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "土拨鼠搜索": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "豆豆飞搜索": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "115Shareme": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "csp_XBPQ_天堂": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -18264,6 +18040,13 @@
    "_level": null,
    "_source": null
   },
+  "盤99": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
   "盤搜": {
    "_health": "unknown",
    "_checked_at": "2026-10-02 10:20:22",
@@ -18307,13 +18090,6 @@
    "_source": null
   },
   "雪狐": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "零三影院": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -18803,13 +18579,6 @@
    "_level": null,
    "_source": null
   },
-  "免费看": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "天翼-2": {
    "_health": "unknown",
    "_checked_at": "2026-10-01 14:49:34",
@@ -18838,13 +18607,6 @@
    "_level": null,
    "_source": null
   },
-  "柒之社": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
   "混合": {
    "_health": "unknown",
    "_checked_at": "2026-09-29 00:34:23",
@@ -18860,13 +18622,6 @@
    "_source": null
   },
   "sharenice_open": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "美益达": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,
@@ -18892,20 +18647,6 @@
    "_checked_at": "2026-10-01 14:49:34",
    "_latency_ms": 318,
    "_level": "E1",
-   "_source": null
-  },
-  "量子影视": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "零零七": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
    "_source": null
   },
   "雷静": {
@@ -18953,6 +18694,13 @@
   "mytianyi": {
    "_health": "unknown",
    "_checked_at": "2026-09-29 00:34:23",
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "云盘登录": {
+   "_health": "unknown",
+   "_checked_at": null,
    "_latency_ms": null,
    "_level": null,
    "_source": null
@@ -20339,6 +20087,20 @@
   "河马短剧-4": {
    "_health": "unknown",
    "_checked_at": "2026-09-29 00:34:23",
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "短劇": {
+   "_health": "unknown",
+   "_checked_at": null,
+   "_latency_ms": null,
+   "_level": null,
+   "_source": null
+  },
+  "秒播短剧": {
+   "_health": "unknown",
+   "_checked_at": null,
    "_latency_ms": null,
    "_level": null,
    "_source": null
@@ -25741,13 +25503,6 @@
    "_source": null
   },
   "抖阴破解": {
-   "_health": "unknown",
-   "_checked_at": null,
-   "_latency_ms": null,
-   "_level": null,
-   "_source": null
-  },
-  "抖音直播": {
    "_health": "unknown",
    "_checked_at": null,
    "_latency_ms": null,

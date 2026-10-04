@@ -1,26 +1,15 @@
 {
- "generated_at": "2026-10-04T00:55:32",
+ "generated_at": "2026-10-04T01:30:40",
  "is_baseline": false,
  "vod": {
-  "total": 8593,
+  "total": 8596,
   "summary": {
    "healthy": 316,
    "degraded": 2072,
-   "unknown": 5655,
+   "unknown": 5658,
    "dead": 550
   },
-  "new": [
-   {
-    "key": "BD",
-    "name": "BD|首页",
-    "health": "unknown"
-   },
-   {
-    "key": "YHDM",
-    "name": "樱花动漫",
-    "health": "unknown"
-   }
-  ],
+  "new": [],
   "gone": [],
   "down": [
    {
@@ -207,7 +196,7 @@
    }
   ],
   "counts": {
-   "new": 2,
+   "new": 0,
    "gone": 0,
    "down": 131,
    "recovered": 47
@@ -216,34 +205,41 @@
  "live": {
   "total": 689,
   "summary": {
-   "degraded": 257,
+   "degraded": 254,
    "healthy": 164,
-   "unknown": 247,
-   "dead": 21
+   "unknown": 249,
+   "dead": 22
   },
   "counts": {
    "new": 3,
    "gone": 0,
-   "down": 0,
+   "down": 1,
    "recovered": 0
   },
   "new": [
    {
-    "key": "https://gh-proxy.com/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
+    "key": "https://github.dpik.top/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
     "name": "Ryukyou┃中文精选(自动更新)",
     "health": "healthy"
    },
    {
-    "key": "https://gh-proxy.com/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+    "key": "https://github.dpik.top/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
     "name": "备用-CollectIPTV",
     "health": "healthy"
    },
    {
-    "key": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.2/live.m3u",
+    "key": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.3/live.m3u",
     "name": "WKC电视直播",
     "health": "healthy"
    }
   ],
-  "down": []
+  "down": [
+   {
+    "key": "https://tv.711933.xyz/iptv2.m3u",
+    "name": "天才直播1",
+    "from": "degraded",
+    "to": "dead"
+   }
+  ]
  }
 }

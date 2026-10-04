@@ -2719,7 +2719,7 @@
    "name": "软件小哥哥",
    "type": 0,
    "playerType": 1,
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/jhzone/TVbox/main/result.txt",
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/jhzone/TVbox/main/result.txt",
    "ua": "okhttp/3.15",
    "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
    "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2868,7 +2868,7 @@
    "name": "🐬国际TV 有🔞",
    "type": 0,
    "ua": "okhttp",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yihad168/tv/refs/heads/main/tv.m3u"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/yihad168/tv/refs/heads/main/tv.m3u"
   },
   {
    "name": "🐬UnifiTV(马来节点)",
@@ -2892,7 +2892,7 @@
    "name": "🐬洋片XD",
    "type": 0,
    "ua": "okhttp",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/洋片XD.m3u"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/洋片XD.m3u"
   },
   {
    "name": "🐬港台",
@@ -3100,7 +3100,7 @@
    "type": 0,
    "playerType": 2,
    "ua": "okhttp",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit"
   },
   {
    "name": "易发源 有🔞",
@@ -3174,7 +3174,7 @@
    "name": "地方直播2",
    "type": 0,
    "ua": "okhttp/5.3.2",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
   },
   {
    "name": "薄荷直播",
@@ -3222,7 +3222,7 @@
    "name": "国际TV",
    "type": 0,
    "ua": "okhttp",
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xJEYDAin/iptv/main/output/all_merged.m3u"
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/xJEYDAin/iptv/main/output/all_merged.m3u"
   },
   {
    "name": "裤TV",
@@ -3470,7 +3470,7 @@
   {
    "name": "Ryukyou┃中文精选(自动更新)",
    "type": 0,
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
    "playerType": 2
   },
   {
@@ -3512,7 +3512,7 @@
   {
    "name": "备用-CollectIPTV",
    "type": 0,
-   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+   "url": "https://github.dpik.top/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
    "playerType": 2
   },
   {
@@ -3887,7 +3887,7 @@
   {
    "name": "WKC电视直播",
    "type": 0,
-   "url": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.2/live.m3u",
+   "url": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.3/live.m3u",
    "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={id}&date={date}",
    "playerType": 2,
    "timeout": 15
@@ -6210,8 +6210,8 @@
  "tihuan": [
   "cnzz.com"
  ],
- "version": "2026-10-04-b2",
- "updated_at": "2026-10-04T08:16:57+08:00",
+ "version": "2026-10-04-b3",
+ "updated_at": "2026-10-04T09:00:10+08:00",
  "sites": [
   {
    "key": "csp_xb_lgyys",
@@ -6528,7 +6528,7 @@
     "token": "影視天下第一",
     "filter": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/wogg.json"
    },
-   "jar": "./deps/auto/120-64s/github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
+   "jar": "./deps/localized/270968d0d2-custom_spider.jar",
    "group": "4K-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -8929,7 +8929,6 @@
    "quickSearch": 0,
    "filterable": 1,
    "ext": "https://dtqj1.gg1080.com/dtjp.txt|kecbio48dsq131ed|qiji| ",
-   "jar": "./deps/auto/191-36s/%E5%B0%8F%E7%B1%B3/spider.jar",
    "group": "综合-蜘蛛源",
    "searchable": 0,
    "_health": "degraded",
@@ -9753,7 +9752,7 @@
     "播放请求头": "User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/118.0.0.0Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad",
     "免嗅": "0"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -10505,8 +10504,8 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/觅知影视.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/觅知影视.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -10523,8 +10522,8 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/新视觉影视.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/新视觉影视.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -10673,8 +10672,8 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/348影视.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/348影视.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -10738,8 +10737,8 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/大师兄影视.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/大师兄影视.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -10774,8 +10773,8 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/低端影视.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/低端影视.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -10841,8 +10840,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/动漫巴士.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/动漫巴士.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -11190,8 +11189,8 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/威士影视.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/威士影视.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -11336,8 +11335,8 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/七年影视.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/七年影视.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -11697,8 +11696,8 @@
    "searchable": 0,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/98影视.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/98影视.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -12037,7 +12036,7 @@
     "分类": "電影$1#剧集$2#動漫$4#綜藝$4",
     "搜索模式": "0"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -12825,8 +12824,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/哔哩美食.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/哔哩美食.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -12893,7 +12892,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/129-59s/heads/main/lib/益智动画.json",
+   "ext": "./deps/localized/3a66185692-益智动画.json",
    "jar": "https://ghfast.top/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/spider1.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
@@ -12911,8 +12910,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/118-66s/lib/哔哩幼小.json",
-   "jar": "./deps/auto/118-66s/HeChengChaXiu.jar",
+   "ext": "./deps/auto/117-66s/lib/哔哩幼小.json",
+   "jar": "./deps/auto/117-66s/HeChengChaXiu.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -12990,7 +12989,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/frxz751113/AAAAA/refs/heads/main/json/知识.json",
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/frxz751113/AAAAA/refs/heads/main/json/知识.json",
    "jar": "https://ghfast.top/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/spider1.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
@@ -13076,7 +13075,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/129-59s/heads/main/lib/小学教育.json",
+   "ext": "./deps/localized/70ba779e2b-小学教育.json",
    "jar": "https://ghfast.top/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/spider1.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
@@ -13163,7 +13162,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/129-59s/heads/main/lib/小学数学.json",
+   "ext": "./deps/localized/b5211843d6-小学数学.json",
    "jar": "https://ghfast.top/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/spider1.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
@@ -13223,7 +13222,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/129-59s/heads/main/lib/小学英语.json",
+   "ext": "./deps/localized/d8553713a6-小学英语.json",
    "jar": "https://ghfast.top/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/spider1.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
@@ -13255,7 +13254,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "./deps/auto/129-59s/heads/main/lib/小学语文.json",
+   "ext": "./deps/localized/825f1ee301-小学语文.json",
    "jar": "https://ghfast.top/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/spider1.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
@@ -13585,7 +13584,6 @@
    "quickSearch": 0,
    "searchable": 0,
    "ext": "https://f1.qilin8.com",
-   "jar": "./deps/auto/191-36s/%E5%B0%8F%E7%B1%B3/spider.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -13994,7 +13992,7 @@
     "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+varurl*\"&&\"+&t=+vart*\"&&\"+&key=+varkey*\"&&\"+&act=0+&play=1",
     "三次跳转播放链接": "\"url\"*\"&&\""
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -14140,7 +14138,6 @@
    "type": 3,
    "api": "csp_XBPQ",
    "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-   "jar": "./deps/auto/181-41s/HTB/PG/jar/xbpq.jar",
    "ext": {
     "分类url": "https://www.pipiyao.cc/type/{cateId}.html"
    },
@@ -14463,7 +14460,7 @@
     "搜索url": "https://moguys.xyz/vodsearch/-------------.html?wd={wd}",
     "分类url": "https://moguys.xyz/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -14742,7 +14739,7 @@
    "quickSearch": 0,
    "filterable": 0,
    "ext": "https://www.80yy3.com",
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 12:15:33",
@@ -16038,6 +16035,20 @@
    "_type": "综合-蜘蛛源"
   },
   {
+   "key": "线路5",
+   "name": "🔥🔥首发",
+   "type": 3,
+   "api": "csp_AppGet",
+   "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/603.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0",
+   "group": "综合-蜘蛛源",
+   "_health": "degraded",
+   "_checked_at": "2026-09-28 01:58:29",
+   "_latency_ms": 782,
+   "_level": null,
+   "_source": null,
+   "_type": "综合-蜘蛛源"
+  },
+  {
    "key": "csp_Ddys",
    "name": "🐞低端影视",
    "type": 3,
@@ -16050,20 +16061,6 @@
    "_checked_at": "2026-10-02 12:15:33",
    "_latency_ms": 28305,
    "_level": "C1",
-   "_source": null,
-   "_type": "综合-蜘蛛源"
-  },
-  {
-   "key": "线路5",
-   "name": "🔥🔥首发",
-   "type": 3,
-   "api": "csp_AppGet",
-   "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/603.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0",
-   "group": "综合-蜘蛛源",
-   "_health": "degraded",
-   "_checked_at": "2026-09-28 01:58:29",
-   "_latency_ms": 782,
-   "_level": null,
    "_source": null,
    "_type": "综合-蜘蛛源"
   },
@@ -16509,7 +16506,7 @@
     "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
     "分类": "電影$1#電視劇$2#綜藝$3#動漫$4"
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
    "group": "综合-蜘蛛源",
    "searchable": 0,
    "_health": "degraded",
@@ -17918,14 +17915,14 @@
    "quickSearch": 0,
    "changeable": 0,
    "ext": {
-    "json": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/youtube2.json",
+    "json": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/youtube2.json",
     "codecs": ""
    },
    "style": {
     "type": "rect",
     "ratio": 1.5
    },
-   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/sqspot/tac/main/pgYT.jar",
+   "jar": "https://github.dpik.top/https://raw.githubusercontent.com/sqspot/tac/main/pgYT.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-10-02 10:20:22",
@@ -18579,13 +18576,12 @@
    "api": "csp_AppGet",
    "ext": {
     "url": "",
-    "site": "./deps/auto/82-106s/laimi.txt",
+    "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
     "dataKey": "ce032244d093b3e2",
     "dataIv": "ce032244d093b3e2",
     "deviceId": "",
     "version": ""
    },
-   "jar": "./deps/auto/82-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-09-30 07:17:48",
@@ -18605,7 +18601,6 @@
     "dataKey": "GETMIFUNGEIMIFUN",
     "dataIv": "GETMIFUNGEIMIFUN"
    },
-   "jar": "./deps/auto/82-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
    "group": "综合-蜘蛛源",
    "_health": "degraded",
    "_checked_at": "2026-09-30 07:17:48",

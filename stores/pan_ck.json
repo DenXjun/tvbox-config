@@ -47,7 +47,7 @@
    "note": "扫码拿二维码 → 轮询确认换 cookie",
    "reachable": true,
    "http_status": 200,
-   "ms": 2469
+   "ms": 1956
   },
   {
    "disk": "PikPak",
@@ -75,7 +75,7 @@
    "note": "浏览器登录后复制 BDUSS",
    "reachable": true,
    "http_status": 200,
-   "ms": 2284
+   "ms": 692
   }
  ]
 }

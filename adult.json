@@ -30,8 +30,8 @@
  "tihuan": [
   "cnzz.com"
  ],
- "version": "2026-10-04-b2",
- "updated_at": "2026-10-04T08:16:57+08:00",
+ "version": "2026-10-04-b3",
+ "updated_at": "2026-10-04T09:00:10+08:00",
  "sites": [
   {
    "key": "玉兔专场",
@@ -97,99 +97,13 @@
    "ext": "proxy"
   },
   {
-   "key": "玉兔专场",
-   "name": "玉兔采集",
+   "key": "1仓库",
+   "name": "💞仓库💞",
    "type": 1,
-   "api": "https://apiyutu.com/api.php/provide/vod/",
-   "playUrl": "https://yutujx.com/?url=",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1,
-   "categories": [
-    "精品推荐",
-    "国产精品",
-    "主播秀色",
-    "日本有码",
-    "日本无码",
-    "中文字幕",
-    "童颜巨乳",
-    "性感人妻",
-    "强奸乱伦",
-    "欧美情色",
-    "童真萝莉",
-    "三级伦理",
-    "卡通动漫",
-    "丝袜OL",
-    "口爆颜射",
-    "自拍偷拍",
-    "日本片商",
-    "Cosplay",
-    "素人自拍",
-    "台湾色情",
-    "韩国自拍",
-    "性感港姐",
-    "东南亚情色",
-    "凌辱束缚",
-    "剧情介绍",
-    "多P 3P",
-    "91系列",
-    "网红系列",
-    "野外系列",
-    "女仆系列",
-    "学生中出",
-    "性感旗袍",
-    "兽耳作品",
-    "瑜伽裤",
-    "骚货护士",
-    "及膝袜",
-    "网曝系列",
-    "麻豆传媒",
-    "女同人妖",
-    "恋腿癖"
-   ]
-  },
-  {
-   "key": "slapibf",
-   "name": "【9kg】森林资源",
-   "type": 1,
-   "api": "https://slapibf.com/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "doudouzy",
-   "name": "🔞豆豆",
-   "type": 1,
-   "api": "https://doudouzy.com/api.php/provide/vod/?ac=list",
-   "searchable": 1,
+   "api": "https://hsckzy.vip/api.php/provide/vod/",
    "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "dddCMS",
-   "name": "👭豆豆资源👭",
-   "type": 1,
-   "api": "https://api.douapi.cc/api.php/provide/vod/",
-   "changeable": 1
-  },
-  {
-   "key": "70f4c18c-3276-50f1-adaa-85614f5441eb",
-   "name": "森林",
-   "type": 1,
-   "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
    "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "b0684274-ce9e-5d4f-bf54-f61afbdaf49d",
-   "name": "玉兔",
-   "type": 1,
-   "api": "https://apiyutu.com/api.php/provide/vod/?ac=list",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
+   "filterable": 0
   },
   {
    "key": "xjzyapi.xyz",
@@ -244,12 +158,108 @@
    "filterable": 1
   },
   {
+   "key": "看资源",
+   "name": "💞看资源💞",
+   "type": 1,
+   "api": "https://www.pgxdy.com/api/json.php",
+   "changeable": 1
+  },
+  {
+   "key": "70f4c18c-3276-50f1-adaa-85614f5441eb",
+   "name": "森林",
+   "type": 1,
+   "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "slapibf",
+   "name": "【9kg】森林资源",
+   "type": 1,
+   "api": "https://slapibf.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "xiaojizy",
+   "name": "🔞小鸡",
+   "type": 1,
+   "api": "https://api.ddapi.cc/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "dddCMS",
+   "name": "👭豆豆资源👭",
+   "type": 1,
+   "api": "https://api.douapi.cc/api.php/provide/vod/",
+   "changeable": 1
+  },
+  {
    "key": "apidanaizi",
    "name": "【9kg】大奶子资源",
    "type": 1,
    "api": "https://apidanaizi.com/api.php/provide/vod",
    "searchable": 1,
    "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "doudouzy",
+   "name": "🔞豆豆",
+   "type": 1,
+   "api": "https://doudouzy.com/api.php/provide/vod/?ac=list",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "乐播",
+   "name": "乐播 | 采集",
+   "type": 1,
+   "api": "https://lbapi9.com/api.php/provide/vod/",
+   "quickSearch": 1,
+   "searchable": 1,
+   "changeable": 1,
+   "ext": "proxy"
+  },
+  {
+   "key": "森林",
+   "name": "森林采集",
+   "type": 1,
+   "api": "https://slapibf.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
+   "ext": "proxy"
+  },
+  {
+   "key": "lebozy.com",
+   "name": "💕乐播(直连)",
+   "type": 1,
+   "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
+   "searchable": 1,
+   "filterable": 1
+  },
+  {
+   "key": "*乐播资源",
+   "name": "🔞乐播资源",
+   "type": 1,
+   "api": "https://lbapi9.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 0,
+   "filterable": 0
+  },
+  {
+   "key": "b0684274-ce9e-5d4f-bf54-f61afbdaf49d",
+   "name": "玉兔",
+   "type": 1,
+   "api": "https://apiyutu.com/api.php/provide/vod/?ac=list",
+   "searchable": 1,
+   "quickSearch": 1,
    "filterable": 1
   },
   {
@@ -278,6 +288,47 @@
     "门事件",
     "抖阴视频"
    ]
+  },
+  {
+   "key": "fhapi9.com",
+   "name": "★废柴(直连)",
+   "type": 1,
+   "api": "http://fhapi9.com/api.php/provide/vod/?ac=list",
+   "searchable": 1,
+   "filterable": 1
+  },
+  {
+   "key": "番号资源",
+   "name": "番号资源(卡切)",
+   "type": 1,
+   "api": "http://fhapi9.com/api.php/provide/vod/at/json",
+   "searchable": 1,
+   "quickSearch": 1
+  },
+  {
+   "key": "*番号",
+   "name": "*番号",
+   "type": 1,
+   "api": "http://fhapi9.com/api.php/provide/vod/"
+  },
+  {
+   "key": "番号",
+   "name": "番号 | 采集",
+   "type": 1,
+   "api": "http://fhapi9.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0,
+   "ext": "proxy"
+  },
+  {
+   "key": "gdlsp",
+   "name": "🔞香奶",
+   "type": 1,
+   "api": "https://www.gdlsp.com/api/json.php",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
   },
   {
    "key": "apilj.com",
@@ -295,112 +346,6 @@
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
     "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
    }
-  },
-  {
-   "key": "森林",
-   "name": "森林采集",
-   "type": 1,
-   "api": "https://slapibf.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "ext": "proxy"
-  },
-  {
-   "key": "jkzyuan.cc",
-   "name": "爱坤资源",
-   "type": 1,
-   "api": "https://jkunzyapi.com/api.php/provide/vod",
-   "searchable": 1,
-   "changeable": 1,
-   "categories": [
-    "国产传媒",
-    "黑丝诱惑",
-    "SWAG",
-    "中文字幕",
-    "日本有码",
-    "日本无码",
-    "AV解说",
-    "cosplay",
-    "激情动漫",
-    "自拍偷拍",
-    "网红主播",
-    "探花系列",
-    "三级伦理",
-    "VR视角",
-    "素人搭讪",
-    "门事件",
-    "抖阴视频"
-   ]
-  },
-  {
-   "key": "xiaojizy",
-   "name": "🔞小鸡",
-   "type": 1,
-   "api": "https://api.xiaojizy.live/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "乐播",
-   "name": "乐播 | 采集",
-   "type": 1,
-   "api": "https://lbapi9.com/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "changeable": 1,
-   "ext": "proxy"
-  },
-  {
-   "key": "番号资源",
-   "name": "番号资源(卡切)",
-   "type": 1,
-   "api": "http://fhapi9.com/api.php/provide/vod/at/json",
-   "searchable": 1,
-   "quickSearch": 1
-  },
-  {
-   "key": "fhapi9.com",
-   "name": "★废柴(直连)",
-   "type": 1,
-   "api": "http://fhapi9.com/api.php/provide/vod/?ac=list",
-   "searchable": 1,
-   "filterable": 1
-  },
-  {
-   "key": "1仓库",
-   "name": "💞仓库💞",
-   "type": 1,
-   "api": "https://hsckzy.vip/api.php/provide/vod/",
-   "quickSearch": 1,
-   "searchable": 1,
-   "filterable": 0
-  },
-  {
-   "key": "番号",
-   "name": "番号 | 采集",
-   "type": 1,
-   "api": "http://fhapi9.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0,
-   "ext": "proxy"
-  },
-  {
-   "key": "*番号",
-   "name": "*番号",
-   "type": 1,
-   "api": "http://fhapi9.com/api.php/provide/vod/"
-  },
-  {
-   "key": "gdlsp",
-   "name": "🔞香奶",
-   "type": 1,
-   "api": "https://www.gdlsp.com/api/json.php",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
   },
   {
    "key": "*鲨鱼资源",
@@ -421,13 +366,6 @@
    "filterable": 1,
    "ext": "",
    "category": "福利"
-  },
-  {
-   "key": "看资源",
-   "name": "💞看资源💞",
-   "type": 1,
-   "api": "https://www.pgxdy.com/api/json.php",
-   "changeable": 1
   },
   {
    "key": "四虎影院",
@@ -910,7 +848,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/spiders/batch_20260915/spider_%E5%AE%8C%E7%BE%8E%E4%BA%BA%E5%A6%BB.py"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/spiders/batch_20260915/spider_%E5%AE%8C%E7%BE%8E%E4%BA%BA%E5%A6%BB.py"
   },
   {
    "key": "csp_https://18hr.life/label/sort",
@@ -1445,7 +1383,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/js/高清SEX国产.js"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/js/高清SEX国产.js"
   },
   {
    "key": "SOAV",
@@ -1532,7 +1470,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/55视频.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/55视频.json"
   },
   {
    "key": "仓库",
@@ -1572,7 +1510,7 @@
    },
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/公子别走.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/公子别走.json"
   },
   {
    "key": "凡人",
@@ -1583,7 +1521,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/凡人修色传.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/凡人修色传.json"
   },
   {
    "key": "四A",
@@ -1594,7 +1532,7 @@
    "filterable": 1,
    "changeable": 1,
    "api": "csp_XBPQ",
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/js/4AAAA.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/js/4AAAA.json"
   },
   {
    "key": "小妞",
@@ -1626,7 +1564,7 @@
    },
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/魔法少女.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/魔法少女.json"
   },
   {
    "key": "微密猫",
@@ -1650,7 +1588,7 @@
    "name": "🔞悠亚",
    "type": 3,
    "api": "csp_XBPQ",
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/js/三上悠亚.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/js/三上悠亚.json"
   },
   {
    "key": "成鸡",
@@ -1661,7 +1599,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/成鸡思汉.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/成鸡思汉.json"
   },
   {
    "key": "浮力ASMR",
@@ -1708,7 +1646,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/盲盒.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/盲盒.json"
   },
   {
    "key": "纯粹",
@@ -1719,7 +1657,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/一个纯粹的x站.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/一个纯粹的x站.json"
   },
   {
    "key": "经典",
@@ -1732,7 +1670,7 @@
    },
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/经典三部曲.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/经典三部曲.json"
   },
   {
    "key": "自拍",
@@ -1743,7 +1681,7 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/偷拍自拍.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/a/偷拍自拍.json"
   },
   {
    "key": "色最色",
@@ -1770,7 +1708,7 @@
    "style": {
     "ratio": 1.7
    },
-   "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/js/菜鸟资源.json"
+   "ext": "https://github.dpik.top/https://raw.githubusercontent.com/cxelva/xpg/refs/heads/main/js/菜鸟资源.json"
   },
   {
    "key": "蜜桃",
