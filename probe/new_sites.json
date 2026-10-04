@@ -1,26 +1,29 @@
 {
- "checked_at": "2026-10-04 10:17:35",
+ "checked_at": "2026-10-05 06:19:49",
  "sampled": 3,
  "healthy": 0,
  "verdict": "dead",
  "sites": {
-  "m1905": {
-   "name": "📡┃CCTV电影┃",
-   "api": "py_cctv",
-   "ok": null,
-   "reason": "non-http-api"
+  "drpy_js_人人": {
+   "name": "影视 | 人人[js]",
+   "api": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+   "ok": false,
+   "ms": 617,
+   "status": 200
   },
-  "玩偶弹幕版": {
-   "name": "玩偶⚗️弹幕4K",
-   "api": "csp_Wogg",
-   "ok": null,
-   "reason": "non-http-api"
+  "drpy_js_多米[V2]": {
+   "name": "影视 | 多米[V2][js]",
+   "api": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+   "ok": false,
+   "ms": 508,
+   "status": 200
   },
-  "一青叶我_开心玩偶": {
-   "name": "开心🍹臻享4K",
-   "api": "csp_XYQHikerAL",
-   "ok": null,
-   "reason": "non-http-api"
+  "drpy_js_如意[V2]": {
+   "name": "影视 | 如意[V2][js]",
+   "api": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+   "ok": false,
+   "ms": 497,
+   "status": 200
   }
  }
 }

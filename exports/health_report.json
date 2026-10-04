@@ -1,15 +1,91 @@
 {
- "generated_at": "2026-10-04T02:45:59",
+ "generated_at": "2026-10-04T22:51:55",
  "is_baseline": false,
  "vod": {
-  "total": 8596,
+  "total": 8830,
   "summary": {
    "healthy": 316,
    "degraded": 2072,
-   "unknown": 5658,
+   "unknown": 5892,
    "dead": 550
   },
-  "new": [],
+  "new": [
+   {
+    "key": "line_311",
+    "name": "人人迷蓝光",
+    "health": "unknown"
+   },
+   {
+    "key": "line_273",
+    "name": "喵派对蓝光(优)",
+    "health": "unknown"
+   },
+   {
+    "key": "line_284",
+    "name": "星一蓝光(优)",
+    "health": "unknown"
+   },
+   {
+    "key": "line_211",
+    "name": "超高清影视(聚)",
+    "health": "unknown"
+   },
+   {
+    "key": "pool_13",
+    "name": "西瓜",
+    "health": "unknown"
+   },
+   {
+    "key": "pool_14",
+    "name": "jinyingzy金鹰",
+    "health": "unknown"
+   },
+   {
+    "key": "pool_12",
+    "name": "大众",
+    "health": "unknown"
+   },
+   {
+    "key": "pool_7",
+    "name": "豪华",
+    "health": "unknown"
+   },
+   {
+    "key": "pool_8",
+    "name": "红牛",
+    "health": "unknown"
+   },
+   {
+    "key": "public_57",
+    "name": "优质资源库",
+    "health": "unknown"
+   },
+   {
+    "key": "pool_36",
+    "name": "无广1线非凡",
+    "health": "unknown"
+   },
+   {
+    "key": "影剧资源",
+    "name": "🎞️┃影剧┃秒播",
+    "health": "unknown"
+   },
+   {
+    "key": "极光影视",
+    "name": "🌌┃极光┃秒播",
+    "health": "unknown"
+   },
+   {
+    "key": "line_296",
+    "name": "42资源",
+    "health": "unknown"
+   },
+   {
+    "key": "line_280",
+    "name": "51看剧(优)",
+    "health": "unknown"
+   }
+  ],
   "gone": [],
   "down": [
    {
@@ -196,27 +272,83 @@
    }
   ],
   "counts": {
-   "new": 0,
+   "new": 166,
    "gone": 0,
-   "down": 131,
+   "down": 103,
    "recovered": 47
   }
  },
  "live": {
-  "total": 689,
+  "total": 700,
   "summary": {
-   "degraded": 254,
+   "degraded": 264,
    "healthy": 164,
-   "unknown": 249,
+   "unknown": 250,
    "dead": 22
   },
   "counts": {
-   "new": 0,
+   "new": 11,
    "gone": 0,
    "down": 0,
    "recovered": 0
   },
-  "new": [],
+  "new": [
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/jhzone/TVbox/main/result.txt",
+    "name": "软件小哥哥",
+    "health": "degraded"
+   },
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/yihad168/tv/refs/heads/main/tv.m3u",
+    "name": "🐬国际TV 有🔞",
+    "health": "degraded"
+   },
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/洋片XD.m3u",
+    "name": "🐬洋片XD",
+    "health": "unknown"
+   },
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit",
+    "name": "综合直播 ",
+    "health": "degraded"
+   },
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+    "name": "地方直播2",
+    "health": "healthy"
+   },
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/xJEYDAin/iptv/main/output/all_merged.m3u",
+    "name": "国际TV",
+    "health": "healthy"
+   },
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
+    "name": "Ryukyou┃中文精选(自动更新)",
+    "health": "healthy"
+   },
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
+    "name": "备用-CollectIPTV",
+    "health": "healthy"
+   },
+   {
+    "key": "https://gh-proxy.org/https://github.com/songlees355-wq/okay/blob/main/%E5%9B%BD%E5%A4%96%E7%94%B5%E8%A7%86%E5%8F%B02026.txt",
+    "name": "国外直播",
+    "health": "healthy"
+   },
+   {
+    "key": "https://github.boringhex.top/https://raw.githubusercontent.com/larry-biu/tvbox-config/main/live/live.txt",
+    "name": "家庭直播",
+    "health": "degraded"
+   },
+   {
+    "key": "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.13/live.m3u",
+    "name": "WKC电视直播",
+    "health": "healthy"
+   }
+  ],
   "down": []
  }
 }
