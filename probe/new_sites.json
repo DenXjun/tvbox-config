@@ -1,26 +1,26 @@
 {
- "checked_at": "2026-10-04 09:02:57",
+ "checked_at": "2026-10-04 10:17:35",
  "sampled": 3,
  "healthy": 0,
  "verdict": "dead",
  "sites": {
-  "快看影视": {
-   "name": "😍快看影视 ",
-   "api": "csp_XBPQ",
+  "m1905": {
+   "name": "📡┃CCTV电影┃",
+   "api": "py_cctv",
    "ok": null,
    "reason": "non-http-api"
   },
-  "csp_xml_fox": {
-   "name": "❤fox",
-   "api": "https://api.foxzyapi.com/api.php/provide/vod/?ac=list",
-   "ok": false,
-   "reason": "HTTPError"
+  "玩偶弹幕版": {
+   "name": "玩偶⚗️弹幕4K",
+   "api": "csp_Wogg",
+   "ok": null,
+   "reason": "non-http-api"
   },
-  "蓝光官采": {
-   "name": "❤猫咪",
-   "api": "http://zy.xiaomaomi.vip/api.php/provide/vod/?ac=list",
-   "ok": false,
-   "reason": "URLError"
+  "一青叶我_开心玩偶": {
+   "name": "开心🍹臻享4K",
+   "api": "csp_XYQHikerAL",
+   "ok": null,
+   "reason": "non-http-api"
   }
  }
 }

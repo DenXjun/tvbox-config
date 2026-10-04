@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04 00:59:59",
+ "generated_at": "2026-10-04 02:14:22",
  "note": "自动发现的上游候选；高分配置已同步进 state/extra_upstreams.json 作为 canary 自动拉取",
  "auth": "token",
  "queries": {
@@ -21,23 +21,23 @@
   ]
  },
  "summary": {
-  "candidates": 3560,
-  "probed": 290,
-  "cached_verdicts": 3270,
-  "reachable": 3469,
+  "candidates": 3516,
+  "probed": 212,
+  "cached_verdicts": 3304,
+  "reachable": 3425,
   "unreachable": 91,
-  "repos_fresh": 970,
-  "repos_expanded": 970,
-  "repos_tree_cached": 901,
-  "files_reused": 3270,
-  "files_probed": 118,
+  "repos_fresh": 972,
+  "repos_expanded": 972,
+  "repos_tree_cached": 914,
+  "files_reused": 3304,
+  "files_probed": 40,
   "files_fail_backoff": 0,
-  "gh_api": 1031,
-  "pool_junk_dropped": 2223,
+  "gh_api": 1022,
+  "pool_junk_dropped": 2248,
   "pool": 400,
-  "content_dupes": 688,
-  "tvbox_configs": 345,
-  "canary": 317,
+  "content_dupes": 591,
+  "tvbox_configs": 343,
+  "canary": 315,
   "canary_adult": 7
  },
  "candidates": [
@@ -265,36 +265,6 @@
    "sha256": "b3d1c9dd8b84cb24",
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/js.json"
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 298,
-    "lives": 2,
-    "parses": 11,
-    "spider": true
-   },
-   "bytes": 114090,
-   "sha256": "a3b4c885fe1e5d4a",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/litan1016/tvbox-subs/main/mirror/gao_js.json"
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 298,
-    "lives": 2,
-    "parses": 11,
-    "spider": true
-   },
-   "bytes": 90630,
-   "sha256": "df59d479c3c66fde",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/litan1016/tvbox-subs/main/mirror/js.json"
   },
   {
    "reachable": true,
@@ -1300,21 +1270,6 @@
    "sha256": "e6c479c228a17acb",
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/w0878512-glitch/tvbox-config/main/xiaosa/api.json"
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 103,
-    "lives": 1,
-    "parses": 9,
-    "spider": true
-   },
-   "bytes": 27311,
-   "sha256": "23ff70387cf78ac9",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/ZHOUYU86/tvbox/main/xs/api.json"
   },
   {
    "reachable": true,
@@ -3817,21 +3772,6 @@
    "kind": "tvbox",
    "score": 80,
    "evidence": {
-    "sites": 575,
-    "lives": 1,
-    "parses": 20,
-    "spider": false
-   },
-   "bytes": 236073,
-   "sha256": "8cfae8b99e2ebe90",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/haygcao/tvbox-master-aggregator/main/not_suitable/tvbox.json"
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 80,
-   "evidence": {
     "sites": 294,
     "lives": 0,
     "parses": 17,
@@ -4488,7 +4428,6 @@
    "url": "https://raw.githubusercontent.com/vbskycn/tvbox/main/MY%E6%8E%A2%E6%8E%A2.txt"
   },
   {
-   "url": "https://raw.githubusercontent.com/WKC0001/tvbox-independent/main/output/api.json",
    "reachable": true,
    "kind": "tvbox",
    "score": 80,
@@ -4500,7 +4439,8 @@
    },
    "bytes": 8009,
    "sha256": "76fc824221e096c9",
-   "sha_partial": false
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/WKC0001/tvbox-independent/main/output/api.json"
   },
   {
    "reachable": true,
@@ -5387,6 +5327,18 @@
    "kind": "m3u",
    "score": 60,
    "evidence": {
+    "entries": 1745
+   },
+   "bytes": 300000,
+   "sha256": "76fe19526eaa7f58",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/badboys88888/IPTV/main/test.m3u"
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
     "entries": 1742
    },
    "bytes": 220891,
@@ -5453,6 +5405,18 @@
    "sha256": "1997d6b8bfed251f",
    "sha_partial": true,
    "url": "https://raw.githubusercontent.com/franksun1211/ge6bu6-1/main/file/69.m3u"
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1564
+   },
+   "bytes": 300000,
+   "sha256": "d79e68731d9849c3",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/badboys88888/IPTV/main/iptv.m3u"
   },
   {
    "reachable": true,
@@ -5599,15 +5563,15 @@
    "url": "https://raw.githubusercontent.com/tushen6/xxooo/main/TV/aptv.m3u"
   },
   {
-   "url": "https://raw.githubusercontent.com/azalkmzc-lab/sarib-TV-2/main/sarib%20TV.m3u",
+   "url": "https://raw.githubusercontent.com/ton86313/IPTV-Marco/main/IPTV-Marco.m3u",
    "reachable": true,
    "kind": "m3u",
    "score": 60,
    "evidence": {
-    "entries": 1457
+    "entries": 1470
    },
    "bytes": 300000,
-   "sha256": "1c3cefb228462a3d",
+   "sha256": "0f01b249395d2b5f",
    "sha_partial": true
   },
   {
@@ -5659,16 +5623,16 @@
    "url": "https://raw.githubusercontent.com/franksun1211/ge6bu6-1/main/file/qinav.m3u"
   },
   {
-   "url": "https://raw.githubusercontent.com/azalkmzc-lab/sarib-TV-2/main/sarib_TV.m3u",
    "reachable": true,
    "kind": "m3u",
    "score": 60,
    "evidence": {
-    "entries": 1345
+    "entries": 1343
    },
    "bytes": 300000,
-   "sha256": "1451fdc4a25bdd5a",
-   "sha_partial": true
+   "sha256": "c04a0d0b6ac5525b",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/alltv_gh.m3u"
   },
   {
    "reachable": true,
@@ -5831,96 +5795,96 @@
    "kind": "m3u",
    "score": 60,
    "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "d3eb0b44e586f36c",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_020620.m3u"
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "c702bae217bdbf72",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_020646.m3u"
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "628a93c2b7327404",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_021149.m3u"
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "628a93c2b7327404",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_021312.m3u"
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "628a93c2b7327404",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_021336.m3u"
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "628a93c2b7327404",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_021413.m3u"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/alltvgh.m3u",
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1077
+   },
+   "bytes": 300000,
+   "sha256": "2db6f90fa08efef3",
+   "sha_partial": true
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
     "entries": 1066
    },
    "bytes": 230710,
    "sha256": "2389194ebefafcf0",
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/iTCoffe/iTV/main/IPTV.m3u"
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 1004
-   },
-   "bytes": 152810,
-   "sha256": "1ebc049e88e00ff0",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/alantang1977/IPTV_SuperA/main/output/result.m3u"
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 989
-   },
-   "bytes": 292286,
-   "sha256": "8ce5a00178122832",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/phuongnm7/Iptv-phuongnm7/main/IPTV_Gop_TT1_VMTTV.m3u"
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 962
-   },
-   "bytes": 291085,
-   "sha256": "55138d2731272db4",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/alantang1977/DailyIPTV/main/outputs/other.m3u"
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 961
-   },
-   "bytes": 215748,
-   "sha256": "ce0744c69170f00a",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/kxbperfect/kxb/main/3.m3u"
-  },
-  {
-   "url": "https://epg.pw/test_channels.m3u",
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 960
-   },
-   "bytes": 300000,
-   "sha256": "d85a27223ddb1421",
-   "sha_partial": true
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 958
-   },
-   "bytes": 169156,
-   "sha256": "c3f1752b26030c50",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/franksun1211/HKL/main/EVILANGEL.m3u"
-  },
-  {
-   "url": "https://raw.githubusercontent.com/d4r5hE/IPTV-verify/main/Playlist.m3u",
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 945
-   },
-   "bytes": 300000,
-   "sha256": "7e608a34ffe6c7c3",
-   "sha_partial": true
   }
  ],
  "canary_adult": [
@@ -6032,12 +5996,6 @@
    "same_as": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
    "sha256": "e3b73fd47fdcf3d6",
    "bytes": 46130
-  },
-  {
-   "url": "https://raw.githubusercontent.com/litan1016/tvbox-subs/main/mirror/qist_jsm.json",
-   "same_as": "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/qist_jsm.json",
-   "sha256": "79abdd1c541713bd",
-   "bytes": 71844
   },
   {
    "url": "https://raw.githubusercontent.com/vampireisoves/tvbox-config/main/jsm.json",
@@ -6334,22 +6292,16 @@
    "bytes": 25215
   },
   {
+   "url": "https://raw.githubusercontent.com/peterHchina/iptv/main/IPTV-V6.m3u",
+   "same_as": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+   "sha256": "935849a6e2f08388",
+   "bytes": 25215
+  },
+  {
    "url": "https://raw.githubusercontent.com/hl2341685/tv/master/tv/cibn.m3u",
    "same_as": "https://raw.githubusercontent.com/FreeDTV/FreeD/master/tv/cibn.m3u",
    "sha256": "27561f4e972ca086",
    "bytes": 3137
-  },
-  {
-   "url": "https://raw.githubusercontent.com/adamshl-oss/iptv-curated/main/french-tv-july-2026-v3.m3u",
-   "same_as": "https://raw.githubusercontent.com/adamshl-oss/iptv-curated/main/french-tv-july-2026-v2.m3u",
-   "sha256": "b58cf37dfe4de66c",
-   "bytes": 5133
-  },
-  {
-   "url": "https://raw.githubusercontent.com/adamshl-oss/iptv-curated/main/french-tv-july-2026-v4.m3u",
-   "same_as": "https://raw.githubusercontent.com/adamshl-oss/iptv-curated/main/french-tv-july-2026-v2.m3u",
-   "sha256": "b58cf37dfe4de66c",
-   "bytes": 5133
   },
   {
    "url": "https://raw.githubusercontent.com/franksun1211/CMP4/master/tv/ihot.m3u",
@@ -6514,42 +6466,6 @@
    "bytes": 504
   },
   {
-   "url": "https://raw.githubusercontent.com/CountOfGrubby/IPTVUpdateTool/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/alias.txt",
-   "sha256": "c7b88acadc1040cf",
-   "bytes": 15262
-  },
-  {
-   "url": "https://raw.githubusercontent.com/CountOfGrubby/IPTVUpdateTool/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/demo.txt",
-   "sha256": "70fc9cea0e9546e9",
-   "bytes": 933
-  },
-  {
-   "url": "https://raw.githubusercontent.com/CountOfGrubby/IPTVUpdateTool/master/config/whitelist.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/whitelist.txt",
-   "sha256": "85b4271624e7c806",
-   "bytes": 866
-  },
-  {
-   "url": "https://raw.githubusercontent.com/CountOfGrubby/IPTVUpdateTool/master/locales/en.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/locales/en.json",
-   "sha256": "54ad32d921a3f8e4",
-   "bytes": 5951
-  },
-  {
-   "url": "https://raw.githubusercontent.com/CountOfGrubby/IPTVUpdateTool/master/locales/zh_CN.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/locales/zh_CN.json",
-   "sha256": "423772eb6a4a295a",
-   "bytes": 5954
-  },
-  {
-   "url": "https://raw.githubusercontent.com/CountOfGrubby/IPTVUpdateTool/master/source.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/source.json",
-   "sha256": "b67739dc60898236",
-   "bytes": 885
-  },
-  {
    "url": "https://raw.githubusercontent.com/DuoMiJiao/DuoTV/main/app/schemas/com.fongmi.android.tv.db.AppDatabase/35.json",
    "same_as": "https://raw.githubusercontent.com/DuoMiJiao/DuoTV/main/app/schemas/com.duo.tv.db.AppDatabase/35.json",
    "sha256": "249cf100dd60e0fa",
@@ -6682,238 +6598,52 @@
    "bytes": 2100
   },
   {
-   "url": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/MasterSisio/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/MasterSisio/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/MasterSisio/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/MasterSisio/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/MasterSisio/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/MasterSisio/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/MasterSisio/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/MasterSisio/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
-  },
-  {
    "url": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
    "sha256": "1c94ba29610028eb",
    "bytes": 13446
   },
   {
    "url": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
   },
   {
    "url": "https://raw.githubusercontent.com/Trysknee01/selfhost-config/main/js/alist.json",
    "same_as": "https://raw.githubusercontent.com/AndroidSoftwares/box/main/js/alist.json",
    "sha256": "299d4ef7bcf23e91",
    "bytes": 1604
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ahne2025/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ahne2025/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ahne2025/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ahne2025/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ahne2025/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ahne2025/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ahne2025/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ahne2025/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/IPTV-CCSH/main/%E4%B8%BB%E9%A2%91%E9%81%93/MTV.txt",
@@ -6929,31 +6659,31 @@
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/aTV/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/aTV/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/aTV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/aTV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/aTV/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
@@ -6994,38 +6724,32 @@
    "bytes": 3432
   },
   {
-   "url": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/alias.txt",
-   "sha256": "c7b88acadc1040cf",
-   "bytes": 15262
-  },
-  {
    "url": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
@@ -7084,98 +6808,50 @@
    "bytes": 20142
   },
   {
-   "url": "https://raw.githubusercontent.com/alexyanghx/TV/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/alias.txt",
-   "sha256": "07f06c05347655b2",
-   "bytes": 15138
-  },
-  {
-   "url": "https://raw.githubusercontent.com/alexyanghx/TV/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/alexyanghx/TV/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/alexyanghx/TV/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/alexyanghx/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/alexyanghx/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/alexyanghx/TV/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/alexyanghx/TV/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
-  },
-  {
    "url": "https://raw.githubusercontent.com/becblue/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
    "sha256": "1c94ba29610028eb",
    "bytes": 13446
   },
   {
    "url": "https://raw.githubusercontent.com/becblue/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/becblue/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/becblue/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/becblue/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/becblue/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/becblue/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/becblue/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -7241,37 +6917,37 @@
   },
   {
    "url": "https://raw.githubusercontent.com/ch2006/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/ch2006/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/ch2006/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/ch2006/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/ch2006/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/ch2006/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
@@ -7280,54 +6956,6 @@
    "same_as": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "5455d4cea6b50e79",
    "bytes": 7326
-  },
-  {
-   "url": "https://raw.githubusercontent.com/chendi0207/IPTV/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/alias.txt",
-   "sha256": "07f06c05347655b2",
-   "bytes": 15138
-  },
-  {
-   "url": "https://raw.githubusercontent.com/chendi0207/IPTV/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/chendi0207/IPTV/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/chendi0207/IPTV/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/chendi0207/IPTV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/chendi0207/IPTV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/chendi0207/IPTV/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/chendi0207/IPTV/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
   },
   {
    "url": "https://raw.githubusercontent.com/chengxue2020/Cat-ports/main/tv/epg.json",
@@ -7340,54 +6968,6 @@
    "same_as": "https://raw.githubusercontent.com/chengxue2020/Cat-ports/main/tv/txt/m.txt",
    "sha256": "3a8116fcf46ddefb",
    "bytes": 162432
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ckreason/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/alias.txt",
-   "sha256": "07f06c05347655b2",
-   "bytes": 15138
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ckreason/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ckreason/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ckreason/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ckreason/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ckreason/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ckreason/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/ckreason/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
   },
   {
    "url": "https://raw.githubusercontent.com/cluntop/OpenList-Worker/main/edgeone.json",
@@ -7463,49 +7043,49 @@
   },
   {
    "url": "https://raw.githubusercontent.com/cutepan/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
    "sha256": "1c94ba29610028eb",
    "bytes": 13446
   },
   {
    "url": "https://raw.githubusercontent.com/cutepan/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/cutepan/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/cutepan/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/cutepan/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/cutepan/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/cutepan/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/cutepan/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -7516,54 +7096,6 @@
    "bytes": 11638
   },
   {
-   "url": "https://raw.githubusercontent.com/darkelf123/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/alias.txt",
-   "sha256": "c7b88acadc1040cf",
-   "bytes": 15262
-  },
-  {
-   "url": "https://raw.githubusercontent.com/darkelf123/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/darkelf123/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/darkelf123/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/darkelf123/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/darkelf123/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/darkelf123/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/darkelf123/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "5455d4cea6b50e79",
-   "bytes": 7326
-  },
-  {
    "url": "https://raw.githubusercontent.com/dongge0504-bot/-tvbox-config/main/TVBox.txt",
    "same_as": "https://raw.githubusercontent.com/dongge0504-bot/-tvbox-config/main/%E5%BD%B1%E8%A7%86%E6%8E%A5%E5%8F%A3.txt",
    "sha256": "3bf656067e06f51d",
@@ -7571,49 +7103,49 @@
   },
   {
    "url": "https://raw.githubusercontent.com/ekin678/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
    "sha256": "1c94ba29610028eb",
    "bytes": 13446
   },
   {
    "url": "https://raw.githubusercontent.com/ekin678/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/ekin678/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/ekin678/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/ekin678/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/ekin678/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/ekin678/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/ekin678/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -7744,36 +7276,6 @@
    "bytes": 13861
   },
   {
-   "url": "https://raw.githubusercontent.com/gitshang5018/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/4yt1k/m3u-autoupdate/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/gitshang5018/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/4yt1k/m3u-autoupdate/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/gitshang5018/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/4yt1k/m3u-autoupdate/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/gitshang5018/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/4yt1k/m3u-autoupdate/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/gitshang5018/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/4yt1k/m3u-autoupdate/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
    "url": "https://raw.githubusercontent.com/gzp007/CatVodTVSpider/main/xpath/4kyu.json",
    "same_as": "https://raw.githubusercontent.com/franksun1211/CatVodTVSpider/master/xpath/4kyu.json",
    "sha256": "339ba06300041a20",
@@ -7876,50 +7378,44 @@
    "bytes": 1301
   },
   {
-   "url": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/alias.txt",
-   "sha256": "07f06c05347655b2",
-   "bytes": 15138
-  },
-  {
    "url": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -7934,30 +7430,6 @@
    "same_as": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json",
    "sha256": "54db9611813e985a",
    "bytes": 6990
-  },
-  {
-   "url": "https://raw.githubusercontent.com/iii80/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/alias.txt",
-   "sha256": "c7b88acadc1040cf",
-   "bytes": 15262
-  },
-  {
-   "url": "https://raw.githubusercontent.com/iii80/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/demo.txt",
-   "sha256": "70fc9cea0e9546e9",
-   "bytes": 933
-  },
-  {
-   "url": "https://raw.githubusercontent.com/iii80/iptv-api/master/config/whitelist.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/whitelist.txt",
-   "sha256": "85b4271624e7c806",
-   "bytes": 866
-  },
-  {
-   "url": "https://raw.githubusercontent.com/iii80/iptv-api/master/source.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/source.json",
-   "sha256": "b67739dc60898236",
-   "bytes": 885
   },
   {
    "url": "https://raw.githubusercontent.com/jackeywhy/jackeywhy.github.io/main/release/w3.json",
@@ -7978,236 +7450,104 @@
    "bytes": 9033
   },
   {
-   "url": "https://raw.githubusercontent.com/jaysonkartz/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/jaysonkartz/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/jaysonkartz/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/jaysonkartz/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/jaysonkartz/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/jaysonkartz/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/jaysonkartz/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/jaysonkartz/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
-  },
-  {
    "url": "https://raw.githubusercontent.com/justinpek/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/alias.txt",
    "sha256": "07f06c05347655b2",
    "bytes": 15138
   },
   {
    "url": "https://raw.githubusercontent.com/justinpek/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/justinpek/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/justinpek/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/justinpek/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/justinpek/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/justinpek/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/justinpek/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
   {
-   "url": "https://raw.githubusercontent.com/keropatsu/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/alias.txt",
-   "sha256": "c7b88acadc1040cf",
-   "bytes": 15262
-  },
-  {
-   "url": "https://raw.githubusercontent.com/keropatsu/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/keropatsu/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/keropatsu/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/keropatsu/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/keropatsu/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/keropatsu/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/keropatsu/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "5455d4cea6b50e79",
-   "bytes": 7326
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kg7mhzym2f-collab/chat-api666/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/alias.txt",
-   "sha256": "07f06c05347655b2",
-   "bytes": 15138
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kg7mhzym2f-collab/chat-api666/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kg7mhzym2f-collab/chat-api666/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kg7mhzym2f-collab/chat-api666/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kg7mhzym2f-collab/chat-api666/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kg7mhzym2f-collab/chat-api666/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kg7mhzym2f-collab/chat-api666/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
+   "url": "https://raw.githubusercontent.com/kankejiang/CatClawVideo/master/CatClawVideo.Core/Live/Assets/epg_data.json",
+   "same_as": "https://raw.githubusercontent.com/XiaochangXu/AVBox/main/app/src/main/assets/epg_data.json",
+   "sha256": "a6642e85f779d6d4",
+   "bytes": 104743
   },
   {
    "url": "https://raw.githubusercontent.com/khw934/TV/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
    "sha256": "1c94ba29610028eb",
    "bytes": 13446
   },
   {
    "url": "https://raw.githubusercontent.com/khw934/TV/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/khw934/TV/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/khw934/TV/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/khw934/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/khw934/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/khw934/TV/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/khw934/TV/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -8231,33 +7571,39 @@
   },
   {
    "url": "https://raw.githubusercontent.com/kimwang1978/TV/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/kimwang1978/TV/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/kimwang1978/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/kimwang1978/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/kimwang1978/TV/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
+  },
+  {
+   "url": "https://raw.githubusercontent.com/kimwang1978/TV3/main/hntv_m3u8/live_base.txt",
+   "same_as": "https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/hntv_m3u8/live_base.txt",
+   "sha256": "6e2694be5781cd44",
+   "bytes": 8961
   },
   {
    "url": "https://raw.githubusercontent.com/kimwang1978/Tvbox-Json/main/TV.json",
@@ -8270,114 +7616,6 @@
    "same_as": "https://raw.githubusercontent.com/cluntop/spider-iptv/main/source/hotels/%E4%B8%8A%E6%B5%B7%E5%B8%82.txt",
    "sha256": "edaa7a12abd08e43",
    "bytes": 4523
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kzy77/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kzy77/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kzy77/iptv-api/master/config/iptv_demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kzy77/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kzy77/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kzy77/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kzy77/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/kzy77/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/linzusong2024/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/linzusong2024/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/linzusong2024/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/linzusong2024/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/linzusong2024/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/linzusong2024/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/linzusong2024/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/linzusong2024/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
-  },
-  {
-   "url": "https://raw.githubusercontent.com/litan1016/tvbox-subs/main/ad_rules.json",
-   "same_as": "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/ad_rules.json",
-   "sha256": "00dbb79ea3d0ccf3",
-   "bytes": 2609
-  },
-  {
-   "url": "https://raw.githubusercontent.com/litan1016/tvbox-subs/main/ads.json",
-   "same_as": "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/ads.json",
-   "sha256": "5dd443883d2c789b",
-   "bytes": 2190
   },
   {
    "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/json/alist.json",
@@ -8615,49 +7853,49 @@
   },
   {
    "url": "https://raw.githubusercontent.com/longbin12/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
    "sha256": "1c94ba29610028eb",
    "bytes": 13446
   },
   {
    "url": "https://raw.githubusercontent.com/longbin12/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/longbin12/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/longbin12/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/longbin12/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/longbin12/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/longbin12/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/longbin12/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -8696,54 +7934,6 @@
    "same_as": "https://raw.githubusercontent.com/franksun1211/CatVodTVSpider/master/xpath/Djx.json",
    "sha256": "9a0a15f2f74eeafc",
    "bytes": 10648
-  },
-  {
-   "url": "https://raw.githubusercontent.com/meitao2024/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/meitao2024/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/meitao2024/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/meitao2024/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/meitao2024/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/meitao2024/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/meitao2024/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/meitao2024/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
   },
   {
    "url": "https://raw.githubusercontent.com/migog0/t/main/b/m.json",
@@ -8798,6 +7988,54 @@
    "same_as": "https://raw.githubusercontent.com/Trysknee01/selfhost-config/main/js/lf_live1.txt",
    "sha256": "e043756bcb1450a5",
    "bytes": 541
+  },
+  {
+   "url": "https://raw.githubusercontent.com/nihenhao988/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
+   "sha256": "1c94ba29610028eb",
+   "bytes": 13446
+  },
+  {
+   "url": "https://raw.githubusercontent.com/nihenhao988/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
+   "sha256": "94979d42dbb6259b",
+   "bytes": 24067
+  },
+  {
+   "url": "https://raw.githubusercontent.com/nihenhao988/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "b7de9797dd6aa52b",
+   "bytes": 3829
+  },
+  {
+   "url": "https://raw.githubusercontent.com/nihenhao988/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "14541c71e1bf00ac",
+   "bytes": 4692
+  },
+  {
+   "url": "https://raw.githubusercontent.com/nihenhao988/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "3478a51355574536",
+   "bytes": 5106
+  },
+  {
+   "url": "https://raw.githubusercontent.com/nihenhao988/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "sha256": "0839f41ebdd49763",
+   "bytes": 5162
+  },
+  {
+   "url": "https://raw.githubusercontent.com/nihenhao988/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "fa6a1f10d230587e",
+   "bytes": 6123
+  },
+  {
+   "url": "https://raw.githubusercontent.com/nihenhao988/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "sha256": "b9f391746b15e46c",
+   "bytes": 6830
   },
   {
    "url": "https://raw.githubusercontent.com/niuber/niuber/main/tvbox/TVBoxOSC/tvbox/XYQHiker/%E7%94%B5%E5%BD%B1%E6%B8%AF.json",
@@ -8861,49 +8099,49 @@
   },
   {
    "url": "https://raw.githubusercontent.com/owner2028/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/alias.txt",
    "sha256": "07f06c05347655b2",
    "bytes": 15138
   },
   {
    "url": "https://raw.githubusercontent.com/owner2028/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/owner2028/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/owner2028/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/owner2028/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/owner2028/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/owner2028/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/owner2028/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -8926,54 +8164,6 @@
    "bytes": 1112
   },
   {
-   "url": "https://raw.githubusercontent.com/redhackcn/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/redhackcn/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/redhackcn/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/redhackcn/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/redhackcn/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/redhackcn/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/redhackcn/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/redhackcn/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
-  },
-  {
    "url": "https://raw.githubusercontent.com/rrzt/copyMHQTV18/master/T4/py.json",
    "same_as": "https://raw.githubusercontent.com/franksun1211/TXT/main/mhqtv/T4/py.json",
    "sha256": "671b99970888cc3a",
@@ -8993,49 +8183,49 @@
   },
   {
    "url": "https://raw.githubusercontent.com/s260590588/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/Z-web747/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/alias.txt",
    "sha256": "07f06c05347655b2",
    "bytes": 15138
   },
   {
    "url": "https://raw.githubusercontent.com/s260590588/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/s260590588/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/s260590588/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/s260590588/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/s260590588/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/s260590588/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/s260590588/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -9070,6 +8260,54 @@
    "bytes": 74690
   },
   {
+   "url": "https://raw.githubusercontent.com/tyxthl/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/alantang1977/aTV/master/config/alias.txt",
+   "sha256": "52008fb188e39ff2",
+   "bytes": 11283
+  },
+  {
+   "url": "https://raw.githubusercontent.com/tyxthl/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
+   "sha256": "94979d42dbb6259b",
+   "bytes": 24067
+  },
+  {
+   "url": "https://raw.githubusercontent.com/tyxthl/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "b7de9797dd6aa52b",
+   "bytes": 3829
+  },
+  {
+   "url": "https://raw.githubusercontent.com/tyxthl/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "14541c71e1bf00ac",
+   "bytes": 4692
+  },
+  {
+   "url": "https://raw.githubusercontent.com/tyxthl/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "3478a51355574536",
+   "bytes": 5106
+  },
+  {
+   "url": "https://raw.githubusercontent.com/tyxthl/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "sha256": "0839f41ebdd49763",
+   "bytes": 5162
+  },
+  {
+   "url": "https://raw.githubusercontent.com/tyxthl/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "fa6a1f10d230587e",
+   "bytes": 6123
+  },
+  {
+   "url": "https://raw.githubusercontent.com/tyxthl/iptv-api/master/config/rtp/%E5%9B%9B%E5%B7%9D_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/kimwang1978/TV/master/config/rtp/%E5%9B%9B%E5%B7%9D_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "a4f9cbc0529e098b",
+   "bytes": 12927
+  },
+  {
    "url": "https://raw.githubusercontent.com/vampireisoves/tvbox-config/main/js/alist.json",
    "same_as": "https://raw.githubusercontent.com/AndroidSoftwares/box/main/js/alist.json",
    "sha256": "299d4ef7bcf23e91",
@@ -9092,36 +8330,6 @@
    "same_as": "https://raw.githubusercontent.com/ne7359/tvurl/main/json/api%E9%BB%91%E6%9C%A8%E8%80%B3.json",
    "sha256": "d10e6601d429bc00",
    "bytes": 11294
-  },
-  {
-   "url": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/alias.txt",
-   "sha256": "30a0c3e3267027b2",
-   "bytes": 15642
-  },
-  {
-   "url": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/demo.txt",
-   "sha256": "70fc9cea0e9546e9",
-   "bytes": 933
-  },
-  {
-   "url": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/local.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/local.txt",
-   "sha256": "32be979ec30845a7",
-   "bytes": 534
-  },
-  {
-   "url": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/subscribe.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/subscribe.txt",
-   "sha256": "b3f0f8e69eb8d441",
-   "bytes": 581
-  },
-  {
-   "url": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/whitelist.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/whitelist.txt",
-   "sha256": "baac5a0a572f5239",
-   "bytes": 1162
   },
   {
    "url": "https://raw.githubusercontent.com/vbskycn/myrules/master/rule/clash-rules/cncidr.txt",
@@ -9155,31 +8363,31 @@
   },
   {
    "url": "https://raw.githubusercontent.com/victor1616888/IPTV/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/victor1616888/IPTV/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/victor1616888/IPTV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/victor1616888/IPTV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/victor1616888/IPTV/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
@@ -9340,6 +8548,36 @@
    "bytes": 6663
   },
   {
+   "url": "https://raw.githubusercontent.com/vipxb/zhibo/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/hyboyxo/iptv-api/master/config/alias.txt",
+   "sha256": "07f06c05347655b2",
+   "bytes": 15138
+  },
+  {
+   "url": "https://raw.githubusercontent.com/vipxb/zhibo/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "b7de9797dd6aa52b",
+   "bytes": 3829
+  },
+  {
+   "url": "https://raw.githubusercontent.com/vipxb/zhibo/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "14541c71e1bf00ac",
+   "bytes": 4692
+  },
+  {
+   "url": "https://raw.githubusercontent.com/vipxb/zhibo/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "3478a51355574536",
+   "bytes": 5106
+  },
+  {
+   "url": "https://raw.githubusercontent.com/vipxb/zhibo/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "sha256": "0839f41ebdd49763",
+   "bytes": 5162
+  },
+  {
    "url": "https://raw.githubusercontent.com/w0878512-glitch/tvbox-config/main/js/alist.json",
    "same_as": "https://raw.githubusercontent.com/AndroidSoftwares/box/main/js/alist.json",
    "sha256": "299d4ef7bcf23e91",
@@ -9374,54 +8612,6 @@
    "same_as": "https://raw.githubusercontent.com/13998394872/TVBox/main/XYQHiker/%E4%B9%90%E7%8C%AATV.json",
    "sha256": "954bfa14ad809c77",
    "bytes": 2807
-  },
-  {
-   "url": "https://raw.githubusercontent.com/wangfang345799/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
-   "sha256": "1c94ba29610028eb",
-   "bytes": 13446
-  },
-  {
-   "url": "https://raw.githubusercontent.com/wangfang345799/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/wangfang345799/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "b7de9797dd6aa52b",
-   "bytes": 3829
-  },
-  {
-   "url": "https://raw.githubusercontent.com/wangfang345799/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "14541c71e1bf00ac",
-   "bytes": 4692
-  },
-  {
-   "url": "https://raw.githubusercontent.com/wangfang345799/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "3478a51355574536",
-   "bytes": 5106
-  },
-  {
-   "url": "https://raw.githubusercontent.com/wangfang345799/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "sha256": "0839f41ebdd49763",
-   "bytes": 5162
-  },
-  {
-   "url": "https://raw.githubusercontent.com/wangfang345799/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "sha256": "fa6a1f10d230587e",
-   "bytes": 6123
-  },
-  {
-   "url": "https://raw.githubusercontent.com/wangfang345799/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "sha256": "b9f391746b15e46c",
-   "bytes": 6830
   },
   {
    "url": "https://raw.githubusercontent.com/wj5403293/KOTV/main/flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
@@ -9539,49 +8729,49 @@
   },
   {
    "url": "https://raw.githubusercontent.com/xiaoguangliu049/TV/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
    "sha256": "1c94ba29610028eb",
    "bytes": 13446
   },
   {
    "url": "https://raw.githubusercontent.com/xiaoguangliu049/TV/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/xiaoguangliu049/TV/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/xiaoguangliu049/TV/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/xiaoguangliu049/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/xiaoguangliu049/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/xiaoguangliu049/TV/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/xiaoguangliu049/TV/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -9593,49 +8783,49 @@
   },
   {
    "url": "https://raw.githubusercontent.com/xingpo/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
    "sha256": "1c94ba29610028eb",
    "bytes": 13446
   },
   {
    "url": "https://raw.githubusercontent.com/xingpo/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/xingpo/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/xingpo/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/xingpo/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/xingpo/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/xingpo/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
   {
    "url": "https://raw.githubusercontent.com/xingpo/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
    "sha256": "b9f391746b15e46c",
    "bytes": 6830
   },
@@ -9839,25 +9029,25 @@
   },
   {
    "url": "https://raw.githubusercontent.com/xmbjm/IPTV/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/demo.txt",
    "sha256": "70fc9cea0e9546e9",
    "bytes": 933
   },
   {
    "url": "https://raw.githubusercontent.com/xmbjm/IPTV/master/config/local.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/local.txt",
+   "same_as": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/local.txt",
    "sha256": "32be979ec30845a7",
    "bytes": 534
   },
   {
    "url": "https://raw.githubusercontent.com/xmbjm/IPTV/master/config/subscribe.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/subscribe.txt",
+   "same_as": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/subscribe.txt",
    "sha256": "b3f0f8e69eb8d441",
    "bytes": 581
   },
   {
    "url": "https://raw.githubusercontent.com/xmbjm/IPTV/master/config/whitelist.txt",
-   "same_as": "https://raw.githubusercontent.com/fingersc/iptv-api/master/config/whitelist.txt",
+   "same_as": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/whitelist.txt",
    "sha256": "baac5a0a572f5239",
    "bytes": 1162
   },
@@ -9875,25 +9065,25 @@
   },
   {
    "url": "https://raw.githubusercontent.com/xmbjm/TV/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/xmbjm/TV/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/xmbjm/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/xmbjm/TV/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
@@ -9944,42 +9134,6 @@
    "same_as": "https://raw.githubusercontent.com/gstory0404/Cinetry/master/lib_share_0912.txt",
    "sha256": "f8d4cd60423b6b5d",
    "bytes": 7648
-  },
-  {
-   "url": "https://raw.githubusercontent.com/xtxujun/TV/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/alias.txt",
-   "sha256": "c7b88acadc1040cf",
-   "bytes": 15262
-  },
-  {
-   "url": "https://raw.githubusercontent.com/xtxujun/TV/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/demo.txt",
-   "sha256": "70fc9cea0e9546e9",
-   "bytes": 933
-  },
-  {
-   "url": "https://raw.githubusercontent.com/xtxujun/TV/master/config/whitelist.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/whitelist.txt",
-   "sha256": "85b4271624e7c806",
-   "bytes": 866
-  },
-  {
-   "url": "https://raw.githubusercontent.com/xtxujun/TV/master/locales/en.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/locales/en.json",
-   "sha256": "54ad32d921a3f8e4",
-   "bytes": 5951
-  },
-  {
-   "url": "https://raw.githubusercontent.com/xtxujun/TV/master/locales/zh_CN.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/locales/zh_CN.json",
-   "sha256": "423772eb6a4a295a",
-   "bytes": 5954
-  },
-  {
-   "url": "https://raw.githubusercontent.com/xtxujun/TV/master/source.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/source.json",
-   "sha256": "b67739dc60898236",
-   "bytes": 885
   },
   {
    "url": "https://raw.githubusercontent.com/xu211A/xu211A.github.io/main/JS/alishare.txt",
@@ -10096,40 +9250,52 @@
    "bytes": 693
   },
   {
-   "url": "https://raw.githubusercontent.com/yjblf865374796-hash/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/alias.txt",
-   "sha256": "c7b88acadc1040cf",
-   "bytes": 15262
+   "url": "https://raw.githubusercontent.com/yinghuang-xie/yinghuangtv-pro/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
+   "sha256": "1c94ba29610028eb",
+   "bytes": 13446
   },
   {
-   "url": "https://raw.githubusercontent.com/yjblf865374796-hash/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/demo.txt",
-   "sha256": "70fc9cea0e9546e9",
-   "bytes": 933
+   "url": "https://raw.githubusercontent.com/yinghuang-xie/yinghuangtv-pro/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
+   "sha256": "94979d42dbb6259b",
+   "bytes": 24067
   },
   {
-   "url": "https://raw.githubusercontent.com/yjblf865374796-hash/iptv-api/master/config/whitelist.txt",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/config/whitelist.txt",
-   "sha256": "85b4271624e7c806",
-   "bytes": 866
+   "url": "https://raw.githubusercontent.com/yinghuang-xie/yinghuangtv-pro/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "b7de9797dd6aa52b",
+   "bytes": 3829
   },
   {
-   "url": "https://raw.githubusercontent.com/yjblf865374796-hash/iptv-api/master/locales/en.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/locales/en.json",
-   "sha256": "54ad32d921a3f8e4",
-   "bytes": 5951
+   "url": "https://raw.githubusercontent.com/yinghuang-xie/yinghuangtv-pro/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "14541c71e1bf00ac",
+   "bytes": 4692
   },
   {
-   "url": "https://raw.githubusercontent.com/yjblf865374796-hash/iptv-api/master/locales/zh_CN.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/locales/zh_CN.json",
-   "sha256": "423772eb6a4a295a",
-   "bytes": 5954
+   "url": "https://raw.githubusercontent.com/yinghuang-xie/yinghuangtv-pro/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "3478a51355574536",
+   "bytes": 5106
   },
   {
-   "url": "https://raw.githubusercontent.com/yjblf865374796-hash/iptv-api/master/source.json",
-   "same_as": "https://raw.githubusercontent.com/504108929/iptv-api/master/source.json",
-   "sha256": "b67739dc60898236",
-   "bytes": 885
+   "url": "https://raw.githubusercontent.com/yinghuang-xie/yinghuangtv-pro/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "sha256": "0839f41ebdd49763",
+   "bytes": 5162
+  },
+  {
+   "url": "https://raw.githubusercontent.com/yinghuang-xie/yinghuangtv-pro/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "fa6a1f10d230587e",
+   "bytes": 6123
+  },
+  {
+   "url": "https://raw.githubusercontent.com/yinghuang-xie/yinghuangtv-pro/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "sha256": "b9f391746b15e46c",
+   "bytes": 6830
   },
   {
    "url": "https://raw.githubusercontent.com/youhunwl/TVAPP/main/%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD/%E9%85%B79%E7%9B%B4%E6%92%AD/webview%E5%8F%8C%E6%A8%A1%E5%BC%8F%E6%92%AD%E6%94%BE%E5%85%A8%E6%94%BB%E7%95%A5/webview.txt",
@@ -10154,30 +9320,6 @@
    "same_as": "https://raw.githubusercontent.com/liu673cn/cainisi/main/lib/%E5%86%B7%E6%9B%A6%E5%BD%B1%E8%A7%86.json",
    "sha256": "0cf6368bb5970e8d",
    "bytes": 1708
-  },
-  {
-   "url": "https://raw.githubusercontent.com/yyyr-otz/iptv-api/master/config/alias.txt",
-   "same_as": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/alias.txt",
-   "sha256": "30a0c3e3267027b2",
-   "bytes": 15642
-  },
-  {
-   "url": "https://raw.githubusercontent.com/yyyr-otz/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/4yt1k/m3u-autoupdate/master/config/demo.txt",
-   "sha256": "94979d42dbb6259b",
-   "bytes": 24067
-  },
-  {
-   "url": "https://raw.githubusercontent.com/yyyr-otz/iptv-api/master/config/local.txt",
-   "same_as": "https://raw.githubusercontent.com/lcw502/iptv-api/master/config/local.txt",
-   "sha256": "32be979ec30845a7",
-   "bytes": 534
-  },
-  {
-   "url": "https://raw.githubusercontent.com/yyyr-otz/iptv-api/master/config/whitelist.txt",
-   "same_as": "https://raw.githubusercontent.com/vbskycn/guovin-iptv-api/master/config/whitelist.txt",
-   "sha256": "baac5a0a572f5239",
-   "bytes": 1162
   },
   {
    "url": "https://raw.githubusercontent.com/zhoujck/TVBoxOS/main/app/schemas/com.github.tvbox.osc.data.AppDataBase/1.json",
@@ -10222,6 +9364,54 @@
    "bytes": 133985
   },
   {
+   "url": "https://raw.githubusercontent.com/zoharrpg/iptv-api/master/config/alias.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/alias.txt",
+   "sha256": "1c94ba29610028eb",
+   "bytes": 13446
+  },
+  {
+   "url": "https://raw.githubusercontent.com/zoharrpg/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
+   "sha256": "94979d42dbb6259b",
+   "bytes": 24067
+  },
+  {
+   "url": "https://raw.githubusercontent.com/zoharrpg/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "b7de9797dd6aa52b",
+   "bytes": 3829
+  },
+  {
+   "url": "https://raw.githubusercontent.com/zoharrpg/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "14541c71e1bf00ac",
+   "bytes": 4692
+  },
+  {
+   "url": "https://raw.githubusercontent.com/zoharrpg/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "3478a51355574536",
+   "bytes": 5106
+  },
+  {
+   "url": "https://raw.githubusercontent.com/zoharrpg/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "sha256": "0839f41ebdd49763",
+   "bytes": 5162
+  },
+  {
+   "url": "https://raw.githubusercontent.com/zoharrpg/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "sha256": "fa6a1f10d230587e",
+   "bytes": 6123
+  },
+  {
+   "url": "https://raw.githubusercontent.com/zoharrpg/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Ostrich3388/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E8%81%94%E9%80%9A.txt",
+   "sha256": "b9f391746b15e46c",
+   "bytes": 6830
+  },
+  {
    "url": "https://raw.githubusercontent.com/zqk219/iptv-api/master/config/alias.txt",
    "same_as": "https://raw.githubusercontent.com/alantang1977/junitv/main/config/alias.txt",
    "sha256": "c7b88acadc1040cf",
@@ -10229,37 +9419,37 @@
   },
   {
    "url": "https://raw.githubusercontent.com/zqk219/iptv-api/master/config/demo.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/demo.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/demo.txt",
    "sha256": "94979d42dbb6259b",
    "bytes": 24067
   },
   {
    "url": "https://raw.githubusercontent.com/zqk219/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%B8%8A%E6%B5%B7_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "b7de9797dd6aa52b",
    "bytes": 3829
   },
   {
    "url": "https://raw.githubusercontent.com/zqk219/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E4%BA%91%E5%8D%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "14541c71e1bf00ac",
    "bytes": 4692
   },
   {
    "url": "https://raw.githubusercontent.com/zqk219/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "3478a51355574536",
    "bytes": 5106
   },
   {
    "url": "https://raw.githubusercontent.com/zqk219/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%8C%97%E4%BA%AC_%E8%81%94%E9%80%9A.txt",
    "sha256": "0839f41ebdd49763",
    "bytes": 5162
   },
   {
    "url": "https://raw.githubusercontent.com/zqk219/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
-   "same_as": "https://raw.githubusercontent.com/MannixJ/iptv-api/master/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
+   "same_as": "https://raw.githubusercontent.com/Marilyn2022/iptv-api/my_iptv/config/rtp/%E5%90%89%E6%9E%97_%E7%94%B5%E4%BF%A1.txt",
    "sha256": "fa6a1f10d230587e",
    "bytes": 6123
   },
@@ -10291,6 +9481,7 @@
   "13998394872/TVBox",
   "1771245847/TvBox",
   "183172978/tvx-4f5c87",
+  "2061863797/bjq-next-releases",
   "2hacc/Video",
   "3222322/CatVodSpider-danmaku",
   "3377/CellularInfo",
@@ -10325,15 +9516,14 @@
   "469548405/zcl_tvbox",
   "666tv/v3",
   "793641910/binge",
+  "858it-cast/IPTV",
   "91i55and0/tvbox-config-",
-  "9527xiao9527/iptv",
   "956065487/zhiboyuan",
   "963540817/dashu",
   "Adb111/tvbox-config",
   "Andrewz66/tvbox-config",
   "AndroidSoftwares/box",
   "Arimayuki03/YuKi",
-  "Balanca02/lmart-updates",
   "Bensonliu666/tvbox-config",
   "Bruce0422/ChatGPT-Next-Web",
   "BurningC4/ArchlinuxARM-rpi-aarch64",
@@ -10347,6 +9537,7 @@
   "BurningC4/tvg-logo",
   "BurningC4/ubi-code",
   "Bxuwei/xm",
+  "ByD4rking/reproductor-IPTV",
   "CCSH/CCSH",
   "CCSH/Config",
   "CCSH/IPTV",
@@ -10377,11 +9568,11 @@
   "CCSH/edgetunnel",
   "CCSH/iOSAPP",
   "CCSH/uniapp",
-  "CountOfGrubby/IPTVUpdateTool",
   "Cr-cm/1",
   "CricZone/my-iptv-channel",
   "Damon-zhouyufeng/tvbox-sources",
   "Darklessing/catvod",
+  "Desoraven007/Neural-IPTV-OTA",
   "DipendraSinghSandhu/dongguaTV",
   "Dong-learn9/TVBox-zyjk",
   "DovisLiu/Release",
@@ -10443,22 +9634,20 @@
   "LeoFengFPV/tvbox-sources",
   "Lightconer/tvbox-ysc-config",
   "Lincb522/Noctra",
-  "MannixJ/iptv-api",
   "Marilyn2022/iptv-api",
   "MarsAres0221/tvbox-config",
-  "MasterSisio/iptv-api",
   "Nailong-Studio/wallpaper",
   "Ostrich3388/iptv-api",
-  "Outlying3720/iptv",
   "RaycornM/TVbox-IPTV",
   "RickLlamador/iptvchannel",
   "Robko1/teszt-iptv",
   "RyuKyou/personal-iptv-config",
   "Sturiss/douban",
   "Sugayoiya/live-config",
+  "Supprise0901/TVBox_live",
   "TFL-lww/okys-config",
   "TVboxdeng/tvbox-feed",
-  "Thinkelution/stream-player",
+  "Timofey-91/iptv-proxy-2",
   "Trysknee01/selfhost-config",
   "UndCover/PyramidStore",
   "WKC0001/tvbox-independent",
@@ -10471,7 +9660,6 @@
   "YueChan/Loon",
   "YueChan/QuanX",
   "YueChan/Rocket",
-  "Z-web747/iptv-api",
   "ZhaoYunxiong/MaccmsResources",
   "Zss03040464/tvbox-config",
   "ZxxXinI/tvbox",
@@ -10479,8 +9667,6 @@
   "aa3151036158/tvbox-config",
   "abc201611/tv",
   "abu168888/tvbox-config",
-  "adamshl-oss/iptv-curated",
-  "ahne2025/iptv-api",
   "alantang1977/APP",
   "alantang1977/Collect-IPTV",
   "alantang1977/DailyIPTV",
@@ -10510,13 +9696,11 @@
   "alantang1977/tj",
   "alantang1977/workers_iptv",
   "alantang1977/yuanzl77",
-  "alexyanghx/TV",
   "androwsc/catvod",
   "angyuang/catvodapi_cloudflare",
   "armbian/community",
-  "attelecom/tivi",
-  "azalkmzc-lab/sarib-TV-2",
   "azhansy/ds-tvbox",
+  "badboys88888/IPTV",
   "beanhacker/tvbox.github.io",
   "becblue/iptv-api",
   "best-fan/Excel_Insert",
@@ -10548,8 +9732,10 @@
   "best-fan/wechat-app-web",
   "best-fan/wechat-app-zp",
   "best-fan/zc-ai-base-project",
+  "beste-iptv-aanbieder/best-iptv-ireland-family-plan-for-expats-in-qatar-2026-5ba153-45",
   "bluefriendCN/set",
   "c120487/00",
+  "carmenchica3636/listas-iptv",
   "ccAzy/Actions-bbr-v3",
   "ccAzy/AirCard",
   "ccAzy/Bark",
@@ -10579,15 +9765,10 @@
   "ccAzy/vpnplus",
   "ccAzy/xianyu-auto-reply",
   "ccAzy/yoinks",
-  "ccmpcombr-sketch/servidor-iptv-pagamentos",
   "ch2006/iptv-api",
-  "chendi0207/IPTV",
   "chengxue2020/Cat-ports",
   "chh818/chh818.github.io",
   "chitue/dongliTV",
-  "chrisbenincasa/tunarr",
-  "cirosantilli/cirosantilli",
-  "ckreason/iptv-api",
   "cluntop/Build_Lenovo_sm8750",
   "cluntop/HuLa",
   "cluntop/OKTV",
@@ -10617,23 +9798,20 @@
   "cluntop/tracker",
   "cluntop/tv",
   "cluntop/vsterm",
-  "coco421/iptv-api",
   "cspoh123/tvbox",
   "cutepan/iptv-api",
   "cx342662/cx342662.github.io",
   "cxrcool/stellar-18zy",
   "cyf783/bhbox-catvod",
   "cyj265/lanxing-vod",
-  "d4r5hE/IPTV-verify",
   "dalazhi/tvbox",
   "danqilin710/tvbox-config",
-  "darkelf123/iptv-api",
   "davidlee6628/ssr",
   "dlgt7/TVbox-interface",
   "do1linux/tvbox-hub",
+  "doms9/iptv",
   "dongge0504-bot/-tvbox-config",
   "dxawi/0",
-  "edmangomez/goroTV",
   "ekin678/iptv-api",
   "ewctt/tvbox",
   "fanmingming/DroidStar",
@@ -10655,7 +9833,6 @@
   "fanmingming/static",
   "felixwang1987/tv-pocket",
   "film-critique/journal",
-  "fingersc/iptv-api",
   "fkaf1/fk",
   "franksun1211/CMP4",
   "franksun1211/CatVodSpider-FM",
@@ -10685,6 +9862,8 @@
   "franksun1211/maotv-1",
   "franksun1211/sharelist",
   "franksun1211/vinswu.github.io",
+  "frittsasaurus/iptv-manager",
+  "gambiarras/legal-iptv",
   "gaotianliuyun/CatVodOpen",
   "gaotianliuyun/ClashSinicizationTool",
   "gaotianliuyun/Clash_Chinese_Patch",
@@ -10715,10 +9894,10 @@
   "gaotianliuyun/youshandefeiyang",
   "gaotianliuyun/ysdqg",
   "gasiepgodoy/Hackathon-TV-Box-E10",
+  "gastonkali/tvbox-linux",
+  "gchust/iptv-daily",
   "geoisam/CatVodSpider",
   "ghjkldfdfg/ipSentinel",
-  "gitshang5018/iptv-api",
-  "golden367/Tvone-Full-Version-Unlocked",
   "gstory0404/Cinetry",
   "gxnas/TvBox",
   "gzp007/CatVodTVSpider",
@@ -10797,25 +9976,23 @@
   "iTCoffe/sub-web-modify",
   "iTCoffe/tts",
   "iTCoffe/type",
+  "icecore2/iptv-app",
   "icodecho/CatVodSpiderMod",
-  "iii80/iptv-api",
   "ijiitc/101",
   "imythu/kirara",
-  "interlark/ustvgo-tvguide",
   "jackeywhy/jackeywhy.github.io",
   "jadehh/TVSpider",
   "jameslee38/dianshi",
   "jane3824/TV",
   "javyou19700207/db",
-  "jaysonkartz/iptv-api",
+  "jeanjofi/iptvjson",
   "jeffwxg118-beep/tvbox-config",
   "jessic01/box1",
   "jigedos/geekcomputers",
   "justinpek/iptv-api",
   "jyoketsu/tv",
+  "kankejiang/CatClawVideo",
   "kcjsd/TVBOXZY",
-  "keropatsu/iptv-api",
-  "kg7mhzym2f-collab/chat-api666",
   "khw934/TV",
   "kimwang1978/Cloudflare-Pan",
   "kimwang1978/FongMiTV",
@@ -10851,17 +10028,13 @@
   "kogwx/CatVodTVJsonEditor",
   "kukuqi666/TVBoxOS-Mobile",
   "kxbperfect/kxb",
-  "kzy77/iptv-api",
   "laoma2053/awesome-zhuiju-free",
   "larry-biu/tvbox-config",
   "launchpad2/tv",
-  "lcw502/iptv-api",
   "lege0001/legeTV",
   "lihanxing0404/mystudy",
   "lilivan1986/clash",
   "limiok/tvbox-auto",
-  "linzusong2024/iptv-api",
-  "litan1016/tvbox-subs",
   "liu673cn/Better-Auto-XXQG",
   "liu673cn/CatVodOpen",
   "liu673cn/Cloudreve",
@@ -10891,7 +10064,6 @@
   "liu673cn/tms",
   "liu673cn/xbb",
   "liu673cn/ysc",
-  "liulei120/TVCrazy",
   "lmlmi/xxxx",
   "lndh4980/catvod-player-ios",
   "longbin12/iptv-api",
@@ -10910,7 +10082,7 @@
   "maoystv/tt",
   "maoystv/z",
   "maplelgj/TV",
-  "meitao2024/iptv-api",
+  "mdsanuarmahmud/T-Playlist-Sports",
   "migog0/t",
   "motao123/webtv",
   "movie-stgar/cine-critique",
@@ -10920,6 +10092,7 @@
   "mytv-android/mytv-android",
   "ne7359/tvurl",
   "ngt022/tvbox-config",
+  "nihenhao988/iptv-api",
   "nitrogen76/iptv-stuff",
   "niuber/niuber",
   "niubihu1/tvbox-",
@@ -10959,7 +10132,9 @@
   "ouyushan/tvbox-cfg",
   "owner2028/iptv-api",
   "pedrohrigolin/picocom-launcher",
+  "peterHchina/iptv",
   "phuongnm7/Iptv-phuongnm7",
+  "prostobest931/Sportsdevil",
   "pubtargus/CatVodTV",
   "pubtargus/CatVodTVSpider",
   "qaz1371041/tvbox",
@@ -10993,24 +10168,26 @@
   "qist/xray",
   "qist/xray-ui",
   "qq145968/my.img",
-  "redhackcn/iptv-api",
+  "rkinnc75/MobileIPTV-releases",
   "rrzt/copyMHQTV18",
   "s14685/tv",
   "s260590588/iptv-api",
   "samhorse/CatVodTV",
-  "sardine-mehico/iptv-player",
   "sarogar559/BiliTV",
   "saulxxx/future",
-  "sbdevapp/iptv-public-assets",
   "schumijo/iptv",
+  "shahriyarsojibhasan/SHAHRIYAR-LIVE-TV",
   "shandianchengzi/ccf-video-src",
   "shareu007/tvbox-Swift-macOS",
   "shengshimeiyan/ok-tvbox-config",
   "shichuanenhui/TvBox",
   "shidahuilang/shuyuan-bak",
+  "singgeoi/personal-tvbox",
   "sky22333/sky-tv",
+  "skyyaman/tvbox",
   "songlees355-wq/okay",
-  "spyd3rking/myepg",
+  "stablesports711-hue/stable-sports-iptv",
+  "suzukua/epg",
   "svefnz/ClashBar",
   "svefnz/Clipaste",
   "svefnz/DeepSeekMonitor",
@@ -11045,11 +10222,13 @@
   "tianjian518/tjtv",
   "tiantaiyx/tvbox",
   "tombaobao219/catvod",
+  "ton86313/IPTV-Marco",
   "tushen6/James",
   "tushen6/Tattoo",
   "tushen6/xxooo",
   "tv189ymail/2023",
   "tvboxboy/tvbox",
+  "tyxthl/iptv-api",
   "vampireisoves/tvbox-config",
   "vbskycn/AutoBuildImmortalWrt",
   "vbskycn/FlowMaster",
@@ -11110,10 +10289,11 @@
   "victor1616888/jiudian-tv",
   "victor1616888/tvbox",
   "victor1616888/zubozhuanIPTV",
+  "vipxb/zhibo",
+  "vnsu/HeNanCMCCIPTV",
   "w0878512-glitch/tvbox-config",
   "wan828963-code/tvbox-config",
   "wang987742/gaotianliuyun",
-  "wangfang345799/iptv-api",
   "wj5403293/KOTV",
   "wkyilisha/CatVodSpider",
   "wlcmc1972/tvbox",
@@ -11182,7 +10362,6 @@
   "xmbjm/tvbox_config",
   "xmbjm/webhtv",
   "xmbjm/xmbjm.github.io",
-  "xtxujun/TV",
   "xu211A/xu211A.github.io",
   "xuy132/AUTO-IPTV-URL",
   "xuy132/AX6-Actions-OpenWrt",
@@ -11217,15 +10396,13 @@
   "yangxiaoge/tvbox_cust",
   "yaolin-dev/OKVideoMac",
   "yigedashu/xwck",
-  "yjblf865374796-hash/iptv-api",
+  "yinghuang-xie/yinghuangtv-pro",
   "youhunwl/TVAPP",
   "yoursmile66/edcloudwasm",
   "yoyo82520/huaiptv",
   "yueer59/Tvbox",
   "yuluoos/TVBox-tvs",
   "yw88075/tvbox",
-  "yyyr-otz/iptv-api",
-  "zamba120/Iptv-server",
   "zengjian0303/han",
   "zhanghao0730/tvbox-config",
   "zhanghong1983/tvboxzy",
@@ -11237,6 +10414,7 @@
   "zhoujck/iptvupdate",
   "zhoujck/switch-ptchtxt-mods",
   "zhoujck/takagen99",
+  "zoharrpg/iptv-api",
   "zqk219/iptv-api",
   "zwc456baby/APay",
   "zwc456baby/AutoJs6",
@@ -11269,7 +10447,7 @@
   "zwc456baby/wxlivespy"
  ],
  "unreachable": {
-  "count": 92,
+  "count": 91,
   "by_error": {
    "HTTPError": 45,
    "URLError": 45,

@@ -43,5 +43,20 @@
   "reason": "probe-rejected",
   "KBps": null,
   "at": 1790896718.1223593
+ },
+ "gh-proxy.org": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1791079897.6814907
+ },
+ "ghproxy.net": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1791079897.6814907
+ },
+ "g.3344550.xyz": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1791079897.6814907
  }
 }

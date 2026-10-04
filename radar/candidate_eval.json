@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-04T01:00:10",
+ "generated_at": "2026-10-04T02:14:32",
  "note": "候选独有度评估：unique=该候选带来、当前产物里没有的新站点数。收编应看 unique 而非 score。",
  "base": {
   "file": "tvbox.json",
-  "sites": 4200,
-  "unique_fps": 4200
+  "sites": 4169,
+  "unique_fps": 4169
  },
  "summary": {
   "candidates": 400,
-  "evaluated": 346,
-  "skipped_live": 54,
+  "evaluated": 344,
+  "skipped_live": 56,
   "html_noise": 0,
   "no_sites": 0,
   "fetch_or_parse_failed": 0,
   "fetch_ok": 400,
-  "with_unique": 341,
-  "total_unique_sites": 20445
+  "with_unique": 339,
+  "total_unique_sites": 19829
  },
  "candidates": [
   {
@@ -297,48 +297,6 @@
    "score": 90,
    "evidence": {
     "sites": 298,
-    "lives": 2,
-    "parses": 11,
-    "spider": true
-   },
-   "bytes": 114090,
-   "sha256": "a3b4c885fe1e5d4a",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/litan1016/tvbox-subs/main/mirror/gao_js.json",
-   "total": 298,
-   "dup": 7,
-   "unique": 291,
-   "unique_rate": 0.977,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 298,
-    "lives": 2,
-    "parses": 11,
-    "spider": true
-   },
-   "bytes": 90630,
-   "sha256": "df59d479c3c66fde",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/litan1016/tvbox-subs/main/mirror/js.json",
-   "total": 298,
-   "dup": 7,
-   "unique": 291,
-   "unique_rate": 0.977,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 298,
     "lives": 11,
     "parses": 16,
     "spider": true
@@ -558,9 +516,9 @@
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/tvbox-master-doki/%E6%B5%8B%E8%AF%95.json",
    "total": 270,
-   "dup": 39,
-   "unique": 231,
-   "unique_rate": 0.856,
+   "dup": 42,
+   "unique": 228,
+   "unique_rate": 0.844,
    "err": "",
    "skipped": ""
   },
@@ -716,27 +674,6 @@
    "kind": "tvbox",
    "score": 90,
    "evidence": {
-    "sites": 196,
-    "lives": 3,
-    "parses": 23,
-    "spider": true
-   },
-   "bytes": 86995,
-   "sha256": "5aa23baf017e5ae7",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/tvbox-master-doki/ceshi.json",
-   "total": 196,
-   "dup": 33,
-   "unique": 163,
-   "unique_rate": 0.832,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
     "sites": 163,
     "lives": 1,
     "parses": 20,
@@ -771,6 +708,27 @@
    "dup": 0,
    "unique": 160,
    "unique_rate": 1.0,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 196,
+    "lives": 3,
+    "parses": 23,
+    "spider": true
+   },
+   "bytes": 86995,
+   "sha256": "5aa23baf017e5ae7",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/tvbox-master-doki/ceshi.json",
+   "total": 196,
+   "dup": 37,
+   "unique": 159,
+   "unique_rate": 0.811,
    "err": "",
    "skipped": ""
   },
@@ -957,9 +915,9 @@
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/franksun1211/lanjing_live/main/TVbox_Free/tv.txt",
    "total": 374,
-   "dup": 248,
-   "unique": 126,
-   "unique_rate": 0.337,
+   "dup": 247,
+   "unique": 127,
+   "unique_rate": 0.34,
    "err": "",
    "skipped": ""
   },
@@ -1062,9 +1020,9 @@
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/xu211A/xu211A.github.io/main/2.json",
    "total": 179,
-   "dup": 60,
-   "unique": 119,
-   "unique_rate": 0.665,
+   "dup": 61,
+   "unique": 118,
+   "unique_rate": 0.659,
    "err": "",
    "skipped": ""
   },
@@ -1128,27 +1086,6 @@
    "dup": 11,
    "unique": 111,
    "unique_rate": 0.91,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 145,
-    "lives": 1,
-    "parses": 11,
-    "spider": true
-   },
-   "bytes": 31930,
-   "sha256": "582065efca930723",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/maoystv/1/main/api.json",
-   "total": 145,
-   "dup": 35,
-   "unique": 110,
-   "unique_rate": 0.759,
    "err": "",
    "skipped": ""
   },
@@ -1230,9 +1167,30 @@
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/hd9211/Tvbox1/main/zy.json",
    "total": 144,
-   "dup": 41,
-   "unique": 103,
-   "unique_rate": 0.715,
+   "dup": 39,
+   "unique": 105,
+   "unique_rate": 0.729,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 145,
+    "lives": 1,
+    "parses": 11,
+    "spider": true
+   },
+   "bytes": 31930,
+   "sha256": "582065efca930723",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/maoystv/1/main/api.json",
+   "total": 145,
+   "dup": 43,
+   "unique": 102,
+   "unique_rate": 0.703,
    "err": "",
    "skipped": ""
   },
@@ -1293,9 +1251,9 @@
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/maoystv/api/main/api.json",
    "total": 149,
-   "dup": 50,
-   "unique": 99,
-   "unique_rate": 0.664,
+   "dup": 51,
+   "unique": 98,
+   "unique_rate": 0.658,
    "err": "",
    "skipped": ""
   },
@@ -1430,27 +1388,6 @@
    "kind": "tvbox",
    "score": 90,
    "evidence": {
-    "sites": 109,
-    "lives": 9,
-    "parses": 14,
-    "spider": true
-   },
-   "bytes": 41601,
-   "sha256": "5dcac4d7af1b3a43",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/jane3824/TV/main/pg.json",
-   "total": 109,
-   "dup": 18,
-   "unique": 91,
-   "unique_rate": 0.835,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
     "sites": 108,
     "lives": 25,
     "parses": 0,
@@ -1464,6 +1401,27 @@
    "dup": 17,
    "unique": 91,
    "unique_rate": 0.843,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 109,
+    "lives": 9,
+    "parses": 14,
+    "spider": true
+   },
+   "bytes": 41601,
+   "sha256": "5dcac4d7af1b3a43",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/jane3824/TV/main/pg.json",
+   "total": 109,
+   "dup": 19,
+   "unique": 90,
+   "unique_rate": 0.826,
    "err": "",
    "skipped": ""
   },
@@ -2575,9 +2533,9 @@
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%AC%A7%E6%AD%8C/api.json",
    "total": 106,
-   "dup": 59,
-   "unique": 47,
-   "unique_rate": 0.443,
+   "dup": 60,
+   "unique": 46,
+   "unique_rate": 0.434,
    "err": "",
    "skipped": ""
   },
@@ -2824,27 +2782,6 @@
     "spider": true
    },
    "bytes": 27311,
-   "sha256": "23ff70387cf78ac9",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/ZHOUYU86/tvbox/main/xs/api.json",
-   "total": 103,
-   "dup": 63,
-   "unique": 40,
-   "unique_rate": 0.388,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 103,
-    "lives": 1,
-    "parses": 9,
-    "spider": true
-   },
-   "bytes": 27311,
    "sha256": "5ab289ea676a322c",
    "sha_partial": false,
    "url": "https://raw.githubusercontent.com/ne7359/tvurl/main/xiaosa/api.json",
@@ -2986,27 +2923,6 @@
    "kind": "tvbox",
    "score": 90,
    "evidence": {
-    "sites": 54,
-    "lives": 5,
-    "parses": 10,
-    "spider": true
-   },
-   "bytes": 29797,
-   "sha256": "5a87d1465179d42a",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/Hululu007/CatVodSpider----/main/json/ok.json",
-   "total": 54,
-   "dup": 16,
-   "unique": 38,
-   "unique_rate": 0.704,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
     "sites": 41,
     "lives": 3,
     "parses": 0,
@@ -3041,27 +2957,6 @@
    "dup": 22,
    "unique": 37,
    "unique_rate": 0.627,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 57,
-    "lives": 6,
-    "parses": 14,
-    "spider": true
-   },
-   "bytes": 21754,
-   "sha256": "b5bd5af120d7e257",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/chh818/chh818.github.io/main/3.json",
-   "total": 57,
-   "dup": 20,
-   "unique": 37,
-   "unique_rate": 0.649,
    "err": "",
    "skipped": ""
   },
@@ -3133,19 +3028,19 @@
    "kind": "tvbox",
    "score": 90,
    "evidence": {
-    "sites": 73,
-    "lives": 7,
-    "parses": 4,
+    "sites": 54,
+    "lives": 5,
+    "parses": 10,
     "spider": true
    },
-   "bytes": 20650,
-   "sha256": "93c4a3bd089c148b",
+   "bytes": 29797,
+   "sha256": "5a87d1465179d42a",
    "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/vbskycn/tvbox/main/%E7%8E%8B%E5%B0%8F%E4%BA%8C.txt",
-   "total": 73,
-   "dup": 37,
+   "url": "https://raw.githubusercontent.com/Hululu007/CatVodSpider----/main/json/ok.json",
+   "total": 54,
+   "dup": 18,
    "unique": 36,
-   "unique_rate": 0.493,
+   "unique_rate": 0.667,
    "err": "",
    "skipped": ""
   },
@@ -3234,6 +3129,27 @@
    "skipped": ""
   },
   {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 73,
+    "lives": 7,
+    "parses": 4,
+    "spider": true
+   },
+   "bytes": 20650,
+   "sha256": "93c4a3bd089c148b",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/vbskycn/tvbox/main/%E7%8E%8B%E5%B0%8F%E4%BA%8C.txt",
+   "total": 73,
+   "dup": 38,
+   "unique": 35,
+   "unique_rate": 0.479,
+   "err": "",
+   "skipped": ""
+  },
+  {
    "url": "https://szyyds.cn/tv/x.json",
    "reachable": true,
    "kind": "tvbox",
@@ -3272,6 +3188,27 @@
    "dup": 26,
    "unique": 35,
    "unique_rate": 0.574,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 57,
+    "lives": 6,
+    "parses": 14,
+    "spider": true
+   },
+   "bytes": 21754,
+   "sha256": "b5bd5af120d7e257",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/chh818/chh818.github.io/main/3.json",
+   "total": 57,
+   "dup": 22,
+   "unique": 35,
+   "unique_rate": 0.614,
    "err": "",
    "skipped": ""
   },
@@ -3425,48 +3362,6 @@
   {
    "reachable": true,
    "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 43,
-    "lives": 5,
-    "parses": 6,
-    "spider": true
-   },
-   "bytes": 33598,
-   "sha256": "87797b67524ce12e",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/tvbox2.json",
-   "total": 43,
-   "dup": 11,
-   "unique": 32,
-   "unique_rate": 0.744,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 39,
-    "lives": 0,
-    "parses": 16,
-    "spider": true
-   },
-   "bytes": 11907,
-   "sha256": "bbcffc6b8ae0b0a3",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/AndroidSoftwares/box/main/box.json",
-   "total": 39,
-   "dup": 7,
-   "unique": 32,
-   "unique_rate": 0.821,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
    "score": 80,
    "evidence": {
     "sites": 35,
@@ -3503,6 +3398,27 @@
    "dup": 23,
    "unique": 31,
    "unique_rate": 0.574,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 39,
+    "lives": 0,
+    "parses": 16,
+    "spider": true
+   },
+   "bytes": 11907,
+   "sha256": "bbcffc6b8ae0b0a3",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/AndroidSoftwares/box/main/box.json",
+   "total": 39,
+   "dup": 8,
+   "unique": 31,
+   "unique_rate": 0.795,
    "err": "",
    "skipped": ""
   },
@@ -3595,6 +3511,27 @@
    "kind": "tvbox",
    "score": 90,
    "evidence": {
+    "sites": 43,
+    "lives": 5,
+    "parses": 6,
+    "spider": true
+   },
+   "bytes": 33598,
+   "sha256": "87797b67524ce12e",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/tvbox2.json",
+   "total": 43,
+   "dup": 13,
+   "unique": 30,
+   "unique_rate": 0.698,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
     "sites": 44,
     "lives": 1,
     "parses": 47,
@@ -3629,27 +3566,6 @@
    "dup": 12,
    "unique": 29,
    "unique_rate": 0.707,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 36,
-    "lives": 0,
-    "parses": 16,
-    "spider": true
-   },
-   "bytes": 11351,
-   "sha256": "7c659e7d136666cb",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/master/box.json",
-   "total": 36,
-   "dup": 7,
-   "unique": 29,
-   "unique_rate": 0.806,
    "err": "",
    "skipped": ""
   },
@@ -3755,6 +3671,27 @@
    "dup": 9,
    "unique": 28,
    "unique_rate": 0.757,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 36,
+    "lives": 0,
+    "parses": 16,
+    "spider": true
+   },
+   "bytes": 11351,
+   "sha256": "7c659e7d136666cb",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/master/box.json",
+   "total": 36,
+   "dup": 8,
+   "unique": 28,
+   "unique_rate": 0.778,
    "err": "",
    "skipped": ""
   },
@@ -3906,27 +3843,6 @@
    "skipped": ""
   },
   {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 82,
-    "lives": 1,
-    "parses": 3,
-    "spider": true
-   },
-   "bytes": 71964,
-   "sha256": "5dae1b81b2f6e979",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/lihanxing0404/mystudy/master/no_ok.json",
-   "total": 82,
-   "dup": 57,
-   "unique": 25,
-   "unique_rate": 0.305,
-   "err": "",
-   "skipped": ""
-  },
-  {
    "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
    "reachable": true,
    "kind": "tvbox",
@@ -4028,6 +3944,27 @@
    "dup": 21,
    "unique": 25,
    "unique_rate": 0.543,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 82,
+    "lives": 1,
+    "parses": 3,
+    "spider": true
+   },
+   "bytes": 71964,
+   "sha256": "5dae1b81b2f6e979",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/lihanxing0404/mystudy/master/no_ok.json",
+   "total": 82,
+   "dup": 58,
+   "unique": 24,
+   "unique_rate": 0.293,
    "err": "",
    "skipped": ""
   },
@@ -4203,69 +4140,6 @@
   {
    "reachable": true,
    "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 36,
-    "lives": 0,
-    "parses": 0,
-    "spider": true
-   },
-   "bytes": 10845,
-   "sha256": "3936393ad95c4ce1",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/jane3824/TV/main/fongmi/json/config.json",
-   "total": 36,
-   "dup": 13,
-   "unique": 23,
-   "unique_rate": 0.639,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 36,
-    "lives": 0,
-    "parses": 0,
-    "spider": true
-   },
-   "bytes": 10583,
-   "sha256": "bae6a74907f7e84f",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/config.json",
-   "total": 36,
-   "dup": 13,
-   "unique": 23,
-   "unique_rate": 0.639,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 36,
-    "lives": 0,
-    "parses": 0,
-    "spider": true
-   },
-   "bytes": 10845,
-   "sha256": "551995b7c09862a9",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/json/config.json",
-   "total": 36,
-   "dup": 13,
-   "unique": 23,
-   "unique_rate": 0.639,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
    "score": 80,
    "evidence": {
     "sites": 23,
@@ -4369,27 +4243,6 @@
    "skipped": ""
   },
   {
-   "url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 33,
-    "lives": 0,
-    "parses": 0,
-    "spider": true
-   },
-   "bytes": 9973,
-   "sha256": "1c2b6b2f9aa0c31a",
-   "sha_partial": false,
-   "total": 33,
-   "dup": 12,
-   "unique": 21,
-   "unique_rate": 0.636,
-   "err": "",
-   "skipped": ""
-  },
-  {
    "reachable": true,
    "kind": "tvbox",
    "score": 90,
@@ -4415,19 +4268,61 @@
    "kind": "tvbox",
    "score": 90,
    "evidence": {
-    "sites": 32,
-    "lives": 1,
+    "sites": 36,
+    "lives": 0,
     "parses": 0,
     "spider": true
    },
-   "bytes": 11034,
-   "sha256": "ad3be546bf99061c",
+   "bytes": 10845,
+   "sha256": "3936393ad95c4ce1",
    "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/liu673cn/TVBox_warehouse/main/%E4%BA%91%E7%9B%98/api.json",
-   "total": 32,
-   "dup": 11,
+   "url": "https://raw.githubusercontent.com/jane3824/TV/main/fongmi/json/config.json",
+   "total": 36,
+   "dup": 15,
    "unique": 21,
-   "unique_rate": 0.656,
+   "unique_rate": 0.583,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 36,
+    "lives": 0,
+    "parses": 0,
+    "spider": true
+   },
+   "bytes": 10583,
+   "sha256": "bae6a74907f7e84f",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/config.json",
+   "total": 36,
+   "dup": 15,
+   "unique": 21,
+   "unique_rate": 0.583,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 36,
+    "lives": 0,
+    "parses": 0,
+    "spider": true
+   },
+   "bytes": 10845,
+   "sha256": "551995b7c09862a9",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/json/config.json",
+   "total": 36,
+   "dup": 15,
+   "unique": 21,
+   "unique_rate": 0.583,
    "err": "",
    "skipped": ""
   },
@@ -4522,27 +4417,6 @@
    "kind": "tvbox",
    "score": 90,
    "evidence": {
-    "sites": 31,
-    "lives": 1,
-    "parses": 6,
-    "spider": true
-   },
-   "bytes": 16572,
-   "sha256": "33255a8dd3425167",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/victor1616888/zubozhuanIPTV/main/tvbox.json",
-   "total": 31,
-   "dup": 11,
-   "unique": 20,
-   "unique_rate": 0.645,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
     "sites": 28,
     "lives": 1,
     "parses": 4,
@@ -4565,6 +4439,27 @@
    "score": 90,
    "evidence": {
     "sites": 32,
+    "lives": 1,
+    "parses": 0,
+    "spider": true
+   },
+   "bytes": 11034,
+   "sha256": "ad3be546bf99061c",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/liu673cn/TVBox_warehouse/main/%E4%BA%91%E7%9B%98/api.json",
+   "total": 32,
+   "dup": 13,
+   "unique": 19,
+   "unique_rate": 0.594,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 32,
     "lives": 0,
     "parses": 0,
     "spider": true
@@ -4577,6 +4472,27 @@
    "dup": 13,
    "unique": 19,
    "unique_rate": 0.594,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 31,
+    "lives": 1,
+    "parses": 6,
+    "spider": true
+   },
+   "bytes": 16572,
+   "sha256": "33255a8dd3425167",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/victor1616888/zubozhuanIPTV/main/tvbox.json",
+   "total": 31,
+   "dup": 12,
+   "unique": 19,
+   "unique_rate": 0.613,
    "err": "",
    "skipped": ""
   },
@@ -4619,6 +4535,27 @@
    "dup": 0,
    "unique": 19,
    "unique_rate": 1.0,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 80,
+   "evidence": {
+    "sites": 32,
+    "lives": 1,
+    "parses": 1,
+    "spider": false
+   },
+   "bytes": 12731,
+   "sha256": "7ec06e0b11fe53ae",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/gxnas/TvBox/main/tvbox.json",
+   "total": 32,
+   "dup": 13,
+   "unique": 19,
+   "unique_rate": 0.594,
    "err": "",
    "skipped": ""
   },
@@ -5026,27 +4963,6 @@
    "kind": "tvbox",
    "score": 80,
    "evidence": {
-    "sites": 32,
-    "lives": 1,
-    "parses": 1,
-    "spider": false
-   },
-   "bytes": 12731,
-   "sha256": "7ec06e0b11fe53ae",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/gxnas/TvBox/main/tvbox.json",
-   "total": 32,
-   "dup": 17,
-   "unique": 15,
-   "unique_rate": 0.469,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 80,
-   "evidence": {
     "sites": 15,
     "lives": 1,
     "parses": 10,
@@ -5404,49 +5320,6 @@
    "kind": "tvbox",
    "score": 90,
    "evidence": {
-    "sites": 21,
-    "lives": 1,
-    "parses": 11,
-    "spider": true
-   },
-   "bytes": 18308,
-   "sha256": "7be01235effa7fb2",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/javyou19700207/db/main/112.json",
-   "adult_rule": "porn_kw:jav",
-   "total": 21,
-   "dup": 11,
-   "unique": 10,
-   "unique_rate": 0.476,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
-    "sites": 20,
-    "lives": 4,
-    "parses": 10,
-    "spider": true
-   },
-   "bytes": 7602,
-   "sha256": "9372d7687a99da4d",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/shichuanenhui/TvBox/main/fty.json",
-   "total": 20,
-   "dup": 10,
-   "unique": 10,
-   "unique_rate": 0.5,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 90,
-   "evidence": {
     "sites": 15,
     "lives": 13,
     "parses": 4,
@@ -5592,6 +5465,27 @@
   {
    "reachable": true,
    "kind": "tvbox",
+   "score": 80,
+   "evidence": {
+    "sites": 14,
+    "lives": 1,
+    "parses": 1,
+    "spider": false
+   },
+   "bytes": 8295,
+   "sha256": "a58fe41a59a90f3b",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/gxnas/TvBox/main/9kg.json",
+   "total": 14,
+   "dup": 5,
+   "unique": 9,
+   "unique_rate": 0.643,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
    "score": 90,
    "evidence": {
     "sites": 33,
@@ -5616,6 +5510,28 @@
    "score": 90,
    "evidence": {
     "sites": 21,
+    "lives": 1,
+    "parses": 11,
+    "spider": true
+   },
+   "bytes": 18308,
+   "sha256": "7be01235effa7fb2",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/javyou19700207/db/main/112.json",
+   "adult_rule": "porn_kw:jav",
+   "total": 21,
+   "dup": 13,
+   "unique": 8,
+   "unique_rate": 0.381,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 21,
     "lives": 0,
     "parses": 4,
     "spider": true
@@ -5628,6 +5544,27 @@
    "dup": 13,
    "unique": 8,
    "unique_rate": 0.381,
+   "err": "",
+   "skipped": ""
+  },
+  {
+   "reachable": true,
+   "kind": "tvbox",
+   "score": 90,
+   "evidence": {
+    "sites": 20,
+    "lives": 4,
+    "parses": 10,
+    "spider": true
+   },
+   "bytes": 7602,
+   "sha256": "9372d7687a99da4d",
+   "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/shichuanenhui/TvBox/main/fty.json",
+   "total": 20,
+   "dup": 12,
+   "unique": 8,
+   "unique_rate": 0.4,
    "err": "",
    "skipped": ""
   },
@@ -5670,27 +5607,6 @@
    "dup": 3,
    "unique": 8,
    "unique_rate": 0.727,
-   "err": "",
-   "skipped": ""
-  },
-  {
-   "reachable": true,
-   "kind": "tvbox",
-   "score": 80,
-   "evidence": {
-    "sites": 14,
-    "lives": 1,
-    "parses": 1,
-    "spider": false
-   },
-   "bytes": 8295,
-   "sha256": "a58fe41a59a90f3b",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/gxnas/TvBox/main/9kg.json",
-   "total": 14,
-   "dup": 6,
-   "unique": 8,
-   "unique_rate": 0.571,
    "err": "",
    "skipped": ""
   },
@@ -7251,7 +7167,6 @@
    "entries": 8
   },
   {
-   "url": "https://raw.githubusercontent.com/WKC0001/tvbox-independent/main/output/api.json",
    "reachable": true,
    "kind": "tvbox",
    "score": 80,
@@ -7273,7 +7188,6 @@
    "skipped": ""
   },
   {
-   "url": "https://raw.githubusercontent.com/WKC0001/tvbox-independent/main/output/api.json",
    "reachable": true,
    "kind": "tvbox",
    "score": 80,
@@ -7286,6 +7200,7 @@
    "bytes": 8009,
    "sha256": "76fc824221e096c9",
    "sha_partial": false,
+   "url": "https://raw.githubusercontent.com/WKC0001/tvbox-independent/main/output/api.json",
    "total": 0,
    "dup": 0,
    "unique": 0,
@@ -7516,6 +7431,25 @@
    "kind": "m3u",
    "score": 60,
    "evidence": {
+    "entries": 1745
+   },
+   "bytes": 300000,
+   "sha256": "76fe19526eaa7f58",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/badboys88888/IPTV/main/test.m3u",
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 2178
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
     "entries": 1742
    },
    "bytes": 220891,
@@ -7624,6 +7558,25 @@
    "err": "",
    "skipped": "直播列表（走直播线，不算点播独有度）",
    "entries": 16599
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1564
+   },
+   "bytes": 300000,
+   "sha256": "d79e68731d9849c3",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/badboys88888/IPTV/main/iptv.m3u",
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 1624
   },
   {
    "reachable": true,
@@ -7801,25 +7754,6 @@
    "kind": "m3u",
    "score": 60,
    "evidence": {
-    "entries": 1507
-   },
-   "bytes": 300000,
-   "sha256": "0490284b2f40b661",
-   "sha_partial": true,
-   "url": "https://raw.githubusercontent.com/469548405/zcl_tvbox/main/ok_live_py/anru_live.m3u",
-   "total": 0,
-   "dup": 0,
-   "unique": 0,
-   "unique_rate": 0.0,
-   "err": "",
-   "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 3312
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
     "entries": 1500
    },
    "bytes": 300000,
@@ -7873,15 +7807,15 @@
    "entries": 3731
   },
   {
-   "url": "https://raw.githubusercontent.com/azalkmzc-lab/sarib-TV-2/main/sarib%20TV.m3u",
+   "url": "https://raw.githubusercontent.com/ton86313/IPTV-Marco/main/IPTV-Marco.m3u",
    "reachable": true,
    "kind": "m3u",
    "score": 60,
    "evidence": {
-    "entries": 1457
+    "entries": 1470
    },
    "bytes": 300000,
-   "sha256": "1c3cefb228462a3d",
+   "sha256": "0f01b249395d2b5f",
    "sha_partial": true,
    "total": 0,
    "dup": 0,
@@ -7889,7 +7823,7 @@
    "unique_rate": 0.0,
    "err": "",
    "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 19892
+   "entries": 15654
   },
   {
    "reachable": true,
@@ -7968,23 +7902,23 @@
    "entries": 13590
   },
   {
-   "url": "https://raw.githubusercontent.com/azalkmzc-lab/sarib-TV-2/main/sarib_TV.m3u",
    "reachable": true,
    "kind": "m3u",
    "score": 60,
    "evidence": {
-    "entries": 1345
+    "entries": 1343
    },
    "bytes": 300000,
-   "sha256": "1451fdc4a25bdd5a",
+   "sha256": "c04a0d0b6ac5525b",
    "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/alltv_gh.m3u",
    "total": 0,
    "dup": 0,
    "unique": 0,
    "unique_rate": 0.0,
    "err": "",
    "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 17895
+   "entries": 11061
   },
   {
    "reachable": true,
@@ -8238,6 +8172,139 @@
    "kind": "m3u",
    "score": 60,
    "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "d3eb0b44e586f36c",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_020620.m3u",
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 6313
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "c702bae217bdbf72",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_020646.m3u",
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 6313
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "628a93c2b7327404",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_021149.m3u",
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 6313
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "628a93c2b7327404",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_021312.m3u",
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 6313
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "628a93c2b7327404",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_021336.m3u",
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 6313
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1081
+   },
+   "bytes": 300000,
+   "sha256": "628a93c2b7327404",
+   "sha_partial": true,
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/.m3u_backups/alltvgh_metadata_20260930_021413.m3u",
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 6313
+  },
+  {
+   "url": "https://raw.githubusercontent.com/RickLlamador/iptvchannel/main/alltvgh.m3u",
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
+    "entries": 1077
+   },
+   "bytes": 300000,
+   "sha256": "2db6f90fa08efef3",
+   "sha_partial": true,
+   "total": 0,
+   "dup": 0,
+   "unique": 0,
+   "unique_rate": 0.0,
+   "err": "",
+   "skipped": "直播列表（走直播线，不算点播独有度）",
+   "entries": 6319
+  },
+  {
+   "reachable": true,
+   "kind": "m3u",
+   "score": 60,
+   "evidence": {
     "entries": 1066
    },
    "bytes": 230710,
@@ -8251,139 +8318,6 @@
    "err": "",
    "skipped": "直播列表（走直播线，不算点播独有度）",
    "entries": 1066
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 1004
-   },
-   "bytes": 152810,
-   "sha256": "1ebc049e88e00ff0",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/alantang1977/IPTV_SuperA/main/output/result.m3u",
-   "total": 0,
-   "dup": 0,
-   "unique": 0,
-   "unique_rate": 0.0,
-   "err": "",
-   "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 1004
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 989
-   },
-   "bytes": 292286,
-   "sha256": "8ce5a00178122832",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/phuongnm7/Iptv-phuongnm7/main/IPTV_Gop_TT1_VMTTV.m3u",
-   "total": 0,
-   "dup": 0,
-   "unique": 0,
-   "unique_rate": 0.0,
-   "err": "",
-   "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 989
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 962
-   },
-   "bytes": 291085,
-   "sha256": "55138d2731272db4",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/alantang1977/DailyIPTV/main/outputs/other.m3u",
-   "total": 0,
-   "dup": 0,
-   "unique": 0,
-   "unique_rate": 0.0,
-   "err": "",
-   "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 962
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 961
-   },
-   "bytes": 215748,
-   "sha256": "ce0744c69170f00a",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/kxbperfect/kxb/main/3.m3u",
-   "total": 0,
-   "dup": 0,
-   "unique": 0,
-   "unique_rate": 0.0,
-   "err": "",
-   "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 961
-  },
-  {
-   "url": "https://epg.pw/test_channels.m3u",
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 960
-   },
-   "bytes": 300000,
-   "sha256": "d85a27223ddb1421",
-   "sha_partial": true,
-   "total": 0,
-   "dup": 0,
-   "unique": 0,
-   "unique_rate": 0.0,
-   "err": "",
-   "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 1576
-  },
-  {
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 958
-   },
-   "bytes": 169156,
-   "sha256": "c3f1752b26030c50",
-   "sha_partial": false,
-   "url": "https://raw.githubusercontent.com/franksun1211/HKL/main/EVILANGEL.m3u",
-   "total": 0,
-   "dup": 0,
-   "unique": 0,
-   "unique_rate": 0.0,
-   "err": "",
-   "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 958
-  },
-  {
-   "url": "https://raw.githubusercontent.com/d4r5hE/IPTV-verify/main/Playlist.m3u",
-   "reachable": true,
-   "kind": "m3u",
-   "score": 60,
-   "evidence": {
-    "entries": 945
-   },
-   "bytes": 300000,
-   "sha256": "7e608a34ffe6c7c3",
-   "sha_partial": true,
-   "total": 0,
-   "dup": 0,
-   "unique": 0,
-   "unique_rate": 0.0,
-   "err": "",
-   "skipped": "直播列表（走直播线，不算点播独有度）",
-   "entries": 9934
   }
  ]
 }

@@ -1,42 +1,42 @@
 {
- "timestamp": "2026-10-04T01:31:02+08:00",
+ "timestamp": "2026-10-04T02:46:21+08:00",
  "fix_mode": false,
- "total_sites": 11721,
- "issue_count": 842,
+ "total_sites": 12205,
+ "issue_count": 928,
  "broken_ref_count": 0,
- "pass_rate": 92.82,
+ "pass_rate": 92.4,
  "ref_fail_rate": 0.0,
- "ref_total_checked": 2540,
+ "ref_total_checked": 2864,
  "issue_kinds": {
-  "ad_removed": 361,
+  "ad_removed": 390,
   "empty_name": 2,
-  "type_out_of_range": 473,
+  "type_out_of_range": 530,
   "missing_type": 6
  },
  "field_completeness": {
   "key": 100.0,
   "name": 100.0,
   "api": 100.0,
-  "type": 99.96
+  "type": 99.95
  },
  "per_file": {
   "tvbox.json": {
-   "sites": 4160,
-   "issues": 291,
+   "sites": 4331,
+   "issues": 320,
    "broken_refs": 0
   },
   "vod.json": {
-   "sites": 4160,
-   "issues": 291,
+   "sites": 4331,
+   "issues": 320,
    "broken_refs": 0
   },
   "short.json": {
-   "sites": 237,
-   "issues": 10,
+   "sites": 242,
+   "issues": 11,
    "broken_refs": 0
   },
   "stores/cms.json": {
-   "sites": 226,
+   "sites": 232,
    "issues": 3,
    "broken_refs": 0
   },
@@ -46,19 +46,19 @@
    "broken_refs": 0
   },
   "stores/pan.json": {
-   "sites": 230,
-   "issues": 85,
+   "sites": 235,
+   "issues": 87,
    "broken_refs": 0
   },
   "stores/csp.json": {
-   "sites": 2698,
-   "issues": 162,
+   "sites": 2824,
+   "issues": 187,
    "broken_refs": 0
   }
  },
  "compare_prev": {
-  "prev_pass_rate": 92.81,
-  "prev_issue_count": 851,
+  "prev_pass_rate": 92.82,
+  "prev_issue_count": 842,
   "prev_ref_fail_rate": 0.0
  }
 }

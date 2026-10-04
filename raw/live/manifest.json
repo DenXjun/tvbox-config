@@ -514,14 +514,19 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/cnTV_AutoUpdate.m3u8",
     "sha256": "f036b717d1c05ff00e7bce6435b22827d0aaa7c9516a925fa5d5d58a9440bfc1"
+   },
+   {
+    "date": "2026-10-04",
+    "path": "history/2026-10-04/cnTV_AutoUpdate.m3u8",
+    "sha256": "5496e7afc9924338001fe30a61afd2c47e806acfb6a2a614213ba38b214cc5b4"
    }
   ],
   "last_changed": "2026-10-04",
   "last_checked": "2026-10-04",
   "ledger": null,
   "path": "cnTV_AutoUpdate.m3u8",
-  "sha256": "5496e7afc9924338001fe30a61afd2c47e806acfb6a2a614213ba38b214cc5b4",
-  "size": 16058,
+  "sha256": "4fb1a08d77acbe6354e05441504a977e9da0a46b6b50d08d7a2c048991cd3713",
+  "size": 16249,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8"
  },
@@ -1077,6 +1082,7 @@
   "last_checked": "2026-10-04",
   "ledger": null,
   "path": "result.txt",
+  "recovered_at": "2026-10-04",
   "sha256": "1745719263a62aa919ebf938e69e3bb6a02d2398ae0e80a84388bd0337bb65e8",
   "size": 260423,
   "status": "ok",

@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-10-04 01:30:46",
+ "generated_at": "2026-10-04 02:46:05",
  "zip": "tvbox-latest.zip",
- "zip_size_mb": 71.43,
+ "zip_size_mb": 75.67,
  "tvbox": {
-  "sites": 3662,
-  "lives": 509,
-  "parses": 183,
-  "drop_dead": 440,
-  "drop_missing_dep": 30
+  "sites": 3783,
+  "lives": 548,
+  "parses": 194,
+  "drop_dead": 491,
+  "drop_missing_dep": 29
  },
- "short": 227,
+ "short": 232,
  "live": {
   "kept": 1,
   "drop_dead": 0
  },
  "adult": null,
- "dep_files": 534,
- "dep_mb": 74.9,
+ "dep_files": 561,
+ "dep_mb": 79.3,
  "copy_fail": 0,
  "unresolvable": 0,
  "integrity": "ok"
