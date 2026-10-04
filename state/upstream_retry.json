@@ -1,0 +1,1199 @@
+{
+ "https://cccimg.com/down.php/7d1f30263b3f2bf3deda2d7faeef4844.zhen6": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-28 10:02:24",
+  "last_fail_at": "2026-09-28 10:02:24",
+  "next_retry_at": "2026-09-30 10:02:24",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/huangj17/StreamBox-APP/main/client/test/fixtures/official_sources_array.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-28 10:02:24",
+  "last_fail_at": "2026-09-28 10:02:24",
+  "next_retry_at": "2026-09-30 10:02:24",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/peter96son/iptv-epg-builder/main/data/sources.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-28 10:02:24",
+  "last_fail_at": "2026-09-28 10:02:24",
+  "next_retry_at": "2026-09-30 10:02:24",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/956065487/zhiboyuan/main/tvbox-master-doki/Mo.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-28 10:02:24",
+  "last_fail_at": "2026-09-28 10:02:24",
+  "next_retry_at": "2026-09-30 10:02:24",
+  "dead": false
+ },
+ "https://ghproxy.net/https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 07:51:11",
+  "last_fail_at": "2026-09-29 07:51:11",
+  "next_retry_at": "2026-10-01 07:51:11",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xmbjm/Lofi-Radio/main/.github/labels.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 09:52:31",
+  "last_fail_at": "2026-09-29 09:52:31",
+  "next_retry_at": "2026-10-01 09:52:31",
+  "dead": false
+ },
+ "https://live.kilvn.com/iptv.m3u": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 15:31:03",
+  "last_fail_at": "2026-09-29 15:31:03",
+  "next_retry_at": "2026-10-01 15:31:03",
+  "dead": false
+ },
+ "https://tv.iill.top/m3u/Gather": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 15:31:03",
+  "last_fail_at": "2026-09-29 15:31:03",
+  "next_retry_at": "2026-10-01 15:31:03",
+  "dead": false
+ },
+ "https://live.zbds.org/tv/iptv4.m3u": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 15:31:03",
+  "last_fail_at": "2026-09-29 15:31:03",
+  "next_retry_at": "2026-10-01 15:31:03",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.m3u": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 15:31:03",
+  "last_fail_at": "2026-09-29 15:31:03",
+  "next_retry_at": "2026-10-01 15:31:03",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/mingjunkirs-ship-it/tv-config-aggregator/main/sources.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 15:31:03",
+  "last_fail_at": "2026-09-29 15:31:03",
+  "next_retry_at": "2026-10-01 15:31:03",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/shidahuilang/shuyuan-bak/main/tts.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 15:31:03",
+  "last_fail_at": "2026-09-29 15:31:03",
+  "next_retry_at": "2026-10-01 15:31:03",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/shidahuilang/shuyuan-bak/main/UZ.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-09-29 15:31:03",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-05 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/shidahuilang/shuyuan-bak/main/jinghua.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-09-29 15:31:03",
+  "last_fail_at": "2026-09-29 15:31:03",
+  "next_retry_at": "2026-10-01 15:31:03",
+  "dead": false
+ },
+ "https://gh.con.sh/https://raw.githubusercontent.com/guot55/yg/main/max.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-09-30 09:47:43",
+  "last_fail_at": "2026-10-02 11:10:37",
+  "next_retry_at": "2026-10-06 11:10:37",
+  "dead": false
+ },
+ "https://github.moeyy.xyz/https://raw.githubusercontent.com/kunkka1986/my.img/main/frjbox.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-09-30 09:47:43",
+  "last_fail_at": "2026-10-02 11:10:37",
+  "next_retry_at": "2026-10-06 11:10:37",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/liu673cn/TVMovie/main/app/src/main/assets/resources.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-09-30 09:47:43",
+  "last_fail_at": "2026-10-02 11:10:37",
+  "next_retry_at": "2026-10-06 11:10:37",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/Arimayuki03/YuKi/main/python-backend/tests/fixtures/config/relative.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-09-30 09:47:43",
+  "last_fail_at": "2026-10-02 11:10:37",
+  "next_retry_at": "2026-10-06 11:10:37",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jayceecory-tech/tvbox-config/main/tv18_usable.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 06:55:31",
+  "last_fail_at": "2026-10-01 06:55:31",
+  "next_retry_at": "2026-10-03 06:55:31",
+  "dead": false
+ },
+ "https://ghp.ci/https://raw.githubusercontent.com/vbskycn/tvbox/a244f6f5c08565a9a0e319d6a3cc2e919d05d893/MY%E6%8E%A2%E6%8E%A2.txt": {
+  "fail_count": 2,
+  "first_fail_at": "2026-10-01 06:55:31",
+  "last_fail_at": "2026-10-03 07:28:59",
+  "next_retry_at": "2026-10-07 07:28:59",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/2hacc/Video/main/zyh.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-10-01 06:55:31",
+  "last_fail_at": "2026-10-03 07:28:59",
+  "next_retry_at": "2026-10-07 07:28:59",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ZhaoYunxiong/MaccmsResources/main/R18.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-10-01 06:55:31",
+  "last_fail_at": "2026-10-03 07:28:59",
+  "next_retry_at": "2026-10-07 07:28:59",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ZhaoYunxiong/MaccmsResources/main/Site.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-10-01 06:55:31",
+  "last_fail_at": "2026-10-03 07:28:59",
+  "next_retry_at": "2026-10-07 07:28:59",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/cxrcool/stellar-18zy/main/1.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-10-01 06:55:31",
+  "last_fail_at": "2026-10-03 07:28:59",
+  "next_retry_at": "2026-10-07 07:28:59",
+  "dead": false
+ },
+ "http://tvbox.xn--4kq62z5rby2qupq9ub.top": {
+  "fail_count": 2,
+  "first_fail_at": "2026-10-01 08:38:01",
+  "last_fail_at": "2026-10-03 10:30:44",
+  "next_retry_at": "2026-10-07 10:30:44",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/beanhacker/tvbox.github.io/main/16.json": {
+  "fail_count": 2,
+  "first_fail_at": "2026-10-01 08:38:01",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-07 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/x3284728970/danbo-tv-config/main/fallback.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 12:33:24",
+  "last_fail_at": "2026-10-01 12:33:24",
+  "next_retry_at": "2026-10-03 12:33:24",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/x3284728970/danbo-tv-config/main/builtin.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 12:33:24",
+  "last_fail_at": "2026-10-01 12:33:24",
+  "next_retry_at": "2026-10-03 12:33:24",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/x3284728970/danbo-tv-config/main/danbo_tv.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 12:33:24",
+  "last_fail_at": "2026-10-01 12:33:24",
+  "next_retry_at": "2026-10-03 12:33:24",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xinzui521/tvbox-config/main/tvbox-aiwex-slim.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 14:40:23",
+  "last_fail_at": "2026-10-01 14:40:23",
+  "next_retry_at": "2026-10-03 14:40:23",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/x3284728970/danbo-tv-config/main/fm_config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 14:40:23",
+  "last_fail_at": "2026-10-01 14:40:23",
+  "next_retry_at": "2026-10-03 14:40:23",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ansun1714/tvbox/main/my-private-api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 14:40:23",
+  "last_fail_at": "2026-10-01 14:40:23",
+  "next_retry_at": "2026-10-03 14:40:23",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/geuclide97/tvbox-tools/main/tools-min.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 14:40:23",
+  "last_fail_at": "2026-10-01 14:40:23",
+  "next_retry_at": "2026-10-03 14:40:23",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/geuclide97/tvbox-tools/main/tools.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 14:40:23",
+  "last_fail_at": "2026-10-01 14:40:23",
+  "next_retry_at": "2026-10-03 14:40:23",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/tianze889/tvbox1/main/gqysy4K.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 14:40:23",
+  "last_fail_at": "2026-10-01 14:40:23",
+  "next_retry_at": "2026-10-03 14:40:23",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/hudie/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/moyu/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/xiaosa/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/guot55/yg/main/pg2/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/guot55/yg/main/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/vox/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/aowu/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/pg/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/huban/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/guot55/yg/main/yp/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/kulao/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/13174771/TV-1/main/02.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-01 15:56:07",
+  "last_fail_at": "2026-10-01 15:56:07",
+  "next_retry_at": "2026-10-03 15:56:07",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/SH2413/TVBOX-XIANLU/main/tvbox.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 08:42:10",
+  "last_fail_at": "2026-10-02 08:42:10",
+  "next_retry_at": "2026-10-04 08:42:10",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/Trysknee01/selfhost-config/main/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/gao_js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/956065487/zhiboyuan/main/tvbox-master-doki/%E6%B5%8B%E8%AF%95.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/956065487/zhiboyuan/main/tvbox-master-doki/ceshi.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ewctt/tvbox/main/box.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/dalazhi/tvbox/main/18.txt": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/chitue/dongliTV/main/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ewctt/tvbox/main/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ewctt/tvbox/main/ok.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/davidlee6628/ssr/main/ct.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/wuqi0430/TVBox_code_tvbox-_tvbox-/main/app/src/main/assets/site_test.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/dalazhi/tvbox/main/18-1.txt": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/yigedashu/xwck/main/lrzy/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/FreeDTV/FreeD/master/box.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/davidlee6628/ssr/main/BT.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/huangxiong1992/jt/main/hxsr.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/davidlee6628/ssr/main/T4.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/huangxiong1992/jt/main/dw.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/huangxiong1992/jt/main/hx.txt": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ngt022/tvbox-config/main/tvbox-working.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/chitue/dongliTV/main/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 09:47:27",
+  "last_fail_at": "2026-10-02 09:47:27",
+  "next_retry_at": "2026-10-04 09:47:27",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/cluntop/tvbox/main/yt.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 11:10:37",
+  "last_fail_at": "2026-10-02 11:10:37",
+  "next_retry_at": "2026-10-04 11:10:37",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/tvbox.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 11:10:37",
+  "last_fail_at": "2026-10-02 11:10:37",
+  "next_retry_at": "2026-10-04 11:10:37",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/darkings/lat3ncy-tvbox/main/subscription/source/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jiaxin610/tvbox-config/main/dist/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/Hululu007/CatVodSpider----/main/json/ok.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jiaxin610/tvbox-config/main/publish/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/tvbox-pages.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/Andrewz66/tvbox-config/main/tvbox-family.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/songlees355-wq/okay/main/tvbox.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/songlees355-wq/okay/main/%E8%87%AA%E7%94%A8.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/songlees355-wq/okay/main/zy.txt": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 12:20:00",
+  "last_fail_at": "2026-10-02 12:20:00",
+  "next_retry_at": "2026-10-04 12:20:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xu211A/xu211A.github.io/main/2.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 13:23:41",
+  "last_fail_at": "2026-10-02 13:23:41",
+  "next_retry_at": "2026-10-04 13:23:41",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lihanxing0404/mystudy/master/4.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 13:23:41",
+  "last_fail_at": "2026-10-02 13:23:41",
+  "next_retry_at": "2026-10-04 13:23:41",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jameslee38/dianshi/main/5.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 13:23:41",
+  "last_fail_at": "2026-10-02 13:23:41",
+  "next_retry_at": "2026-10-04 13:23:41",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/tv189ymail/2023/main/6/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 13:23:41",
+  "last_fail_at": "2026-10-02 13:23:41",
+  "next_retry_at": "2026-10-04 13:23:41",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/TVboxorg/TVbox/main/dist/official.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-02 13:23:41",
+  "last_fail_at": "2026-10-02 13:23:41",
+  "next_retry_at": "2026-10-04 13:23:41",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/1/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/2/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/3/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xmbjm/TV-BOX/main/tvbox/%E6%B1%9F%E6%B9%96/%E6%B1%9F%E6%B9%96.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/w0878512-glitch/tvbox-config/main/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/franksun1211/maotv-1/main/maotv4.txt": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/aa3151036158/tvbox-config/main/output/sige.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/Trysknee01/selfhost-config/main/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/XiangNick/yingshi-repo/main/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%BD%87%E6%B4%92/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/liu673cn/tms/main/2312/m.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/liu673cn/ck/main/box/xyq/m.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xisohi/XHYSosc/master/mtv.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/niuber/niuber/main/tvbox/TVBoxOSC/tvbox/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xuy132/tvbox/main/tv/0/918.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lihanxing0404/mystudy/master/3.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/dongge0504-bot/-tvbox-config/main/%E5%BD%B1%E8%A7%86%E6%88%90%E4%BA%BA.txt": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xmbjm/tvbox/master/xiaosa/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jane3824/TV/main/pg.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/franksun1211/X/main/py.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/abu168888/tvbox-config/main/config_clean.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/victor1616888/Tang1977/main/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E5%A4%A9%E5%BE%AE/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ZHOUYU86/tvbox-sources/main/wex/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/maoystv/000/master/TVBox.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/abu168888/tvbox-config/main/config_bak.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jameslee38/dianshi/main/2.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ZHOUYU86/tvbox-sources/main/cl/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/franksun1211/CatVodSpider-FM/main/json/adult.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E5%8D%97%E9%A3%8E/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lilivan1986/clash/main/4.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ZHOUYU86/tvbox-sources/main/fty/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/tiantaiyx/tvbox/main/0706.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/AndroidSoftwares/box/main/box.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/qq145968/my.img/main/1.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lublue147-netizen/subscription/main/config/accelerated.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/cx342662/cx342662.github.io/main/ix.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/abc201611/tv/main/2.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lublue147-netizen/subscription/main/config/custom.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/allinone.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xiaohuya520/tvbox-dc/main/mybox-pure.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jhzone/TVbox/main/tvbox.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 11:16:00",
+  "last_fail_at": "2026-10-03 11:16:00",
+  "next_retry_at": "2026-10-05 11:16:00",
+  "dead": false
+ },
+ "https://jk.catvod.site": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/4/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xuy132/tvbox/main/tv/5/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xisohi/XHYSosc/master/ysy.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xisohi/hipy/master/hipy.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xmbjm/tvbox/master/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/alantang1977/cluntop/main/box.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/cluntop/tv/main/box.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/qist_jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/niuber/niuber/main/tvbox/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/liu673cn/ck/main/box/tms/m.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xmbjm/TV-BOX/main/drpys/jsm.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xuy132/TVBox-api/master/918.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hebijunge/tvbox2/main/sun.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hebijunge/tvbox3/main/sun.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/kimwang1978/tvbox/main/PG/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/w0878512-glitch/tvbox-config/main/xiaosa/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/ZHOUYU86/tvbox-sources/main/dl/api.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/c88_box.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/songlees355-wq/okay/main/%E7%A6%8F%E5%88%A9%E6%8E%A5%E5%8F%A3.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/config-pages.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/Adb111/tvbox-config/main/tvbox.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:05:05",
+  "last_fail_at": "2026-10-03 12:05:05",
+  "next_retry_at": "2026-10-05 12:05:05",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/alantang1977/pg/main/py.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lublue147-netizen/subscription/main/config/aiwex.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/dongge0504-bot/-tvbox-config/main/%E6%96%B0%E9%BB%84%E8%B1%86.txt": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jameslee38/dianshi/main/3.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/cspoh123/tvbox/main/ok/OK.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/abc201611/tv/main/1.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/AndroidSoftwares/box/main/box2.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lihanxing0404/mystudy/master/new.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lilivan1986/clash/main/7.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/abc201611/tv/main/0.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/kukuqi666/TVBoxOS-Mobile/main/website/tvbox/18cn.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/qq145968/my.img/main/3.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/yoyo82520/huaiptv/main/maoA.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jane3824/TV/main/fongmi/json/config.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/qq145968/my.img/main/2.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/N1.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/jigedos/geekcomputers/main/0126.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/lihanxing0404/mystudy/master/1.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/cspoh123/tvbox/main/js.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ },
+ "https://raw.githubusercontent.com/kukuqi666/TVBoxOS-Mobile/main/website/tvbox/R18.json": {
+  "fail_count": 1,
+  "first_fail_at": "2026-10-03 12:37:21",
+  "last_fail_at": "2026-10-03 12:37:21",
+  "next_retry_at": "2026-10-05 12:37:21",
+  "dead": false
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "scanned_at": 1791072752.1544757,
+ "queries": {
+  "github": [
+   "gh-proxy",
+   "ghproxy",
+   "github 加速 镜像"
+  ],
+  "bing": [
+   "github 加速 镜像 域名 列表",
+   "gh-proxy 公共实例 地址",
+   "github raw 镜像 站 地址 ghproxy",
+   "ghproxy 可用 域名 2026"
+  ]
+ },
+ "list_urls": [],
+ "hosts": {
+  "your-worker.workers.dev": 8,
+  "gh-proxy.com": 5,
+  "gitclone.com": 2
+ }
+}

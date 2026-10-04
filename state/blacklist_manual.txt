@@ -1,0 +1,103 @@
+# 手动黑名单：每行一个上游名，命中的上游永不拉取（优先级最高）
+# 示例：
+# some-dead-source
+
+# 2026-09-20 用户手机实测：基本废（298站几乎全为本地JS源，drpy实测D0/D2占77%），不再拉取
+gao/js
+
+# 2026-09-20 用户手机实测：nxppru/js 与 qist/js 均废，不再拉取
+nxppru/js
+qist/js
+
+# 2026-09-20 用户手机实测加载失败（其内置spider走已停摆的ghproxy.com死链）
+auto/6-203s
+https://leezn.eu.org/TVBox/js.json
+# 补充 raw url 行：evaluate 收编按 url 匹配
+https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
+https://raw.githubusercontent.com/nxppru/tvbox/master/js.json
+https://raw.githubusercontent.com/qist/tvbox/master/js.json
+
+# 2026-09-20 0825.json 三仓同内容重复（135站 key 集合实测一致），保留 nxppru/0825 去重
+gao/0825
+qist/0825
+https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json
+https://raw.githubusercontent.com/qist/tvbox/master/0825.json
+
+# 2026-09-20 内容去重排查（站点集合指纹一致留最快；含超时死链）
+fatcat/tv
+http://xn--z7x900a.net/tv
+gao/0825
+https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json
+nxppru/0826
+https://raw.githubusercontent.com/nxppru/tvbox/master/0826.json
+nxppru/0827
+https://raw.githubusercontent.com/nxppru/tvbox/master/0827.json
+nxppru/fty
+https://raw.githubusercontent.com/nxppru/tvbox/master/fty.json
+qist/0821
+https://raw.githubusercontent.com/qist/tvbox/master/0821.json
+qist/0825
+https://raw.githubusercontent.com/qist/tvbox/master/0825.json
+qist/0827
+https://raw.githubusercontent.com/qist/tvbox/master/0827.json
+https://raw.githubusercontent.com/wuqi0430/TVBox_code_tvbox-_tvbox-/main/app/src/main/assets/site_bak.json
+https://raw.githubusercontent.com/wuqi0430/TVBox_code_tvbox-_tvbox-/main/site.json
+
+# 2026-09-20 用户手机实测搜索全废（106站 dead 82=77%，healthy 仅1）
+qist/367
+https://raw.githubusercontent.com/qist/tvbox/master/367.json
+
+# 2026-09-20 用户实测与 nxppru/0821 重复（key指纹不同但规范化name重叠65%，同批源双编排）
+gao/0821
+https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json
+
+# 2026-09-20 用户实测导入不了：spider jar 超时/ext 连接拒绝（52pan.top:81 签名文件服务整体失联）
+https://raw.githubusercontent.com/wuqi0430/TVBox_code_tvbox-_tvbox-/main/app/src/main/assets/site_test.json
+52pan.top
+
+# 2026-09-20 用户实测失败：JSON 重复 spider 键，生效键（后值）PizazzGY/TVBox/main/spider.jar 三路验证全 404（上游已移除该 jar）
+https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/js/js.json
+
+# 2026-09-20 用户实测导入不了：spider 裸IP fan.txt 404（33个csp全死）+ jihulab 401（7个JS规则死）+ type1端点返回HTML防护页
+https://cdn.jsdelivr.net/gh/jyoketsu/tv@main/m.json
+
+# 2026-09-20 用户实测 gao/0826 只有巴士动漫能用（51站 dead 67% healthy 0）；qist/0826 同批 csp 爬虫一并拉黑
+gao/0826
+https://raw.githubusercontent.com/gaotianliuyun/gao/master/0826.json
+qist/0826
+https://raw.githubusercontent.com/qist/tvbox/master/0826.json
+
+# 2026-09-20 用户实测不可用（spider 相对路径+md5 锁定，镜像下客户端兼容性差/校验失败）
+nxppru/dianshi
+https://raw.githubusercontent.com/nxppru/tvbox/master/dianshi.json
+
+# 2026-09-20 实测导入失败根因：jar 全量下载 84s（gitee raw ~20KB/s），远超客户端 spider 下载超时
+https://gitee.com/jwlangzi/best/raw/master/gr.json
+https://gitee.com/jwlangzi/best/raw/master/
+
+# 2026-09-20 用户实测不可用：与 dianshi.json 同一个失效 jar（md5 74bd9d，相对路径+md5 锁定模式）
+nxppru/jsm
+https://raw.githubusercontent.com/nxppru/tvbox/master/jsm.json
+
+# 2026-09-20 用户实测仅 2/31 可用（库内 dead 28/29=97%）；该仓 js.json 已因重复spider键死链拉黑——整仓连坐
+https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/%E7%82%B9%E6%92%AD%E6%BA%90/%E5%B7%A7%E6%8A%80.txt
+https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/
+
+# 2026-09-20 用户实测废（27站库内 dead 24=92% healthy 0；spider 相对路径 ./jar/pro.jar 镜像下解析差）
+https://raw.githubusercontent.com/cluntop/tvbox/main/aa.json
+
+# 2026-09-20 用户实测仅"去看吧"可用（27站库内 dead 23=92% healthy 0）
+https://www.yingm.cc/dm/dm.json
+
+# 2026-09-20 用户实测仅 360 可用（24站库内 dead 20=87% healthy 0）
+http://home.jundie.top:81/top98.json
+
+# 2026-09-20 用户实测废：23站全为 py_ 型 Python 爬虫（需客户端内置 Python 运行时，普通 TVBox 不支持）
+https://raw.githubusercontent.com/UndCover/PyramidStore/main/py.json
+
+# 2026-09-20 用户实测废（14站全csp，库内 dead 13=93%；spider 相对路径 WvSpider.jar）
+https://raw.githubusercontent.com/cluntop/tvbox/main/wv.json
+
+# 2026-09-20 用户实测基本不能用（234站库内 dead 60% healthy 仅1.3%；jar好但内容死）
+liu673cn/m
+https://raw.githubusercontent.com/liu673cn/box/main/m.json

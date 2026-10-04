@@ -1,0 +1,19 @@
+[
+  {"name": "网络接口", "url": "https://8815.kstore.vip/tvbox/wmz", "enabled": true, "interval_minutes": 360},
+  {"name": "真心", "url": "https://tvbox.catvod.com/FongMi.json", "enabled": true, "interval_minutes": 360},
+  {"name": "虎斑", "url": "http://hb.小虎斑.site:25252/仅供测试", "enabled": true, "interval_minutes": 360},
+  {"name": "饭太硬", "url": "https://www.饭太硬.cc/tv", "enabled": true, "interval_minutes": 360},
+  {"name": "肥猫", "url": "http://肥猫.net/tv", "enabled": true, "interval_minutes": 360},
+  {"name": "vox", "url": "http://rihou.cc:88/demo.php", "enabled": true, "interval_minutes": 360},
+  {"name": "小米", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json", "enabled": true, "interval_minutes": 360},
+  {"name": "摸鱼儿", "url": "https://6800.kstore.vip/fish.json", "enabled": true, "interval_minutes": 360},
+  {"name": "讴歌", "url": "https://欧歌.v.nxog.top/m", "enabled": true, "interval_minutes": 360},
+  {"name": "PG", "url": "https://tvbox.catvod.com/jsm.json", "enabled": true, "interval_minutes": 360},
+  {"name": "多多", "url": "https://yydsys.top/duo", "enabled": true, "interval_minutes": 360},
+  {"name": "南风", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json", "enabled": true, "interval_minutes": 360},
+  {"name": "王二小", "url": "https://9280.kstore.vip/newwex.json", "enabled": true, "interval_minutes": 360},
+  {"name": "东篱", "url": "https://16151.kstore.space", "enabled": true, "interval_minutes": 360},
+  {"name": "嗷呜", "url": "http://www.英格里希嗷呜.top/tv", "enabled": true, "interval_minutes": 360},
+  {"name": "潇洒", "url": "https://9877.kstore.space/single.json", "enabled": true, "interval_minutes": 360},
+  {"name": "EasyTV", "url": "https://gh-proxy.com/raw.githubusercontent.com/EasyXC/EasyTVbox/main/easytv.jpg", "enabled": true, "interval_minutes": 360}
+]

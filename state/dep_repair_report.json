@@ -1,0 +1,29 @@
+{
+ "generated_at": "2026-10-04 01:29:27",
+ "total_refs": 576,
+ "was_missing": 3,
+ "repaired": 0,
+ "repair_failed": [
+  {
+   "local": "deps/auto/1-698s/heads/main/yingshi/json/深港音乐汇(歌单",
+   "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/yingshi/json/深港音乐汇(歌单).json",
+   "err": "内容过小 2B（疑错误页）"
+  },
+  {
+   "local": "deps/auto/1-698s/heads/main/yingshi/json/深港音乐汇(歌手",
+   "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/yingshi/json/深港音乐汇(歌手).json",
+   "err": "内容过小 2B（疑错误页）"
+  },
+  {
+   "local": "deps/shiguang/svip/heads/main/js/电影网(有广",
+   "url": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/js/电影网(有广).js",
+   "err": "内容过小 2B（疑错误页）"
+  }
+ ],
+ "unfixable_no_manifest": [],
+ "sites_still_broken": [
+  "深港2222",
+  "深港音乐汇",
+  "电影网影视"
+ ]
+}

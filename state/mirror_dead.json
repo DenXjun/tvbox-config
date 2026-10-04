@@ -1,0 +1,47 @@
+{
+ "deploy.workers.cloudflare.com": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790671262.2433004
+ },
+ "your-worker.workers.dev": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790671262.2433004
+ },
+ "new.xn--4kq62z5rby2qupq9ub.top": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790671832.7985334
+ },
+ "gh.con.sh": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790732598.2443542
+ },
+ "github.moeyy.xyz": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790808651.00241
+ },
+ "ghp.ci": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790808651.00241
+ },
+ "hub.gitmirror.com": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790808651.00241
+ },
+ "mirror.ghproxy.com": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790808651.00241
+ },
+ "gitclone.com": {
+  "reason": "probe-rejected",
+  "KBps": null,
+  "at": 1790896718.1223593
+ }
+}

@@ -1,0 +1,3304 @@
+{
+ "3377-iptv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "aowu/kstore": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/1-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/1-140s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/1-150s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/1-16s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/1-17s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/1-30s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/1-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/1-36s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/1-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/1-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/1-56s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/1-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/1-97s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/10-112s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/10-12s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/10-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/10-160s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/10-196s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/10-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/10-235s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 17:02:41"
+ },
+ "auto/10-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/10-29s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/10-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/10-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/10-47s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/10-50s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/10-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/10-86s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/11-115s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/11-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/11-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/11-30s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/11-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/11-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/11-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/11-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/11-80s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/11-90s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/12-194s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/12-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 17:02:41"
+ },
+ "auto/12-24s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/12-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/12-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/12-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/12-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/12-49s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/12-52s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/12-57s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/12-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/12-86s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/12-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/13-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/13-132s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/13-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/13-18s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/13-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/13-28s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/13-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/13-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/13-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 17:02:41"
+ },
+ "auto/13-82s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/13-84s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/13-93s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/14-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/14-13s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-20 17:02:41"
+ },
+ "auto/14-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/14-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/14-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/14-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/14-36s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/14-40s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/14-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/14-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/14-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/14-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/14-70s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/14-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/15-107s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/15-194s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/15-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/15-24s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/15-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/15-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/15-30s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/15-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/15-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/15-53s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-20 17:02:41"
+ },
+ "auto/15-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/15-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/15-84s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/15-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/16-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/16-144s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/16-14s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/16-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/16-194s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/16-19s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 17:02:41"
+ },
+ "auto/16-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/16-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/16-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/16-37s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/16-47s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/16-49s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/16-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/16-75s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/17-127s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/17-12s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/17-145s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/17-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/17-18s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/17-21s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-20 17:02:41"
+ },
+ "auto/17-24s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/17-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/17-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/17-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/17-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/18-13s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-21 23:53:41"
+ },
+ "auto/18-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/18-168s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/18-17s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/18-197s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/18-270s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/18-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/18-30s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/18-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/18-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/18-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/18-49s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/18-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/18-75s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/19-135s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/19-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/19-19s": {
+  "fail_count": 2,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "auto/19-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/19-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/19-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/19-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/19-54s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/19-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/19-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/19-65s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/19-72s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/19-82s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/19-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/2-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/2-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/2-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/2-209s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/2-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/2-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/2-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/2-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/2-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/2-75s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/2-84s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/20-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/20-12s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/20-144s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/20-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/20-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/20-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/20-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/20-36s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "auto/20-37s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/20-39s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/20-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/20-54s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_fail_at": "2026-09-21 23:53:41",
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/20-61s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/20-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/20-69s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/20-82s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/21-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/21-12s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_fail_at": "2026-09-21 05:14:06",
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/21-15s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "auto/21-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/21-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/21-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/21-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/21-49s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/21-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/21-52s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/21-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/21-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/21-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/21-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/22-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/22-15s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-23 20:41:24"
+ },
+ "auto/22-17s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/22-19s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/22-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/22-26s": {
+  "fail_count": 2,
+  "last_fail_at": "2026-09-22 18:43:07"
+ },
+ "auto/22-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/22-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/22-42s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/22-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/22-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/22-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/22-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/23-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/23-117s": {
+  "fail_count": 2,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "auto/23-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/23-20s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/23-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/23-24s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/23-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/23-3s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/23-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/23-50s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/23-63s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/23-75s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/23-88s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/24-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/24-12s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/24-13s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/24-19s": {
+  "fail_count": 2,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "auto/24-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/24-26s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-23 07:05:47"
+ },
+ "auto/24-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/24-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/24-3s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/24-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/24-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/24-68s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-20 06:58:54"
+ },
+ "auto/24-7s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/24-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/25-11s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/25-131s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-21 05:14:06"
+ },
+ "auto/25-205s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/25-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/25-26s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 10:16:43"
+ },
+ "auto/25-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/25-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/25-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/25-57s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/25-98s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/26-14s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 18:43:07"
+ },
+ "auto/26-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/26-15s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/26-17s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/26-20s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/26-234s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-21 05:14:06"
+ },
+ "auto/26-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/26-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/26-49s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/26-53s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/26-64s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "auto/26-7s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/26-8s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/27-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/27-14s": {
+  "fail_count": 2,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "auto/27-194s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/27-19s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 10:16:43"
+ },
+ "auto/27-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "auto/27-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/27-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_fail_at": "2026-09-22 06:30:49",
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/27-76s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/27-8s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/28-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/28-19s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/28-234s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 10:16:43"
+ },
+ "auto/28-25s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/28-26s": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "auto/28-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/28-61s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/28-63s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/29-12s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-24 06:03:19"
+ },
+ "auto/29-14s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/29-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/29-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/29-36s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/29-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/29-64s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-23 18:17:06"
+ },
+ "auto/29-6s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/29-89s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/3-135s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/3-18s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/3-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/3-21s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/3-26s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/3-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/3-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/3-29s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/3-32s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/3-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/3-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:03"
+ },
+ "auto/3-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/3-61s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/3-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 17:02:41"
+ },
+ "auto/30-11s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/30-135s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/30-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/30-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/30-36s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-21 05:14:06"
+ },
+ "auto/30-43s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/30-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/30-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/31-167s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/31-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/31-20s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/31-24s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-24 06:03:19"
+ },
+ "auto/31-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/31-36s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 10:16:43"
+ },
+ "auto/31-51s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/31-6s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/32-113s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/32-14s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/32-20s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/32-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/32-32s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/32-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/32-54s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/33-12s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/33-24s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 06:30:49"
+ },
+ "auto/33-3s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/33-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/33-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/33-54s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/33-8s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/34-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/34-114s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 19:46:41"
+ },
+ "auto/34-131s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 15:28:28"
+ },
+ "auto/34-211s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/34-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/34-26s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 06:30:49"
+ },
+ "auto/35-14s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 19:46:41"
+ },
+ "auto/35-20s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/35-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/35-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/35-9s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/36-26s": {
+  "fail_count": 2,
+  "last_fail_at": "2026-09-23 09:19:33"
+ },
+ "auto/36-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/36-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/37-234s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 12:11:18"
+ },
+ "auto/37-3s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/37-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/37-6s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/38-184s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:19"
+ },
+ "auto/38-234s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 15:28:28"
+ },
+ "auto/38-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/38-7s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/39-117s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 19:46:41"
+ },
+ "auto/39-13s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 12:11:19"
+ },
+ "auto/39-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/39-534s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-23 09:19:33"
+ },
+ "auto/4-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/4-12s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/4-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/4-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/4-35s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/4-42s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/4-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/4-47s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/4-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/4-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/4-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:03"
+ },
+ "auto/4-76s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/40-121s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 15:28:28"
+ },
+ "auto/40-16s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 19:46:41"
+ },
+ "auto/40-26s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 12:11:19"
+ },
+ "auto/40-7s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/41-3s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/41-7s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/42-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/42-69s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:19"
+ },
+ "auto/43-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:19"
+ },
+ "auto/43-9s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/44-23s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:19"
+ },
+ "auto/44-4s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/45-131s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 12:11:19"
+ },
+ "auto/45-5s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/46-26s": {
+  "fail_count": 1,
+  "last_fail_at": "2026-09-22 12:11:19"
+ },
+ "auto/46-3s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/5-101s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/5-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/5-132s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/5-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/5-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/5-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/5-306s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/5-319s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/5-39s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/5-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:03"
+ },
+ "auto/5-47s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/5-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/5-61s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/5-80s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/6-109s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/6-122s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/6-125s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/6-12s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/6-14s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/6-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/6-15s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/6-196s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 05:14:06"
+ },
+ "auto/6-27s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 17:02:41"
+ },
+ "auto/6-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/6-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/6-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/6-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:03"
+ },
+ "auto/6-65s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/6-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/7-102s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/7-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/7-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/7-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/7-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/7-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/7-58s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/7-61s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/7-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/8-106s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/8-11s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:03"
+ },
+ "auto/8-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/8-203s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/8-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:16:43"
+ },
+ "auto/8-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 18:17:06"
+ },
+ "auto/8-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/8-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/8-64s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/8-86s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/8-92s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/9-135s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 12:11:18"
+ },
+ "auto/9-151s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-21 23:53:41"
+ },
+ "auto/9-196s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "auto/9-298s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 17:02:41"
+ },
+ "auto/9-33s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 19:46:41"
+ },
+ "auto/9-35s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 09:19:33"
+ },
+ "auto/9-36s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 07:05:47"
+ },
+ "auto/9-46s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 20:41:24"
+ },
+ "auto/9-48s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-24 06:03:19"
+ },
+ "auto/9-49s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 06:30:49"
+ },
+ "auto/9-53s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 15:28:28"
+ },
+ "auto/9-54s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 18:43:07"
+ },
+ "auto/9-61s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "auto/9-62s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-22 10:53:17"
+ },
+ "auto/9-74s": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-23 01:00:04"
+ },
+ "bestfan-status": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "bocai/update": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "bocai/x4": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "bocai/x4pro": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "bruce0422-iptv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "burningc4-iptv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cainisi/tv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "canary/moyu-direct": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "ccsh-iptv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cluntop/aa": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cluntop/bb": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cluntop/box": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cluntop/duanju": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-18 10:12:52"
+ },
+ "cluntop/fun": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cluntop/jsm": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cluntop/test": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cluntop/wv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "cluntop/yt": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 4,
+  "last_fail_at": "2026-09-25 10:09:09"
+ },
+ "deepseek/8815wmz": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "deepseek/gao777520": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "deepseek/gaoops404": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "dongli/chigua": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_fail_at": "2026-09-25 04:03:42",
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "fanmingming-index": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "fantaiying/tv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_fail_at": "2026-09-25 04:03:42",
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "fatcat/tv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "feimao2/catvod": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "feishu-sync": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:08"
+ },
+ "franksun/cks2026": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "gao/0821": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "gao/0825": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "gao/0826": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "gao/0827": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "gao/XYQ": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "gao/duanju": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-18 10:12:52"
+ },
+ "gao/js": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "guovin-gd-ipv4": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "guovin-release": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "hajimi/kstore": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "hujingguang-cntv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "ibert-fmml": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "ibert-ycl": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "iill-gather": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-22 10:16:43"
+ },
+ "iptv0610-xp": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "itcoffe-itv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "juhe-tvapi": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "juntv-main": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "juwan/xhz": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "kilvn-iptv": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-22 10:16:43"
+ },
+ "kimwang-bbxx365lite": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "kshao123-tv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "laozhang/serv00": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "liu673cn/m": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "nxppru/0821": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "nxppru/0825": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "nxppru/0826": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "nxppru/0827": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "nxppru/XYQ": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "nxppru/dianshi": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "nxppru/duanju": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-18 10:12:52"
+ },
+ "nxppru/fty": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "nxppru/js": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "nxppru/jsm": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "pg/jsm": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "qist/0821": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "qist/0825": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "qist/0826": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "qist/0827": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "qist/367": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "qist/9918": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "qist/99188": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "qist/XYQ": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "qist/dianshi": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "qist/duanju": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-18 10:12:52"
+ },
+ "qist/duoduo": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-18 10:12:52"
+ },
+ "qist/fty": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "qist/js": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-20 06:58:54"
+ },
+ "qist/jsm": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "qist/wogg": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-18 10:12:52"
+ },
+ "romaxa55-cn": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "shaoer/tv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/api": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/baipiao": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/changqing": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/feimao": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/fenxiangzhe": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/fongmi-z": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/iqinu": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_fail_at": "2026-09-25 04:03:42",
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/lege-dj": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/liucn-m": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/quanying": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-23 01:00:03"
+ },
+ "sv/tiantian-qiaoji": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/tiantiankaixin": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/tianwei": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/wangxiaoer": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/xiangyaqing": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/xiaobudian": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/xiaogege": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/xiaomi": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/xiaosa": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "sv/xiquyinyue": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "svefnz-iptvn": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "tianshen/iy": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_fail_at": "2026-09-25 04:03:42",
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "top98": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "tushen6/tvbox": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "vbskycn-iptv4": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "victor/tvbox": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "wex/newwex": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "xiaohuban/hb": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_fail_at": "2026-09-25 04:03:42",
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "xiaokai/kai": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "xiaxia/qk4k": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "xingfu/bbm": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "xingwei/kstore": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "xisohi-china-iptv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "xuy132-tv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "yang-gather": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "yang-migu": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-23 03:48:47"
+ },
+ "yingm/dm": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "yoursmile66-tvbox": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "ysc/wangxiaoer-tvbox": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "yuechan-iptv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "zbds-iptv4": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-22 10:16:43"
+ },
+ "zhenliu/cccimg": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "zhi35-iptv": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "zhouj/box": {
+  "disabled": false,
+  "disabled_reason": "",
+  "fail_count": 0,
+  "last_ok_at": "2026-09-25 10:09:09"
+ },
+ "zwc456baby-iptv": {
+  "disabled": true,
+  "disabled_reason": "连续 3 次不达标，自动停用",
+  "fail_count": 3,
+  "last_fail_at": "2026-09-22 10:16:43"
+ }
+}

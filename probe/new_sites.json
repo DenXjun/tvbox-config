@@ -1,0 +1,26 @@
+{
+ "checked_at": "2026-10-04 09:02:57",
+ "sampled": 3,
+ "healthy": 0,
+ "verdict": "dead",
+ "sites": {
+  "快看影视": {
+   "name": "😍快看影视 ",
+   "api": "csp_XBPQ",
+   "ok": null,
+   "reason": "non-http-api"
+  },
+  "csp_xml_fox": {
+   "name": "❤fox",
+   "api": "https://api.foxzyapi.com/api.php/provide/vod/?ac=list",
+   "ok": false,
+   "reason": "HTTPError"
+  },
+  "蓝光官采": {
+   "name": "❤猫咪",
+   "api": "http://zy.xiaomaomi.vip/api.php/provide/vod/?ac=list",
+   "ok": false,
+   "reason": "URLError"
+  }
+ }
+}
