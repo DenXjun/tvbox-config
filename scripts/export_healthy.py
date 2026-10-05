@@ -115,8 +115,11 @@ def _nas_filter_and_rank(sites, quality):
     return sorted(clean,key=lambda x:(x.get("_quality_score") is not None,x.get("_quality_score") or -1,-(x.get("_latency_ms") or 999999)),reverse=True)
 
 def build_doc(base_doc, sites):
-    """组装成完整配置：保留 spider/wallpaper/parses/lives，只替换 sites。"""
-    doc = {k: v for k, v in base_doc.items() if k != "sites"}
+    """组装完整配置；NAS 模式只发布 VOD，不携带直播入口。"""
+    drop={"sites"}
+    if os.environ.get("TVBOX_NAS_MODE") == "1":
+        drop.add("lives")
+    doc = {k: v for k, v in base_doc.items() if k not in drop}
     doc["sites"] = sites
     return doc
 
@@ -171,7 +174,7 @@ def main() -> int:
         dump(f"{name}.json", [e for e in usable if _group_core(e.get("group")) in gset])
 
     # 直播单独导：lives 不在 sites 里，单独成一份（带上游健康来源）
-    lives = doc.get("lives") or []
+    lives = [] if os.environ.get("TVBOX_NAS_MODE") == "1" else (doc.get("lives") or [])
     if lives:
         p = os.path.join(outdir, "live.json")
         json.dump({"lives": lives, "parses": doc.get("parses") or []},
