@@ -92,6 +92,28 @@ def enrich(site, hm):
     return s
 
 
+def _nas_quality(repo):
+    p=os.path.join(repo, os.environ.get("TVBOX_QUALITY_FILE","/data/quality_scores.json"))
+    if not os.path.isfile(p):
+        p=os.environ.get("TVBOX_QUALITY_FILE","/data/quality_scores.json")
+    try:
+        return (json.load(open(p,encoding="utf-8")).get("items") or {})
+    except (OSError,ValueError,TypeError):
+        return {}
+
+_ADULT_RE = __import__("re").compile(r"(成人|伦理|福利|情色|三级|写真|18禁|AV|萝莉|OnlyFans|麻豆|国产自拍)", __import__("re").I)
+
+def _nas_filter_and_rank(sites, quality):
+    clean=[]
+    for s in sites:
+        hay=" ".join(str(s.get(k) or "") for k in ("name","group","key"))
+        if _ADULT_RE.search(hay):
+            continue
+        q=quality.get(s.get("key")) or {}
+        x=dict(s); x["_quality_score"]=q.get("score"); x["_stability_7d"]=(q.get("d7") or {}).get("success_rate")
+        clean.append(x)
+    return sorted(clean,key=lambda x:(x.get("_quality_score") is not None,x.get("_quality_score") or -1,-(x.get("_latency_ms") or 999999)),reverse=True)
+
 def build_doc(base_doc, sites):
     """组装成完整配置：保留 spider/wallpaper/parses/lives，只替换 sites。"""
     doc = {k: v for k, v in base_doc.items() if k != "sites"}
@@ -117,6 +139,8 @@ def main() -> int:
     hm = health_map(os.path.join(repo, args.db))
 
     enriched = [enrich(s, hm) for s in sites if isinstance(s, dict)]
+    if os.environ.get("TVBOX_NAS_MODE") == "1":
+        enriched = _nas_filter_and_rank(enriched, _nas_quality(repo))
     stat = Counter(e["_health"] for e in enriched)
     log(f"基准 {args.base}: {len(enriched)} 站点｜健康分布 {dict(stat)}")
 
