@@ -1,8 +1,8 @@
 services:
   tvbox-manager:
     build:
-      context: ..
-      dockerfile: nas/Dockerfile
+      context: .
+      dockerfile: Dockerfile
     platform: linux/amd64
     container_name: tvbox-manager
     restart: unless-stopped
