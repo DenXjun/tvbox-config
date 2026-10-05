@@ -4,7 +4,25 @@ TVBox 配置每日自动拉取合并仓库，由 GitHub Actions 定时运行。
 
 ## 使用方式
 
-在 TVBox / 影视仓等应用的「配置地址」中填入：
+### 推荐订阅（首选）
+
+```
+https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox_recommended.json
+```
+
+只收录**实测能连通**的源（1708 站，0.64 MB，比全量版小 61%）。
+全量版里近一半是「从未被验证过」的源（2132 个 unknown）+ 491 个实测已死，
+导入后体感是「大半点不动」；这份把它们全部剔除了。
+
+代理 / CDN 通道同构，把上面地址的 `tvbox_recommended.json` 换掉即可：
+
+```
+https://ghproxy.net/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox_recommended.json
+https://cdn.jsdelivr.net/gh/hebijunge/tvbox-config@main/tvbox_recommended.json
+https://github.com/hebijunge/tvbox-config/releases/download/latest/tvbox_recommended.json
+```
+
+### 全量订阅（含未验证源）
 
 ```
 https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json

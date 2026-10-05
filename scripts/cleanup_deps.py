@@ -172,9 +172,13 @@ def main() -> int:
         if not args.execute:
             moved += 1
             continue
-        os.makedirs(trash_dir, exist_ok=True)
-        dst = os.path.join(trash_dir, os.path.basename(rel))
+        # 保留原相对目录结构（2026-10-05 修）：原先用 basename 做目标，
+        # deps/a/x.jar 与 deps/b/x.jar 会落进同一个 .trash/<日期>/x.jar 互相覆盖，
+        # 等于删掉两份不同来源的文件里的一份且无法回滚。
+        rel_in_trash = os.path.relpath(rel, "deps")
+        dst = os.path.join(trash_dir, rel_in_trash)
         try:
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.move(ap, dst)
             unused.pop(rel, None)
             moved += 1

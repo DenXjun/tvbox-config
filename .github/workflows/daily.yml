@@ -176,6 +176,21 @@ jobs:
       - name: 导出接口清单
         run: python scripts/export_healthy.py || true
 
+      # 2026-10-05：精简推荐订阅（healthy+degraded，-61% 体积）
+      # 背景：tvbox.json 4331 站里 2132 个从未被验证（unknown）+ 491 实测已死，
+      # 订阅者体感是"大半点不动"；仓库早就有 exports/usable.json 但没进发布链。
+      # 不改 tvbox.json 本体（避免已导入用户下次同步源凭空消失 = 破坏性变更），
+      # 改为并列新增一份，由 README 引导用户自选。
+      - name: 生成精简推荐订阅
+        run: python scripts/gen_recommended.py
+
+      # 2026-10-05：deps 重复副本回收（未引用 + 内容有替身 → 移入 deps/.trash）
+      # dep_audit 连续 8 天报出 ~700MB 未引用却无人处理：dep_gc 的 gc_candidate
+      # 按 mtime 算 age，daily 每日重写 deps 让 age 永远停在 6.0 天，低于阈值。
+      # dry-run 是 CI 的安全姿态——真正 execute 由人工在本地确认后跑。
+      - name: 依赖去重回收候选（dry-run）
+        run: python scripts/dedup_prune.py || true
+
       - name: 直播死源剔除（P1-4：只剔 404 确定性死源，回写 tvbox/exports）
         # 读 DB lives 判级（store --probe-lives 产出），仅 HTTP 404/410 确定性证据才剔；
         # 连接失败/超时（unknown）一律保留。gh 镜像源剥前缀走镜像链复测，复活回写 healthy。
@@ -228,7 +243,7 @@ jobs:
           python scripts/snapshot_rotate.py || true
           # P2-3 方案B（取消 list.json）：从 git add / Release 附件 / Pages 白名单三处移除；
           # fetch_merge.py L4470 注释由 Agent A 负责（本侧不动产出脚本）。公告过渡期 README 已标注。
-          git add tvbox.json vod.json live.json short.json adult.json status.json checks.json README.md \
+          git add tvbox.json tvbox_recommended.json vod.json live.json short.json adult.json status.json checks.json README.md \
                   raw/ raw-vod/ \
                   index.html lives/ state/ candidate_upstreams.json deps/ stores/ probe/ radar/ exports/
           # pack_report.json / drpy-sandbox 仅在对应步骤成功时存在，防缺失阻断提交
@@ -279,7 +294,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           FILES=""
-          for f in tvbox.json vod.json live.json short.json status.json checks.json \
+          for f in tvbox.json tvbox_recommended.json vod.json live.json short.json status.json checks.json \
                    stores/duocang.json stores/cms.json stores/app.json stores/pan.json stores/csp.json stores/pan_ck.json \
                    lives/live.txt lives/live_cctv.txt lives/live_weishi.txt \
                    lives/live_gangtai.txt lives/live_other.txt \
@@ -287,7 +302,7 @@ jobs:
             [ -f "$f" ] && FILES="$FILES $f"
           done
           NOTES="自动发布于 $(date -u '+%Y-%m-%d %H:%M UTC')。
-          产物：tvbox.json（完整合并配置）、vod.json（点播）、live.json（直播）、short.json（短剧独立配置）、lives/*（央视/卫视/地方/港台/轮播/直播/其他分类直播）、stores/duocang.json（多仓入口：CMS·代理 + 蜘蛛仓·代理 两条线路，子仓内部依赖引用一律本仓库路径）、stores/pan_ck.json（网盘 CK 获取指引）、checks.json（上游校验状态）。
+          产物：tvbox.json（完整合并配置）、tvbox_recommended.json（精简推荐版：仅实测可连通源，约 1708 站、体积 -61%，不知道能不能用的未验证源已剔除，订阅者首选）、vod.json（点播）、live.json（直播）、short.json（短剧独立配置）、lives/*（央视/卫视/地方/港台/轮播/直播/其他分类直播）、stores/duocang.json（多仓入口：CMS·代理 + 蜘蛛仓·代理 两条线路，子仓内部依赖引用一律本仓库路径）、stores/pan_ck.json（网盘 CK 获取指引）、checks.json（上游校验状态）。
           packs/tvbox-latest.zip 为离线自洽本地包（配置+依赖+使用说明，解压后本地导入即用）。2026-09-22 起改固定名每日 --clobber 覆盖，不再按日期累积；历史日期名 zip 已由 release_cleanup 清理。
           在线导航页（第三条通路，与 raw / Releases 并列）：https://hebijunge.github.io/tvbox-config/
           固定引用本 Release：https://github.com/hebijunge/tvbox-config/releases/download/latest/tvbox.json"
@@ -301,7 +316,7 @@ jobs:
           # P1-2 卫生修复：白名单外陈旧资产清理（_proxy.json / 历史日期名 zip 等）。
           # adult.json 不在本白名单（「不声明」通路）；release_cleanup 永不清理名单仅作兜底。
           python scripts/release_cleanup.py \
-            --keep tvbox.json,vod.json,live.json,short.json,status.json,checks.json,tvbox-latest.zip \
+            --keep tvbox.json,tvbox_recommended.json,vod.json,live.json,short.json,status.json,checks.json,tvbox-latest.zip \
             --retention-days 30 --keep-releases 10 || true
           # snapshot 止血（2026-09-25 P1 收口）：snapshot-archive 归档库 14 天滚动清理
           # （历史日快照归档 Release；独立于 latest 白名单，不受 release_cleanup 影响）。

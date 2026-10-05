@@ -92,8 +92,9 @@
   <p class="sub" id="genat">每日自动更新 · 国内实测口径（经镜像真实可达）</p>
 
   <div class="seg" id="seg">
-    <button data-k="full" class="on"><b>全家桶</b><s>点播+直播+短剧，一次订阅全都有</s></button>
-    <button data-k="best"><b>能播精选</b><s>只留今天实测能播的，追求流畅选这个</s></button>
+    <button data-k="best" class="on"><b>推荐订阅</b><s>只留实测能连通的源，日常首选</s></button>
+    <button data-k="full"><b>全家桶</b><s>含全部未验证源，追求全量时用</s></button>
+    <button data-k="health"><b>能播精选</b><s>只留实测能播的，最严口径仅 167 站</s></button>
   </div>
   <button class="bigbtn" id="maincopy">一键复制订阅地址（国内快线）</button>
   <p class="where">当前快线：<b id="mainmirror">gh.halonice.com</b>（每日全网测速自动择优）</p>
@@ -152,8 +153,9 @@
   var mirrorPrefix=MIRROR_FALLBACK;
 
   var SUBS=[
-    {path:"tvbox.json",           name:"全家桶（完整合并配置）", desc:"点播+直播+短剧+解析，一次订阅全都有", release:true},
-    {path:"exports/healthy.json", name:"能播精选",               desc:"只含今天国内实测能播的源，体感最好", hot:true},
+    {path:"tvbox_recommended.json", name:"推荐订阅（首选）",        desc:"只含实测能连通的源，1708 站、体积小 61%，日常用这个", release:true, hot:true},
+    {path:"tvbox.json",           name:"全家桶（完整合并配置）", desc:"含全部未验证源，4331 站，追求全量时用", release:true},
+    {path:"exports/healthy.json", name:"能播精选",               desc:"只含实测能播的源，仅 167 站，最严口径"},
     {path:"vod.json",             name:"纯点播",                 desc:"只要点播（含短剧）", release:true},
     {path:"live.json",            name:"纯直播接口",             desc:"只要直播订阅", release:true},
     {path:"short.json",           name:"短剧",                   desc:"短剧独立订阅", release:true}
@@ -162,8 +164,8 @@
     {f:"live.txt",n:"分类合并（全量）"},{f:"live_cctv.txt",n:"央视"},{f:"live_weishi.txt",n:"卫视"},
     {f:"live_gangtai.txt",n:"港台"},{f:"live_other.txt",n:"其他"}
   ];
-  var MAIN={full:"tvbox.json", best:"exports/healthy.json"};
-  var mainKey="full";
+  var MAIN={best:"tvbox_recommended.json", full:"tvbox.json", health:"exports/healthy.json"};
+  var mainKey="best";
 
   function $(id){return document.getElementById(id)}
   function toast(m){var t=$("toast");t.textContent=m;t.classList.add("show");

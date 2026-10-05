@@ -177,6 +177,14 @@ def main() -> int:
         "jar_suffix_mismatch_count": len(jar_findings),
         "jar_suffix_rewrite_suggestions": jar_rewrites[:args.max_list],
         "note": "仅分析报告，不做删除。清理前须确认引用真的不存在（引用可能是运行时拼接的）。",
+        "cleanup_hooks": {
+            "dedup": "scripts/dedup_prune.py —— 未引用 + 内容有替身 → 回收（默认 dry-run）",
+            "orphan": "scripts/cleanup_deps.py —— 未引用 + 体积分档 → 移入 deps/.trash",
+            "note": "2026-10-05 前本报告连续 8 天原地报出 ~700MB 未引用却无人处理："
+                    "dep_gc.py 的 gc_candidate 按 mtime 算 age，而 daily 每日重写 deps "
+                    "导致 age 永远停在 6.0 天，低于任何阈值，审计没有闭环。"
+                    "改法是走上面两个有 trash 回滚的清理工具，而非在报告里加自动删除。",
+        },
         "duplicates": [{"md5": m, "files": [p for p, _ in v]}
                        for m, v in list(dup_groups.items())[:args.max_list]],
         "unreferenced_top": unreferenced[:args.max_list],

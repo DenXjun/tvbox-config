@@ -18,3 +18,8 @@ csp-device/bo_*/
 # 不入库：daily 一次 git add -A 就会把几百 MB 设备输出卷进历史
 .qoder-tmp/
 .workbuddy/
+
+# deps 回收站（dedup_prune.py / cleanup_deps.py 的移动目标，30 天后真删）
+# 绝不入库：这里躺的是刚被判定为"无引用 + 有内容替身"的副本，体积是
+# deps 真实内容的零头，入库等于把刚清掉的体积原样塞回 git 历史
+deps/.trash/
