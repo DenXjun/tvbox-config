@@ -75,6 +75,15 @@ def upstreams():
     return [{"id":i+1,"url":x.get("url"),"name":x.get("name"),"enabled":x.get("enabled",True),"source":x.get("source","seed")}
             for i,x in enumerate(_upstream_doc().get("upstreams",[])) if x.get("url")]
 
+CURRENT={"step":"","log":""}
+
+def latest_log_tail(lines=120):
+    logs=sorted(LOGS.glob("run_*.log"),reverse=True)
+    if not logs: return ""
+    try:
+        return "\n".join(logs[0].read_text(encoding="utf-8",errors="replace").splitlines()[-lines:])
+    except OSError: return ""
+
 def run_pipeline():
     if not RUN_LOCK.acquire(blocking=False): return False,"already running"
     started=datetime.now(timezone.utc).isoformat(); ok=False; msg=""
@@ -98,8 +107,11 @@ def run_pipeline():
           [sys.executable,"scripts/export_healthy.py"],
         ]
         log=LOGS/("run_"+datetime.now().strftime("%Y%m%d_%H%M%S")+".log")
+        CURRENT["log"]=log.name
         with log.open("w",encoding="utf-8") as f:
             for cmd in cmds:
+                CURRENT["step"]=" ".join(cmd[1:3])
+                f.write("\n===== "+CURRENT["step"]+" =====\n"); f.flush()
                 p=subprocess.run(cmd,cwd=ROOT,env=env,stdout=f,stderr=subprocess.STDOUT,timeout=3600)
                 if p.returncode and cmd[1].endswith("fetch_merge.py"):
                     raise RuntimeError("fetch_merge failed")
@@ -113,6 +125,7 @@ def run_pipeline():
     finally:
         finished=datetime.now(timezone.utc).isoformat()
         with db() as c: c.execute("insert into runs(started,finished,ok,message) values(?,?,?,?)",(started,finished,int(ok),msg))
+        CURRENT["step"]=""
         RUN_LOCK.release()
     return ok,msg
 
@@ -129,8 +142,9 @@ class H(SimpleHTTPRequestHandler):
         if self.path=="/api/status":
             with db() as c:
                 r=c.execute("select started,finished,ok,message from runs order by id desc limit 1").fetchone()
-            return self._json({"running":RUN_LOCK.locked(),"last_run":dict(zip(("started","finished","ok","message"),r)) if r else None,"upstreams":len(upstreams())})
+            return self._json({"running":RUN_LOCK.locked(),"step":CURRENT["step"],"log":CURRENT["log"],"last_run":dict(zip(("started","finished","ok","message"),r)) if r else None,"upstreams":len(upstreams())})
         if self.path=="/api/upstreams": return self._json(upstreams())
+        if self.path=="/api/log": return self._json({"text":latest_log_tail()})
         if self.path in ("/","/index.html"):
             p=ROOT/"nas"/"index.html"; b=p.read_bytes(); self.send_response(200); self.send_header("Content-Type","text/html; charset=utf-8"); self.send_header("Content-Length",str(len(b))); self.end_headers(); return self.wfile.write(b)
         name=self.path.lstrip("/")
