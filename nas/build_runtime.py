@@ -5,7 +5,7 @@ NAS packaging deliberately keeps only deps referenced by VOD-facing products.
 The repository manifest is a historical ledger and is NOT a packaging root.
 """
 from pathlib import Path
-import re, shutil, tarfile
+import json, re, shutil, tarfile
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"nas"/"runtime"
@@ -31,30 +31,53 @@ def dep_refs():
             if (ROOT/rel).is_file(): refs.add(rel)
     return refs
 
+def mib(path):
+    return path.stat().st_size/1024/1024 if path.is_file() else 0
+
 if OUT.exists(): shutil.rmtree(OUT)
 if ARCHIVE.exists(): ARCHIVE.unlink()
 OUT.mkdir(parents=True)
+
 for name in CODE_DIRS:
     src=ROOT/name
-    if src.exists(): shutil.copytree(src,OUT/name,ignore=shutil.ignore_patterns("__pycache__","*.pyc",".DS_Store"))
-(OUT/"deps").mkdir()
+    if src.exists():
+        shutil.copytree(src,OUT/name,ignore=shutil.ignore_patterns("__pycache__","*.pyc",".DS_Store"))
+
+(OUT/"deps").mkdir(exist_ok=True)
 refs=dep_refs()
 for rel in sorted(refs):
     dst=OUT/rel; dst.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(ROOT/rel,dst)
+
 for dirname,names in (("state",SEED_STATE),("probe",SEED_PROBE),("radar",SEED_RADAR)):
-    dst=OUT/dirname; dst.mkdir(parents=True, exist_ok=True)
+    dst=OUT/dirname; dst.mkdir(parents=True,exist_ok=True)
     for name in names:
         src=ROOT/dirname/name
         if src.is_file(): shutil.copy2(src,dst/name)
-(OUT/"nas").mkdir()
+
+# Candidate discovery is opportunistic. A missing seed must never make the
+# offline runtime unusable; evaluate_candidates handles an empty candidate set.
+radar=OUT/"radar"/"discovered.json"
+if not radar.exists():
+    radar.write_text(json.dumps({"generated_at":None,"candidates":[]},ensure_ascii=False),encoding="utf-8")
+
+(OUT/"nas").mkdir(exist_ok=True)
 for name in ("app.py","index.html","media_quality.py"):
     shutil.copy2(ROOT/"nas"/name,OUT/"nas"/name)
 for name in PRODUCTS+ROOT_FILES:
     src=ROOT/name
     if src.is_file(): shutil.copy2(src,OUT/name)
+
+# rglob already enumerates descendants. tarfile.add(recursive=True) here would
+# re-add each subtree many times and unnecessarily inflate the archive.
 with tarfile.open(ARCHIVE,"w:gz",compresslevel=6) as tf:
-    for p in OUT.rglob("*"): tf.add(p,arcname=p.relative_to(OUT))
+    for p in sorted(OUT.rglob("*")):
+        tf.add(p,arcname=p.relative_to(OUT),recursive=False)
+
+file_count=sum(1 for p in OUT.rglob("*") if p.is_file())
+deps_bytes=sum(p.stat().st_size for p in (OUT/"deps").rglob("*") if p.is_file())
+drpy_bytes=sum(p.stat().st_size for p in (OUT/"drpy-sandbox").rglob("*") if p.is_file()) if (OUT/"drpy-sandbox").exists() else 0
 shutil.rmtree(OUT)
 print(f"runtime: {ARCHIVE}")
-print(f"referenced deps: {len(refs)}")
+print(f"files: {file_count}; referenced deps: {len(refs)}")
+print(f"deps MiB: {deps_bytes/1024/1024:.1f}; drpy MiB: {drpy_bytes/1024/1024:.1f}")
 print(f"archive MiB: {ARCHIVE.stat().st_size/1024/1024:.1f}")
