@@ -33,6 +33,11 @@
      —— 沿用 basename 会让 `deps/a/drpy2.min.js` 与 `deps/b/drpy2.min.js` 撞车
      互相覆盖（cleanup_deps.py 现存缺陷，本脚本不复制该行为）。
   6. **小于 100KB 不动**：省不下体积，反而增加误判面。
+  7. **近 2 天被改写过的文件不动**（2026-10-05 推远端时补的护栏）：daily 会每日
+     重写部分 deps 文件，「有内容替身」只对**改写前**的内容成立。真实踩坑——
+     `deps/feishu-sync/live.txt` 判为「未引用 + 有替身」被回收，但 10-04 CI 刚把它
+     从 1143 行刷成 57 行，新内容在仓内并无替身；把删除推上远端会用删除覆盖掉
+     刚拉到的有效直播源，且触发 delete/modify 冲突。故用 mtime 近 N 天作护栏。
 
 用法
 ----
@@ -60,6 +65,14 @@ if _HERE not in sys.path:
 MIN_BYTES_DEFAULT = 100 * 1024      # <100KB 不动
 TRASH_KEEP_DAYS_DEFAULT = 30
 ROUND2_DAYS_DEFAULT = 1             # 第 2 轮起算的最小闲置天数
+
+# 近 N 天内被改写过的文件一律不回收（2026-10-05 推远端时踩到的真实坑）。
+# 起因：deps/feishu-sync/live.txt 被判为「未引用 + 有内容替身」而回收，但它同时
+# 被 daily 每日重写——「有替身」只对**旧内容**成立，10-04 CI 把它从 1143 行刷成
+# 57 行后，新内容在仓内并无替身。此时若把删除推上远端，就会用「删除」覆盖掉
+# CI 刚拉到的有效直播源，且 delete/modify 冲突无法自动合并。
+# 判据：文件 mtime 距今不足 N 天 ⇒ 内容仍在流动，回收不成立。
+RECENT_SKIP_DAYS = 2.0
 
 
 def md5_of(path, chunk=1 << 20):
@@ -94,14 +107,20 @@ def scan_deps(repo, deps_dir):
                 continue
             try:
                 size = os.path.getsize(ap)
+                mtime = os.path.getmtime(ap)
             except OSError:
                 continue
             rel = os.path.relpath(ap, repo).replace("\\", "/")
             m = md5_of(ap)
             if not m:
                 continue
-            out.append((ap, rel, size, m))
+            out.append((ap, rel, size, m, mtime))
     return out
+
+
+def age_days_of(mtime, now=None):
+    now = now if now is not None else time.time()
+    return (now - mtime) / 86400.0
 
 
 def keep_preference(rel):
@@ -113,18 +132,22 @@ def keep_preference(rel):
     return (1 if rel.startswith("deps/auto/") else 0, len(rel), rel)
 
 
-def plan_prune(files, refs, min_bytes):
-    """算出删除计划。返回 (plan, stats)。plan 项含 keep_within_group 便于人工核对。"""
+def plan_prune(files, refs, min_bytes, skip_recent_days=RECENT_SKIP_DAYS):
+    """算出删除计划。返回 (plan, stats)。plan 项含 keep_within_group 便于人工核对。
+
+    额外护栏：近 `skip_recent_days` 天内被改写过的文件一律不回收（见 RECENT_SKIP_DAYS）。
+    """
+    now = time.time()
     by_md5 = defaultdict(list)
-    for ap, rel, size, m in files:
-        by_md5[m].append((ap, rel, size))
+    for ap, rel, size, m, mtime in files:
+        by_md5[m].append((ap, rel, size, mtime))
 
     plan, stats = [], {
         "dup_groups": 0, "dup_total_files": 0,
         "kept_for_content": 0, "kept_referenced": 0,
-        "too_small": 0, "no_duplicate": 0, "candidates": 0, "candidate_bytes": 0,
+        "too_small": 0, "no_duplicate": 0, "recently_rewritten": 0,
+        "candidates": 0, "candidate_bytes": 0,
     }
-    total = len(files)
     for m, group in by_md5.items():
         if len(group) < 2:
             stats["no_duplicate"] += len(group)
@@ -140,15 +163,18 @@ def plan_prune(files, refs, min_bytes):
         # 留一份：优先留被引用的（最稳）；一组都没被引用则按 keep_preference 留 1 份
         if referenced:
             keeper = min(referenced, key=lambda g: keep_preference(g[1]))
-            stats["kept_for_content"] += 1
         else:
             keeper = min(unreferenced, key=lambda g: keep_preference(g[1]))
-            stats["kept_for_content"] += 1
-        for ap, rel, size in unreferenced:
+        stats["kept_for_content"] += 1
+        for ap, rel, size, mtime in unreferenced:
             if rel == keeper[1]:
                 continue
             if size < min_bytes:
                 stats["too_small"] += 1
+                continue
+            # 内容仍在流动 ⇒ "有替身"只对旧内容成立，不回收
+            if skip_recent_days and age_days_of(mtime, now) < skip_recent_days:
+                stats["recently_rewritten"] += 1
                 continue
             plan.append({
                 "path": rel, "bytes": size, "md5": m,
@@ -206,6 +232,8 @@ def main() -> int:
                     help="真回收（移入 deps/.trash/<日期>/）；缺省只报告")
     ap.add_argument("--trash-keep-days", type=int, default=TRASH_KEEP_DAYS_DEFAULT)
     ap.add_argument("--max-list", type=int, default=20)
+    ap.add_argument("--skip-recent-days", type=float, default=RECENT_SKIP_DAYS,
+                    help=f"近 N 天内被改写过的文件一律不回收（默认 {RECENT_SKIP_DAYS}）")
     args = ap.parse_args()
 
     repo = os.path.abspath(args.repo)
@@ -220,10 +248,11 @@ def main() -> int:
     print(f"[dedup_prune] deps/ {len(files)} 个文件 {total_bytes/1024/1024:.1f} MB；"
           f"权威引用口径 {len(refs)} 条")
 
-    plan, stats = plan_prune(files, refs, args.min_bytes)
+    plan, stats = plan_prune(files, refs, args.min_bytes, args.skip_recent_days)
     print(f"[dedup_prune] 重复组 {stats['dup_groups']} 个涉及 {stats['dup_total_files']} 文件；"
           f"被引用保留 {stats['kept_referenced']}，为内容留存 {stats['kept_for_content']}，"
-          f"<{args.min_bytes/1024:.0f}KB 跳过 {stats['too_small']}")
+          f"<{args.min_bytes/1024:.0f}KB 跳过 {stats['too_small']}，"
+          f"近期被改写跳过 {stats['recently_rewritten']}")
     print(f"[dedup_prune] 候选 {stats['candidates']} 个，"
           f"可回收 {stats['candidate_bytes']/1024/1024:.1f} MB")
 
