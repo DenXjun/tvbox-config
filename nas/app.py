@@ -64,9 +64,10 @@ def run_pipeline():
     try:
         env=os.environ.copy()
         env["TVBOX_NAS_MODE"]="1"
+        env["LIVE_SPEEDTEST"]="0"
+        env["UPSTREAM_CONFIG"]=str(UPSTREAM_CFG)
         # Point the upstream module at the persistent NAS copy.
         d=_upstream_doc(); _save_upstream_doc(d)
-        env["UPSTREAM_CONFIG"]=str(UPSTREAM_CFG)
         cmds=[
           [sys.executable,"scripts/mirror_probe.py"],
           [sys.executable,"scripts/discover_upstreams.py","--pages","1"],
