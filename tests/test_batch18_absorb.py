@@ -177,12 +177,20 @@ class TestGovernance(unittest.TestCase):
     def test_livejson_single_entry(self):
         with open(os.path.join(REPO, "live.json"), encoding="utf-8") as f:
             lj = json.load(f)
-        # 2026-09-27 用户指令「live.json 只显示一个汇总的」：单仓单条目，
-        # 指向 lives/live_all.txt（全大组拼接文件，分组 txt/m3u 照旧保留）。
+        # 2026-09-27 用户指令「live.json 只显示一个汇总的」：单仓单条目。
+        # 2026-10-05 回归修复：原先指向 lives/live_all.txt（停更 8 天的壳），
+        # 已改为 daily 每日刷新的 lives/live.txt（经 gh.halonice.com 镜像），
+        # 与 tvbox.json lives 条目数对齐。见 commit d7dad897。
         lives = lj.get("lives", [])
         self.assertEqual(len(lives), 1)
         self.assertEqual(lives[0]["name"], "聚合·分类直播")
-        self.assertTrue(lives[0]["url"].endswith("lives/live_all.txt"))
+        url = lives[0]["url"]
+        self.assertTrue(
+            url.endswith("lives/live.txt"),
+            "live.json 必须指向 daily 每日刷新的 lives/live.txt，实际=%s" % url,
+        )
+        # 走镜像，raw.githubusercontent 直连在 CI 环境常被限流/404
+        self.assertIn("gh.halonice.com", url)
 
     def test_jsdelivr_normalized(self):
         with open(os.path.join(REPO, "state", "extra_upstreams.json"), encoding="utf-8") as f:
