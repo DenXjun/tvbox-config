@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T22:51:55",
+ "generated_at": "2026-10-05T01:40:01",
  "vod": {
   "电影天堂-4": {
    "name": "🧞无广┃[采集]",
@@ -722,7 +722,7 @@
    "fp": "api:http://tyyszy.com/api.php/provide/vod"
   },
   "xinlang": {
-   "name": "🍀新浪资源",
+   "name": "新浪资源",
    "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod",
    "ext": "",
    "health": "degraded",
@@ -1127,7 +1127,7 @@
    "fp": "api:https://www.ckzy1.com/api.php/provide/vod"
   },
   "jinying": {
-   "name": "🍀金鹰点播",
+   "name": "金鹰点播",
    "api": "https://jinyingzy.com/api.php/provide/vod",
    "ext": "",
    "health": "degraded",
@@ -3037,7 +3037,7 @@
   "4K影院": {
    "name": "🧿影院┃蓝光",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/30-196s/tvbox-master-doki/json/4kvm.json",
+   "ext": "./deps/auto/29-196s/tvbox-master-doki/json/4kvm.json",
    "health": "degraded",
    "latency_ms": 50195,
    "level": "C1",
@@ -3512,13 +3512,13 @@
    "fp": "api:csp_SouJu"
   },
   "360": {
-   "name": "360 | 采集",
-   "api": "https://360zy.com/api.php/provide/vod/",
+   "name": "360 资源",
+   "api": "https://360zyzz.com/api.php/provide/vod",
    "ext": "",
    "health": "degraded",
    "latency_ms": 1868,
    "level": "C2",
-   "fp": "api:https://360zy.com/api.php/provide/vod/"
+   "fp": "api:https://360zyzz.com/api.php/provide/vod"
   },
   "电影先生1": {
    "name": "❤️|电影┃先生",
@@ -8653,7 +8653,7 @@
   "电影盒子": {
    "name": "🍋电影┃盒子",
    "api": "csp_XYQHiker",
-   "ext": "./deps/auto/30-196s/tvbox-master-doki/json/XYQHiker/电影盒子.json",
+   "ext": "./deps/auto/29-196s/tvbox-master-doki/json/XYQHiker/电影盒子.json",
    "health": "dead",
    "latency_ms": null,
    "level": null,
@@ -11533,7 +11533,7 @@
   "csp_XBPQ": {
    "name": "😦白嫖影视 ",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/47-151s/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/白嫖影视.json",
+   "ext": "./deps/auto/43-151s/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/白嫖影视.json",
    "health": "degraded",
    "latency_ms": 113,
    "level": "C1",
@@ -12010,7 +12010,7 @@
   "神马影院": {
    "name": "🦄神马┃影院",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/30-196s/tvbox-master-doki/json/shenma.json",
+   "ext": "./deps/auto/29-196s/tvbox-master-doki/json/shenma.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -16644,12 +16644,12 @@
   },
   "蓝光影视": {
    "name": "⚡蓝光┃APP",
-   "api": "./deps/auto/30-196s/tvbox-master-doki/js/drpy2.min.js",
+   "api": "./deps/auto/29-196s/tvbox-master-doki/js/drpy2.min.js",
    "ext": "http://www.4kgod4.club/appto/v1/ ",
    "health": "unknown",
    "latency_ms": 397,
    "level": null,
-   "fp": "api:./deps/auto/30-196s/tvbox-master-doki/js/drpy2.min.js"
+   "fp": "api:./deps/auto/29-196s/tvbox-master-doki/js/drpy2.min.js"
   },
   "藤藤": {
    "name": "🌀藤藤┃1920",
@@ -23773,7 +23773,7 @@
   "myquark": {
    "name": "❤️｜我的┃夸氪",
    "api": "csp_MyQuark",
-   "ext": "./deps/feishu-sync/chitue/dongliTV/blob/main/config/myquark.json",
+   "ext": "https://v6.gh-proxy.org/https://github.com/chitue/dongliTV/blob/main/config/myquark.json",
    "health": "degraded",
    "latency_ms": 483,
    "level": null,
@@ -32574,12 +32574,12 @@
   },
   "南瓜影视": {
    "name": "🎯南瓜影视",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/南瓜影视.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/南瓜影视.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "奇奇视频": {
    "name": "🎇｜奇奇｜解析",
@@ -34159,7 +34159,7 @@
   "白嫖2": {
    "name": "️白嫖影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/js/s/白嫖2.json",
+   "ext": "./deps/auto/53-140s/js/s/白嫖2.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -34501,7 +34501,7 @@
   "三九影视": {
    "name": "三九影视",
    "api": "csp_HBPQ",
-   "ext": "./deps/auto/57-140s/XBPQ/三九影视.json",
+   "ext": "./deps/auto/53-140s/XBPQ/三九影视.json",
    "health": "degraded",
    "latency_ms": 55,
    "level": "C1",
@@ -34564,7 +34564,7 @@
   "小红": {
    "name": "小红影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/js/s/小红.json",
+   "ext": "./deps/auto/53-140s/js/s/小红.json",
    "health": "degraded",
    "latency_ms": 2384,
    "level": "C1",
@@ -35140,7 +35140,7 @@
   "七点影视": {
    "name": "七点影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/js/s/7点.json",
+   "ext": "./deps/auto/53-140s/js/s/7点.json",
    "health": "degraded",
    "latency_ms": 259,
    "level": "C1",
@@ -35149,7 +35149,7 @@
   "哆啦": {
    "name": "哆啦｜新番社",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/XBPQ/哆啦新番社.json",
+   "ext": "./deps/auto/53-140s/XBPQ/哆啦新番社.json",
    "health": "degraded",
    "latency_ms": 376,
    "level": "C1",
@@ -35158,7 +35158,7 @@
   "DAWO": {
    "name": "大玩偶",
    "api": "csp_Wobg",
-   "ext": "./deps/auto/57-140s/lib/tokenm.json$$$http://149.88.87.18:6688/$$$noproxy$$$1$$$./deps/auto/57-140s/lib/wogg.json$$$DAWO",
+   "ext": "./deps/auto/53-140s/lib/tokenm.json$$$http://149.88.87.18:6688/$$$noproxy$$$1$$$./deps/auto/53-140s/lib/wogg.json$$$DAWO",
    "health": "unknown",
    "latency_ms": 8008,
    "level": null,
@@ -35185,7 +35185,7 @@
   "WOSS": {
    "name": "玩偶叔叔",
    "api": "csp_Wobg",
-   "ext": "./deps/auto/57-140s/lib/tokenm.json$$$https://woss.fenwe.eu.org/$$$noproxy$$$1$$$./deps/auto/57-140s/lib/wogg.json$$$WOSS",
+   "ext": "./deps/auto/53-140s/lib/tokenm.json$$$https://woss.fenwe.eu.org/$$$noproxy$$$1$$$./deps/auto/53-140s/lib/wogg.json$$$WOSS",
    "health": "degraded",
    "latency_ms": 2535,
    "level": "C1",
@@ -35194,7 +35194,7 @@
   "白嫖3": {
    "name": "白嫖影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/js/s/白嫖3.json",
+   "ext": "./deps/auto/53-140s/js/s/白嫖3.json",
    "health": "degraded",
    "latency_ms": 50227,
    "level": "C1",
@@ -35203,7 +35203,7 @@
   "白嫖4": {
    "name": "白嫖影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/js/s/白嫖4.json",
+   "ext": "./deps/auto/53-140s/js/s/白嫖4.json",
    "health": "degraded",
    "latency_ms": 35887,
    "level": "C1",
@@ -35212,7 +35212,7 @@
   "百思": {
    "name": "百思影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/js/s/百思.json",
+   "ext": "./deps/auto/53-140s/js/s/百思.json",
    "health": "degraded",
    "latency_ms": 2894,
    "level": "C1",
@@ -35221,7 +35221,7 @@
   "穷电影": {
    "name": "穷电影",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/js/s/穷电影.json",
+   "ext": "./deps/auto/53-140s/js/s/穷电影.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -35230,7 +35230,7 @@
   "随客": {
    "name": "随客影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/57-140s/js/s/随客.json",
+   "ext": "./deps/auto/53-140s/js/s/随客.json",
    "health": "degraded",
    "latency_ms": 26416,
    "level": "C1",
@@ -35535,12 +35535,12 @@
   },
   "hipy_js_KTV歌厅[听]1": {
    "name": "KTV歌厅",
-   "api": "./deps/auto/57-140s/lib/drpy2.min.js",
-   "ext": "./deps/auto/57-140s/js/drpy2.js",
+   "api": "./deps/auto/53-140s/lib/drpy2.min.js",
+   "ext": "./deps/auto/53-140s/js/drpy2.js",
    "health": "unknown",
    "latency_ms": 754,
    "level": "S0",
-   "fp": "api:./deps/auto/57-140s/lib/drpy2.min.js"
+   "fp": "api:./deps/auto/53-140s/lib/drpy2.min.js"
   },
   "js_youyou": {
    "name": "悠悠视频(T3)",
@@ -35652,75 +35652,75 @@
   },
   "drpy_js_188看": {
    "name": "188看[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/188看.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/188看.js",
    "health": "degraded",
    "latency_ms": 30288,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_31看影院": {
    "name": "31看影院[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/31看影院.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/31看影院.js",
    "health": "dead",
    "latency_ms": 4746,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_539影院": {
    "name": "539影院[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/539影院.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/539影院.js",
    "health": "dead",
    "latency_ms": 989,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_555影视": {
    "name": "555影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/555影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/555影视.js",
    "health": "healthy",
    "latency_ms": 3300,
    "level": "D3",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_HoHo影视": {
    "name": "HoHo影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/HoHo影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/HoHo影视.js",
    "health": "degraded",
    "latency_ms": 30206,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_MXONE": {
    "name": "MXONE[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/MXONE.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/MXONE.js",
    "health": "degraded",
    "latency_ms": 8398,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_Nike影视": {
    "name": "Nike影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/Nike影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/Nike影视.js",
    "health": "degraded",
    "latency_ms": 2956,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_TV蜂": {
    "name": "TV蜂[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/TV蜂.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/TV蜂.js",
    "health": "degraded",
    "latency_ms": 480,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_gaze": {
    "name": "影视 | gaze[js]",
@@ -35760,93 +35760,93 @@
   },
   "drpy_js_七小时影院": {
    "name": "七小时影院[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/七小时影院.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/七小时影院.js",
    "health": "dead",
    "latency_ms": 2964,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_云播": {
    "name": "云播[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/云播.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/云播.js",
    "health": "degraded",
    "latency_ms": 2803,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_JRS录像": {
    "name": "体育|JRS录像[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/JRS录像.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/JRS录像.js",
    "health": "degraded",
    "latency_ms": 403,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_JRS看比赛": {
    "name": "体育|JRS看比赛[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/JRS看比赛.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/JRS看比赛.js",
    "health": "degraded",
    "latency_ms": 358,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_JRS看球网": {
    "name": "体育|JRS看球网5G[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/JRS看球网.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/JRS看球网.js",
    "health": "degraded",
    "latency_ms": 1466,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_JRS看直播": {
    "name": "体育|JRS看直播[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/JRS看直播.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/JRS看直播.js",
    "health": "degraded",
    "latency_ms": 1362,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_冲TMTV[飞]": {
    "name": "冲TMTV[飞][DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/冲TMTV[飞].js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/冲TMTV[飞].js",
    "health": "degraded",
    "latency_ms": 3142,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_剧白白": {
    "name": "剧白白[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/剧白白.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/剧白白.js",
    "health": "dead",
    "latency_ms": 2805,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_剧荒": {
    "name": "剧荒[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/剧荒.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/剧荒.js",
    "health": "degraded",
    "latency_ms": 5507,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_剧迷": {
    "name": "剧迷[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/剧迷.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/剧迷.js",
    "health": "degraded",
    "latency_ms": 30213,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_74听书": {
    "name": "听书 | 74听书 ",
@@ -35877,30 +35877,30 @@
   },
   "drpy_js_喵喵": {
    "name": "喵喵[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/喵喵.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/喵喵.js",
    "health": "dead",
    "latency_ms": 30188,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_四个圈影视": {
    "name": "四个圈影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/四个圈影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/四个圈影视.js",
    "health": "dead",
    "latency_ms": 229,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_在线189": {
    "name": "在线189[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/在线189.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/在线189.js",
    "health": "dead",
    "latency_ms": 15112,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_多米[V2]": {
    "name": "影视 | 多米[V2][js]",
@@ -35922,138 +35922,138 @@
   },
   "drpy_js_小宝影院": {
    "name": "小宝影院[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/小宝影院.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/小宝影院.js",
    "health": "dead",
    "latency_ms": 2036,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_小强迷": {
    "name": "小强迷[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/小强迷.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/小强迷.js",
    "health": "dead",
    "latency_ms": 1301,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_库马伊": {
    "name": "库马伊[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/库马伊.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/库马伊.js",
    "health": "dead",
    "latency_ms": 3292,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_RP影视": {
    "name": "影视|RP影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/RP影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/RP影视.js",
    "health": "degraded",
    "latency_ms": 2340,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_影视工厂": {
    "name": "影视工厂[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/影视工厂.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/影视工厂.js",
    "health": "dead",
    "latency_ms": 30188,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_我爱电影网": {
    "name": "我爱电影网[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/我爱电影网.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/我爱电影网.js",
    "health": "degraded",
    "latency_ms": 4156,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_新安影院": {
    "name": "新安影院[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/新安影院.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/新安影院.js",
    "health": "degraded",
    "latency_ms": 602,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_星辰": {
    "name": "星辰[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/星辰.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/星辰.js",
    "health": "dead",
    "latency_ms": 1462,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_欧乐影院": {
    "name": "欧乐影院[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/欧乐影院.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/欧乐影院.js",
    "health": "dead",
    "latency_ms": 30210,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_牛马TV": {
    "name": "牛马TV[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/牛马TV.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/牛马TV.js",
    "health": "dead",
    "latency_ms": 2731,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_特狗影视": {
    "name": "特狗影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/特狗影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/特狗影视.js",
    "health": "dead",
    "latency_ms": 2620,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_瓜皮TV": {
    "name": "瓜皮TV[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/瓜皮TV.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/瓜皮TV.js",
    "health": "dead",
    "latency_ms": 2871,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_电影大师": {
    "name": "电影大师[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/电影大师.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/电影大师.js",
    "health": "dead",
    "latency_ms": 30168,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_皮皮泡": {
    "name": "皮皮泡[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/皮皮泡.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/皮皮泡.js",
    "health": "degraded",
    "latency_ms": 5221,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_看视界": {
    "name": "看视界[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/看视界.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/看视界.js",
    "health": "dead",
    "latency_ms": 5707,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_真不卡": {
    "name": "影视 | 真不卡[js]",
@@ -36066,102 +36066,102 @@
   },
   "drpy_js_神马影视": {
    "name": "神马影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/神马影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/神马影视.js",
    "health": "dead",
    "latency_ms": 15075,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_艾旦影视": {
    "name": "艾旦影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/艾旦影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/艾旦影视.js",
    "health": "dead",
    "latency_ms": 708,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_莫扎兔": {
    "name": "莫扎兔[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/莫扎兔.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/莫扎兔.js",
    "health": "dead",
    "latency_ms": 30139,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_蛋蛋魔法": {
    "name": "蛋蛋魔法[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/蛋蛋魔法.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/蛋蛋魔法.js",
    "health": "degraded",
    "latency_ms": 658,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_视中心影视": {
    "name": "视中心影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/视中心影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/视中心影视.js",
    "health": "dead",
    "latency_ms": 30154,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_豆芽影院": {
    "name": "豆芽影院[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/豆芽影院.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/豆芽影院.js",
    "health": "dead",
    "latency_ms": 202,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_追剧啦": {
    "name": "追剧啦[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/追剧啦.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/追剧啦.js",
    "health": "degraded",
    "latency_ms": 30135,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_追剧喵": {
    "name": "追剧喵[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/追剧喵.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/追剧喵.js",
    "health": "dead",
    "latency_ms": 2950,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_追剧影视": {
    "name": "追剧影视[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/追剧影视.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/追剧影视.js",
    "health": "dead",
    "latency_ms": 30151,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_酷吧": {
    "name": "酷吧[js]|磁",
-   "api": "./deps/auto/71-108s/pg/lib/drpy2.min.js",
-   "ext": "./deps/auto/71-108s/pg/js/kuba.js",
+   "api": "./deps/auto/66-108s/pg/lib/drpy2.min.js",
+   "ext": "./deps/auto/66-108s/pg/js/kuba.js",
    "health": "degraded",
    "latency_ms": 229,
    "level": null,
-   "fp": "api:./deps/auto/71-108s/pg/lib/drpy2.min.js"
+   "fp": "api:./deps/auto/66-108s/pg/lib/drpy2.min.js"
   },
   "drpy_js_酷酷韩剧": {
    "name": "酷酷韩剧[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/酷酷韩剧.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/酷酷韩剧.js",
    "health": "degraded",
    "latency_ms": 2354,
    "level": "D2",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_飞云[V2]": {
    "name": "影视 | 飞云[V2][js]",
@@ -36174,21 +36174,21 @@
   },
   "drpy_js_饭团": {
    "name": "饭团[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/饭团.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/饭团.js",
    "health": "dead",
    "latency_ms": 3571,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_麦豆": {
    "name": "麦豆[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/麦豆.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/麦豆.js",
    "health": "dead",
    "latency_ms": 483,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "drpy_js_吼吼[飞]": {
    "name": "😆吼吼[飞] ",
@@ -36201,12 +36201,12 @@
   },
   "drpy_js_88ball": {
    "name": "88看球[js]",
-   "api": "./deps/auto/71-108s/pg/lib/drpy2.min.js",
-   "ext": "./deps/auto/71-108s/pg/js/88ball.js",
+   "api": "./deps/auto/66-108s/pg/lib/drpy2.min.js",
+   "ext": "./deps/auto/66-108s/pg/js/88ball.js",
    "health": "degraded",
    "latency_ms": 2357,
    "level": null,
-   "fp": "api:./deps/auto/71-108s/pg/lib/drpy2.min.js"
+   "fp": "api:./deps/auto/66-108s/pg/lib/drpy2.min.js"
   },
   "py_6v": {
    "name": "☀六微🔹视频",
@@ -36463,7 +36463,7 @@
   "Xiaomi": {
    "name": "小米网盘",
    "api": "csp_Wobg",
-   "ext": "./deps/auto/57-140s/lib/tokenm.json$$$https://www.mucpan.cc/$$$noproxy$$$1$$$./deps/auto/57-140s/lib/wogg.json$$$XIAOMI",
+   "ext": "./deps/auto/53-140s/lib/tokenm.json$$$https://www.mucpan.cc/$$$noproxy$$$1$$$./deps/auto/53-140s/lib/wogg.json$$$XIAOMI",
    "health": "degraded",
    "latency_ms": 2912,
    "level": "C1",
@@ -36472,7 +36472,7 @@
   "QINGYING": {
    "name": "清影|网盘",
    "api": "csp_Wobg",
-   "ext": "./deps/auto/57-140s/lib/tokenm.json$$$https://revohd.com/$$$noproxy$$$1$$$./deps/auto/57-140s/lib/wogg.json$$$QINGYING",
+   "ext": "./deps/auto/53-140s/lib/tokenm.json$$$https://revohd.com/$$$noproxy$$$1$$$./deps/auto/53-140s/lib/wogg.json$$$QINGYING",
    "health": "degraded",
    "latency_ms": 3470,
    "level": "C1",
@@ -36481,7 +36481,7 @@
   "BAIJIA": {
    "name": "百家网盘",
    "api": "csp_Wobg",
-   "ext": "./deps/auto/57-140s/lib/tokenm.json$$$http://cj.jiexi.news/$$$noproxy$$$1$$$./deps/auto/57-140s/lib/wogg.json$$$BAIJIA",
+   "ext": "./deps/auto/53-140s/lib/tokenm.json$$$http://cj.jiexi.news/$$$noproxy$$$1$$$./deps/auto/53-140s/lib/wogg.json$$$BAIJIA",
    "health": "degraded",
    "latency_ms": 5099,
    "level": "C1",
@@ -36552,12 +36552,12 @@
   },
   "drpy_js_秋霞": {
    "name": "秋霞[DRPY]",
-   "api": "./deps/auto/36-163s/6/lib/drpy.min.js",
-   "ext": "./deps/auto/36-163s/6/js/秋霞.js",
+   "api": "./deps/auto/35-163s/6/lib/drpy.min.js",
+   "ext": "./deps/auto/35-163s/6/js/秋霞.js",
    "health": "dead",
    "latency_ms": 1476,
    "level": "D0",
-   "fp": "api:./deps/auto/36-163s/6/lib/drpy.min.js"
+   "fp": "api:./deps/auto/35-163s/6/lib/drpy.min.js"
   },
   "py_UpFuHn": {
    "name": "Hi视频(T4)",
@@ -36606,12 +36606,12 @@
   },
   "欧乐影院": {
    "name": "🌅歐樂影院♒",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/欧乐影院.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/欧乐影院.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S?",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "py_OleVod": {
    "name": "欧乐影院(T4)",
@@ -36688,7 +36688,7 @@
   "drpy_js_乐猪TV[js1]": {
    "name": "乐猪TV[js1][DRPY]",
    "api": "https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy.ym.js",
-   "ext": "./deps/auto/36-163s/6/js/乐猪TV.js",
+   "ext": "./deps/auto/35-163s/6/js/乐猪TV.js",
    "health": "dead",
    "latency_ms": 1571,
    "level": "D0",
@@ -36697,7 +36697,7 @@
   "drpy_js_学生球赛录像[js1]": {
    "name": "体育|学生球赛录像[js1][DRPY]",
    "api": "https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy.ym.js",
-   "ext": "./deps/auto/36-163s/6/js/学生球赛录像[js1].js",
+   "ext": "./deps/auto/35-163s/6/js/学生球赛录像[js1].js",
    "health": "degraded",
    "latency_ms": 1506,
    "level": "D2",
@@ -37046,7 +37046,7 @@
    "fp": "api:https://naixxzy.com/api.php/provide/vod/at/json"
   },
   "jiangyu": {
-   "name": "🍀鲸鱼资源",
+   "name": "鲸鱼资源",
    "api": "https://jyzyapi.com/provide/vod",
    "ext": "",
    "health": "degraded",
@@ -38218,7 +38218,7 @@
   "csp_hiker_兔小贝": {
    "name": "🌏兔小贝",
    "api": "csp_XYQHiker",
-   "ext": "./deps/auto/118-59s/heads/main/lib/兔小贝.json",
+   "ext": "./deps/auto/106-59s/heads/main/lib/兔小贝.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -38227,7 +38227,7 @@
   "csp_hiker_兔小贝2": {
    "name": "🌏兔小贝2",
    "api": "csp_XYQHiker",
-   "ext": "./deps/auto/118-59s/heads/main/lib/兔小贝2.json",
+   "ext": "./deps/auto/106-59s/heads/main/lib/兔小贝2.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -38245,7 +38245,7 @@
   "小学教育": {
    "name": "🌏小学教育",
    "api": "csp_Bili",
-   "ext": "./deps/auto/118-59s/heads/main/lib/小学教育.json",
+   "ext": "./deps/auto/106-59s/heads/main/lib/小学教育.json",
    "health": "degraded",
    "latency_ms": 851,
    "level": "C1",
@@ -38254,7 +38254,7 @@
   "小学数学": {
    "name": "🌏小学数学",
    "api": "csp_Bili",
-   "ext": "./deps/auto/118-59s/heads/main/lib/小学数学.json",
+   "ext": "./deps/auto/106-59s/heads/main/lib/小学数学.json",
    "health": "degraded",
    "latency_ms": 896,
    "level": "C1",
@@ -38263,7 +38263,7 @@
   "小学英语": {
    "name": "🌏小学英语",
    "api": "csp_Bili",
-   "ext": "./deps/auto/118-59s/heads/main/lib/小学英语.json",
+   "ext": "./deps/auto/106-59s/heads/main/lib/小学英语.json",
    "health": "degraded",
    "latency_ms": 915,
    "level": "C1",
@@ -38272,7 +38272,7 @@
   "小学语文": {
    "name": "🌏小学语文",
    "api": "csp_Bili",
-   "ext": "./deps/auto/118-59s/heads/main/lib/小学语文.json",
+   "ext": "./deps/auto/106-59s/heads/main/lib/小学语文.json",
    "health": "degraded",
    "latency_ms": 922,
    "level": "C1",
@@ -38281,7 +38281,7 @@
   "教育合集": {
    "name": "少儿┃大全 ( 点击首页 发现更多 祝您生活愉快! )",
    "api": "csp_Bili",
-   "ext": "./deps/auto/171-32s/heads/main/Hxtjy.json",
+   "ext": "./deps/auto/155-32s/heads/main/Hxtjy.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -38299,7 +38299,7 @@
   "益智动画": {
    "name": "🌏益智动画",
    "api": "csp_Bili",
-   "ext": "./deps/auto/118-59s/heads/main/lib/益智动画.json",
+   "ext": "./deps/auto/106-59s/heads/main/lib/益智动画.json",
    "health": "degraded",
    "latency_ms": 777,
    "level": "C1",
@@ -38360,7 +38360,7 @@
    "fp": "api:http://4kdog.tk/api.php/provide/vod/"
   },
   "jszycj": {
-   "name": "👖裤佬丨极速丨采集",
+   "name": "⭐Maflya丨极速丨采集",
    "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
    "ext": "",
    "health": "healthy",
@@ -40702,7 +40702,7 @@
   "✨Youtube✨": {
    "name": "✨Youtube✨",
    "api": "csp_Youtube",
-   "ext": "{\"codecs\": \"\", \"danmu\": true, \"json\": \"./deps/auto/156-41s/HTB/PG/jar/youtube.json\", \"keywords\": \"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐\", \"type\": \"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary\"}",
+   "ext": "{\"codecs\": \"\", \"danmu\": true, \"json\": \"./deps/auto/141-41s/HTB/PG/jar/youtube.json\", \"keywords\": \"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐\", \"type\": \"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -40763,18 +40763,18 @@
    "fp": "api:csp_Dovx"
   },
   "csp_XBP南坊": {
-   "name": "码上👓玉-🏡南坊┃影视",
+   "name": "🏡┃南坊┃影视",
    "api": "csp_XBPQ",
-   "ext": "{\"主演\": \"vod_actor\\\"*\\\"&&\\\"\", \"主页url\": \"https://www.nfapp.fun/appto/v1/home/cateData?id=1\", \"二次截取\": \"\\\"data\\\"*[&&]\", \"分类\": \"电影$2#电视剧$1#综艺$4#动漫$3\", \"分类url\": \"https://www.nfapp.fun/appto/v1/vod/getLists?area={area}&lang={lang}&year={year}&type_id={cateId}&area=&order=time&type_name=&page={catePg}&pageSize=21;;u0t\", \"副标题\": \"\\\"vod_remarks\\\"*\\\"&&\\\"\", \"图片\": \"\\\"vod_pic\\\"*\\\"&&\\\"[替换:mac>>http]\", \"导演\": \"vod_director\\\"*\\\"&&\\\"\", \"搜索url\": \"https://www.nfapp.fun/appto/v1/vod/getVodSearch?wd={wd}&page=1&type\", \"播放二次截取\": \"&&[替换]\", \"播放列表\": \"{&&}\", \"播放数组\": \"urls*\\\\[&&\\\\]\", \"播放标题\": \"\\\"name\\\"*\\\"&&\\\"\", \"播放链接\": \"解析+\\\"url\\\"*\\\"&&\\\"\", \"数组\": \"{&&}\", \"标题\": \"\\\"vod_name\\\"*\\\"&&\\\"\", \"站名\": \"南坊影视\", \"简介\": \"vod_blurb\\\"*\\\"&&\\\"\", \"线路数组\": \"\\\"player_info\\\":{&&}\", \"线路标题\": \"\\\"show\\\"*\\\"&&\\\"\", \"请求头\": \"User-Agent$Dart/2.10 (dart:io)\", \"跳转播放链接\": \"\\\"url\\\"*\\\"&&\\\"\", \"跳转解析\": \"默认$空#主线[A]$http://110.42.2.247:880/analysis/json/?uid=2497&my=bgkmoqsuwBDILMPQU2&format=json&url=#主线[B]$http://110.42.3.71:5000/api/jiexi/xg?Key=IljsrKnj7T0M38IEWh&url=#主线[C]$https://wpjx.chanchuan.top/znjsonapi.php?url=\", \"链接\": \"https://www.nfapp.fun/appto/v1/vod/getVod?id=+\\\"vod_id\\\":&&,+&__platform=android&__ic=mssY6U737YHaGX4OjrBG8dnK8QrSnWRVo24nsmBF3LCxbm6oI23agJvbenxkbUneTU7oe4X%2F0N2hN%2BPw%2FxQiIVH%2BG7P4Yx0pESg0pQuc6PET1TqEiszTGAj%2Bay0GAXU1FlfHtuzo8zyrK1KkerSdLQ%3D%3D\"}",
+   "ext": "{\"主演\": \"vod_actor\\\"*\\\"&&\\\"\", \"主页url\": \"https://www.nfapp.fun/appto/v1/home/cateData?id=1\", \"二次截取\": \"\\\"data\\\"*[&&]\", \"分类\": \"电影$2#电视剧$1#综艺$4#动漫$3\", \"分类url\": \"https://www.nfapp.fun/appto/v1/vod/getLists?area={area}&lang={lang}&year={year}&type_id={cateId}&area=&order=time&type_name=&page={catePg}&pageSize=21;;u0\", \"副标题\": \"\\\"vod_remarks\\\"*\\\"&&\\\"\", \"图片\": \"\\\"vod_pic\\\"*\\\"&&\\\"\", \"导演\": \"vod_director\\\"*\\\"&&\\\"\", \"搜索url\": \"https://www.nfapp.fun/appto/v1/vod/getVodSearch?wd={wd}&page=1&type\", \"搜索二次截取\": \"\\\"data\\\"*[&&]\", \"搜索副标题\": \"\\\"vod_remarks\\\"*\\\"&&\\\"\", \"搜索图片\": \"\\\"vod_pic\\\"*\\\"&&\\\"[替换:mac>>http]\", \"搜索数组\": \"{&&}\", \"搜索标题\": \"\\\"vod_name\\\"*\\\"&&\\\"\", \"搜索模式\": \"1\", \"搜索链接\": \"https://www.nfapp.fun/appto/v1/vod/getVod?id=+\\\"vod_id\\\":&&,+&__platform=android&__ic=mssY6U737YHaGX4OjrBG8dnK8QrSnWRVo24nsmBF3LCxbm6oI23agJvbenxkbUneTU7oe4X%2F0N2hN%2BPw%2FxQiIVH%2BG7P4Yx0pESg0pQuc6PET1TqEiszTGAj%2Bay0GAXU1FlfHtuzo8zyrK1KkerSdLQ%3D%3D\", \"播放二次截取\": \"&&[替换]\", \"播放列表\": \"{&&}\", \"播放数组\": \"urls*\\\\[&&\\\\]\", \"播放标题\": \"\\\"name\\\"*\\\"&&\\\"\", \"播放链接\": \"解析+\\\"url\\\"*\\\"&&\\\"\", \"数组\": \"{&&}[替换:mac>>http]\", \"标题\": \"\\\"vod_name\\\"*\\\"&&\\\"\", \"站名\": \"南坊影视\", \"简介\": \"vod_blurb\\\"*\\\"&&\\\"\", \"线路数组\": \"\\\"player_info\\\":{&&}\", \"线路标题\": \"\\\"show\\\"*\\\"&&\\\"\", \"请求头\": \"User-Agent$Dart/2.10 (dart:io)\", \"跳转播放链接\": \"\\\"url\\\"*\\\"&&\\\"\", \"跳转解析\": \"默认$空#主线[B]$http://110.42.3.71:5000/api/jiexi/xg?Key=IljsrKnj7T0M38IEWh&url=\", \"链接\": \"https://www.nfapp.fun/appto/v1/vod/getVod?id=+\\\"vod_id\\\":&&,+&__platform=android&__ic=mssY6U737YHaGX4OjrBG8dnK8QrSnWRVo24nsmBF3LCxbm6oI23agJvbenxkbUneTU7oe4X%2F0N2hN%2BPw%2FxQiIVH%2BG7P4Yx0pESg0pQuc6PET1TqEiszTGAj%2Bay0GAXU1FlfHtuzo8zyrK1KkerSdLQ%3D%3D\"}",
    "health": "unknown",
    "latency_ms": 293,
    "level": null,
    "fp": "api:csp_XBPQ"
   },
   "saohuo": {
-   "name": "码上👓豆-蓝光-4",
+   "name": "🎇┃骚火┃影视",
    "api": "csp_XBPQ",
-   "ext": "{\"三次跳转播放链接\": \"https://hkjx.hhplayer.com+\\\"url\\\"*\\\"&&\\\"\", \"二次跳转播放链接\": \"https://hkjx.hhplayer.com/api.php;post;url=+var url*\\\"&&\\\"+&t=+var t*\\\"&&\\\"+&key=+var key*\\\"&&\\\"+&act=0+&play=1\", \"分类\": \"电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4\", \"分类url\": \"https://shdy2.com/list/{cateId}-{catePg}.html;;r1dau0\", \"副标题\": \"v_note\\\"&&</div\", \"嗅探词\": \".m3u8#.mp4#.m3u8?#freeok.mp4\", \"数组\": \"\\\"v_img\\\"&&/div>\", \"数组二次截取\": \"class=\\\"v_list\\\">&&</ul>\", \"标题\": \"title=\\\"&&\\\"\", \"跳转播放链接\": \"<iframe*src=\\\"&&\\\"\"}",
+   "ext": "{\"ocr\": \"https://api.xhofe.top/ocr/b64/text\", \"三次跳转播放链接\": \"\\\"url\\\"*\\\"&&\\\"\", \"二次跳转播放链接\": \"https://hkjx.hhplayer.com/api.php;post;url=+var url*\\\"&&\\\"+&t=+var t*\\\"&&\\\"+&key=+var key*\\\"&&\\\"+&act=0+&play=1\", \"分类\": \"电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4\", \"分类url\": \"https://saohuo.vip/list/{cateId}-{catePg}.html;;r1da\", \"副标题\": \"v_note\\\"&&</div\", \"数组\": \"\\\"v_img\\\"&&/div>\", \"数组二次截取\": \"class=\\\"v_list\\\">&&</ul>\", \"标题\": \"title=\\\"&&\\\"\", \"跳转播放链接\": \"<iframe*src=\\\"&&\\\"\"}",
    "health": "degraded",
    "latency_ms": 2202,
    "level": null,
@@ -41177,9 +41177,9 @@
    "fp": "api:csp_XBiubiu"
   },
   "莱米": {
-   "name": "莱米｜APP",
+   "name": "👑莱米｜弹幕",
    "api": "csp_AppGet",
-   "ext": "{\"dataIv\": \"ce032244d093b3e2\", \"dataKey\": \"ce032244d093b3e2\", \"site\": \"./deps/auto/52-148s/laimi.txt\"}",
+   "ext": "{\"dataIv\": \"ce032244d093b3e2\", \"dataKey\": \"ce032244d093b3e2\", \"deviceId\": \"\", \"site\": \"./deps/auto/69-106s/laimi.txt\", \"url\": \"\", \"version\": \"\"}",
    "health": "degraded",
    "latency_ms": 87,
    "level": null,
@@ -41926,7 +41926,7 @@
   "uuzbpj": {
    "name": "uuzbpj",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_cmkuuzbpj7hair.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_cmkuuzbpj7hair.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42052,7 +42052,7 @@
   "Mafly豆瓣片单": {
    "name": "✈️TG频道@flymaf",
    "api": "csp_Douban",
-   "ext": "./deps/auto/172-453s/heads/main/MAfly1/paomadeng.txt",
+   "ext": "./deps/auto/196-454s/heads/main/MAfly1/paomadeng.txt",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42061,7 +42061,7 @@
   "裤佬片单导航": {
    "name": "✈️TG频道@stymei",
    "api": "csp_Douban",
-   "ext": "./deps/auto/172-453s/f/e8cd0ee0.txt",
+   "ext": "./deps/auto/196-454s/f/e8cd0ee0.txt",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42070,7 +42070,7 @@
   "✨85PO✨": {
    "name": "✨85PO✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/85PO.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/85PO.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42097,7 +42097,7 @@
   "✨7ddav✨": {
    "name": "✨Aries|7ddav✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/7ddav.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/7ddav.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42133,7 +42133,7 @@
   "✨一区✨": {
    "name": "✨Aries|一区✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/一区.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/一区.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42142,7 +42142,7 @@
   "✨三区✨": {
    "name": "✨Aries|三区✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/三区.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/三区.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42151,7 +42151,7 @@
   "✨以茎制洞✨": {
    "name": "✨Aries|以茎制洞✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/以茎制洞.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/以茎制洞.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42169,7 +42169,7 @@
   "✨啊哈DJ网✨": {
    "name": "✨Aries|啊哈DJ网✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/啊哈DJ网.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/啊哈DJ网.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42295,7 +42295,7 @@
   "✨FC2官网✨": {
    "name": "✨FC2官网✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/FC2官网.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/FC2官网.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42313,7 +42313,7 @@
   "✨唐人影视✨": {
    "name": "✨唐人影视✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/唐人影视.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/唐人影视.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42322,7 +42322,7 @@
   "✨影视大全✨": {
    "name": "✨影视大全✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/影视大全.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/影视大全.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42349,7 +42349,7 @@
   "✨爱你影视✨": {
    "name": "✨爱你影视✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/爱你影视.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/爱你影视.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42367,7 +42367,7 @@
   "✨草草视频✨": {
    "name": "✨草草视频✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/草草视频.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/草草视频.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42385,7 +42385,7 @@
   "✨那个搜索✨": {
    "name": "✨那个搜索✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/那个搜索.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/那个搜索.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42394,7 +42394,7 @@
   "✨高清SEX国产✨": {
    "name": "✨高清SEX国产✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/高清SEX国产.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/高清SEX国产.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42403,7 +42403,7 @@
   "✨高清福利社✨": {
    "name": "✨高清福利社✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/高清福利社.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/高清福利社.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42412,14 +42412,14 @@
   "✨黑猫AV✨": {
    "name": "✨黑猫AV✨",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/156-41s/HTB/PG/json/黑猫AV.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/json/黑猫AV.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
    "fp": "api:csp_XBPQ"
   },
   "18": {
-   "name": "☁云霄有声",
+   "name": "👖有声",
    "api": "https://jsnz.pages.dev/f/e126d1e4.py",
    "ext": "",
    "health": "unknown",
@@ -42637,7 +42637,7 @@
   "七新影视": {
    "name": "七新影视",
    "api": "csp_XYQHiker",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/XYQHiker/七新影视.json",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/XYQHiker/七新影视.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42691,7 +42691,7 @@
   "乌鸦影视": {
    "name": "乌鸦影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/XBPQ/乌鸦影视.json",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/XBPQ/乌鸦影视.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -42754,7 +42754,7 @@
   "九九六": {
    "name": "九九六",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/XBPQ/九九六.json",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/XBPQ/九九六.json",
    "health": "degraded",
    "latency_ms": 109,
    "level": "C1",
@@ -43384,7 +43384,7 @@
   "ywxsl": {
    "name": "夜晚小树林",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_%E5%A4%9C%E6%99%9A%E5%B0%8F%E6%A0%91%E6%9E%97.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_%E5%A4%9C%E6%99%9A%E5%B0%8F%E6%A0%91%E6%9E%97.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -43528,7 +43528,7 @@
   "奇优影院": {
    "name": "奇优影院",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/XBPQ/奇优影院.json",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/XBPQ/奇优影院.json",
    "health": "degraded",
    "latency_ms": 160,
    "level": "C1",
@@ -43582,7 +43582,7 @@
   "nvps": {
    "name": "女菩萨画廊",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_%E5%A5%B3%E8%8F%A9%E8%90%A8X%E5%8D%9A%E4%B8%BB%E7%B2%BE%E9%80%89%E7%94%BB%E5%BB%8A.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_%E5%A5%B3%E8%8F%A9%E8%90%A8X%E5%8D%9A%E4%B8%BB%E7%B2%BE%E9%80%89%E7%94%BB%E5%BB%8A.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -43600,7 +43600,7 @@
   "好戏影视": {
    "name": "好戏影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/XBPQ/好戏影视.json",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/XBPQ/好戏影视.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -43618,7 +43618,7 @@
   "威士影视": {
    "name": "威士影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/XBPQ/威士影视.json",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/XBPQ/威士影视.json",
    "health": "degraded",
    "latency_ms": 167,
    "level": "C1",
@@ -44122,7 +44122,7 @@
   "rjsq": {
    "name": "日久生情",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_%E6%97%A5%E4%B9%85%E7%94%9F%E6%83%85.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_%E6%97%A5%E4%B9%85%E7%94%9F%E6%83%85.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -44599,7 +44599,7 @@
   "pbw": {
    "name": "炮兵网",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_%E7%82%AE%E5%85%B5%E7%BD%91.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_%E7%82%AE%E5%85%B5%E7%BD%91.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -44635,7 +44635,7 @@
   "sfgy": {
    "name": "熟妇公寓",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_%E7%86%9F%E5%A6%87%E5%85%AC%E5%AF%93.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_%E7%86%9F%E5%A6%87%E5%85%AC%E5%AF%93.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -46075,7 +46075,7 @@
   "szssp": {
    "name": "色中色在线视频",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_%E8%89%B2%E4%B8%AD%E8%89%B2%E5%9C%A8%E7%BA%BF%E8%A7%86%E9%A2%91.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_%E8%89%B2%E4%B8%AD%E8%89%B2%E5%9C%A8%E7%BA%BF%E8%A7%86%E9%A2%91.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -46570,7 +46570,7 @@
   "零三影院": {
    "name": "零三影院",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/XBPQ/零三影院.json",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/XBPQ/零三影院.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -46867,7 +46867,7 @@
   "csp_七年": {
    "name": "🅱️七年影视|T追剧",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/七年影视.json",
+   "ext": "./deps/auto/99-66s/lib/七年影视.json",
    "health": "degraded",
    "latency_ms": 162,
    "level": "C1",
@@ -46876,7 +46876,7 @@
   "csp_低端": {
    "name": "🅱️低端影视|T追剧",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/低端影视.json",
+   "ext": "./deps/auto/99-66s/lib/低端影视.json",
    "health": "degraded",
    "latency_ms": 93,
    "level": "C1",
@@ -46885,7 +46885,7 @@
   "csp_佳能": {
    "name": "🅱️佳能影视|T追剧",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/348影视.json",
+   "ext": "./deps/auto/99-66s/lib/348影视.json",
    "health": "degraded",
    "latency_ms": 76,
    "level": "C1",
@@ -46903,7 +46903,7 @@
   "csp_威士": {
    "name": "🅱️威士影视|T追剧",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/威士影视.json",
+   "ext": "./deps/auto/99-66s/lib/威士影视.json",
    "health": "degraded",
    "latency_ms": 140,
    "level": "C1",
@@ -46912,7 +46912,7 @@
   "csp_师兄": {
    "name": "🅱️师兄影视|T追剧",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/大师兄影视.json",
+   "ext": "./deps/auto/99-66s/lib/大师兄影视.json",
    "health": "degraded",
    "latency_ms": 85,
    "level": "C1",
@@ -46921,7 +46921,7 @@
   "csp_xBPQ_玖八": {
    "name": "🅱️玖八影视|T追剧",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/98影视.json",
+   "ext": "./deps/auto/99-66s/lib/98影视.json",
    "health": "degraded",
    "latency_ms": 193,
    "level": "C1",
@@ -46930,7 +46930,7 @@
   "csp_觅知": {
    "name": "🅱️觅知影视|T追剧",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/觅知影视.json",
+   "ext": "./deps/auto/99-66s/lib/觅知影视.json",
    "health": "degraded",
    "latency_ms": 71,
    "level": "C1",
@@ -46939,7 +46939,7 @@
   "csp_xBPQ_视觉": {
    "name": "🅱️视觉影视|T追剧",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/新视觉影视.json",
+   "ext": "./deps/auto/99-66s/lib/新视觉影视.json",
    "health": "degraded",
    "latency_ms": 71,
    "level": "C1",
@@ -48739,7 +48739,7 @@
   "八号影视": {
    "name": "🧿八号｜影视",
    "api": "csp_XYQHiker",
-   "ext": "./deps/auto/74-106s/%E6%AC%A7%E6%AD%8C/json/八号影视.json",
+   "ext": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/json/八号影视.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -48872,9 +48872,9 @@
    "fp": "api:csp_AppGet"
   },
   "八天": {
-   "name": "八天丨APP",
+   "name": "👑八天丨弹幕",
    "api": "csp_AppGet",
-   "ext": "{\"dataIv\": \"1111111111111111\", \"dataKey\": \"1111111111111111\", \"url\": \"https://dy.8ttv.cn\"}",
+   "ext": "{\"dataIv\": \"1111111111111111\", \"dataKey\": \"1111111111111111\", \"deviceId\": \"\", \"site\": \"\", \"ua\": \"\", \"url\": \"https://dy.8ttv.cn\", \"version\": \"\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -48989,7 +48989,7 @@
    "fp": "api:csp_AppFox"
   },
   "数字": {
-   "name": "数字｜APP",
+   "name": "👑数字丨弹幕",
    "api": "csp_AppGet",
    "ext": "{\"dataIv\": \"VwsHxkCViDXEExWa\", \"dataKey\": \"VwsHxkCViDXEExWa\", \"url\": \"http://app1-0-0.87333.cc\"}",
    "health": "unknown",
@@ -49459,7 +49459,7 @@
   "韩国": {
    "name": "🧿韩国｜影视",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/74-106s/%E6%AC%A7%E6%AD%8C/json/韩剧看看.json",
+   "ext": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/json/韩剧看看.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49540,7 +49540,7 @@
   "✨豆瓣✨": {
    "name": "✨豆瓣✨",
    "api": "csp_Douban",
-   "ext": "./deps/auto/156-41s/HTB/PG/jar/douban.json",
+   "ext": "./deps/auto/141-41s/HTB/PG/jar/douban.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49549,7 +49549,7 @@
   "一起看直播": {
    "name": "一起看直播",
    "api": "csp_XYQBiu",
-   "ext": "./deps/auto/252-7s/%E4%BD%93%E8%82%B2/XYQBiu/一起看直播.json",
+   "ext": "./deps/auto/236-7s/%E4%BD%93%E8%82%B2/XYQBiu/一起看直播.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49567,7 +49567,7 @@
   "关注": {
    "name": "使用图解|必看❗",
    "api": "csp_Market",
-   "ext": "./deps/auto/208-12s/wp.txt",
+   "ext": "./deps/auto/192-12s/wp.txt",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49747,7 +49747,7 @@
   "️初中": {
    "name": "🅰️初中┃哔哩",
    "api": "csp_Bili",
-   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/localized/40980f50c6-初中课堂.json\"}",
+   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/auto/69-106s/gh/ouhaibo1980/tvbox@main/Bil/初中课堂.json\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49756,7 +49756,7 @@
   "️小学": {
    "name": "🅰️小学┃哔哩",
    "api": "csp_Bili",
-   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/auto/74-106s/gh/ouhaibo1980/tvbox@main/Bil/小学课堂.json\"}",
+   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/auto/69-106s/gh/ouhaibo1980/tvbox@main/Bil/小学课堂.json\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49765,7 +49765,7 @@
   "️戏曲": {
    "name": "🅰️戏曲┃哔哩",
    "api": "csp_Bili",
-   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/auto/74-106s/gh/ouhaibo1980/tvbox@main/Bil/戏曲合集.json\"}",
+   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/auto/69-106s/gh/ouhaibo1980/tvbox@main/Bil/戏曲合集.json\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49792,7 +49792,7 @@
   "️高中": {
    "name": "🅰️高中┃哔哩",
    "api": "csp_Bili",
-   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/localized/c957117d8b-高中课堂.json\"}",
+   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/auto/69-106s/gh/ouhaibo1980/tvbox@main/Bil/高中课堂.json\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49801,7 +49801,7 @@
   "兴趣健身": {
    "name": "🅱兴趣｜健身",
    "api": "csp_Bili",
-   "ext": "./deps/auto/110-66s/lib/哔哩健身.json",
+   "ext": "./deps/auto/99-66s/lib/哔哩健身.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49810,7 +49810,7 @@
   "天下美食": {
    "name": "🅱天下｜美食",
    "api": "csp_Bili",
-   "ext": "./deps/auto/110-66s/lib/哔哩美食.json",
+   "ext": "./deps/auto/99-66s/lib/哔哩美食.json",
    "health": "degraded",
    "latency_ms": 743,
    "level": "C1",
@@ -49819,7 +49819,7 @@
   "幼儿教育": {
    "name": "🅱幼小｜衔接",
    "api": "csp_Bili",
-   "ext": "./deps/auto/110-66s/lib/哔哩幼小.json",
+   "ext": "./deps/auto/99-66s/lib/哔哩幼小.json",
    "health": "degraded",
    "latency_ms": 778,
    "level": "C1",
@@ -49828,7 +49828,7 @@
   "戏曲杂苑": {
    "name": "🅱戏曲｜杂苑",
    "api": "csp_Bili",
-   "ext": "./deps/auto/110-66s/lib/哔哩戏曲.json",
+   "ext": "./deps/auto/99-66s/lib/哔哩戏曲.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49837,7 +49837,7 @@
   "csp_111BB": {
    "name": "🅱️套餐2┃哔哩",
    "api": "csp_Bili",
-   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/localized/62d009b548-哔哩套餐2.json\"}",
+   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/auto/69-106s/gh/ouhaibo1980/tvbox@main/Bil/哔哩套餐2.json\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49846,7 +49846,7 @@
   "歌曲": {
    "name": "🌈歌曲┃哔哩",
    "api": "csp_Bili",
-   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/localized/0ec714896d-歌曲MV.json\"}",
+   "ext": "{\"cookie\": \"http://127.0.0.1:9978/file/TVBox/bili_cookie.txt\", \"json\": \"./deps/auto/69-106s/gh/ouhaibo1980/tvbox@main/Bil/歌曲MV.json\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49855,7 +49855,7 @@
   "哔哩音乐": {
    "name": "🎧哔哩｜音乐",
    "api": "csp_Bili",
-   "ext": "./deps/auto/110-66s/lib/哔哩音乐.json",
+   "ext": "./deps/auto/99-66s/lib/哔哩音乐.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49900,7 +49900,7 @@
   "企鹅xp": {
    "name": "🐧鹅鹅┃体育",
    "api": "csp_XPath",
-   "ext": "./deps/auto/131-53s/fantaiying/ext/-/raw/main/企鹅直播.json",
+   "ext": "./deps/auto/118-53s/fantaiying/ext/-/raw/main/企鹅直播.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -49918,7 +49918,7 @@
   "mtv_xp_动漫巴士": {
    "name": "🐼动漫丨巴士",
    "api": "csp_XBPQ",
-   "ext": "./deps/auto/110-66s/lib/动漫巴士.json",
+   "ext": "./deps/auto/99-66s/lib/动漫巴士.json",
    "health": "degraded",
    "latency_ms": 99,
    "level": "C1",
@@ -49927,7 +49927,7 @@
   "Youtube2": {
    "name": "👉🔥Youtube台灣🎯👈",
    "api": "csp_Youtube",
-   "ext": "{\"codecs\": \"\", \"json\": \"https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/youtube2.json\"}",
+   "ext": "{\"codecs\": \"\", \"json\": \"https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/youtube2.json\"}",
    "health": "degraded",
    "latency_ms": 1123,
    "level": null,
@@ -50097,30 +50097,30 @@
   },
   "360ba": {
    "name": "360吧",
-   "api": "./deps/auto/229-35s/open/360ba_open.js",
+   "api": "./deps/auto/212-35s/open/360ba_open.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/360ba_open.js"
+   "fp": "api:./deps/auto/212-35s/open/360ba_open.js"
   },
   "kanqiu": {
    "name": "88看球",
-   "api": "./deps/auto/229-35s/open/kanqiu_open.js",
+   "api": "./deps/auto/212-35s/open/kanqiu_open.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/kanqiu_open.js"
+   "fp": "api:./deps/auto/212-35s/open/kanqiu_open.js"
   },
   "91": {
    "name": "91",
-   "api": "./deps/auto/229-35s/open/91_open.js",
+   "api": "./deps/auto/212-35s/open/91_open.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/91_open.js"
+   "fp": "api:./deps/auto/212-35s/open/91_open.js"
   },
   "dj0898_book_open": {
    "name": "DJ网[cat]",
@@ -50133,57 +50133,57 @@
   },
   "ktv": {
    "name": "KTV",
-   "api": "./deps/auto/229-35s/open/ktv_open.js",
+   "api": "./deps/auto/212-35s/open/ktv_open.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/ktv_open.js"
+   "fp": "api:./deps/auto/212-35s/open/ktv_open.js"
   },
   "haudu": {
    "name": "huadu",
-   "api": "./deps/auto/229-35s/open/huadu_open.js",
+   "api": "./deps/auto/212-35s/open/huadu_open.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/huadu_open.js"
+   "fp": "api:./deps/auto/212-35s/open/huadu_open.js"
   },
   "kan80": {
    "name": "kan80",
-   "api": "./deps/auto/229-35s/open/lsq_open.js",
+   "api": "./deps/auto/212-35s/open/lsq_open.js",
    "ext": "https://152.32.170.60/564892076/box/raw/branch/main/js/cat/rules/test.rule",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/lsq_open.js"
+   "fp": "api:./deps/auto/212-35s/open/lsq_open.js"
   },
   "maiyoux": {
    "name": "maiyoux",
-   "api": "./deps/auto/229-35s/open/maiyoux_open.js",
+   "api": "./deps/auto/212-35s/open/maiyoux_open.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/maiyoux_open.js"
+   "fp": "api:./deps/auto/212-35s/open/maiyoux_open.js"
   },
   "mmcl": {
    "name": "mmcl",
-   "api": "./deps/auto/229-35s/open/mmcl_open.js",
+   "api": "./deps/auto/212-35s/open/mmcl_open.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/mmcl_open.js"
+   "fp": "api:./deps/auto/212-35s/open/mmcl_open.js"
   },
   "一三九": {
    "name": "一三九",
-   "api": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/一三九.js",
+   "api": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/一三九.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
+   "fp": "api:./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
   },
   "yqk": {
    "name": "一起看[cat]",
@@ -50196,30 +50196,30 @@
   },
   "不开心": {
    "name": "不开心",
-   "api": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/不开心.js",
+   "api": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/不开心.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
+   "fp": "api:./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
   },
   "leshi": {
    "name": "乐视采集【📺】",
-   "api": "./deps/auto/229-35s/open/caiji.js",
+   "api": "./deps/auto/212-35s/open/caiji.js",
    "ext": "https://leshizyapi.com/api.php/provide/vod/at/json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/caiji.js"
+   "fp": "api:./deps/auto/212-35s/open/caiji.js"
   },
   "免费看": {
    "name": "免费看",
-   "api": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/免费看.js",
+   "api": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/免费看.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
+   "fp": "api:./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
   },
   "猫农民": {
    "name": "农民[cat]",
@@ -50250,12 +50250,12 @@
   },
   "49zyw": {
    "name": "四九【📺】",
-   "api": "./deps/auto/229-35s/open/caiji.js",
+   "api": "./deps/auto/212-35s/open/caiji.js",
    "ext": "https://49zyw.com/api.php/provide/vod/from/49zyw",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/caiji.js"
+   "fp": "api:./deps/auto/212-35s/open/caiji.js"
   },
   "猫在线之家": {
    "name": "在线之家[cat]",
@@ -50340,21 +50340,21 @@
   },
   "抓饭体育": {
    "name": "抓饭体育",
-   "api": "./deps/auto/252-7s/%E4%BD%93%E8%82%B2/JS/drpy.min.js",
-   "ext": "./deps/auto/252-7s/%E4%BD%93%E8%82%B2/JS/抓饭体育.js",
+   "api": "./deps/auto/236-7s/%E4%BD%93%E8%82%B2/JS/drpy.min.js",
+   "ext": "./deps/auto/236-7s/%E4%BD%93%E8%82%B2/JS/抓饭体育.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/252-7s/%E4%BD%93%E8%82%B2/JS/drpy.min.js"
+   "fp": "api:./deps/auto/236-7s/%E4%BD%93%E8%82%B2/JS/drpy.min.js"
   },
   "柒之社": {
    "name": "柒之社",
-   "api": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/柒之社.js",
+   "api": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/柒之社.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
+   "fp": "api:./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
   },
   "230ts": {
    "name": "爱上你听书网[cat]",
@@ -50412,12 +50412,12 @@
   },
   "美益达": {
    "name": "美益达",
-   "api": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/美益达.js",
+   "api": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/美益达.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
+   "fp": "api:./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
   },
   "drpy_js_ikanbot1": {
    "name": "聚搜 | 爱看机器人1[js]",
@@ -50439,39 +50439,39 @@
   },
   "量子影视": {
    "name": "量子影视",
-   "api": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/量子影视.js",
+   "api": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/量子影视.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
+   "fp": "api:./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
   },
   "零零七": {
    "name": "零零七",
-   "api": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-   "ext": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/零零七.js",
+   "api": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
+   "ext": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/零零七.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
+   "fp": "api:./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
   },
   "yinyuetai": {
    "name": "音悦台",
-   "api": "./deps/auto/229-35s/open/yinyuetai_open.js",
+   "api": "./deps/auto/212-35s/open/yinyuetai_open.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/229-35s/open/yinyuetai_open.js"
+   "fp": "api:./deps/auto/212-35s/open/yinyuetai_open.js"
   },
   "蜻蜓收音机": {
    "name": "收音机",
-   "api": "./deps/auto/204-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/drpy2.min.js",
-   "ext": "./deps/auto/204-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_js/蜻蜓收音机.js",
+   "api": "./deps/auto/188-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/drpy2.min.js",
+   "ext": "./deps/auto/188-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_js/蜻蜓收音机.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/204-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/drpy2.min.js"
+   "fp": "api:./deps/auto/188-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/drpy2.min.js"
   },
   "drpy_js_磁力熊": {
    "name": "磁力熊[js]|索引",
@@ -50484,12 +50484,12 @@
   },
   "js_豆瓣热播": {
    "name": "🅱️追剧影院|T热播",
-   "api": "./deps/auto/110-66s/lib/Api.js",
-   "ext": "./deps/auto/110-66s/lib/Doubanrebo.js",
+   "api": "./deps/auto/99-66s/lib/Api.js",
+   "ext": "./deps/auto/99-66s/lib/Doubanrebo.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/110-66s/lib/Api.js"
+   "fp": "api:./deps/auto/99-66s/lib/Api.js"
   },
   "斗鱼": {
    "name": "🐟斗鱼直播",
@@ -50800,7 +50800,7 @@
   "DOVX搜索": {
    "name": "云盘｜七夜",
    "api": "csp_XYQHiker",
-   "ext": "./deps/auto/172-32s/%E4%BA%91%E7%9B%98/XYQHiker/DOVX搜索.json",
+   "ext": "./deps/auto/156-32s/%E4%BA%91%E7%9B%98/XYQHiker/DOVX搜索.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -50809,7 +50809,7 @@
   "土拨鼠搜索": {
    "name": "云盘｜土拨鼠",
    "api": "csp_XYQHiker",
-   "ext": "./deps/auto/172-32s/%E4%BA%91%E7%9B%98/XYQHiker/土拨鼠搜索.json",
+   "ext": "./deps/auto/156-32s/%E4%BA%91%E7%9B%98/XYQHiker/土拨鼠搜索.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -50818,7 +50818,7 @@
   "豆豆飞搜索": {
    "name": "云盘｜豆豆飞",
    "api": "csp_XYQHikerAL",
-   "ext": "./deps/auto/172-32s/%E4%BA%91%E7%9B%98/XYQHiker/豆豆飞搜索.json",
+   "ext": "./deps/auto/156-32s/%E4%BA%91%E7%9B%98/XYQHiker/豆豆飞搜索.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -51743,7 +51743,7 @@
    "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/yingshi/py5/Pandalive.py"
   },
   "网盘": {
-   "name": "☁云霄网盘",
+   "name": "👖网盘",
    "api": "https://jsnz.pages.dev/f/261c1664.py",
    "ext": "",
    "health": "unknown",
@@ -52735,7 +52735,7 @@
   "sycm": {
    "name": "深液传媒",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_%E6%B7%B1%E6%B6%B2%E4%BC%A0%E5%AA%92.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_%E6%B7%B1%E6%B6%B2%E4%BC%A0%E5%AA%92.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -52762,7 +52762,7 @@
   "qxyy": {
    "name": "秋霞影院",
    "api": "csp_Spider",
-   "ext": "./deps/auto/248-10s/spiders/batch_20260915/spider_%E7%A7%8B%E9%9C%9E%E5%BD%B1%E9%99%A2.py",
+   "ext": "./deps/auto/231-10s/spiders/batch_20260915/spider_%E7%A7%8B%E9%9C%9E%E5%BD%B1%E9%99%A2.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -52960,7 +52960,7 @@
   "Maflya人人影视": {
    "name": "⭐Maflya丨人人丨影视",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
-   "ext": "./deps/auto/172-453s/heads/main/JS/分享双人.js",
+   "ext": "./deps/auto/196-454s/heads/main/JS/分享双人.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -56802,12 +56802,12 @@
   },
   "夜貓_dr_sk100": {
    "name": "😾SK100影视",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/18哈2.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/18哈2.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "t4_wo": {
    "name": "🚛玩偶┃T4",
@@ -57018,12 +57018,12 @@
   },
   "555影视[V2]": {
    "name": "555影视[V2]🏆大漠",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/555影视[V2].js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/555影视[V2].js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "jar_direct": {
    "name": "JAR Direct",
@@ -57064,7 +57064,7 @@
   "春盈": {
    "name": "TV直播2",
    "api": "http://rihou.cc:555/sdtv.js",
-   "ext": "./deps/auto/222-70s/517sdtv.txt",
+   "ext": "./deps/auto/205-70s/517sdtv.txt",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57072,12 +57072,12 @@
   },
   "UM电影[V2]": {
    "name": "UM电影[V2]🏆索尼",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/UM电影[V2].js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/UM电影[V2].js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "⭐Maflya-油管直播": {
    "name": "⭐Maflya丨YouTube丨直播",
@@ -57118,7 +57118,7 @@
   "Maflya博看听书": {
    "name": "⭐Maflya丨博看丨听书",
    "api": "https://play.iptv365.org/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/drpy2.min.js",
-   "ext": "./deps/auto/172-453s/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/js/博看听书.js",
+   "ext": "./deps/auto/196-454s/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/js/博看听书.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57136,7 +57136,7 @@
   "Maflya嘶哩动漫": {
    "name": "⭐Maflya丨嘶哩丨动漫",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/skapp.py",
-   "ext": "{\"host\": \"./deps/auto/172-453s/lib/api.png\", \"iv\": \"6571230062143708\", \"key\": \"ygcnbcznazmyrbdn\"}",
+   "ext": "{\"host\": \"./deps/auto/196-454s/lib/api.png\", \"iv\": \"6571230062143708\", \"key\": \"ygcnbcznazmyrbdn\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57163,7 +57163,7 @@
   "Maflya爱影4K": {
    "name": "⭐Maflya丨爱影丨4K",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/get.js",
-   "ext": "{\"api\": 2, \"host\": \"./deps/auto/172-453s/q23.txt\", \"init\": \"V122\", \"key\": \"nzEqOgYk3QzHuEP8\", \"ua\": \"okhttp/3.10.0\"}",
+   "ext": "{\"api\": 2, \"host\": \"./deps/auto/196-454s/q23.txt\", \"init\": \"V122\", \"key\": \"nzEqOgYk3QzHuEP8\", \"ua\": \"okhttp/3.10.0\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57181,7 +57181,7 @@
   "Maflya童趣育儿": {
    "name": "⭐Maflya丨童趣丨育儿",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
-   "ext": "./deps/auto/172-453s/heads/main/JS/童趣.js",
+   "ext": "./deps/auto/196-454s/heads/main/JS/童趣.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57190,7 +57190,7 @@
   "Maflya网易影视": {
    "name": "⭐Maflya丨网易丨影视",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-   "ext": "./deps/auto/172-453s/js/网易公版影像.js",
+   "ext": "./deps/auto/196-454s/js/网易公版影像.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57208,7 +57208,7 @@
   "Maflya聚合戏曲": {
    "name": "⭐Maflya丨聚合丨戏曲",
    "api": "https://iduo.us.ci/gt/leevi0709/one/main/js/drpy2.min.js",
-   "ext": "./deps/auto/172-453s/gt/leevi0709/one/main/js/戏曲大全.js",
+   "ext": "./deps/auto/196-454s/gt/leevi0709/one/main/js/戏曲大全.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57226,7 +57226,7 @@
   "Maflya葫芦影视": {
    "name": "⭐Maflya丨葫芦丨影视",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
-   "ext": "{\"api\": 2, \"host\": \"./deps/auto/172-453s/JS/maccos_config.txt\", \"init\": \"V122\", \"key\": \"8R33VQSxzmCaHpEX\", \"ua\": \"okhttp/3.10.0\"}",
+   "ext": "{\"api\": 2, \"host\": \"./deps/auto/196-454s/JS/maccos_config.txt\", \"init\": \"V122\", \"key\": \"8R33VQSxzmCaHpEX\", \"ua\": \"okhttp/3.10.0\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57235,7 +57235,7 @@
   "Maflya酷六JS": {
    "name": "⭐Maflya丨酷六丨JS",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-   "ext": "./deps/auto/172-453s/js/酷6网.js",
+   "ext": "./deps/auto/196-454s/js/酷6网.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57244,7 +57244,7 @@
   "Maflya雄鹰影视": {
    "name": "⭐Maflya丨雄鹰丨影视",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
-   "ext": "{\"api\": 2, \"host\": \"./deps/auto/172-453s/JS/xly.txt\", \"init\": \"V120\", \"key\": \"ca94b06ca359d80e\", \"ua\": \"okhttp/3.10.0\"}",
+   "ext": "{\"api\": 2, \"host\": \"./deps/auto/196-454s/JS/xly.txt\", \"init\": \"V120\", \"key\": \"ca94b06ca359d80e\", \"ua\": \"okhttp/3.10.0\"}",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57252,12 +57252,12 @@
   },
   "万物复苏": {
    "name": "万物复苏",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️万物复苏.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️万物复苏.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️万物复苏.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️万物复苏.py"
   },
   "优视频": {
    "name": "优视频",
@@ -57279,12 +57279,12 @@
   },
   "北极狐[V2]": {
    "name": "北极狐[V2]",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/北极狐[V2].js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/北极狐[V2].js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "drpy_js_中华听书网": {
    "name": "听书 | 中华听书网[js]",
@@ -57315,30 +57315,30 @@
   },
   "妙笔影院": {
    "name": "妙笔影院",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️妙笔影院.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️妙笔影院.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️妙笔影院.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️妙笔影院.py"
   },
   "媚惑山庄": {
    "name": "媚惑山庄",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️媚惑山庄.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️媚惑山庄.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️媚惑山庄.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️媚惑山庄.py"
   },
   "宝片[V2]": {
    "name": "宝片[V2]🏆种子",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/宝片[V2].js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/宝片[V2].js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "xiaoshongshu": {
    "name": "小红署",
@@ -57414,17 +57414,17 @@
   },
   "抖阴破解": {
    "name": "抖阴破解",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️抖阴破解.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️抖阴破解.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️抖阴破解.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️抖阴破解.py"
   },
   "抖音直播": {
    "name": "抖音直播",
    "api": "py_douyin",
-   "ext": "./deps/auto/257-6s/%E7%9B%B4%E6%92%AD/py/抖音直播.py",
+   "ext": "./deps/auto/241-6s/%E7%9B%B4%E6%92%AD/py/抖音直播.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57433,7 +57433,7 @@
   "搜狗影视": {
    "name": "搜狗影视",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/jixiejishu/TvBox/master/js/drpy2.min.js",
-   "ext": "./deps/auto/172-453s/js/sogou.js",
+   "ext": "./deps/auto/196-454s/js/sogou.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57450,12 +57450,12 @@
   },
   "日久生情": {
    "name": "日久生情",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️日久生情.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️日久生情.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️日久生情.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️日久生情.py"
   },
   "智能接口": {
    "name": "智能接口",
@@ -57477,39 +57477,39 @@
   },
   "炮兵网": {
    "name": "炮兵网",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️炮兵网.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️炮兵网.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️炮兵网.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️炮兵网.py"
   },
   "熟妇公寓": {
    "name": "熟妇公寓",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️熟妇公寓.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️熟妇公寓.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️熟妇公寓.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️熟妇公寓.py"
   },
   "ikanbot3": {
    "name": "爱看机器人3",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/ikanbot3.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/ikanbot3.js",
    "health": "dead",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "百年直播": {
    "name": "百年直播",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️百年直播.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️百年直播.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️百年直播.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️百年直播.py"
   },
   "直播文件播放": {
    "name": "直播文件播放",
@@ -57523,7 +57523,7 @@
   "芒果Tv": {
    "name": "芒果Tv",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/jixiejishu/TvBox/master/js/drpy2.min.js",
-   "ext": "./deps/auto/172-453s/js/mgtv.js",
+   "ext": "./deps/auto/196-454s/js/mgtv.js",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -57531,39 +57531,39 @@
   },
   "茄子精品": {
    "name": "茄子精品",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️茄子精品.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️茄子精品.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️茄子精品.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️茄子精品.py"
   },
   "茎洞入口": {
    "name": "茎洞入口",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️茎洞入口.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️茎洞入口.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️茎洞入口.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️茎洞入口.py"
   },
   "drpy__豆瓣": {
    "name": "豆瓣🏛[DRPY]",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
    "ext": "./deps/auto/5-390s/js/drpy.js",
    "health": "degraded",
    "latency_ms": 334,
    "level": "D2",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "起飞影院": {
    "name": "起飞影院",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/起飞影院.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/起飞影院.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "音乐文件播放": {
    "name": "音乐文件播放",
@@ -57576,39 +57576,39 @@
   },
   "黄上黄": {
    "name": "黄上黄",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️黄上黄.py",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️黄上黄.py",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️黄上黄.py"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️黄上黄.py"
   },
   "多瑙影视": {
    "name": "🈵多瑙影视♒",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/多瑙影视.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/多瑙影视.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "ikanbotsq": {
    "name": "🈵爱看机器人sq",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/ikanbotsq.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/ikanbotsq.js",
    "health": "dead",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "if101": {
    "name": "🌟if101",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/if101.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/if101.js",
    "health": "dead",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "zxzjhd.py": {
    "name": "🎼在线影视🎼",
@@ -57638,7 +57638,7 @@
    "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/yingshi/py/网易云音乐1.py"
   },
   "API": {
-   "name": "☁云霄API",
+   "name": "👖API",
    "api": "https://jsnz.pages.dev/f/cf616b2f.py",
    "ext": "",
    "health": "unknown",
@@ -57647,7 +57647,7 @@
    "fp": "api:https://jsnz.pages.dev/f/cf616b2f.py"
   },
   "6": {
-   "name": "☁云霄APP",
+   "name": "👖APP",
    "api": "https://jsnz.pages.dev/f/04b5c0b4.js",
    "ext": "",
    "health": "unknown",
@@ -57657,15 +57657,15 @@
   },
   "1": {
    "name": "👖IPTV",
-   "api": "./deps/auto/213-22s/kulao/ext/f05e3b39.js",
+   "api": "https://jsnz.pages.dev/f/f05e3b39.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/213-22s/kulao/ext/f05e3b39.js"
+   "fp": "api:https://jsnz.pages.dev/f/f05e3b39.js"
   },
   "8": {
-   "name": "☁云霄JS",
+   "name": "👖JS",
    "api": "https://jsnz.pages.dev/f/f7b46c7f.js",
    "ext": "",
    "health": "unknown",
@@ -57674,7 +57674,7 @@
    "fp": "api:https://jsnz.pages.dev/f/f7b46c7f.js"
   },
   "9": {
-   "name": "☁云霄PHP",
+   "name": "👖PHP",
    "api": "http://jiduo.3116598.xyz/PHP/pkty.php",
    "ext": "",
    "health": "unknown",
@@ -57683,7 +57683,7 @@
    "fp": "api:http://jiduo.3116598.xyz/PHP/pkty.php"
   },
   "7": {
-   "name": "☁云霄PY",
+   "name": "👖PY",
    "api": "https://jsnz.pages.dev/f/e1aeef83.py",
    "ext": "",
    "health": "unknown",
@@ -57692,7 +57692,7 @@
    "fp": "api:https://jsnz.pages.dev/f/e1aeef83.py"
   },
   "10": {
-   "name": "☁云霄T4",
+   "name": "👖T4",
    "api": "https://banyeomni.780420.xyz:17777/api/tvbox/source/2097848348508688384?token=banye666",
    "ext": "",
    "health": "unknown",
@@ -57701,7 +57701,7 @@
    "fp": "api:https://banyeomni.780420.xyz:17777/api/tvbox/source/2097848348508688384?token=banye666"
   },
   "5": {
-   "name": "☁云霄影视",
+   "name": "👖影视",
    "api": "https://jsnz.pages.dev/f/9e53615c.py",
    "ext": "",
    "health": "unknown",
@@ -57728,7 +57728,7 @@
    "fp": "api:https://mpimg.cn/down.php/5e298d73cf4cc0b9cbecd3aa572b5def.js"
   },
   "腾优爱芒B": {
-   "name": "👖裤佬丨APP丨影视",
+   "name": "⭐Maflya丨腾优爱芒B",
    "api": "https://mpimg.cn/down.php/d40402848cc35e9f2fa1351557f2af1c.js",
    "ext": "",
    "health": "unknown",
@@ -58908,66 +58908,66 @@
   },
   "欧帝影院": {
    "name": "🔥欧帝影院",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/欧帝影院.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/欧帝影院.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "drpy": {
    "name": "🔥豆瓣評分🔍搜尋",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/豆瓣.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/豆瓣.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "CK(VPN)": {
    "name": "🛩CK(VPN)",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/ck.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/ck.js",
    "health": "dead",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "夜貓_drpy_xb": {
    "name": "🛫小宝影视(墙外)",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/小宝影院2.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/小宝影院2.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "夜貓_drpy_ol": {
    "name": "🛫欧乐影视(墙外)",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
    "ext": "欧乐影院[飞]2.js",
    "health": "dead",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "夜貓_drpy_od": {
    "name": "🛫欧帝影视(墙外)",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/js/欧帝影院2.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/js/欧帝影院2.js",
    "health": "unknown",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "夜貓_dr_美视网": {
    "name": "🛫美视网(飞)",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
    "ext": "美视网2.js",
    "health": "dead",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
   },
   "gqc": {
    "name": "🦋 共青春影院.py(关梯)",
@@ -59134,7 +59134,7 @@
   "⭐Maflya电视直播集合": {
    "name": "⭐Maflya丨电视丨直播",
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/mhmdxahmd/mafly/refs/heads/main/MAfly1/zbzdb.js",
-   "ext": "./deps/auto/172-453s/heads/main/MAfly1/zbzdb.json",
+   "ext": "./deps/auto/196-454s/heads/main/MAfly1/zbzdb.json",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -59323,7 +59323,7 @@
   "py_cctv_企鹅": {
    "name": "📺体育｜直播",
    "api": "py_cctv_full",
-   "ext": "./deps/auto/110-66s/lib/py_企鹅体育.py",
+   "ext": "./deps/auto/99-66s/lib/py_企鹅体育.py",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
@@ -59331,12 +59331,12 @@
   },
   "lf_search": {
    "name": "🔎lf_搜索影片3",
-   "api": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/lf_search3_min.js",
+   "api": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/lf_search3_min.js",
    "ext": "",
    "health": "dead",
    "latency_ms": null,
    "level": "S0",
-   "fp": "api:https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/lf_search3_min.js"
+   "fp": "api:https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/lf_search3_min.js"
   },
   "py_ikan": {
    "name": "🔥爱看",
@@ -60637,7 +60637,7 @@
   "知识": {
    "name": "🌏知识┃学堂",
    "api": "csp_Bili",
-   "ext": "https://github.boringhex.top/https://raw.githubusercontent.com/frxz751113/AAAAA/refs/heads/main/json/知识.json",
+   "ext": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/frxz751113/AAAAA/refs/heads/main/json/知识.json",
    "health": "degraded",
    "latency_ms": 811,
    "level": "C1",
@@ -60996,12 +60996,12 @@
   },
   "ylsp": {
    "name": "永乐视频",
-   "api": "./deps/auto/263-3s/js/永乐视频.js",
+   "api": "./deps/auto/247-3s/js/永乐视频.js",
    "ext": "",
    "health": "unknown",
    "latency_ms": null,
    "level": null,
-   "fp": "api:./deps/auto/263-3s/js/永乐视频.js"
+   "fp": "api:./deps/auto/247-3s/js/永乐视频.js"
   },
   "AnFuns": {
    "name": "AnFuns",
@@ -61886,7 +61886,7 @@
    "fp": "api:https://mpimg.cn/down.php/64822fa89d2b95024b3d621b379dc166.py"
   },
   "emby": {
-   "name": "☁云霄Emby",
+   "name": "👖Emby",
    "api": "https://jsnz.pages.dev/f/696546f2.js",
    "ext": "",
    "health": "unknown",
@@ -79470,6 +79470,150 @@
    "latency_ms": null,
    "level": null,
    "fp": "api:https://wwzy.tv/api.php/provide/vod"
+  },
+  "public_37": {
+   "name": "天涯影视",
+   "api": "https://tyyszy.com/api.php/provide/vod",
+   "ext": "",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://tyyszy.com/api.php/provide/vod"
+  },
+  "public_53": {
+   "name": "鸭鸭资源",
+   "api": "https://cj.yayazy.net/api.php/provide/vod",
+   "ext": "",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://cj.yayazy.net/api.php/provide/vod"
+  },
+  "public_45": {
+   "name": "索尼资源",
+   "api": "https://suoniapi.com/api.php/provide/vod",
+   "ext": "",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://suoniapi.com/api.php/provide/vod"
+  },
+  "pool_31": {
+   "name": "无尽（备用2)",
+   "api": "https://api.wujinapi.net/api.php/provide/vod",
+   "ext": "",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://api.wujinapi.net/api.php/provide/vod"
+  },
+  "gszy": {
+   "name": "🎥┃光速┃资源",
+   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+   "ext": "",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://api.guangsuapi.com/api.php/provide/vod/"
+  },
+  "p2100": {
+   "name": "飘零资源",
+   "api": "https://p2100.net/api.php/provide/vod",
+   "ext": "",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://p2100.net/api.php/provide/vod"
+  },
+  "一蜗牛": {
+   "name": "🐌┃蜗蜗┃影视",
+   "api": "csp_XBPQ",
+   "ext": "{\"分类url\":\"https://www.yizhiwo.cc/vodshow/{cateId}--{area}------{catePg}---{year}.html;;au0\",\"嗅探词\":\"xunlei.com#m3u8#.mp4\",\"分类\":\"电影$1#剧集$2#国产剧集$20#欧美剧集$21#动漫$3#综艺$4\",\"搜索模式\":\"1\",\"搜索url\":\"https://www.yizhiwo.cc/vodsearch/-------------.html?wd={wd}\"}",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:csp_XBPQ"
+  },
+  "tcniao_auto": {
+   "name": "🦜TC鸟Auto(自动测速)",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/234-8s/tcniao_auto.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js"
+  },
+  "tcniao_fly": {
+   "name": "🦜TC鸟Fly(飞哥影视)",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/234-8s/tcniao_fly.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js"
+  },
+  "tcniao_v13": {
+   "name": "🦜TC鸟V13(完整URL)",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/234-8s/tcniao_v13.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js"
+  },
+  "tcniao_v14": {
+   "name": "🦜TC鸟V14(纯数字收藏)",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/234-8s/tcniao_v14.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js"
+  },
+  "tcniao_v15": {
+   "name": "🦜TC鸟V15(多线路)",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/234-8s/tcniao_v15.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js"
+  },
+  "tcniao_v26": {
+   "name": "🦜TC鸟V26(最新)",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/234-8s/tcniao_v26.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js"
+  },
+  "tcniao_v27": {
+   "name": "🦜TC鸟V27(配置中心)",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/234-8s/tcniao_v27.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js"
+  },
+  "zmingcx_v12": {
+   "name": "🦜知更鸟V12(脚本截取)",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/234-8s/zmingcx_v12.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js"
+  },
+  "zmingcx": {
+   "name": "🦜知更鸟文章站",
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/jixiejishu/tvboxzb/master/lib/drpy2.min.js",
+   "ext": "./deps/auto/196-454s/zmingcx.js",
+   "health": "unknown",
+   "latency_ms": null,
+   "level": null,
+   "fp": "api:https://gh-proxy.org/https://raw.githubusercontent.com/jixiejishu/tvboxzb/master/lib/drpy2.min.js"
   }
  },
  "live": {
@@ -79511,7 +79655,7 @@
   },
   "https://sub.ottiptv.cc/yylunbo.m3u": {
    "name": "📡YY",
-   "health": "healthy"
+   "health": "degraded"
   },
   "./ext/移动": {
    "name": "🍬移动🍬",
@@ -79534,11 +79678,11 @@
    "health": "degraded"
   },
   "http://rihou.cc:555/gggg.nzk": {
-   "name": "💕分享者直播6",
+   "name": "👖日后TV直播",
    "health": "degraded"
   },
   "https://gongdian.top/tv/iptv": {
-   "name": "宫殿",
+   "name": "👖宫殿TV直播",
    "health": "unknown"
   },
   "https://gh-proxy.org/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt": {
@@ -79686,7 +79830,7 @@
    "health": "healthy"
   },
   "https://live.fanmingming.cn/tv/m3u/ipv6.m3u": {
-   "name": "范明明Live",
+   "name": "TvLive3",
    "health": "healthy"
   },
   "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u": {
@@ -79743,11 +79887,11 @@
   },
   "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/live.txt": {
    "name": "♻️live",
-   "health": "unknown"
+   "health": "degraded"
   },
   "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/zhibo.txt": {
    "name": "♻️TV",
-   "health": "unknown"
+   "health": "degraded"
   },
   "https://jihulab.com/yydfys/yydf/-/raw/main/yydf/lib/MTV.txt": {
    "name": "♻️MTV",
@@ -79874,7 +80018,7 @@
    "health": "healthy"
   },
   "https://live.zbds.top/tv/iptv4.txt": {
-   "name": "ZBDS",
+   "name": "vbskycnipv4txt",
    "health": "degraded"
   },
   "https://gh.halonice.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.m3u": {
@@ -80162,7 +80306,7 @@
    "health": "healthy"
   },
   "http://kakaxi.indevs.in/ipv4.txt": {
-   "name": "IPv4 赛选源",
+   "name": "kakaxiipv4 2小时",
    "health": "degraded"
   },
   "https://gh-proxy.com/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt": {
@@ -80234,7 +80378,7 @@
    "health": "degraded"
   },
   "https://live.zbds.top/tv/iptv4.m3u": {
-   "name": "zbds",
+   "name": "vbskycnipv4m3u",
    "health": "healthy"
   },
   "https://raw.gitmirror.com/yw88075/tvbox/main/live.txt": {
@@ -80382,7 +80526,7 @@
    "health": "unknown"
   },
   "https://jsnzkpg.de5.net/all.m3u": {
-   "name": "👖裤佬体育直播[主]",
+   "name": "👖裤佬体育直播",
    "health": "healthy"
   },
   "https://stymei.pages.dev/live.m3u": {
@@ -80418,7 +80562,7 @@
    "health": "healthy"
   },
   "https://tiktok.445569.xyz/live.m3u": {
-   "name": "☁云霄tiktok直播",
+   "name": "👖裤佬TikTok直播{翻}",
    "health": "healthy"
   },
   "https://stymei1.pages.dev/live.m3u": {
@@ -80458,7 +80602,7 @@
    "health": "unknown"
   },
   "https://ilook.epg.one/5CM5SY98BF24PL/2": {
-   "name": "🍿俄罗斯TV直播",
+   "name": "🍿乌拉TV直播",
    "health": "healthy"
   },
   "https://445569.pages.dev/https://raw.githubusercontent.com/nigelhayes11/temp/refs/heads/main/MAN%20NORMAL%20TV%202025.m3u": {
@@ -80466,7 +80610,7 @@
    "health": "healthy"
   },
   "https://seep.eu.org/iptv-org.github.io/iptv/index.m3u": {
-   "name": "🍿全球TV直播",
+   "name": "👖全球TV直播{翻}",
    "health": "healthy"
   },
   "http://124.77.202.8:49155": {
@@ -80482,7 +80626,7 @@
    "health": "unknown"
   },
   "https://seep.eu.org/https://live.445569.xyz/live.m3u": {
-   "name": "📡裤佬直播",
+   "name": "👖裤佬TV直播",
    "health": "unknown"
   },
   "https://gh.halonice.com/https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit": {
@@ -80578,7 +80722,7 @@
    "health": "dead"
   },
   "https://php.946985.filegear-sg.me/jackTV.m3u": {
-   "name": "jackTV(梯子)",
+   "name": "👖JackTV直播{翻}",
    "health": "healthy"
   },
   "http://127.0.0.1:5266/iptv.m3u": {
@@ -81122,7 +81266,7 @@
    "health": "degraded"
   },
   "https://ha.msbot.dpdns.org/4gtv_api.php": {
-   "name": "🐬4GTV(梯子任何节点)1080p",
+   "name": "👖台湾TV直播{翻}",
    "health": "unknown"
   },
   "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/安博.txt": {
@@ -81266,11 +81410,11 @@
    "health": "degraded"
   },
   "https://gh-proxy.org/https://raw.githubusercontent.com/mytv-android/iptv-api/refs/heads/master/output/result.txt": {
-   "name": "Guowin txt ",
+   "name": "Guowin txt 备用",
    "health": "degraded"
   },
   "https://gh-proxy.org/https://raw.githubusercontent.com/mytv-android/iptv-api/refs/heads/master/output/result.m3u": {
-   "name": "Guowin m3u  ",
+   "name": "Guowin m3u  备用",
    "health": "healthy"
   },
   "https://gh.xxooo.cf/https://raw.githubusercontent.com/mytv-android/iptv-api/refs/heads/master/output/result.txt": {
@@ -81555,7 +81699,7 @@
   },
   "https://yg.ygbox.de5.net/huya.php": {
    "name": "👖虎牙TV直播",
-   "health": "degraded"
+   "health": "unknown"
   },
   "https://cdn.jsdelivr.net/gh/x3284728970/danbo-tv-config@main/live.m3u": {
    "name": "央视/卫视",
@@ -81823,15 +81967,15 @@
   },
   "https://github.dpik.top/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u": {
    "name": "地方直播2",
-   "health": "degraded"
+   "health": "healthy"
   },
   "https://github.dpik.top/https://raw.githubusercontent.com/xJEYDAin/iptv/main/output/all_merged.m3u": {
    "name": "国际TV",
-   "health": "degraded"
+   "health": "healthy"
   },
   "https://github.dpik.top/https://raw.githubusercontent.com/lihanxing0404/mystudy/master/live_test.m3u": {
    "name": "ITV",
-   "health": "degraded"
+   "health": "healthy"
   },
   "https://ghproxy.imciel.com/https://raw.githubusercontent.com/yihad168/tv/refs/heads/main/tv.m3u": {
    "name": "🐬国际TV 有🔞",
@@ -82219,11 +82363,11 @@
   },
   "https://github.dpik.top/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u": {
    "name": "Ryukyou┃中文精选(自动更新)",
-   "health": "degraded"
+   "health": "healthy"
   },
   "https://github.dpik.top/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u": {
    "name": "备用-CollectIPTV",
-   "health": "degraded"
+   "health": "healthy"
   },
   "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.3/live.m3u": {
    "name": "WKC电视直播",
@@ -82271,6 +82415,14 @@
   },
   "https://cdn.jsdelivr.net/npm/wkc0001-tvbox-independent@0.5.13/live.m3u": {
    "name": "WKC电视直播",
+   "health": "healthy"
+  },
+  "https://github.mxw.qzz.io/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u": {
+   "name": "Ryukyou┃中文精选(自动更新)",
+   "health": "healthy"
+  },
+  "https://github.mxw.qzz.io/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u": {
+   "name": "备用-CollectIPTV",
    "health": "healthy"
   }
  }

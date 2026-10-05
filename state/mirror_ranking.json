@@ -8,6 +8,206 @@
  "workers": 3,
  "rounds": [
   {
+   "generated_at": "2026-10-05 00:57:46 UTC",
+   "first": "https://github.mxw.qzz.io",
+   "ranking": [
+    {
+     "prefix": "https://github.mxw.qzz.io",
+     "ttfb_ms": 335,
+     "KBps": 71727,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://ghproxy.felicity.land",
+     "ttfb_ms": 392,
+     "KBps": 69831,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://gh.sixyin.com",
+     "ttfb_ms": 520,
+     "KBps": 69035,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://v6.gh-proxy.org",
+     "ttfb_ms": 301,
+     "KBps": 68104,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://gh.acmsz.top",
+     "ttfb_ms": 757,
+     "KBps": 67982,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://ghf.xn--eqrr82bzpe.top",
+     "ttfb_ms": 357,
+     "KBps": 67247,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://ghproxy.imciel.com",
+     "ttfb_ms": 117,
+     "KBps": 66474,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://gh.dpik.top",
+     "ttfb_ms": 1182,
+     "KBps": 65684,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://git.820828.xyz",
+     "ttfb_ms": 129,
+     "KBps": 57702,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://githubproxy.cc",
+     "ttfb_ms": 252,
+     "KBps": 52860,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://gh-proxy.com",
+     "ttfb_ms": 215,
+     "KBps": 19208,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://ghproxy.cxkpro.top",
+     "ttfb_ms": 109,
+     "KBps": 19073,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://fastgit.cc",
+     "ttfb_ms": 248,
+     "KBps": 18980,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://gh.felicity.ac.cn",
+     "ttfb_ms": 633,
+     "KBps": 18845,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://github.boringhex.top",
+     "ttfb_ms": 119,
+     "KBps": 18173,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://github.mayx.eu.org",
+     "ttfb_ms": 373,
+     "KBps": 17861,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://github.dpik.top",
+     "ttfb_ms": 328,
+     "KBps": 17667,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://30006000.xyz",
+     "ttfb_ms": 309,
+     "KBps": 7061,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://gh.zwy.one",
+     "ttfb_ms": 312,
+     "KBps": 6872,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://gh.halonice.com",
+     "ttfb_ms": 415,
+     "KBps": 5788,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://github.cnxiaobai.com",
+     "ttfb_ms": 325,
+     "KBps": 5477,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://gh.padao.fun",
+     "ttfb_ms": 395,
+     "KBps": 5335,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    },
+    {
+     "prefix": "https://wget.la",
+     "ttfb_ms": 1455,
+     "KBps": 1542,
+     "bytes": 4194304,
+     "capped": false,
+     "origin": "fixed"
+    }
+   ],
+   "discovered": [],
+   "slow_dropped": [],
+   "fake_success": [],
+   "dead": [
+    "https://gh.xmly.dev/",
+    "https://proxy.vvvv.ee/",
+    "https://cfgh.ikgy.top/",
+    "https://gh.927223.xyz/",
+    "https://github.tbap.top/"
+   ]
+  },
+  {
    "generated_at": "2026-10-04 22:14:34 UTC",
    "first": "https://github.boringhex.top",
    "ranking": [
@@ -1212,213 +1412,6 @@
      "prefix": "https://wget.la",
      "ttfb_ms": 4010,
      "KBps": 1541,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    }
-   ],
-   "discovered": [],
-   "slow_dropped": [],
-   "fake_success": [],
-   "dead": [
-    "https://gh.xmly.dev/",
-    "https://cfgh.ikgy.top/",
-    "https://gh.927223.xyz/",
-    "https://github.tbap.top/"
-   ]
-  },
-  {
-   "generated_at": "2026-10-03 04:34:32 UTC",
-   "first": "https://ghproxy.felicity.land",
-   "ranking": [
-    {
-     "prefix": "https://ghproxy.felicity.land",
-     "ttfb_ms": 761,
-     "KBps": 64848,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://gh.felicity.ac.cn",
-     "ttfb_ms": 317,
-     "KBps": 62023,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://github.mxw.qzz.io",
-     "ttfb_ms": 255,
-     "KBps": 61590,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://ghf.xn--eqrr82bzpe.top",
-     "ttfb_ms": 507,
-     "KBps": 60755,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://ghproxy.imciel.com",
-     "ttfb_ms": 228,
-     "KBps": 55175,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://ghproxy.cxkpro.top",
-     "ttfb_ms": 217,
-     "KBps": 45410,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://github.dpik.top",
-     "ttfb_ms": 424,
-     "KBps": 43833,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://v6.gh-proxy.org",
-     "ttfb_ms": 151,
-     "KBps": 41429,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://gh-proxy.com",
-     "ttfb_ms": 353,
-     "KBps": 39250,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://git.820828.xyz",
-     "ttfb_ms": 156,
-     "KBps": 35421,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://github.mayx.eu.org",
-     "ttfb_ms": 219,
-     "KBps": 35154,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://gh.acmsz.top",
-     "ttfb_ms": 666,
-     "KBps": 28801,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://proxy.vvvv.ee",
-     "ttfb_ms": 460,
-     "KBps": 20597,
-     "bytes": 1923865,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://gh.dpik.top",
-     "ttfb_ms": 2212,
-     "KBps": 16930,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://github.boringhex.top",
-     "ttfb_ms": 210,
-     "KBps": 16411,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://gh.sixyin.com",
-     "ttfb_ms": 901,
-     "KBps": 15650,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://fastgit.cc",
-     "ttfb_ms": 146,
-     "KBps": 14880,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://githubproxy.cc",
-     "ttfb_ms": 227,
-     "KBps": 10404,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://30006000.xyz",
-     "ttfb_ms": 405,
-     "KBps": 9938,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://gh.zwy.one",
-     "ttfb_ms": 177,
-     "KBps": 9507,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://gh.halonice.com",
-     "ttfb_ms": 374,
-     "KBps": 8268,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://gh.padao.fun",
-     "ttfb_ms": 349,
-     "KBps": 7503,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://github.cnxiaobai.com",
-     "ttfb_ms": 393,
-     "KBps": 6308,
-     "bytes": 4194304,
-     "capped": false,
-     "origin": "fixed"
-    },
-    {
-     "prefix": "https://wget.la",
-     "ttfb_ms": 1314,
-     "KBps": 1783,
      "bytes": 4194304,
      "capped": false,
      "origin": "fixed"
