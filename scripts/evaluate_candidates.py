@@ -247,8 +247,14 @@ def main() -> int:
                 print(f"    unique={c.get('unique')}  {c.get('url')}")
         return 0
 
-    doc = json.load(open(os.path.join(repo, args.probe), encoding="utf-8"))
-    cands = doc.get("candidates") or []
+    probe_path = os.path.join(repo, args.probe)
+    if os.path.isfile(probe_path):
+        with open(probe_path, encoding="utf-8") as f:
+            doc = json.load(f)
+        cands = doc.get("candidates") or []
+    else:
+        print(f"[eval] 候选文件不存在，按 0 候选继续：{args.probe}", flush=True)
+        cands = []
     base_fps, base_n = load_base_fps(os.path.join(repo, args.base))
     print(f"[eval] 基准 {args.base}: {base_n} 站点 / {len(base_fps)} 个去重后指纹")
     print(f"[eval] 候选 {len(cands)} 个，并发 {args.workers}")
