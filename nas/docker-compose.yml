@@ -11,6 +11,8 @@ services:
     environment:
       TZ: Asia/Shanghai
       TVBOX_INTERVAL_HOURS: "12"
+      MEDIA_PROBE_LIMIT: "40"
+      PROBE_QUOTA: "160"
     volumes:
       - ./data:/data
       - ./output:/output
