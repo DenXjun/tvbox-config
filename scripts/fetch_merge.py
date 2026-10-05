@@ -21,6 +21,7 @@ TVBox 配置每日拉取合并脚本 v2（stdlib only，无第三方依赖）
   P2 一上游一适配器（HerbertHe/iptv-sources 模式）
   P2 域名替换层（hl128k/tvbox 思路）
 """
+from fm_config import *  # 阶段1：只读配置常量已抽到 fm_config.py
 import sys
 
 if sys.version_info < (3, 10):
@@ -59,28 +60,16 @@ import upstream_config as _ucfg           # 统一上游配置（config/upstream
 import upstream_changelog as _uclog       # 上游配置变更追踪（归一化 sha256，state/upstream_changelog.jsonl）
 
 BEIJING = timezone(timedelta(hours=8))
-UA = {"User-Agent": "okhttp/3.15", "Accept": "*/*"}
-FETCH_TIMEOUT = 15          # 单次拉取超时（秒，旧合并超时，保留兼容）
 # 任务2：connect/read 拆分硬超时（env 可覆盖）。连接 10s 快速判死，读 30s 容忍慢大文件。
 FETCH_CONNECT_TIMEOUT = int(os.environ.get("FETCH_CONNECT_TIMEOUT", "10"))
 FETCH_READ_TIMEOUT = int(os.environ.get("FETCH_READ_TIMEOUT", "30"))
 
 # 吸收点 P1-3：上游拉取 UA 池（设计借鉴自参考仓库调研，代码独立实现）。
 # 拉取失败时轮换 UA + 指纹头重试，覆盖部分上游对单一 okhttp UA 的选择性拦截。
-UA_POOL_VOD = [
-    {"User-Agent": "okhttp/3.15", "X-Requested-With": "com.iptvbox.tvbox"},
-    {"User-Agent": "okhttp/4.9.3", "X-Requested-With": "com.iptvbox.tvbox"},
-    {"User-Agent": "TVBox/1.0.0", "X-Requested-With": "com.github.tvbox.osc"},
-    {"User-Agent": "Dalvik/2.1.0 (Linux; U; Android 12; Pixel 3 XL Build/SQ1A.220205.002)", "X-Requested-With": "com.iptvbox.tvbox"},
-    {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36", "X-Requested-With": ""},
-    {"User-Agent": "okhttp/3.12.0", "X-Requested-With": "com.box.tvbox"},
-]
 UA_ROTATE_MAX = int(os.environ.get("UA_ROTATE_MAX", "3"))   # 单 URL 的 UA 轮换上限（含首次）
 
-TEST_TIMEOUT = 6            # 站点验活单次超时（秒）
 # V4：验活并发 20→48（配合 _domain_semaphore 同域信号量，避免被目标站 WAF 封）
 CONCURRENCY = int(os.environ.get("CONCURRENCY", "48"))
-MAX_BODY = 4096             # 验活最多读取字节数
 # O7 ghproxy 单点依赖缓解：拉取侧按镜像列表依次轮换；产出配置改写固定用主镜像（静态 JSON 无法做客户端容灾）
 # 镜像排序依据（2026-09-19 实测本项目文件）：gh-proxy.com TTFB 657ms/1551KB/s 双优；
 # gh.zwy.one 624KB/s（用户侧 Release 实测 7119KB/s）；ghproxy.cxkpro.top 434KB/s（用户侧 5292KB/s）；
@@ -101,13 +90,6 @@ MAX_BODY = 4096             # 验活最多读取字节数
 MIRROR_RANKING_FILE = os.environ.get("MIRROR_RANKING_FILE", "state/mirror_ranking.json")
 MIRROR_RANKING_MAX_AGE_DAYS = int(os.environ.get("MIRROR_RANKING_MAX_AGE_DAYS", "3"))
 
-GH_MIRRORS_DEFAULT = (
-    "https://gh.halonice.com/,https://30006000.xyz/,https://githubproxy.cc/,"
-    "https://proxy.vvvv.ee/,https://gh.padao.fun/,https://github.cnxiaobai.com/,"
-    "https://fastgit.cc/,https://gh.zwy.one/,https://ghproxy.cxkpro.top/,"
-    "https://v6.gh-proxy.org/,https://gh-proxy.com/,https://ghproxy.net/,"
-    "https://gh.acmsz.top/"
-)
 
 
 def _load_mirror_rounds(path=None):
@@ -180,7 +162,6 @@ if not GH_MIRRORS:
 GHPROXY = (GH_MIRRORS[0] if GH_MIRRORS else "") if _MIRRORS_PINNED else \
     _stable_ghproxy(_MIRROR_ROUNDS, GH_MIRRORS[0] if GH_MIRRORS else "")
 
-REPO_RAW = "https://raw.githubusercontent.com/hebijunge/tvbox-config/main"
 
 # ---- P0：内容质量门槛参数 ----
 MIN_BYTES_TVBOX = int(os.environ.get("MIN_BYTES_TVBOX", "512"))    # 配置类上游最小字节数
@@ -728,28 +709,6 @@ def public_list_filter(interfaces: list):
 # ==================== 短剧/成人分类（独立收录 short.json / adult.json） ====================
 # 关键词来源：现有 tvbox.json 22 条短剧站点 + 39 条成人站点的 name/key/api 关键字汇总（2026-09-18 扫描）
 # 命中规则：name 或 key 含任一关键词则归入；name/key 均不命中时扫描 api 主机/路径作为兜底
-SHORT_KEYWORDS = [
-    "短剧", "微短剧", "短剧场",   # 中文
-    "duanju", "duanjucat", "duanjumao", "shortplay", "short_play",  # 拼音/英文
-    "七猫", "河马", "围观", "好看", "星芽", "果果", "红果", "黄果", "黄豆",
-    "锦鲤", "偷乐", "上头", "聚合短剧",
-]
-ADULT_LIVE_SOURCES = [
-    # fish2018/lib 成人直播/成人影片（每个都在 sandbox 实测过 http 200 + 至少一条流抽样通过）
-    ("18+合集",   "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/18+.txt",        10679),
-    ("live18",     "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/live18.txt",    8917),
-    ("pron",       "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/pron.m3u",         64),
-    ("国产传媒",   "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/几个传媒.txt",   3331),
-    ("成人传媒",   "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/成人传媒.txt",   2980),
-    ("成人电影",   "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/成人电影.txt",  14873),
-    ("18资源丰富", "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/18资源丰富.txt", 5564),
-    ("花活",       "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/花活.txt",        2540),
-    ("天美传媒816", "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/天美传媒816.txt", 23),
-    ("果冻传媒816", "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/果冻传媒816.txt", 63),
-    ("精东影业816", "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/精东影业816.txt", 24),
-    ("麻豆传媒816", "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/麻豆传媒816.txt", 12),
-    ("星空传媒816", "https://ghproxy.net/https://raw.githubusercontent.com/fish2018/lib/main/txt/星空传媒816.txt", 46),
-]
 
 
 def _scrub_txt_file(path: str, is_adult_fn) -> None:
@@ -938,23 +897,6 @@ def build_curated_lives(repo_dir: str):
     return curated, adult_lives
 
 
-ADULT_KEYWORDS = [
-    # 明确成人/色情关键词（收紧：去除通用资源站误匹配）
-    "成人", "18+", "porn", "麻豆", "果冻", "天美", "精东", "色播", "传媒",
-    "花活", "丝袜", "美腿", "hsck", "jav", "1024", "91porn", "91md", "91panta", "91splt", "91bobo", "91精品",
-    "色花糖", "朱古力", "Missav", "missav",
-    # 注：2026-09-26 用户裁定「玩偶」移出成人词表——玩偶(wogg)系 4K 网盘影视站，
-    # 非成人站；此前因 feishu-sync 上游含真成人站被上游投票连带误收进 adult.json。
-    "Xojav", "JavBus", "JavDb", "涩涩", "Websites",
-    # 扩张：常见成人站点标志词
-    "xvideos", "pornhub", "xhamster", "hdsemj", "tokyo-hot",
-    # 限定形容词（"敏感词"语义强）— 仅作为最后防线
-    "裸聊", "裸播", "黄播", "黄网", "瑟瑟情",
-    # 2026-09-21 点播+容错线：高置信词 ×10 增量（来源：实读 ccAzy separate_sources.py
-    # 词表后人工挑选，走本表关键词匹配而非其删除式过滤；均为社区普遍使用的成人
-    # 站名/黑话，误匹配风险低）
-    "探花", "蜜桃", "糖心", "海角", "含羞草", "草榴", "秋霞", "番号", "无码", "里番",
-]
 
 
 def classify_site(s, overrides: dict = None) -> str:
@@ -987,42 +929,9 @@ def classify_site(s, overrides: dict = None) -> str:
 # 2026-09-23 改为多信号分级。强信号单命中即判 adult；弱信号需 ≥2 命中或上游投票佐证，
 # 避免「吃瓜」「迷妹」等通用词单独命中误杀 vod 站；已知误报 key 进白名单强制 vod。
 # 上游投票：同 repo 内强信号命中 ≥2 个站点 → 该 repo 其余未分类站也按投票结果走 adult。
-STRONG_ADULT_TOKENS = [
-    # 上游/官方标记
-    "🔞",
-    # 国际化成人平台（品牌词，零误匹配风险）
-    "pornhub", "xvideos", "xhamster", "tokyo-hot",
-    "javbus", "javdb", "xojav", "missav",
-    "91porn", "91md", "hdsemj",
-    # 明确成人 api 域名（社区共识的成人 CMS 后端）
-    "souavzy", "pgxdy", "dadiapi", "lbapi9", "xrbsp", "jcspcj8",
-    "caiji25", "sdszyapi", "hsck",
-    # 明确站点标志词（带数字/连字符变体）
-    "18av", "4kav", "4k-av", "cableav", "netflav", "owoav", "souav", "黄av",
-    # 明确中文成人站点品牌
-    "麻豆", "果冻传媒", "天美传媒", "精东传媒",
-]
 
-WEAK_ADULT_TOKENS = [
-    "成人", "18+", "porn", "传媒", "色播", "丝袜", "美腿",
-    "花活", "1024",
-    "91panta", "91splt", "91bobo", "91精品",
-    "色花糖", "朱古力", "涩涩",
-    # 2026-09-26：「玩偶」移出——wogg 系 4K 网盘影视站，非成人站（用户裁定）
-    "裸聊", "裸播", "黄播", "黄网", "瑟瑟情",
-    "探花", "蜜桃", "糖心", "海角", "含羞草", "草榴", "秋霞", "番号", "无码", "里番",
-    "淫水", "色屌丝", "咪咪资源", "嗨片", "吃瓜", "迷妹", "黄果", "熊猫资源",
-    "果冻", "天美", "精东",
-]
 
 # 已知误报白名单：key 命中强制 vod（这些是网盘/通用资源站，与成人无关）
-ADULT_FALSE_POSITIVE_KEYS = {
-    "webdav", "webdav1", "webdav2", "webdav3",
-    "clouddrive", "aliyundrive", "aliyundrive2",
-}
-ADULT_FALSE_POSITIVE_NAME_FRAGMENTS = (
-    "webdav", "web dav", "clouddrive", "阿里云盘", "alist",
-)
 
 
 def _classify_target_text(s: dict) -> str:
@@ -1171,7 +1080,6 @@ def _split_by_adult_gate(items):
 
 
 # ==================== adult 直播源测速与成人站点搜索验收 ====================
-PROBE_STREAM_RANGE = (0, 2047)  # 直播抽验流 2KB（与 aa5a88d 通用做法对齐）
 
 
 def _parse_live_list_first_stream(body: bytes, url: str) -> str | None:
@@ -1246,7 +1154,6 @@ def probe_adult_lives(adult_lives: list, *, timeout: int = 8, max_bytes: int = 3
 
 
 # 搜索词降级序列——对苹果CMS V10 类站点（api 返回 JSON、ac=videolist 协议）
-SEARCH_KEYWORDS = ("麻豆", "爱", "传媒")
 
 
 def _adult_search_and_play(api_url: str, timeout: int = 8) -> dict:
@@ -1372,8 +1279,6 @@ def verify_adult_sites(adult_sites: list, check_latency: dict, *, timeout: int =
 #   · 类型错误（type 为字符串 "1" 而非 int）
 #   · 占位 url（type 3 的 "Demo"/"Web" 内置功能，重复 6/7 次应各留一条）
 # 修复目标：结构校验 + 私有地址剔除 + URL 规范化去重 + 可选 TCP 探活 + 安全阀
-_VALID_PARSE_TYPES = {0, 1, 2, 3, 4}
-_LOOPBACK_HOSTS = {"localhost", "0.0.0.0", "::1", "[::1]"}
 
 
 def _is_private_host(host: str) -> bool:
@@ -1600,23 +1505,16 @@ def clean_parses(parses: list, *, do_probe: bool = True, probe_timeout: float = 
 
 
 # ==================== 依赖收集（jar / js / json 库文件） ====================
-DEPS_DIR = "deps"
 MANIFEST_PATH = os.path.join(DEPS_DIR, "manifest.json")
 # deps 失败退避账本（2026-09-28）：死域/挂起链接不再每轮重建清单反复 25s 死撞。
 # 上轮 2564 条挂起全是 gitcode.net/yydsys.top 等死域，每轮白花 ~28min。
 # 失败按 2^fail_count 天指数退避（上限 14 天），累计 30 天标死不再试；
 # 下载成功即清账本；DEP_FORCE_RETRY=1 强制全量重试。
 DEP_BACKOFF_FILE = os.environ.get("DEP_BACKOFF_FILE", os.path.join("state", "dep_fail_backoff.json"))
-DEP_BACKOFF_MAX_DAYS = 14
-DEP_BACKOFF_DEAD_DAYS = 30
-DEP_TIMEOUT = 8
-DEP_TOTAL_BUDGET = 15  # 单依赖全链路(直连+镜像)总预算秒，防死URL拖慢整轮
-DEP_MAX_BYTES = 8 * 1024 * 1024
 # 任务3：总并发提到 16，同时按域名限速（默认同域最多 4 并发，避免 raw.githubusercontent.com 限流）
 DEP_CONCURRENCY = int(os.environ.get("DEP_CONCURRENCY", "32"))
 DEP_DOMAIN_CONCURRENCY = int(os.environ.get("DEP_DOMAIN_CONCURRENCY", "4"))
 _DEP_DOMAIN_LOCK = threading.Lock()
-_DEP_DOMAIN_SEMAPHORES = {}
 
 
 def _domain_semaphore(url: str) -> "threading.Semaphore":
@@ -1644,7 +1542,6 @@ RAW_VOD_VERIFY = os.environ.get("RAW_VOD_VERIFY", "on-change")
 FORCE_FULL_RUN = os.environ.get("FORCE_FULL_RUN", "0") == "1"  # 置 1 忽略「无变化跳过聚合」门控
 RAW_VOD_VERIFY_ACTIVE = False   # main() 运行时置位，collect_and_rewrite_deps 据此决定是否逐依赖验证
 
-_IDNA_CACHE = {}
 
 
 def _idna_host(host: str) -> str:
@@ -2088,7 +1985,6 @@ DEPS_GIT_MIN_FILES = int(os.environ.get("DEPS_GIT_MIN_FILES", "2"))
 DEPS_GIT_BUDGET_SEC = float(os.environ.get("DEPS_GIT_BUDGET_SEC", "420"))
 DEPS_GIT_TIMEOUT = int(os.environ.get("DEPS_GIT_TIMEOUT", "120"))
 DEPS_GIT_REPOS_PER_ROUND = int(os.environ.get("DEPS_GIT_REPOS_PER_ROUND", "25"))
-_git_probe_cache: dict = {}
 
 
 def _git_run(args, timeout):
@@ -3579,13 +3475,6 @@ def read_name_list(path: str) -> list:
 
 
 # V12 失败严重度分级：按失败类型差异化停用阈值（timeout 宽容、404/连接拒绝严苛）
-KIND_FAIL_LIMIT = {
-    "timeout": 5,            # 网络抖动多，宽容 5 次才降权
-    "404": 2,                # 源已删，2 次即剔除
-    "connection_refused": 2, # 连接拒绝=源下线，2 次即剔除
-    "5xx": 3,                # 服务端错误，3 次降权
-    "empty_product": 3,      # 空内容，3 次降权
-}
 
 
 def record_result(state: dict, name: str, ok: bool, whitelist_manual: list,
@@ -3845,8 +3734,6 @@ def apply_site_verdict(site_state: dict, key: str, name: str, ok: bool, now: str
 # 3.4-2 / P0-2：人工覆盖表 schema 扩展——同时支持内容分类与接口类型覆盖。
 #   内容分类：short / adult / vod   → classify_site 直接短路
 #   接口类型：cms / pan / csp       → store_kind_of 直接覆盖（与 rank_sites.type_of 兼容）
-CATEGORY_OVERRIDE_VALUES = ("short", "adult", "vod", "cms", "pan", "csp")
-CONTENT_CATEGORIES = ("short", "adult", "vod")   # 仅这些会短路 classify_site
 
 
 def load_category_overrides() -> dict:
@@ -3941,7 +3828,6 @@ def category_of(channel: str, group: str) -> str:
     return "other"
 
 
-CATEGORY_LABELS = [("cctv", "央视"), ("weishi", "卫视"), ("gangtai", "港台"), ("other", "其他")]
 
 
 def speed_test(entries, limit: int):
@@ -4128,8 +4014,6 @@ def _is_local_ref(url) -> bool:
 
 
 # 状态优先级（越小越好），供同名去重时挑「最优状态」。
-_STATUS_RANK = {"ok": 0, "probe": 1, "mirror": 1, "degraded": 2,
-                "dead": 3, "disabled": 4, "blacklisted": 5}
 
 
 def dedupe_check_records(records: list) -> list:
@@ -4190,9 +4074,6 @@ def write_checks(records: list, generated_at: str) -> dict:
     return doc
 
 
-ICONS = {"ok": "🟢", "degraded": "🟡", "dead": "🔴", "disabled": "⚫", "blacklisted": "🚫"}
-STATUS_CN = {"ok": "可用", "degraded": "降级", "dead": "失效", "disabled": "已停用",
-             "blacklisted": "黑名单", "probe": "🔵探活", "mirror": "镜像"}
 
 
 def update_readme_availability(records: list) -> bool:
@@ -4491,25 +4372,6 @@ PAN_EXT_RE = re.compile(
 
 # 网盘 CK 获取端点表：ck_field 与 token.json 字段一一对应（实测后随 stores/pan_ck.json 发布）。
 # 注：api.extscreen.com/aliyundrive/token 直接来自 token.json 的 open_api_url 字段，其余为各盘官方登录入口。
-PAN_CK_ENDPOINTS = [
-    {"disk": "阿里云盘", "ck_field": "token / open_token", "method": "POST 中转",
-     "api": "http://api.extscreen.com/aliyundrive/token",
-     "note": "open_api_url 默认中转，POST 传 refresh_token 换 open_token"},
-    {"disk": "夸克网盘", "ck_field": "quark_cookie", "method": "网页登录",
-     "api": "https://pan.quark.cn", "note": "浏览器登录后 F12 复制 Cookie 全量"},
-    {"disk": "UC网盘", "ck_field": "uc_cookie", "method": "网页登录",
-     "api": "https://drive.uc.cn", "note": "浏览器登录后 F12 复制 Cookie 全量"},
-    {"disk": "天翼云盘", "ck_field": "thunder_username/password + captchatoken", "method": "账密+验证码",
-     "api": "https://m.cloud.189.cn/login.html", "note": "账密写入 token.json，登录需验证码"},
-    {"disk": "115网盘", "ck_field": "cookie(UID/CID/SEID)", "method": "扫码",
-     "api": "https://qrcodeapi.115.com/api/1.0/user/1.0/qrcode/token/", "note": "扫码拿二维码 → 轮询确认换 cookie"},
-    {"disk": "PikPak", "ck_field": "pikpak_username/password", "method": "账密",
-     "api": "https://user.mypikpak.com/v1/auth/token", "note": "OAuth password grant，账密直接换 token"},
-    {"disk": "移动云盘", "ck_field": "yd_auth", "method": "App 抓包",
-     "api": "https://passport.yun.139.com", "note": "App 登录后抓包取 auth 值"},
-    {"disk": "百度网盘", "ck_field": "cookie(BDUSS)", "method": "网页登录",
-     "api": "https://pan.baidu.com", "note": "浏览器登录后复制 BDUSS"},
-]
 
 
 def store_kind_of(s: dict, overrides: dict) -> str:
