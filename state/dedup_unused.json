@@ -1,1 +1,728 @@
-{}
+{
+ "deps/jar/pg_bfb02655.jar": {
+  "bytes": 3814000,
+  "unused_since": "2026-10-05",
+  "md5": "bfb026556d8803f677cccb94dfe8367d",
+  "keep_within_group": "deps/auto/53-140s/pg.jar"
+ },
+ "deps/jar/fenghuang.jar": {
+  "bytes": 3133839,
+  "unused_since": "2026-10-05",
+  "md5": "a81afc9c6a39cbd3de57dd8fca9031e3",
+  "keep_within_group": "deps/auto/47-149s/spider.jar"
+ },
+ "deps/jar/pg_upgraded.jar": {
+  "bytes": 2912031,
+  "unused_since": "2026-10-05",
+  "md5": "e58c3a2975d24db4978065ab895cf297",
+  "keep_within_group": "deps/qist/9918/jar/pg_upgraded.jar"
+ },
+ "deps/jar/lem0403.jar": {
+  "bytes": 2828631,
+  "unused_since": "2026-10-05",
+  "md5": "790a3809099f0d85564d48bfe78b2ab9",
+  "keep_within_group": "deps/auto/1-36s/q309972108/tv/raw/master/jar/lem0403.jar"
+ },
+ "deps/jar/pg_dffec63f.jar": {
+  "bytes": 2684075,
+  "unused_since": "2026-10-05",
+  "md5": "dffec63fb83a2b31b8606bd4bf6bead9",
+  "keep_within_group": "deps/nxppru/0825/jar/pg.jar"
+ },
+ "deps/jar/KG.jar": {
+  "bytes": 2535932,
+  "unused_since": "2026-10-05",
+  "md5": "3a73848f3dbadf8da1ac3abb4e8fb227",
+  "keep_within_group": "deps/xingwei/kstore/twvip/jarR/raw/master/KG.jar"
+ },
+ "deps/jar/spider_c1856667.jar": {
+  "bytes": 2384348,
+  "unused_since": "2026-10-05",
+  "md5": "c185666786de4eac6c4121737cf2f3ba",
+  "keep_within_group": "deps/tianshen/iy/spider.jar"
+ },
+ "deps/external/48be3437e1-29b94aff.py": {
+  "bytes": 2350944,
+  "unused_since": "2026-10-05",
+  "md5": "879bd10cded0718dc68500b2c8027437",
+  "keep_within_group": "deps/feishu-sync/f/29b94aff.py"
+ },
+ "deps/py/红果短剧最终版 (1).py": {
+  "bytes": 2350944,
+  "unused_since": "2026-10-05",
+  "md5": "879bd10cded0718dc68500b2c8027437",
+  "keep_within_group": "deps/feishu-sync/f/29b94aff.py"
+ },
+ "deps/jar/p.jar": {
+  "bytes": 2097428,
+  "unused_since": "2026-10-05",
+  "md5": "440f930ef3fe699051b53f1d02d575ce",
+  "keep_within_group": "deps/bocai/x4pro/5/lib/p.jar"
+ },
+ "deps/jar/xs.jar": {
+  "bytes": 2019727,
+  "unused_since": "2026-10-05",
+  "md5": "5400486b7884dd01de5a306e34724c3c",
+  "keep_within_group": "deps/cluntop/box/jar/xs.jar"
+ },
+ "deps/jar/xiaosa.jar": {
+  "bytes": 2007316,
+  "unused_since": "2026-10-05",
+  "md5": "93131d6c9de1489372ed466e4840ab90",
+  "keep_within_group": "deps/sv/xiaosa/Supprise0901/api/blob/main/xiaosa.jar"
+ },
+ "deps/jar/svip_91eb942e.jar": {
+  "bytes": 1937792,
+  "unused_since": "2026-10-05",
+  "md5": "91eb942e44d1154447df4f91ed714488",
+  "keep_within_group": "deps/shiguang/svip/heads/main/svip.jar"
+ },
+ "deps/jar/%E7%83%AD%E6%92%AD%E8%B7%9F%E8%82%A56.jar": {
+  "bytes": 1855872,
+  "unused_since": "2026-10-05",
+  "md5": "0c516fd492a98492c2e41b5028495d45",
+  "keep_within_group": "deps/hajimi/kstore/f/nOjVCX/%E7%83%AD%E6%92%AD%E8%B7%9F%E8%82%A56.jar"
+ },
+ "deps/jar/kjtw_94cc7730.jar": {
+  "bytes": 1851658,
+  "unused_since": "2026-10-05",
+  "md5": "94cc7730ebec586a25a1179bc4b2754b",
+  "keep_within_group": "deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar"
+ },
+ "deps/jar/kjtw_25e68e89.jar": {
+  "bytes": 1843578,
+  "unused_since": "2026-10-05",
+  "md5": "25e68e89e948a268eaf04655eb83abd6",
+  "keep_within_group": "deps/xingwei/kstore/twvip/jarR/raw/master/kjtw.jar"
+ },
+ "deps/jar/pro_6fbde676.jar": {
+  "bytes": 1692136,
+  "unused_since": "2026-10-05",
+  "md5": "6fbde6762f293d1cc8ff64f8ce090fbc",
+  "keep_within_group": "deps/laozhang/serv00/zq/pro.jar"
+ },
+ "deps/jar/ok.jar": {
+  "bytes": 1645789,
+  "unused_since": "2026-10-05",
+  "md5": "1bc1d832b86b666f818fda06260aebad",
+  "keep_within_group": "deps/auto/86-82s/jar/ok.jar"
+ },
+ "deps/external/972fbc35e5-d44dd2cf.py": {
+  "bytes": 1566543,
+  "unused_since": "2026-10-05",
+  "md5": "6a30ae917c8e8c11584b7617c0fa23b4",
+  "keep_within_group": "deps/feishu-sync/f/d44dd2cf.py"
+ },
+ "deps/jar/spider_ff63ee13.jar": {
+  "bytes": 1565634,
+  "unused_since": "2026-10-05",
+  "md5": "ff63ee13fe88a8bdb4b387082b678645",
+  "keep_within_group": "deps/sv/xiaogege/spider.jar"
+ },
+ "deps/jar/ox.jar": {
+  "bytes": 1519034,
+  "unused_since": "2026-10-05",
+  "md5": "412f8d175b032a824dc781b1fa8c46b0",
+  "keep_within_group": "deps/xingwei/kstore/xw/lib/jp.png"
+ },
+ "deps/jar/dx260509.jar": {
+  "bytes": 1499428,
+  "unused_since": "2026-10-05",
+  "md5": "9237bddaebf29f45e617f5328bdc5474",
+  "keep_within_group": "deps/sv/iqinu/jar/dx260509.jar"
+ },
+ "deps/jar/se.jar": {
+  "bytes": 1186595,
+  "unused_since": "2026-10-05",
+  "md5": "875ce871703d1c382e0498711b9d3ba0",
+  "keep_within_group": "deps/auto/179-18s/tvbox/%E7%91%9F%E7%91%9F/18.jar"
+ },
+ "deps/other/pikpakclass.a.json.db.gz": {
+  "bytes": 1145838,
+  "unused_since": "2026-10-05",
+  "md5": "ed2727f74304c6597dae9ce2508f64e0",
+  "keep_within_group": "deps/qist/9918/json/pikpakclass.a.json.db.gz"
+ },
+ "deps/jar/dongli-spider.jar": {
+  "bytes": 1133745,
+  "unused_since": "2026-10-05",
+  "md5": "b6c28db3ed75438481f2fbae81a58428",
+  "keep_within_group": "deps/dongli/chigua/heads/main/jar/dongli-spider.jar"
+ },
+ "deps/jar/spider_1ac25ccd.jar": {
+  "bytes": 1113561,
+  "unused_since": "2026-10-05",
+  "md5": "1ac25ccd1b5ac56fd19eb91c6f7daf4d",
+  "keep_within_group": "deps/deepseek/gaoops404/gaoops404/tvbox-config/raw/main/jar/spider.jar"
+ },
+ "deps/jar/HeChengChaXiu_6fb0aaec.jar": {
+  "bytes": 1107247,
+  "unused_since": "2026-10-05",
+  "md5": "6fb0aaec35994b1978b5f33646b344dd",
+  "keep_within_group": "deps/auto/3-151s/HeChengChaXiu.jar"
+ },
+ "deps/external/7e9eddd7af-00live05152.txt": {
+  "bytes": 1073852,
+  "unused_since": "2026-10-05",
+  "md5": "a1cb67325527478176000b09b881c657",
+  "keep_within_group": "deps/feishu-sync/00live05152.txt"
+ },
+ "deps/jar/spider_e46355a6.jar": {
+  "bytes": 1045952,
+  "unused_since": "2026-10-05",
+  "md5": "e46355a632ad1abd6eb9738a99b33b55",
+  "keep_within_group": "deps/localized/47f65156e4-spider.jar"
+ },
+ "deps/jar/vox_3c531ba3.jar": {
+  "bytes": 1043005,
+  "unused_since": "2026-10-05",
+  "md5": "3c531ba3864d3ce00a91f396cc9ab33e",
+  "keep_within_group": "deps/hajimi/kstore/f/Odakcd/vox.jar"
+ },
+ "deps/jar/858cb4948d-o.jar": {
+  "bytes": 1024276,
+  "unused_since": "2026-10-05",
+  "md5": "38599acd689d216c53f0b62fe4cca17b",
+  "keep_within_group": "deps/localized/858cb4948d-o.jar"
+ },
+ "deps/external/fe9b09c2c1-%E8%93%9D%E5%85%89.jar": {
+  "bytes": 993026,
+  "unused_since": "2026-10-05",
+  "md5": "d0d8c29eef955a1db0bc6b897d0df4e0",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E6%8E%A8%E8%8D%90%E5%8C%85jar/%E8%93%9D%E5%85%89.jar"
+ },
+ "deps/external/20abcb66db-%E5%8E%82%E9%95%BF.jar": {
+  "bytes": 962377,
+  "unused_since": "2026-10-05",
+  "md5": "99d350da6f3c6d2006e20088d6c6b0b0",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E6%8E%A8%E8%8D%90%E5%8C%85jar/%E5%8E%82%E9%95%BF.jar"
+ },
+ "deps/jar/wangxiaoer.jar": {
+  "bytes": 941576,
+  "unused_since": "2026-10-05",
+  "md5": "6b497b8e531f046481e3e94cc3dccece",
+  "keep_within_group": "deps/sv/wangxiaoer/Supprise0901/api/blob/main/wangxiaoer.jar"
+ },
+ "deps/external/43280ea3b9-%E4%BD%8E%E7%AB%AF.jar": {
+  "bytes": 938635,
+  "unused_since": "2026-10-05",
+  "md5": "3e71d83c7ea2966f0ca5b225566b8c98",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/%E4%BD%8E%E7%AB%AF.jar"
+ },
+ "deps/external/42db1175c5-up%E2%98%81%EF%B8%8F.jar": {
+  "bytes": 934912,
+  "unused_since": "2026-10-05",
+  "md5": "b1106a30c00023fc614c127cea04a331",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E7%BD%91%E7%9B%98jar/up%E2%98%81%EF%B8%8F.jar"
+ },
+ "deps/jar/Yoursmile.jar": {
+  "bytes": 909588,
+  "unused_since": "2026-10-05",
+  "md5": "69dadb9a99a618ea9e2f4e2b92968e41",
+  "keep_within_group": "deps/juwan/xhz/xhz/Yoursmile.jar"
+ },
+ "deps/jar/api.jar": {
+  "bytes": 901390,
+  "unused_since": "2026-10-05",
+  "md5": "b63a0eb8852bb7ab06500c424ccc3dae",
+  "keep_within_group": "deps/sv/api/Supprise0901/api/blob/main/api.jar"
+ },
+ "deps/external/444d9152ce-pc0330.jar": {
+  "bytes": 872469,
+  "unused_since": "2026-10-05",
+  "md5": "b5bcdd9c2d181f7e35a97de0d90be1a5",
+  "keep_within_group": "deps/feishu-sync/c120487/00/raw/main/jar/pc0330.jar"
+ },
+ "deps/jar/PandaQ240309.jar": {
+  "bytes": 868428,
+  "unused_since": "2026-10-05",
+  "md5": "cddfd3426da27e89c7195ea79637028a",
+  "keep_within_group": "deps/auto/5-196s/tvbox-master-doki/jar/PandaQ240309.jar"
+ },
+ "deps/jar/PandaQ240408.jar": {
+  "bytes": 852598,
+  "unused_since": "2026-10-05",
+  "md5": "88f56cb18fa3f1eb16c96fd0c00b6f43",
+  "keep_within_group": "deps/auto/5-196s/tvbox-master-doki/jar/PandaQ240408.jar"
+ },
+ "deps/jar/feimao0528.jar": {
+  "bytes": 832666,
+  "unused_since": "2026-10-05",
+  "md5": "b81a5747f91e7169bdc7e3f68bd995e0",
+  "keep_within_group": "deps/cainisi/tv/jar/feimao0528.jar"
+ },
+ "deps/jar/spider_461266c1.jar": {
+  "bytes": 809202,
+  "unused_since": "2026-10-05",
+  "md5": "461266c1d1dd71dabf47253ece6c2317",
+  "keep_within_group": "deps/auto/19-270s/tvbox-master-doki/jar/spider.jar"
+ },
+ "deps/jar/XBPQ1.jar": {
+  "bytes": 782449,
+  "unused_since": "2026-10-05",
+  "md5": "56be033d13e13803dc999d881437d1f6",
+  "keep_within_group": "deps/auto/19-270s/tvbox-master-doki/jar/XBPQ1.jar"
+ },
+ "deps/external/d1796cf069-%E9%A5%AD%E5%9B%A2%E5%BD%B1%E8%A7%86.jar": {
+  "bytes": 712706,
+  "unused_since": "2026-10-05",
+  "md5": "aeac1ff0f843fc8cf45d730e6f7b6c5e",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E6%8E%A8%E8%8D%90%E5%8C%85jar/%E9%A5%AD%E5%9B%A2%E5%BD%B1%E8%A7%86.jar"
+ },
+ "deps/js/qyg0.js": {
+  "bytes": 708488,
+  "unused_since": "2026-10-05",
+  "md5": "4656e3ee7df1f4db03a6c0af17295b1d",
+  "keep_within_group": "deps/qist/jsm/lib/drpy-core-lite.min.js"
+ },
+ "deps/external/c0f6684ca3-%E7%9C%9F%E4%B8%8D%E5%8D%A1.jar": {
+  "bytes": 690766,
+  "unused_since": "2026-10-05",
+  "md5": "3b876c4ef8a8818c92576a4474834f45",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/%E7%9C%9F%E4%B8%8D%E5%8D%A1.jar"
+ },
+ "deps/external/a77c58a336-aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExsQzF4dE9XemY5dFFjYVIt.jar": {
+  "bytes": 687646,
+  "unused_since": "2026-10-05",
+  "md5": "20f0e11de310ffc7cc66a4de80b08c64",
+  "keep_within_group": "deps/jar/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBb3d0QlVrR3NRUExsQzF4dE9XemY5dFFjYVIt.jar"
+ },
+ "deps/jar/fty_3d161697.jar": {
+  "bytes": 685819,
+  "unused_since": "2026-10-05",
+  "md5": "3d161697458ecbcd2651a749db761ba1",
+  "keep_within_group": "deps/sv/liucn-m/box/fty.jar"
+ },
+ "deps/jar/danmu_75173e54.jar": {
+  "bytes": 681484,
+  "unused_since": "2026-10-05",
+  "md5": "75173e54b10d99e0b6f8563dfb60d7c6",
+  "keep_within_group": "deps/hajimi/kstore/f/mLbwU9/danmu.jar"
+ },
+ "deps/external/9e70ffc99c-x.txt": {
+  "bytes": 679692,
+  "unused_since": "2026-10-05",
+  "md5": "72d62873eeecb8975347198661dd01cc",
+  "keep_within_group": "deps/wex/newwex/tv/live/x.txt"
+ },
+ "deps/jar/danmu_235cfc9a.jar": {
+  "bytes": 676025,
+  "unused_since": "2026-10-05",
+  "md5": "235cfc9a1a21ce386bac0861100492c9",
+  "keep_within_group": "deps/auto/50-145s/danmu.jar"
+ },
+ "deps/other/spider1.png": {
+  "bytes": 672014,
+  "unused_since": "2026-10-05",
+  "md5": "83e07fbdf15ceb9d57201bfbfe5ad818",
+  "keep_within_group": "deps/auto/5-196s/tvbox-master-doki/jar/spider1.png"
+ },
+ "deps/jar/dx0301.jar": {
+  "bytes": 668371,
+  "unused_since": "2026-10-05",
+  "md5": "7c26600bf679881bde52aed94f4f843a",
+  "keep_within_group": "deps/sv/iqinu/jar/dx0301.jar"
+ },
+ "deps/jar/ea7a1ae7d5b3a88329515f918385276a.jar": {
+  "bytes": 659732,
+  "unused_since": "2026-10-05",
+  "md5": "aad92ad00761ed9d916d3a14c84ea941",
+  "keep_within_group": "deps/hajimi/kstore/down.php/ea7a1ae7d5b3a88329515f918385276a.jar"
+ },
+ "deps/jar/XBPQ_5c5116c7.jar": {
+  "bytes": 647438,
+  "unused_since": "2026-10-05",
+  "md5": "5c5116c70e15343433c8480c3b448408",
+  "keep_within_group": "deps/auto/54-140s/box/duo/lib/duo.jar"
+ },
+ "deps/jar/xyqxbpq.jar": {
+  "bytes": 635660,
+  "unused_since": "2026-10-05",
+  "md5": "fd3cefc7302f3a39a442682f802b11e5",
+  "keep_within_group": "deps/sv/lege-dj/heads/main/TV/jar/xyqxbpq.jar"
+ },
+ "deps/txt/ppx.txt": {
+  "bytes": 611188,
+  "unused_since": "2026-10-05",
+  "md5": "82a31f7dab4c0eb89a46584f3934d810",
+  "keep_within_group": "deps/auto/5-196s/tvbox-master-doki/jar/ppx.txt"
+ },
+ "deps/jar/sdtv.jar": {
+  "bytes": 603744,
+  "unused_since": "2026-10-05",
+  "md5": "87d5916b7bb5c8acacac5490e802828e",
+  "keep_within_group": "deps/auto/205-70s/sdtv.jar"
+ },
+ "deps/txt/fan_5543dae0.txt": {
+  "bytes": 591716,
+  "unused_since": "2026-10-05",
+  "md5": "5543dae038ce2248e7759e9cbca295b9",
+  "keep_within_group": "deps/xiaokai/kai/jyqhkd/kd/-/raw/main/fan.txt"
+ },
+ "deps/jar/file.jar": {
+  "bytes": 586342,
+  "unused_since": "2026-10-05",
+  "md5": "364c0f012e73a8801a69900fc25ae9c1",
+  "keep_within_group": "deps/auto/3-427s/box/tm/custom_spider.jar"
+ },
+ "deps/jar/dongchenok.jar": {
+  "bytes": 581662,
+  "unused_since": "2026-10-05",
+  "md5": "e0eeee047a042c9c3646c5c1767a2749",
+  "keep_within_group": "deps/auto/5-196s/tvbox-master-doki/jar/dongchenok.jar"
+ },
+ "deps/jar/34dc804020748504a15e2767b37656c3.jar": {
+  "bytes": 577812,
+  "unused_since": "2026-10-05",
+  "md5": "34dc804020748504a15e2767b37656c3",
+  "keep_within_group": "deps/sv/xiaogege/down.php/34dc804020748504a15e2767b37656c3.jar"
+ },
+ "deps/external/6296cb1f77-%E7%BB%8F%E5%85%B8%E7%94%B5%E8%A7%86%E5%89%A7.txt": {
+  "bytes": 560240,
+  "unused_since": "2026-10-05",
+  "md5": "d1e942e75a49e4127514fa7fd6eb90fe",
+  "keep_within_group": "deps/wex/newwex/f/XOpgIZ/%E7%BB%8F%E5%85%B8%E7%94%B5%E8%A7%86%E5%89%A7.txt"
+ },
+ "deps/external/8852c08552-%E8%81%9A%E7%9F%AD%E8%A7%86%E9%A2%91.jar": {
+  "bytes": 523468,
+  "unused_since": "2026-10-05",
+  "md5": "e80798750eca57470f29d1942bce39bb",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/%E5%93%94%E6%BB%B4%E5%BD%B1%E8%A7%86.jar"
+ },
+ "deps/external/b89467254a-%E5%93%94%E6%BB%B4%E5%BD%B1%E8%A7%86.jar": {
+  "bytes": 523468,
+  "unused_since": "2026-10-05",
+  "md5": "e80798750eca57470f29d1942bce39bb",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/%E5%93%94%E6%BB%B4%E5%BD%B1%E8%A7%86.jar"
+ },
+ "deps/external/b6a40eb3db-%E5%9C%A8%E7%BA%BF%E7%9B%B4%E6%92%AD.jar": {
+  "bytes": 521982,
+  "unused_since": "2026-10-05",
+  "md5": "fc09f6d5f29525e5b5d07e92afb5be26",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E6%8E%A8%E8%8D%90%E5%8C%85jar/%E5%9C%A8%E7%BA%BF%E7%9B%B4%E6%92%AD.jar"
+ },
+ "deps/external/e6d758df0b-zubo_all.txt": {
+  "bytes": 507958,
+  "unused_since": "2026-10-05",
+  "md5": "e44f69e040ce8c364c146a0f2378c138",
+  "keep_within_group": "deps/external/5cc9ca68c4-zubo_all.txt"
+ },
+ "deps/external/bc65ef603e-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E9%80%9A%E7%94%A8.jar": {
+  "bytes": 504410,
+  "unused_since": "2026-10-05",
+  "md5": "eb1f98498ac18b940af67681495c17f4",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E5%A8%B1%E4%B9%90jar/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E9%80%9A%E7%94%A8.jar"
+ },
+ "deps/external/efe678df9d-cokemv%E5%BD%B1%E8%A7%86.jar": {
+  "bytes": 504410,
+  "unused_since": "2026-10-05",
+  "md5": "eb1f98498ac18b940af67681495c17f4",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E5%A8%B1%E4%B9%90jar/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E9%80%9A%E7%94%A8.jar"
+ },
+ "deps/external/147c3c62f5-LIBVIO.jar": {
+  "bytes": 500103,
+  "unused_since": "2026-10-05",
+  "md5": "da018b4f9e93e66d29be9ff5013a2059",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/LIBVIO.jar"
+ },
+ "deps/external/c67d031550-%E5%B0%8F%E7%BA%B8%E6%9D%A11.jar": {
+  "bytes": 496594,
+  "unused_since": "2026-10-05",
+  "md5": "f4ee03b9f90dc4d6a9f31d4e6920d25f",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E7%BD%91%E7%9B%98jar/%E5%B0%8F%E7%BA%B8%E6%9D%A11.jar"
+ },
+ "deps/jar/custom_spider_eed040a6.jar": {
+  "bytes": 493982,
+  "unused_since": "2026-10-05",
+  "md5": "eed040a6247f375adbff7ec181f8e0d6",
+  "keep_within_group": "deps/dongli/chigua/xyq254245/xyqonlinerule/blob/main/custom_spider.jar"
+ },
+ "deps/external/16554481d5-myquark.json": {
+  "bytes": 487872,
+  "unused_since": "2026-10-05",
+  "md5": "409436112cea94b42ea964bb0bc161a7",
+  "keep_within_group": "deps/dongli/chigua/chitue/dongliTV/blob/main/config/myquark.json"
+ },
+ "deps/json/myquark.json": {
+  "bytes": 487872,
+  "unused_since": "2026-10-05",
+  "md5": "409436112cea94b42ea964bb0bc161a7",
+  "keep_within_group": "deps/dongli/chigua/chitue/dongliTV/blob/main/config/myquark.json"
+ },
+ "deps/external/1475ce4c59-%E6%96%B0%E8%A7%86%E8%A7%89.jar": {
+  "bytes": 461638,
+  "unused_since": "2026-10-05",
+  "md5": "10a5154df51f00e8af33c6bc933cc0eb",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E6%8E%A8%E8%8D%90%E5%8C%85jar/%E6%96%B0%E8%A7%86%E8%A7%89.jar"
+ },
+ "deps/external/6345cc099c-%E5%96%B5%E7%9B%98%E6%90%9C.jar": {
+  "bytes": 458447,
+  "unused_since": "2026-10-05",
+  "md5": "fa98074a9176a173bf06888377b40842",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E7%BD%91%E7%9B%98jar/%E5%96%B5%E7%9B%98%E6%90%9C.jar"
+ },
+ "deps/external/f5d75bb251-555%E5%BD%B1%E8%A7%86.jar": {
+  "bytes": 458385,
+  "unused_since": "2026-10-05",
+  "md5": "f47cb3ea66749be3afff738746182cf8",
+  "keep_within_group": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E6%8E%A8%E8%8D%90%E5%8C%85jar/555%E5%BD%B1%E8%A7%86.jar"
+ },
+ "deps/jar/yingso.jar": {
+  "bytes": 439153,
+  "unused_since": "2026-10-05",
+  "md5": "01a3ff492be1213dce2fd3a0789853be",
+  "keep_within_group": "deps/auto/5-196s/tvbox-master-doki/jar/yingso.jar"
+ },
+ "deps/jar/养生堂.jar": {
+  "bytes": 435070,
+  "unused_since": "2026-10-05",
+  "md5": "4d860d06ec233dbcb891b76055f099d5",
+  "keep_within_group": "deps/hajimi/kstore/f/bobgtv/%E5%B0%B1%E5%87%A0%E4%B8%AA.jar"
+ },
+ "deps/jar/lm60601.jar": {
+  "bytes": 400063,
+  "unused_since": "2026-10-05",
+  "md5": "edf2bad2a6943342039f03ade94904dd",
+  "keep_within_group": "deps/sv/iqinu/jar/lm60601.jar"
+ },
+ "deps/jar/XBPQ_4145467d.jar": {
+  "bytes": 397355,
+  "unused_since": "2026-10-05",
+  "md5": "4145467d49e0437dc43e8bbb79e3ff7d",
+  "keep_within_group": "deps/auto/53-140s/jar/XBPQ.jar"
+ },
+ "deps/jar/XYQ.jar": {
+  "bytes": 393490,
+  "unused_since": "2026-10-05",
+  "md5": "705ba6e23c4384c37a11dd904727520b",
+  "keep_within_group": "deps/qist/XYQ/jar/XYQ.jar"
+ },
+ "deps/jar/柠檬.jar": {
+  "bytes": 385294,
+  "unused_since": "2026-10-05",
+  "md5": "939ffbc2941a28ca533f2653fa4b449e",
+  "keep_within_group": "deps/sv/iqinu/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png"
+ },
+ "deps/jar/jd.jar": {
+  "bytes": 378382,
+  "unused_since": "2026-10-05",
+  "md5": "b9059746a076bd1626440655fd9da6f3",
+  "keep_within_group": "deps/shiguang/svip/heads/main/jar/jd.jar"
+ },
+ "deps/external/d9684aea8e-lf_search3_min.js": {
+  "bytes": 363687,
+  "unused_since": "2026-10-05",
+  "md5": "12c0b0010d88d1bb80ea84e8ed175236",
+  "keep_within_group": "deps/js/lf_search3_min.js"
+ },
+ "deps/js/qyg14_f4f72962.js": {
+  "bytes": 356592,
+  "unused_since": "2026-10-05",
+  "md5": "f4f72962fb5d6e15d4e32b39c02056f0",
+  "keep_within_group": "deps/feishu-sync/dm/js/cheerio.min.js"
+ },
+ "deps/js/cheerio.min_b3d3e32e.js": {
+  "bytes": 356590,
+  "unused_since": "2026-10-05",
+  "md5": "b3d3e32e1e6b68ccd23f3009b6a5b261",
+  "keep_within_group": "deps/auto/99-66s/lib/cheerio.min.js"
+ },
+ "deps/jar/top98_1.jar": {
+  "bytes": 326140,
+  "unused_since": "2026-10-05",
+  "md5": "31259341cb1a5ed11da14804d14f1054",
+  "keep_within_group": "deps/top98/jar/top98_1.jar"
+ },
+ "deps/external/2fbc9a5217-tv.txt": {
+  "bytes": 318306,
+  "unused_since": "2026-10-05",
+  "md5": "e67caccf49d6f78fad30c74a53ce9435",
+  "keep_within_group": "deps/wex/newwex/tv.txt"
+ },
+ "deps/external/0d42058d6f-xxx.jar": {
+  "bytes": 282894,
+  "unused_since": "2026-10-05",
+  "md5": "dde04006f7a3369ed6c7637163dd5dd2",
+  "keep_within_group": "deps/localized/41e3847b34-xxx.jar"
+ },
+ "deps/jar/custom_spider_41c87635.jar": {
+  "bytes": 266777,
+  "unused_since": "2026-10-05",
+  "md5": "41c87635d7592069884a5dafa12acabe",
+  "keep_within_group": "deps/localized/694a87f31b-box.jar"
+ },
+ "deps/js/jsencrypt.js": {
+  "bytes": 221343,
+  "unused_since": "2026-10-05",
+  "md5": "017a775b14d5551b503c2371ff5d12e7",
+  "keep_within_group": "deps/auto/53-140s/js/jsencrypt.js"
+ },
+ "deps/py/op_ticket_1_5673241091_1788770930556_IMPGdz5q.py": {
+  "bytes": 215416,
+  "unused_since": "2026-10-05",
+  "md5": "d8dce233903ee59fb3e1bc45e97e2625",
+  "keep_within_group": "deps/feishu-sync/raw.githubusercontent.com/tushen6/Tomorrow/master/py/红果短剧.py"
+ },
+ "deps/jar/custom_spider_dbc93cb9.jar": {
+  "bytes": 188592,
+  "unused_since": "2026-10-05",
+  "md5": "dbc93cb9a14cff520dc4f26e6eddb68c",
+  "keep_within_group": "deps/auto/191-12s/jar/custom_spider.jar"
+ },
+ "deps/external/f8c31b9e7d-custom_spider.jar": {
+  "bytes": 188592,
+  "unused_since": "2026-10-05",
+  "md5": "dbc93cb9a14cff520dc4f26e6eddb68c",
+  "keep_within_group": "deps/auto/191-12s/jar/custom_spider.jar"
+ },
+ "deps/js/drpy2.js": {
+  "bytes": 157695,
+  "unused_since": "2026-10-05",
+  "md5": "a7b5c931ca322eccfe6eaf471308500a",
+  "keep_within_group": "deps/auto/53-140s/js/drpy2.js"
+ },
+ "deps/external/70a577d50c-lf_p2p2_min.js": {
+  "bytes": 142922,
+  "unused_since": "2026-10-05",
+  "md5": "8debf25b062395379f9005f8b1d8ebbe",
+  "keep_within_group": "deps/js/lf_p2p2_min.js"
+ },
+ "deps/external/db91ac6dc6-iptv4-fast.txt": {
+  "bytes": 140255,
+  "unused_since": "2026-10-05",
+  "md5": "d2ee8686e36294b550597e2ddb8d16a5",
+  "keep_within_group": "deps/wex/newwex/live/iptv4-fast.txt"
+ },
+ "deps/external/f0a13f0296-dr2.json": {
+  "bytes": 128794,
+  "unused_since": "2026-10-05",
+  "md5": "23b0d87bb2b68c322b63b62a7f96f10f",
+  "keep_within_group": "deps/feishu-sync/dr2.json"
+ },
+ "deps/external/fd7d157145-aa846bceb7a1b4adb0385b1f61b192e8.txt": {
+  "bytes": 122942,
+  "unused_since": "2026-10-05",
+  "md5": "aa846bceb7a1b4adb0385b1f61b192e8",
+  "keep_within_group": "deps/wex/newwex/down.php/aa846bceb7a1b4adb0385b1f61b192e8.txt"
+ },
+ "deps/json/0713ff6d34-lab.json": {
+  "bytes": 120644,
+  "unused_since": "2026-10-05",
+  "md5": "d267ea6c0a7fc8d5e00c980d97ba6bf1",
+  "keep_within_group": "deps/localized/0713ff6d34-lab.json"
+ },
+ "deps/external/be844aaf36-live.txt": {
+  "bytes": 117945,
+  "unused_since": "2026-10-05",
+  "md5": "a3ba09347ac4523d0b9d6031b9b3c58c",
+  "keep_within_group": "deps/wex/newwex/live.txt"
+ },
+ "deps/external/249902cba8-live.txt": {
+  "bytes": 117042,
+  "unused_since": "2026-10-05",
+  "md5": "c8d03dd7c689bd383ea1a02cc523ad99",
+  "keep_within_group": "deps/external/14354f5c4e-live.txt"
+ },
+ "deps/external/5007214323-00live05153.txt": {
+  "bytes": 114824,
+  "unused_since": "2026-10-05",
+  "md5": "5daa9be17ec7bd7474f3364c81a6ea20",
+  "keep_within_group": "deps/feishu-sync/00live05153.txt"
+ },
+ "deps/js/drpy2.min_085bd055.js": {
+  "bytes": 111856,
+  "unused_since": "2026-10-05",
+  "md5": "085bd055f8add6d77b347c91e88f1f72",
+  "keep_within_group": "deps/feishu-sync/js/online/drpy2.min.js"
+ },
+ "deps/external/f942e02870-drpy2.min.js": {
+  "bytes": 111856,
+  "unused_since": "2026-10-05",
+  "md5": "085bd055f8add6d77b347c91e88f1f72",
+  "keep_within_group": "deps/feishu-sync/js/online/drpy2.min.js"
+ },
+ "deps/js/drpy2.min_c5d8a33f.js": {
+  "bytes": 111826,
+  "unused_since": "2026-10-05",
+  "md5": "c5d8a33f5471b453097de3e97c19ec60",
+  "keep_within_group": "deps/qist/jsm/lib/drpy2.min.js"
+ },
+ "deps/external/67fb7fe10f-drpy2.min.js": {
+  "bytes": 111826,
+  "unused_since": "2026-10-05",
+  "md5": "c5d8a33f5471b453097de3e97c19ec60",
+  "keep_within_group": "deps/qist/jsm/lib/drpy2.min.js"
+ },
+ "deps/external/b71670c30c-drpy2.min.js": {
+  "bytes": 111826,
+  "unused_since": "2026-10-05",
+  "md5": "c5d8a33f5471b453097de3e97c19ec60",
+  "keep_within_group": "deps/qist/jsm/lib/drpy2.min.js"
+ },
+ "deps/external/65e4583aa3-drpy2.min.js": {
+  "bytes": 111826,
+  "unused_since": "2026-10-05",
+  "md5": "c5d8a33f5471b453097de3e97c19ec60",
+  "keep_within_group": "deps/qist/jsm/lib/drpy2.min.js"
+ },
+ "deps/external/6b597160f0-drpy2.min.js": {
+  "bytes": 111826,
+  "unused_since": "2026-10-05",
+  "md5": "c5d8a33f5471b453097de3e97c19ec60",
+  "keep_within_group": "deps/qist/jsm/lib/drpy2.min.js"
+ },
+ "deps/external/70690f0834-drpy2.min.js": {
+  "bytes": 111826,
+  "unused_since": "2026-10-05",
+  "md5": "c5d8a33f5471b453097de3e97c19ec60",
+  "keep_within_group": "deps/qist/jsm/lib/drpy2.min.js"
+ },
+ "deps/external/a8d0b7b6bb-drpy2.min.js": {
+  "bytes": 111826,
+  "unused_since": "2026-10-05",
+  "md5": "c5d8a33f5471b453097de3e97c19ec60",
+  "keep_within_group": "deps/qist/jsm/lib/drpy2.min.js"
+ },
+ "deps/external/ba40af95c9-drpy2.min.js": {
+  "bytes": 111826,
+  "unused_since": "2026-10-05",
+  "md5": "c5d8a33f5471b453097de3e97c19ec60",
+  "keep_within_group": "deps/qist/jsm/lib/drpy2.min.js"
+ },
+ "deps/txt/cae27b8e55-bili001.txt": {
+  "bytes": 111389,
+  "unused_since": "2026-10-05",
+  "md5": "6d55df7a9355461c6ecd8a5d2f453363",
+  "keep_within_group": "deps/external/cae27b8e55-bili001.txt"
+ },
+ "deps/js/drpy2.min_4f99d663.js": {
+  "bytes": 108672,
+  "unused_since": "2026-10-05",
+  "md5": "4f99d6633e81c0027ea82d342550c70b",
+  "keep_within_group": "deps/feishu-sync/heads/main/JS/drpy2.min.js"
+ },
+ "deps/external/4c947dc752-drpy2.min.js": {
+  "bytes": 108672,
+  "unused_since": "2026-10-05",
+  "md5": "4f99d6633e81c0027ea82d342550c70b",
+  "keep_within_group": "deps/feishu-sync/heads/main/JS/drpy2.min.js"
+ },
+ "deps/external/1561f4e65f-drpy2.min.js": {
+  "bytes": 108672,
+  "unused_since": "2026-10-05",
+  "md5": "4f99d6633e81c0027ea82d342550c70b",
+  "keep_within_group": "deps/feishu-sync/heads/main/JS/drpy2.min.js"
+ },
+ "deps/external/4d16bdd347-drpy2.min.js": {
+  "bytes": 108672,
+  "unused_since": "2026-10-05",
+  "md5": "4f99d6633e81c0027ea82d342550c70b",
+  "keep_within_group": "deps/feishu-sync/heads/main/JS/drpy2.min.js"
+ },
+ "deps/external/a85bb4d88c-drpy2.min.js": {
+  "bytes": 108672,
+  "unused_since": "2026-10-05",
+  "md5": "4f99d6633e81c0027ea82d342550c70b",
+  "keep_within_group": "deps/feishu-sync/heads/main/JS/drpy2.min.js"
+ }
+}

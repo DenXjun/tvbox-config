@@ -2,7 +2,7 @@
  "issues": [
   {
    "kind": "ad_removed",
-   "raw": "🍀金鹰点播",
+   "raw": "金鹰点播",
    "detail": "命中[点击]",
    "file": "tvbox.json",
    "key": "jinying"
@@ -300,13 +300,6 @@
    "detail": "纯空白/纯符号，用 key 替代",
    "file": "tvbox.json",
    "key": "免费看"
-  },
-  {
-   "kind": "ad_removed",
-   "raw": "🧲磁力熊┃磁力",
-   "detail": "命中[磁力]",
-   "file": "tvbox.json",
-   "key": "磁力熊"
   },
   {
    "kind": "ad_removed",
@@ -863,17 +856,24 @@
    "key": "移动推送"
   },
   {
+   "file": "tvbox.json",
+   "key": "百度-4",
+   "kind": "type_out_of_range",
+   "detail": "type=4 越界，修正为 3"
+  },
+  {
    "kind": "ad_removed",
-   "raw": "☁云霄网盘",
+   "raw": "👖网盘",
    "detail": "命中[网盘]",
    "file": "tvbox.json",
    "key": "网盘"
   },
   {
+   "kind": "empty_name",
+   "raw": "👖网盘",
+   "detail": "纯空白/纯符号，用 key 替代",
    "file": "tvbox.json",
-   "key": "百度-4",
-   "kind": "type_out_of_range",
-   "detail": "type=4 越界，修正为 3"
+   "key": "网盘"
   },
   {
    "file": "tvbox.json",
@@ -1186,13 +1186,6 @@
    "detail": "type=4 越界，修正为 3"
   },
   {
-   "kind": "ad_removed",
-   "raw": "💎奇点影视┃[PY]",
-   "detail": "命中[点击]",
-   "file": "tvbox.json",
-   "key": "py_奇点影视"
-  },
-  {
    "file": "tvbox.json",
    "key": "t4直播转点播",
    "kind": "type_out_of_range",
@@ -1249,6 +1242,13 @@
    "key": "t4_wo",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "kind": "ad_removed",
+   "raw": "(js)磁力新6V┃🧲",
+   "detail": "命中[磁力]",
+   "file": "tvbox.json",
+   "key": "xb6v"
   },
   {
    "kind": "ad_removed",
@@ -1675,13 +1675,13 @@
   },
   {
    "file": "tvbox.json",
-   "key": "9",
+   "key": "Maflya人人备用",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
   {
    "file": "tvbox.json",
-   "key": "10",
+   "key": "Maflya哔哩音乐",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
@@ -1894,6 +1894,18 @@
   },
   {
    "file": "tvbox.json",
+   "key": "9",
+   "kind": "type_out_of_range",
+   "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "file": "tvbox.json",
+   "key": "10",
+   "kind": "type_out_of_range",
+   "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "file": "tvbox.json",
    "key": "55影视",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
@@ -1925,12 +1937,6 @@
   {
    "file": "tvbox.json",
    "key": "世界杯直播",
-   "kind": "type_out_of_range",
-   "detail": "type=4 越界，修正为 3"
-  },
-  {
-   "file": "tvbox.json",
-   "key": "人人2PHP",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
@@ -1979,12 +1985,6 @@
   {
    "file": "tvbox.json",
    "key": "荐片33333",
-   "kind": "type_out_of_range",
-   "detail": "type=4 越界，修正为 3"
-  },
-  {
-   "file": "tvbox.json",
-   "key": "yyzx333",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
@@ -2091,7 +2091,7 @@
   },
   {
    "kind": "ad_removed",
-   "raw": "🍀金鹰点播",
+   "raw": "金鹰点播",
    "detail": "命中[点击]",
    "file": "vod.json",
    "key": "jinying"
@@ -2389,13 +2389,6 @@
    "detail": "纯空白/纯符号，用 key 替代",
    "file": "vod.json",
    "key": "免费看"
-  },
-  {
-   "kind": "ad_removed",
-   "raw": "🧲磁力熊┃磁力",
-   "detail": "命中[磁力]",
-   "file": "vod.json",
-   "key": "磁力熊"
   },
   {
    "kind": "ad_removed",
@@ -2952,17 +2945,24 @@
    "key": "移动推送"
   },
   {
+   "file": "vod.json",
+   "key": "百度-4",
+   "kind": "type_out_of_range",
+   "detail": "type=4 越界，修正为 3"
+  },
+  {
    "kind": "ad_removed",
-   "raw": "☁云霄网盘",
+   "raw": "👖网盘",
    "detail": "命中[网盘]",
    "file": "vod.json",
    "key": "网盘"
   },
   {
+   "kind": "empty_name",
+   "raw": "👖网盘",
+   "detail": "纯空白/纯符号，用 key 替代",
    "file": "vod.json",
-   "key": "百度-4",
-   "kind": "type_out_of_range",
-   "detail": "type=4 越界，修正为 3"
+   "key": "网盘"
   },
   {
    "file": "vod.json",
@@ -3275,13 +3275,6 @@
    "detail": "type=4 越界，修正为 3"
   },
   {
-   "kind": "ad_removed",
-   "raw": "💎奇点影视┃[PY]",
-   "detail": "命中[点击]",
-   "file": "vod.json",
-   "key": "py_奇点影视"
-  },
-  {
    "file": "vod.json",
    "key": "t4直播转点播",
    "kind": "type_out_of_range",
@@ -3338,6 +3331,13 @@
    "key": "t4_wo",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "kind": "ad_removed",
+   "raw": "(js)磁力新6V┃🧲",
+   "detail": "命中[磁力]",
+   "file": "vod.json",
+   "key": "xb6v"
   },
   {
    "kind": "ad_removed",
@@ -3764,13 +3764,13 @@
   },
   {
    "file": "vod.json",
-   "key": "9",
+   "key": "Maflya人人备用",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
   {
    "file": "vod.json",
-   "key": "10",
+   "key": "Maflya哔哩音乐",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
@@ -3983,6 +3983,18 @@
   },
   {
    "file": "vod.json",
+   "key": "9",
+   "kind": "type_out_of_range",
+   "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "file": "vod.json",
+   "key": "10",
+   "kind": "type_out_of_range",
+   "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "file": "vod.json",
    "key": "55影视",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
@@ -4014,12 +4026,6 @@
   {
    "file": "vod.json",
    "key": "世界杯直播",
-   "kind": "type_out_of_range",
-   "detail": "type=4 越界，修正为 3"
-  },
-  {
-   "file": "vod.json",
-   "key": "人人2PHP",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
@@ -4068,12 +4074,6 @@
   {
    "file": "vod.json",
    "key": "荐片33333",
-   "kind": "type_out_of_range",
-   "detail": "type=4 越界，修正为 3"
-  },
-  {
-   "file": "vod.json",
-   "key": "yyzx333",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
@@ -4259,7 +4259,7 @@
   },
   {
    "kind": "ad_removed",
-   "raw": "🍀金鹰点播",
+   "raw": "金鹰点播",
    "detail": "命中[点击]",
    "file": "stores/cms.json",
    "key": "jinying"
@@ -4849,8 +4849,15 @@
   },
   {
    "kind": "ad_removed",
-   "raw": "☁云霄网盘",
+   "raw": "👖网盘",
    "detail": "命中[网盘]",
+   "file": "stores/pan.json",
+   "key": "网盘"
+  },
+  {
+   "kind": "empty_name",
+   "raw": "👖网盘",
+   "detail": "纯空白/纯符号，用 key 替代",
    "file": "stores/pan.json",
    "key": "网盘"
   },
@@ -5044,13 +5051,6 @@
    "key": "免费看"
   },
   {
-   "kind": "ad_removed",
-   "raw": "🧲磁力熊┃磁力",
-   "detail": "命中[磁力]",
-   "file": "stores/csp.json",
-   "key": "磁力熊"
-  },
-  {
    "file": "stores/csp.json",
    "key": "小纸条_cli",
    "kind": "type_out_of_range",
@@ -5226,13 +5226,6 @@
    "detail": "type=4 越界，修正为 3"
   },
   {
-   "kind": "ad_removed",
-   "raw": "💎奇点影视┃[PY]",
-   "detail": "命中[点击]",
-   "file": "stores/csp.json",
-   "key": "py_奇点影视"
-  },
-  {
    "file": "stores/csp.json",
    "key": "t4直播转点播",
    "kind": "type_out_of_range",
@@ -5289,6 +5282,13 @@
    "key": "t4_wo",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "kind": "ad_removed",
+   "raw": "(js)磁力新6V┃🧲",
+   "detail": "命中[磁力]",
+   "file": "stores/csp.json",
+   "key": "xb6v"
   },
   {
    "kind": "ad_removed",
@@ -5715,13 +5715,13 @@
   },
   {
    "file": "stores/csp.json",
-   "key": "9",
+   "key": "Maflya人人备用",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
   {
    "file": "stores/csp.json",
-   "key": "10",
+   "key": "Maflya哔哩音乐",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
@@ -5934,6 +5934,18 @@
   },
   {
    "file": "stores/csp.json",
+   "key": "9",
+   "kind": "type_out_of_range",
+   "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "file": "stores/csp.json",
+   "key": "10",
+   "kind": "type_out_of_range",
+   "detail": "type=4 越界，修正为 3"
+  },
+  {
+   "file": "stores/csp.json",
    "key": "55影视",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
@@ -5965,12 +5977,6 @@
   {
    "file": "stores/csp.json",
    "key": "世界杯直播",
-   "kind": "type_out_of_range",
-   "detail": "type=4 越界，修正为 3"
-  },
-  {
-   "file": "stores/csp.json",
-   "key": "人人2PHP",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },
@@ -6019,12 +6025,6 @@
   {
    "file": "stores/csp.json",
    "key": "荐片33333",
-   "kind": "type_out_of_range",
-   "detail": "type=4 越界，修正为 3"
-  },
-  {
-   "file": "stores/csp.json",
-   "key": "yyzx333",
    "kind": "type_out_of_range",
    "detail": "type=4 越界，修正为 3"
   },

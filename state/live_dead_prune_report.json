@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-04 22:51:54",
+ "generated_at": "2026-10-05 01:40:00",
  "action": "pruned",
- "db_total": 700,
+ "db_total": 702,
  "db_dead": 22,
  "buckets": {
   "direct": 21,
@@ -34,6 +34,6 @@
   "https://tv.tmxk.kdns.fr/ex64181y"
  ],
  "product_hit": 17,
- "ratio": 0.0356,
+ "ratio": 0.0342,
  "pruned_in_products": 48
 }

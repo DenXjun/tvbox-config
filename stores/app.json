@@ -1,5 +1,5 @@
 {
- "spider": "https://github.boringhex.top/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/LIBVIO.jar;md5;da018b4f9e93e66d29be9ff5013a2059",
+ "spider": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/hebijunge/tvbox-config/main/deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/LIBVIO.jar;md5;da018b4f9e93e66d29be9ff5013a2059",
  "wallpaper": "https://t.alcy.cc/ys",
  "parses": [
   {
@@ -2236,11 +2236,6 @@
    "url": "https://jx.bingzhe.wang/api/v1/tvbox/parse?key=Rjb9UE4d4So4XY&url="
   },
   {
-   "name": "ovvo",
-   "type": 0,
-   "url": "https://json.ovvo.pro/jx.php?url="
-  },
-  {
    "name": "dytt",
    "type": 0,
    "url": "https://vip.dyttzyplay.com/?url="
@@ -2371,20 +2366,8 @@
    "key": "public_61",
    "type": 1,
    "api": "https://www.tencentcloud.com/product/vod",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/shijianus/moontv-source/main/config.json",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/shijianus/moontv-source/main/config.json",
    "discovery_decoded_works": 0,
-   "group": "综合-直连点播"
-  },
-  {
-   "key": "cctv-3",
-   "name": "CCTV",
-   "type": 1,
-   "api": "https://zhangqun19.serv00.net/cctv.php",
-   "style": {
-    "type": "rect",
-    "ratio": 1.33
-   },
-   "changeable": 1,
    "group": "综合-直连点播"
   },
   {
@@ -2400,6 +2383,18 @@
    "group": "综合-直连点播"
   },
   {
+   "key": "cctv-3",
+   "name": "CCTV",
+   "type": 1,
+   "api": "https://zhangqun19.serv00.net/cctv.php",
+   "style": {
+    "type": "rect",
+    "ratio": 1.33
+   },
+   "changeable": 1,
+   "group": "综合-直连点播"
+  },
+  {
    "key": "小湿妹",
    "name": "湿妹 | 采集",
    "type": 0,
@@ -2407,6 +2402,16 @@
    "searchable": 0,
    "quickSearch": 1,
    "ext": "proxy",
+   "group": "综合-直连点播"
+  },
+  {
+   "key": "*美少女",
+   "name": "*美少女",
+   "type": 0,
+   "api": "https://www.msnii.com/api/xml.php",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1,
    "group": "综合-直连点播"
   },
   {
@@ -2457,21 +2462,11 @@
    "group": "综合-直连点播"
   },
   {
-   "key": "*美少女",
-   "name": "*美少女",
-   "type": 0,
-   "api": "https://www.msnii.com/api/xml.php",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "group": "综合-直连点播"
-  },
-  {
    "name": "一帆资源(VPN)(优)",
    "key": "line_143",
    "type": 1,
    "api": "http://api.if101.tv/v1/vod?ac=list",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/hello2z/TVbox-API/main/%E5%B7%A7%E8%AE%B0.json",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/hello2z/TVbox-API/main/%E5%B7%A7%E8%AE%B0.json",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   },
@@ -2480,7 +2475,7 @@
    "key": "line_298",
    "type": 1,
    "api": "http://api.dyzy888.com/api/maccms/json/m3u8",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/shiran588/TVBox/main/maotv1.txt",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/shiran588/TVBox/main/maotv1.txt",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   },
@@ -2489,7 +2484,7 @@
    "key": "line_102",
    "type": 1,
    "api": "https://cj.banyung.xyz:7788",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/hello2z/TVbox-API/main/%E5%B7%A7%E8%AE%B0.json",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/hello2z/TVbox-API/main/%E5%B7%A7%E8%AE%B0.json",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   },
@@ -2498,7 +2493,7 @@
    "key": "line_114",
    "type": 1,
    "api": "https://api.jisubt.com/videos",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/hello2z/TVbox-API/main/%E5%B7%A7%E8%AE%B0.json",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/hello2z/TVbox-API/main/%E5%B7%A7%E8%AE%B0.json",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   },
@@ -2507,7 +2502,7 @@
    "key": "line_291",
    "type": 1,
    "api": "http://api.haiwaikan.com/v1/vod?ac=list",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/shiran588/TVBox/main/maotv1.txt",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/shiran588/TVBox/main/maotv1.txt",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   },
@@ -2516,7 +2511,7 @@
    "key": "line_142",
    "type": 1,
    "api": "https://taopianapi.com/home/cjapi/as/mc10/vod/json",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/hello2z/TVbox-API/main/%E5%B7%A7%E8%AE%B0.json",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/hello2z/TVbox-API/main/%E5%B7%A7%E8%AE%B0.json",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   },
@@ -2525,7 +2520,7 @@
    "key": "line_231",
    "type": 1,
    "api": "https://tvbox-mv.leevi0321.repl.co/mv/vod",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/Reflyer823/tvbox-config/master/main.json",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/Reflyer823/tvbox-config/master/main.json",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   },
@@ -2534,7 +2529,7 @@
    "key": "line_230",
    "type": 1,
    "api": "https://tvbox-mv--leosam2048.repl.co/mv/vod",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/Reflyer823/tvbox-config/master/main.json",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/Reflyer823/tvbox-config/master/main.json",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   },
@@ -2543,7 +2538,7 @@
    "key": "line_224",
    "type": 1,
    "api": "http://vip.lyyytv.cn",
-   "reference": "https://github.boringhex.top/https://raw.githubusercontent.com/Reflyer823/tvbox-config/master/main.json",
+   "reference": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/Reflyer823/tvbox-config/master/main.json",
    "discovery_decoded_works": 0,
    "group": "综合-直连点播"
   }

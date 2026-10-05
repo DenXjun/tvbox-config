@@ -86,14 +86,19 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/result.m3u",
     "sha256": "917296c63c46af2acafe6fc0840080657899e7c3addb65bc1a58752e7db1e41c"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/result.m3u",
+    "sha256": "c65fd03c8a257ae48149062604e93e0db58332124a66828b032edbf1733075f7"
    }
   ],
-  "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "result.m3u",
-  "sha256": "c65fd03c8a257ae48149062604e93e0db58332124a66828b032edbf1733075f7",
-  "size": 574735,
+  "sha256": "a13b496a300bf2792c86d12c009d8695e62c1dfd213b39a44224e9f184a02597",
+  "size": 573827,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/3377/IPTV/master/output/result.m3u"
  },
@@ -137,7 +142,7 @@
    }
   ],
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "cn_all_status.m3u8",
   "sha256": "da4e48102db08b21cd1c320c15a4a5197bc5069b8c6bfab5c19b39a6fea53d83",
@@ -227,21 +232,26 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/result.m3u",
     "sha256": "8ccdf7cd3db995446e63b9655e01dc278e2aca1c40f030bc3ed9359f595a16a2"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/result.m3u",
+    "sha256": "b444e719be7871a912256ccafbde0ff425494f450f5085c8b71c7e561da1e1fe"
    }
   ],
-  "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "result.m3u",
-  "sha256": "b444e719be7871a912256ccafbde0ff425494f450f5085c8b71c7e561da1e1fe",
-  "size": 823726,
+  "sha256": "e5d444d548a550c576ecd98ff39f5960d98edd543be80b4f6e9d2939bfeaeb2e",
+  "size": 822570,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/Bruce0422/iptv-api/master/output/result.m3u"
  },
  "burningc4-iptv": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "TV-IPV4.m3u",
   "sha256": "6a888a9258bdaab6ad49bc2ebdf21804d7493f927aaec9d2306f2f540cddb14d",
@@ -281,21 +291,26 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/live.m3u",
     "sha256": "238d21788ba840c373cf25de54671ff753bc08583a8cc14875301a93db9e5c04"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/live.m3u",
+    "sha256": "53f008abd7248eb52c1ca99c50a313f7a2bb863dd6b0bec584e0ea76234ab7c5"
    }
   ],
-  "last_changed": "2026-10-03",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "live.m3u",
-  "sha256": "53f008abd7248eb52c1ca99c50a313f7a2bb863dd6b0bec584e0ea76234ab7c5",
-  "size": 662613,
+  "sha256": "ab1aa3b45328c8e994aeeb66b7b305439d187ad4fa4511d2f91bf9eb2652fa65",
+  "size": 658838,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/ccsh/iptv/main/live.m3u"
  },
  "fanmingming-index": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "index.m3u",
   "sha256": "76cf22fd7d77bd23067d28f3713d4e8b4c044ae679877cdf73743f7934b281b4",
@@ -373,7 +388,7 @@
    }
   ],
   "last_changed": "2026-10-03",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "result.m3u",
   "sha256": "7b6f299f36c3a45312ccc24140905994eeeed8d2b756ab43a4f70c8e68cc7535",
@@ -384,7 +399,7 @@
  "guovin-release": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "result.m3u",
   "sha256": "30e78fb068be293ae94ac311ed477bb4014dbc74f7043c3781e9556c83a19c99",
@@ -539,24 +554,29 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/cnTV_AutoUpdate.m3u8",
     "sha256": "4fb1a08d77acbe6354e05441504a977e9da0a46b6b50d08d7a2c048991cd3713"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/cnTV_AutoUpdate.m3u8",
+    "sha256": "d1e7f0410b98a60ec55f634e36f1555ec82b083e97ef5c9f1957b264bcd2b870"
    }
   ],
-  "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "cnTV_AutoUpdate.m3u8",
-  "sha256": "d1e7f0410b98a60ec55f634e36f1555ec82b083e97ef5c9f1957b264bcd2b870",
-  "size": 16014,
+  "sha256": "f04e88ddbab0ee75871b82f0e519423e29e86bd5774eca9e081257668479a9da",
+  "size": 15632,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8"
  },
  "ibert-fmml": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "fmml_itv.txt",
-  "recovered_at": "2026-10-04",
+  "recovered_at": "2026-10-05",
   "sha256": "ff2ecd34f25edbf14d068409f09cc41d91559970716197e65797194ddbfefea4",
   "size": 26772,
   "status": "ok",
@@ -565,7 +585,7 @@
  "ibert-ycl": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "ycl_iptv.m3u",
   "sha256": "29b8274ab60956db42c1f51eae171a63c4c7030115736a243a175d0aa61959a1",
@@ -635,14 +655,19 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/xp_result.m3u",
     "sha256": "387173e0d55f3f63123c04207c116621b40c12802dadce26a8cd318b548de9c1"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/xp_result.m3u",
+    "sha256": "9bc4008a358afd24177c5aef0632a8b35d709c1654c2a0969561505e2939f672"
    }
   ],
-  "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "xp_result.m3u",
-  "sha256": "9bc4008a358afd24177c5aef0632a8b35d709c1654c2a0969561505e2939f672",
-  "size": 158393,
+  "sha256": "fcb305835bcdef88d359812eaf887159cf0f4a6f9d378fa5e4138aa447ae02af",
+  "size": 158602,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/0610840119/iptv-api/master/output/xp_result.m3u"
  },
@@ -706,7 +731,7 @@
    }
   ],
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "Internet_iTV.m3u",
   "sha256": "399272b73a67d523f4e8230401c30b0f3d7f6cd0e48aa6cad9f9c037f599e1e3",
@@ -789,7 +814,7 @@
    }
   ],
   "last_changed": "2026-10-03",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "result.m3u",
   "sha256": "b6e0b76c266380cfa49d1fac2572dcf380220fb05fc1e17dc83d3805853d6a4e",
@@ -832,7 +857,7 @@
    }
   ],
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "bbxx365_lite.m3u",
   "sha256": "32dbeffe7fa99e3892e79b9163ecef15edb4354a69442428a55bb4c15bc8a35d",
@@ -922,14 +947,19 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/result.m3u",
     "sha256": "d465e88eaf501f2e10b7bf9d5929e43ae3c1aaa9cff6250dddac53dc0552408b"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/result.m3u",
+    "sha256": "18fa1b31ade2b8361e9a8ec3abb6fc7052843756b744151e35a2d0bcb0be3f34"
    }
   ],
-  "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "result.m3u",
-  "sha256": "18fa1b31ade2b8361e9a8ec3abb6fc7052843756b744151e35a2d0bcb0be3f34",
-  "size": 684660,
+  "sha256": "ecf3d86934b96690f6c9c3fe5fc2dadec11a65a422b5c3914eea34b8dd7bbf61",
+  "size": 683164,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/Kshao123/TV/master/output/result.m3u"
  },
@@ -973,7 +1003,7 @@
    }
   ],
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "cn.m3u",
   "sha256": "785fbc0c5959d1b06f0a684ed58b3ae47be2d26e791fc4d73f8069d9214b83bf",
@@ -1006,7 +1036,7 @@
    }
   ],
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "IPTV.m3u",
   "sha256": "bbccdf6e33523a13c44f15e8c6fe27451d5151b6366bbdf6b3a7b741a106083d",
@@ -1017,7 +1047,7 @@
  "vbskycn-iptv4": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "iptv4.m3u",
   "sha256": "22cfcc15d74620640a68b6bfd3506dc8d50b0a359d0cb26a20c33293bcc1c3db",
@@ -1055,10 +1085,10 @@
    }
   ],
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "live.txt",
-  "recovered_at": "2026-10-04",
+  "recovered_at": "2026-10-05",
   "sha256": "535dd4aa659e01fb019ad05faf03f568320a028181f0c473c3c2f69dc2edf724",
   "size": 132726,
   "status": "ok",
@@ -1126,21 +1156,26 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/result.txt",
     "sha256": "1745719263a62aa919ebf938e69e3bb6a02d2398ae0e80a84388bd0337bb65e8"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/result.txt",
+    "sha256": "7106162153028a8f3e8fab58edeab7973acb7426cd8f45f3ab5d5e41bc34823e"
    }
   ],
-  "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "result.txt",
-  "sha256": "7106162153028a8f3e8fab58edeab7973acb7426cd8f45f3ab5d5e41bc34823e",
-  "size": 260548,
+  "sha256": "5834a86f621945e112918bb8893c3c2b2118a8d718368975100f67327d56d9bd",
+  "size": 262571,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/xuy132/TV/master/output/result.txt"
  },
  "yang-gather": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "Gather.m3u",
   "sha256": "f945658ede25eef57fd74d6377fb5d29ffae9959f7781420e595c9d2651490f5",
@@ -1183,10 +1218,10 @@
    }
   ],
   "last_changed": "2026-10-03",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "live.txt",
-  "recovered_at": "2026-10-04",
+  "recovered_at": "2026-10-05",
   "sha256": "3b896eda642cdc08832fd26bdd7903277c4995f9709e0627df9a97210b6b3075",
   "size": 117042,
   "status": "ok",
@@ -1227,7 +1262,7 @@
    }
   ],
   "last_changed": "2026-10-03",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "IPTV.m3u",
   "sha256": "dfd5fc114051789c3c29c121e8f62a2da451bf4c337d9aaed3082278b8bdca47",
@@ -1238,7 +1273,7 @@
  "zhi35-iptv": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "iptv~b926f5.m3u",
   "sha256": "3d08c36efeeee50d7dc8ebfa80c70a122bdfd0d7af998e0402209f7f85b55486",

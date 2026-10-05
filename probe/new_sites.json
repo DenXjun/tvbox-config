@@ -1,29 +1,26 @@
 {
- "checked_at": "2026-10-05 06:19:49",
+ "checked_at": "2026-10-05 09:03:14",
  "sampled": 3,
  "healthy": 0,
  "verdict": "dead",
  "sites": {
-  "drpy_js_人人": {
-   "name": "影视 | 人人[js]",
-   "api": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
+  "drpy_js_看片狂人": {
+   "name": "影视 | 看片狂人[js]",
+   "api": "https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy2.min.js",
    "ok": false,
-   "ms": 617,
-   "status": 200
+   "reason": "HTTPError"
   },
-  "drpy_js_多米[V2]": {
-   "name": "影视 | 多米[V2][js]",
-   "api": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
-   "ok": false,
-   "ms": 508,
-   "status": 200
+  "蓝光影视": {
+   "name": "⚡蓝光┃APP",
+   "api": "./js/drpy2.min.js",
+   "ok": null,
+   "reason": "non-http-api"
   },
-  "drpy_js_如意[V2]": {
-   "name": "影视 | 如意[V2][js]",
-   "api": "https://ghfast.top/https://raw.githubusercontent.com/yw88075/tvbox/main/dr/lib/drpy2.min.js",
-   "ok": false,
-   "ms": 497,
-   "status": 200
+  "BC影视": {
+   "name": "⚡追剧┃APP",
+   "api": "csp_AppYsV2",
+   "ok": null,
+   "reason": "non-http-api"
   }
  }
 }
