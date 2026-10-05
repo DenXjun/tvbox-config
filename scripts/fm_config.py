@@ -116,8 +116,6 @@ PROBE_STREAM_RANGE = (0, 2047)  # 直播抽验流 2KB（与 aa5a88d 通用做法
 
 SEARCH_KEYWORDS = ("麻豆", "爱", "传媒")
 
-_VALID_PARSE_TYPES = {0, 1, 2, 3, 4}
-
 _LOOPBACK_HOSTS = {"localhost", "0.0.0.0", "::1", "[::1]"}
 
 DEPS_DIR = "deps"

@@ -22,6 +22,15 @@ TVBox 配置每日拉取合并脚本 v2（stdlib only，无第三方依赖）
   P2 域名替换层（hl128k/tvbox 思路）
 """
 from fm_config import *  # 阶段1：只读配置常量已抽到 fm_config.py
+# `import *` 按 Python 规范跳过下划线开头的名字，这几个活跃符号必须显式导入。
+# 均为原地 mutate 的缓存/查表（非 global 重绑定），跨模块共享同一对象，行为与抽取前等价。
+from fm_config import (  # noqa: E402,F401
+    _DEP_DOMAIN_SEMAPHORES,
+    _IDNA_CACHE,
+    _LOOPBACK_HOSTS,
+    _STATUS_RANK,
+    _git_probe_cache,
+)
 import sys
 
 if sys.version_info < (3, 10):
