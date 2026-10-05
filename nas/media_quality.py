@@ -64,3 +64,30 @@ if __name__=="__main__":
     import argparse
     ap=argparse.ArgumentParser(); ap.add_argument("site_key"); ap.add_argument("url"); a=ap.parse_args()
     r=record(a.site_key,a.url); print(json.dumps({"probe":r,"history":stats(a.site_key),"score":score(a.site_key)},ensure_ascii=False))
+
+
+def ingest_probe_file(path, limit=40):
+    """Sample L3 media URLs from sites_probe.json. Bounded to protect NAS/network."""
+    p=Path(path)
+    if not p.exists(): return {"tested":0,"ok":0}
+    doc=json.loads(p.read_text(encoding="utf-8"))
+    candidates=[]
+    for x in doc.get("sites") or []:
+        l3=x.get("l3") or {}; u=l3.get("play_url")
+        if x.get("level")=="L3" and l3.get("ok") and isinstance(u,str) and u.startswith(("http://","https://")):
+            candidates.append((x.get("key") or x.get("name") or u,u))
+    # Stable bounded rotation by day so large pools are covered over time.
+    if candidates:
+        off=(datetime.now(timezone.utc).toordinal()*max(limit,1))%len(candidates)
+        candidates=(candidates[off:]+candidates[:off])[:limit]
+    good=0
+    for key,u in candidates:
+        if record(str(key),u)["ok"]: good+=1
+    return {"tested":len(candidates),"ok":good}
+
+def export_scores(path):
+    with sqlite3.connect(DB) as c:
+        init(c); keys=[r[0] for r in c.execute("select distinct site_key from media_checks")]
+    out={k:{"score":score(k),**stats(k)} for k in keys}
+    Path(path).write_text(json.dumps({"generated_at":datetime.now(timezone.utc).isoformat(),"items":out},ensure_ascii=False,indent=2),encoding="utf-8")
+    return out
