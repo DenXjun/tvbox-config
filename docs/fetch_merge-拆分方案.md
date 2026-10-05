@@ -42,7 +42,9 @@
 - **阶段 1（✅ 已完成 2026-10-05）**：只读全局抽到 `scripts/fm_config.py`，
   `fetch_merge.py` 用 `from fm_config import *`。实测 141 个全局中**仅 35 个**同时满足
   「顶层赋值 + 右侧无函数调用 + 不引用项目函数/可变全局 + 依赖闭包自洽」→ 抽出，
-  `fetch_merge.py` **6198 → 6060 行**，import 冒烟通过（常量值抽样一致，可变全局仍在原处）。
+  `fetch_merge.py` **6198 → 6069 行**（`1f1555e2` 补回显式导入 8 行、删死代码 −1 行），
+  AST 校验 33 个存活常量全部在 `fetch_merge` 可达、顶层无重名（`_VALID_PARSE_TYPES`
+  经 AST 确认为全仓无引用的死代码，已删）。
   - 98 个含函数调用的全局（多为 `os.environ.get(...)`/`int(...)`）**刻意留存**，
     它们虽是配置但含调用，需在放宽判定后另做一档；7 个 `global` 重绑定的可变运行时状态永不抽出。
   - 机械搬移构造保证值等价；后续若要继续放宽（把 `os.environ` 类也迁入 fm_config），
@@ -51,6 +53,13 @@
   - 就地修改（如 `LIST.append(...)`）的全局仍可安全抽出——导入的是同一对象引用；
     只有 `global X; X = new` 这种**重新绑定**才会分裂。
   - 收益：fetch_merge 瘦几百行，配置集中可审计；行为等价（常量只读）。
+  - **踩坑（已修 `1f1555e2`）**：`from fm_config import *` 按 Python 规范**跳过下划线开头的
+    名字**，`_LOOPBACK_HOSTS` / `_IDNA_CACHE` / `_STATUS_RANK` /
+    `_DEP_DOMAIN_SEMAPHORES` / `_git_probe_cache` 这 5 个活跃符号因此在 `fetch_merge`
+    里查不到定义，跑到第 1289 行才 `NameError`。**`import` 冒烟测不出来**——
+    报错发生在函数体执行时。修法：这 5 个改为显式 `from fm_config import (...)`。
+    → 阶段 2/3 教训：**验证必须执行到函数体**，不能只 import；
+    若源模块有下划线私有符号，要么显式导入，要么在源模块写 `__all__`。
 - **阶段 2（低风险）**：抽**叶子纯函数**（无全局依赖、只依赖参数与标准库）到
   `scripts/fm_util.py`，如 `_split_gh_prefix`、`_sanitize_seg`、`sha12`、`md5_of` 等。
 - **阶段 3（需先解耦，谨慎）**：把 7 个核心可变全局收敛成**单一状态容器对象**
@@ -62,3 +71,7 @@
 - 任何重定义函数必须按 `(name, lineno)` 定位，**不能按函数名**（`classify_site` 是现成教训）。
 - 新增顶层全局前先问：它会被 `global` 重绑定吗？会 → 别放进可抽出的只读配置模块。
 - 阶段 1/2 不改变任何行为，可随时验证回滚；阶段 3 需配套回归（本地 `run_all.py` 或观察一次 daily）。
+- **验证准则（阶段 1 血泪教训）**：`python -c "import fetch_merge"` 通过**不等于**没问题。
+  阶段 1 首次提交就带着一个 `import` 能过、跑到第 1289 行必崩的 `NameError`。
+  每次搬符号后至少做三件事：① AST 列出源模块顶层常量，断言全部在目标模块可 `hasattr`；
+  ② **真实调用**至少一条用到新符号的函数；③ 跑一遍所有 `import fetch_merge` 的下游脚本。
