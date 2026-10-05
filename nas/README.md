@@ -2,17 +2,17 @@
 
 面向群晖 Container Manager 的轻量常驻入口。原 GitHub Actions 流程保持不变，NAS 服务只编排点播相关阶段。
 
-## 部署
+## 群晖 Container Manager 部署
 
-在群晖中将本仓库放到 `/volume1/docker/tvbox-config`，进入 `nas` 目录执行：
+1. 下载/克隆本仓库的 `codex/synology-x86-v1` 分支到群晖，例如 `/volume1/docker/tvbox-config`。
+2. Container Manager → 项目 → 新增 → 选择 `nas/docker-compose.yml` 所在项目目录并构建。
+3. 项目启动后打开 `http://NAS-IP:8787/`。页面可直接查看当前维护步骤和最近日志。
+4. 首次自动维护默认延迟 120 秒；也可以页面打开后直接点“立即维护”。
+5. TVBox 订阅地址：`http://NAS-IP:8787/tvbox.json`。
 
-```bash
-docker compose up -d --build
-```
+如使用 SSH，也可以进入 `nas` 目录执行 `docker compose up -d --build`。
 
-打开 `http://NAS-IP:8787/`。TVBox 订阅地址为 `http://NAS-IP:8787/tvbox.json`。
-
-持久化目录：`nas/data`、`nas/output`、`nas/config`、`nas/logs`。默认每 12 小时维护一次，也可在 Web 页面手动触发。
+Container Manager 项目需要保留完整仓库目录，因为镜像构建会复用上游脚本和 DRPY sandbox。持久化目录：`nas/data`、`nas/output`、`nas/config`、`nas/logs`。默认每 12 小时维护一次，也可在 Web 页面手动触发。
 
 ## v1 边界
 
