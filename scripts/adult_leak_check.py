@@ -35,7 +35,65 @@ import zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
 sys.path.insert(0, HERE)
-import live_aggregate as la  # noqa: E402
+from urllib.parse import urlparse
+
+_VOCAB_PATH = os.path.join(ROOT, "state", "vocab", "categories.json")
+with open(_VOCAB_PATH, encoding="utf-8") as _vf:
+    _ADULT = json.load(_vf)["adult"]
+
+PORN_KW = tuple(_ADULT["name_keywords"])
+_ADULT_PURE_NUM = re.compile(_ADULT["name_pure_num_regex"])
+_ADULT_BRACKET_TAG = re.compile(_ADULT["name_bracket_tag_regex"])
+_ADULT_DATE_CODE = re.compile(_ADULT["name_date_code_regex"])
+_ADULT_HOSTS = tuple(_ADULT["host_blacklist_exact"])
+_ADULT_HOST_RE = re.compile(_ADULT["host_blacklist_pattern"], re.IGNORECASE)
+_SHARED_CDN_DOMAINS = tuple(_ADULT.get("shared_cdn_no_blacklist", []))
+_ADULT_HOST_EXACT_RE = re.compile(
+    r"(?:^|\\.)(?:" + "|".join(re.escape(h) for h in _ADULT_HOSTS) + r")$",
+    re.IGNORECASE,
+)
+ADULT_SOURCE_RE = re.compile(
+    r"/Adult\\.m3u8?$|fish2018/lib|FGBLH/(?:HKL|fgrjk)|jable\\.tv|几个传媒"
+    r"|/天美传媒|/果冻传媒|/麻豆传媒|/星空传媒|/精东影业"
+    r"|pron\\.m3u|国产传媒|成人传媒|live18|18资源丰富|18\\+"
+    r"|/色播|/大洋马|/大秀|/色诱|/色播聚合|/麻豆视频|/台湾成人"
+    r"|FC2-PPV|EVILANGEL|xxx视频资源|午夜剧场|丽颖琼姿"
+    r"|jable\\.tv/|Jable嗅探|维护成人",
+    re.IGNORECASE,
+)
+
+def adult_rule_of(name):
+    if not name:
+        return ""
+    low = name.lower()
+    for kw in PORN_KW:
+        if kw in low:
+            return "porn_kw:%s" % kw[:16]
+    if _ADULT_PURE_NUM.match(low.strip()):
+        return "pure_number_station"
+    if _ADULT_BRACKET_TAG.match(name):
+        return "bracket_tag"
+    if _ADULT_DATE_CODE.match(low.strip()):
+        return "date_code"
+    return ""
+
+def is_adult(name):
+    return bool(adult_rule_of(name))
+
+def is_adult_url(u):
+    if not u:
+        return False
+    try:
+        host = (urlparse(u if "//" in u else "//" + u, scheme="http").hostname or "").lower()
+    except Exception:
+        return False
+    if not host:
+        return False
+    if _ADULT_HOST_EXACT_RE.search(host):
+        return True
+    if any(host == d or host.endswith("." + d) for d in _SHARED_CDN_DOMAINS):
+        return False
+    return bool(_ADULT_HOST_RE.search(host))
 
 TOP_FILES = ["tvbox.json", "vod.json", "live.json", "short.json", "list.json",
              "live_channels.json", "index.html", "README.md"]
@@ -105,14 +163,14 @@ def _scan_string(s, where, path, hits, wl):
     显式记录（不静默跳过）——供质检复核白名单合理性；未命中不产生记录。"""
     low = s.lower()
     rule = None
-    for kw in la.PORN_KW:
+    for kw in PORN_KW:
         if kw.lower() in low:
             rule = "porn_kw:%s" % kw[:16]
             break
-    if rule is None and "://" in s and la.is_adult_url(s):
+    if rule is None and "://" in s and is_adult_url(s):
         rule = "host_blacklist"
     if rule is None:
-        m = la.ADULT_SOURCE_RE.search(s)
+        m = ADULT_SOURCE_RE.search(s)
         if m:
             rule = "source_pattern:%s" % m.group(0)[:24]
     if rule is None:
@@ -147,15 +205,15 @@ def _iter_strings(node, where, path, hits, wl):
 
 def _name_reason(n):
     """返回 (matched_bool, rule_label)；rule_label 仅在 matched 时有意义。"""
-    return la.is_adult(n), la.adult_rule_of(n)
+    return is_adult(n), adult_rule_of(n)
 
 
 def _url_reason(u):
     if not u:
         return False, ""
-    if la.is_adult_url(u):
+    if is_adult_url(u):
         return True, "host_blacklist"
-    m = la.ADULT_SOURCE_RE.search(u)
+    m = ADULT_SOURCE_RE.search(u)
     if m:
         return True, "source_pattern:%s" % m.group(0)[:32]
     return False, ""
@@ -186,7 +244,7 @@ def scan_text(path, hits, re_only=False):
     except OSError as e:
         hits.append({"file": path, "where": "<read>", "err": str(e)[:80]})
         return
-    for m in la.ADULT_SOURCE_RE.finditer(txt):
+    for m in ADULT_SOURCE_RE.finditer(txt):
         s = max(0, m.start() - 40)
         hits.append({"file": path, "where": "@%d" % m.start(),
                      "kind": "text", "value": txt[s:m.end() + 40].replace("\n", " "),
@@ -245,16 +303,16 @@ def scan_zip(path, hits, wl=()):
                 nm = info.filename
                 if nm.startswith(("rules/", "state/vocab/")):
                     continue
-                if la.ADULT_SOURCE_RE.search(nm) or la.is_adult(os.path.basename(nm)):
+                if ADULT_SOURCE_RE.search(nm) or is_adult(os.path.basename(nm)):
                     hits.append({"file": path, "where": "zip-name",
                                  "kind": "name", "value": nm,
-                                 "rule": la.adult_rule_of(os.path.basename(nm)) or "source_pattern"})
+                                 "rule": adult_rule_of(os.path.basename(nm)) or "source_pattern"})
                 if nm.lower().endswith((".json", ".txt", ".m3u", ".html")):
                     try:
                         txt = z.read(info).decode("utf-8", errors="replace")
                     except Exception:  # noqa: BLE001
                         continue
-                    for m in la.ADULT_SOURCE_RE.finditer(txt):
+                    for m in ADULT_SOURCE_RE.finditer(txt):
                         hits.append({"file": path, "where": "zip:%s@%d" % (nm, m.start()),
                                      "kind": "text", "value": m.group(0)[:60],
                                      "rule": "source_pattern"})
