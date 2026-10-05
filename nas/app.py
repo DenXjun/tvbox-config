@@ -24,13 +24,19 @@ def ensure_persistent_state():
     state=ROOT/"state"
     if state.is_symlink():
         return
-    # First boot: preserve shipped seed state, then replace /app/state with a symlink.
+    # Merge shipped seed/static state into persistent storage without overwriting
+    # runtime history.  This must be recursive: state/vocab is required by the
+    # VOD adult gate and older NAS installs may already have /data/state.
     if state.exists():
-        for src in state.iterdir():
-            dst=target/src.name
-            if src.is_file() and not dst.exists():
-                dst.write_bytes(src.read_bytes())
         import shutil
+        for src in state.rglob("*"):
+            rel=src.relative_to(state)
+            dst=target/rel
+            if src.is_dir():
+                dst.mkdir(parents=True,exist_ok=True)
+            elif src.is_file() and not dst.exists():
+                dst.parent.mkdir(parents=True,exist_ok=True)
+                shutil.copy2(src,dst)
         shutil.rmtree(state)
     state.symlink_to(target, target_is_directory=True)
 
