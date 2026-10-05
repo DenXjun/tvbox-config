@@ -1,0 +1,18 @@
+services:
+  tvbox-manager:
+    build:
+      context: ..
+      dockerfile: nas/Dockerfile
+    platform: linux/amd64
+    container_name: tvbox-manager
+    restart: unless-stopped
+    ports:
+      - "8787:8080"
+    environment:
+      TZ: Asia/Shanghai
+      TVBOX_INTERVAL_HOURS: "12"
+    volumes:
+      - ./data:/data
+      - ./output:/output
+      - ./config:/config
+      - ./logs:/logs
