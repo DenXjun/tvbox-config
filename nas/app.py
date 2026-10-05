@@ -118,11 +118,15 @@ def run_pipeline():
                     f.flush()
                     tail=latest_log_tail(30).replace("\n"," | ")
                     raise RuntimeError(f"fetch_merge failed (exit {p.returncode}): {tail[-1800:]}")
-        for src in ("tvbox.json","tvbox_recommended.json"):
-            p=ROOT/src
-            if p.exists(): (OUTPUT/src).write_bytes(p.read_bytes())
         healthy=ROOT/"exports"/"healthy.json"
-        if healthy.exists(): (OUTPUT/"healthy.json").write_bytes(healthy.read_bytes())
+        if not healthy.exists():
+            raise RuntimeError("healthy export missing")
+        # Public subscription is always the validated/ranked VOD result.
+        payload=healthy.read_bytes()
+        (OUTPUT/"tvbox.json").write_bytes(payload)
+        (OUTPUT/"healthy.json").write_bytes(payload)
+        raw=ROOT/"tvbox.json"
+        if raw.exists(): (OUTPUT/"tvbox_all.json").write_bytes(raw.read_bytes())
         ok=True; msg="completed"
     except Exception as e: msg=str(e)
     finally:
@@ -156,7 +160,7 @@ class H(SimpleHTTPRequestHandler):
         if path=="/favicon.ico":
             self.send_response(204); self.end_headers(); return
         name=path.lstrip("/")
-        if name in ("tvbox.json","tvbox_recommended.json","healthy.json"):
+        if name in ("tvbox.json","healthy.json","tvbox_all.json"):
             p=OUTPUT/name
             if p.exists():
                 b=p.read_bytes(); self.send_response(200); self.send_header("Content-Type","application/json; charset=utf-8"); self.send_header("Content-Length",str(len(b))); self.end_headers(); return self.wfile.write(b)
