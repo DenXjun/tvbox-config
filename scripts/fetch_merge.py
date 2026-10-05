@@ -62,7 +62,6 @@ socket.setdefaulttimeout(30)  # 全局socket超时兜底：Windows下urllib conn
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # scripts 内互相导入
 from config_decode import decode_config   # 吸收点 P1-1：混淆配置解码链（独立实现）
 import adult_leak_check as _adult_gate    # 门禁扫描语义单一事实源（P0-2 红线对齐）
-import live_aggregate as _la              # 词表驱动 adult 判定（is_adult / is_adult_url）
 import raw_store                          # 输入层原始源镜像（落库/每日变化检测/上游删除保护）
 import pathutil                           # 跨平台路径安全工具（全仓库唯一事实源）
 import upstream_config as _ucfg           # 统一上游配置（config/upstreams.json，硬编码作 fallback）
@@ -689,12 +688,12 @@ def _candidate_adult_rule(name: str, url: str):
         if not s:
             continue
         low = s.lower()
-        for kw in _la.PORN_KW:
+        for kw in _adult_gate.PORN_KW:
             if kw.lower() in low:
                 return "porn_kw:%s" % kw[:16]
-        if "://" in s and _la.is_adult_url(s):
+        if "://" in s and _adult_gate.is_adult_url(s):
             return "host_blacklist"
-        m = _la.ADULT_SOURCE_RE.search(s)
+        m = _adult_gate.ADULT_SOURCE_RE.search(s)
         if m:
             return "source_pattern:%s" % m.group(0)[:24]
     return None
