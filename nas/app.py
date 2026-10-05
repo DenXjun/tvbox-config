@@ -3,7 +3,7 @@ import json, os, sqlite3, subprocess, sys, threading, time
 from datetime import datetime, timezone
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlsplit
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=Path(os.getenv("TVBOX_DATA","/data"))
@@ -142,26 +142,30 @@ class H(SimpleHTTPRequestHandler):
         b=json.dumps(obj,ensure_ascii=False).encode(); self.send_response(status)
         self.send_header("Content-Type","application/json; charset=utf-8"); self.send_header("Content-Length",str(len(b))); self.end_headers(); self.wfile.write(b)
     def do_GET(self):
-        if self.path=="/api/status":
+        path=urlsplit(self.path).path.rstrip("/") or "/"
+        if path=="/api/status":
             with db() as c:
                 r=c.execute("select started,finished,ok,message from runs order by id desc limit 1").fetchone()
             return self._json({"running":RUN_LOCK.locked(),"step":CURRENT["step"],"log":CURRENT["log"],"last_run":dict(zip(("started","finished","ok","message"),r)) if r else None,"upstreams":len(upstreams())})
-        if self.path=="/api/upstreams": return self._json(upstreams())
-        if self.path=="/api/log": return self._json({"text":latest_log_tail()})
-        if self.path in ("/","/index.html"):
+        if path=="/api/upstreams": return self._json(upstreams())
+        if path=="/api/log": return self._json({"text":latest_log_tail()})
+        if path in ("/","/index.html"):
             p=ROOT/"nas"/"index.html"; b=p.read_bytes(); self.send_response(200); self.send_header("Content-Type","text/html; charset=utf-8"); self.send_header("Content-Length",str(len(b))); self.end_headers(); return self.wfile.write(b)
-        name=self.path.lstrip("/")
+        if path=="/favicon.ico":
+            self.send_response(204); self.end_headers(); return
+        name=path.lstrip("/")
         if name in ("tvbox.json","tvbox_recommended.json","healthy.json"):
             p=OUTPUT/name
             if p.exists():
                 b=p.read_bytes(); self.send_response(200); self.send_header("Content-Type","application/json; charset=utf-8"); self.send_header("Content-Length",str(len(b))); self.end_headers(); return self.wfile.write(b)
         self.send_error(404)
     def do_POST(self):
+        path=urlsplit(self.path).path.rstrip("/") or "/"
         n=int(self.headers.get("Content-Length","0")); body=json.loads(self.rfile.read(n) or b"{}")
-        if self.path=="/api/upstreams":
+        if path=="/api/upstreams":
             try: add_upstream(body.get("url",""),body.get("name","")); return self._json({"ok":True})
             except Exception as e: return self._json({"ok":False,"error":str(e)},400)
-        if self.path=="/api/run":
+        if path=="/api/run":
             threading.Thread(target=run_pipeline,daemon=True).start(); return self._json({"ok":True})
         self.send_error(404)
     def log_message(self,fmt,*args): print("[web]",fmt%args,flush=True)
