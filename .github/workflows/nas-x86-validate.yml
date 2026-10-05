@@ -32,29 +32,9 @@ jobs:
       - name: Syntax check
         run: python -m py_compile nas/app.py nas/media_quality.py nas/build_runtime.py scripts/export_healthy.py scripts/adult_leak_check.py scripts/mirror_probe.py scripts/evaluate_candidates.py
       - name: VOD import boundary check
-        run: |
-          python - <<'PY'
-          import sys
-          sys.path.insert(0, "scripts")
-          import adult_leak_check
-          assert "live_aggregate" not in sys.modules
-          import fetch_merge
-          assert "live_aggregate" not in sys.modules
-          print("VOD adult gate imports without live_aggregate")
-          PY
-
+        run: python -c 'import sys; sys.path.insert(0,"scripts"); import adult_leak_check; assert "live_aggregate" not in sys.modules; import fetch_merge; assert "live_aggregate" not in sys.modules'
       - name: Placeholder mirror filter check
-        run: |
-          python - <<'PY'
-          import sys
-          sys.path.insert(0, "scripts")
-          import mirror_probe as m
-          for h in ("your-worker.workers.dev", "your-domain.com", "sites.ipaddress.com", "gitclone.com"):
-              assert not m._valid_discovered_host(h), h
-          assert m._valid_discovered_host("gh.zwy.one")
-          print("placeholder mirror filter ok")
-          PY
-
+        run: python -c 'import sys; sys.path.insert(0,"scripts"); import mirror_probe as m; assert all(not m._valid_discovered_host(h) for h in ("your-worker.workers.dev","your-domain.com","sites.ipaddress.com","gitclone.com")); assert m._valid_discovered_host("gh.zwy.one")'
       - name: Prepare DRPY runtime dependencies
         run: npm ci --omit=dev --prefix drpy-sandbox
       - name: Build offline runtime
@@ -65,92 +45,8 @@ jobs:
           tar -tzf nas/runtime.tar.gz | grep -q '^scripts/fetch_merge.py$'
           tar -tzf nas/runtime.tar.gz | grep -q '^drpy-sandbox/package.json$'
           tar -tzf nas/runtime.tar.gz | grep -q '^drpy-sandbox/node_modules/'
-          tar -tzf nas/runtime.tar.gz | grep -q '^state/vocab/categories.json
-      - name: Build amd64 image from offline files
-        run: docker build --platform linux/amd64 -f nas/Dockerfile -t tvbox-nas:test nas
-      - name: First boot smoke test
-        run: |
-          mkdir -p /tmp/tvbox-nas/{data,output,config,logs}
-          docker run -d --name tvbox-nas-test -p 18080:8080 \
-            -e TVBOX_INTERVAL_HOURS=9999 \
-            -e TVBOX_AUTO_RUN=0 \
-            -v /tmp/tvbox-nas/data:/data \
-            -v /tmp/tvbox-nas/output:/output \
-            -v /tmp/tvbox-nas/config:/config \
-            -v /tmp/tvbox-nas/logs:/logs \
-            tvbox-nas:test
-          ok=0
-          for i in $(seq 1 30); do
-            if curl -fsS http://127.0.0.1:18080/api/status >/tmp/status.json; then ok=1; break; fi
-            sleep 2
-          done
-          docker logs tvbox-nas-test
-          test "$ok" = 1
-          curl -fsS http://127.0.0.1:18080/api/upstreams >/tmp/upstreams.json
-          test -s /tmp/upstreams.json
-          docker rm -f tvbox-nas-test
-      - name: Assemble Synology offline package
-        run: |
-          rm -rf /tmp/tvbox-nas-x86_64
-          mkdir -p /tmp/tvbox-nas-x86_64/{data,output,config,logs}
-          cp nas/Dockerfile /tmp/tvbox-nas-x86_64/
-          cp nas/docker-compose.yml /tmp/tvbox-nas-x86_64/
-          cp nas/runtime.tar.gz /tmp/tvbox-nas-x86_64/
-          cp nas/README.md /tmp/tvbox-nas-x86_64/README.md
-          cd /tmp
-          zip -qr "$GITHUB_WORKSPACE/tvbox-nas-x86_64.zip" tvbox-nas-x86_64
-          ls -lh "$GITHUB_WORKSPACE/tvbox-nas-x86_64.zip"
-      - name: Upload offline package
-        uses: actions/upload-artifact@v4
-        with:
-          name: tvbox-nas-x86_64
-          path: tvbox-nas-x86_64.zip
-          if-no-files-found: error
-          retention-days: 14
-
-          tar -tzf nas/runtime.tar.gz | grep -q '^radar/discovered.json
-      - name: Build amd64 image from offline files
-        run: docker build --platform linux/amd64 -f nas/Dockerfile -t tvbox-nas:test nas
-      - name: First boot smoke test
-        run: |
-          mkdir -p /tmp/tvbox-nas/{data,output,config,logs}
-          docker run -d --name tvbox-nas-test -p 18080:8080 \
-            -e TVBOX_INTERVAL_HOURS=9999 \
-            -e TVBOX_AUTO_RUN=0 \
-            -v /tmp/tvbox-nas/data:/data \
-            -v /tmp/tvbox-nas/output:/output \
-            -v /tmp/tvbox-nas/config:/config \
-            -v /tmp/tvbox-nas/logs:/logs \
-            tvbox-nas:test
-          ok=0
-          for i in $(seq 1 30); do
-            if curl -fsS http://127.0.0.1:18080/api/status >/tmp/status.json; then ok=1; break; fi
-            sleep 2
-          done
-          docker logs tvbox-nas-test
-          test "$ok" = 1
-          curl -fsS http://127.0.0.1:18080/api/upstreams >/tmp/upstreams.json
-          test -s /tmp/upstreams.json
-          docker rm -f tvbox-nas-test
-      - name: Assemble Synology offline package
-        run: |
-          rm -rf /tmp/tvbox-nas-x86_64
-          mkdir -p /tmp/tvbox-nas-x86_64/{data,output,config,logs}
-          cp nas/Dockerfile /tmp/tvbox-nas-x86_64/
-          cp nas/docker-compose.yml /tmp/tvbox-nas-x86_64/
-          cp nas/runtime.tar.gz /tmp/tvbox-nas-x86_64/
-          cp nas/README.md /tmp/tvbox-nas-x86_64/README.md
-          cd /tmp
-          zip -qr "$GITHUB_WORKSPACE/tvbox-nas-x86_64.zip" tvbox-nas-x86_64
-          ls -lh "$GITHUB_WORKSPACE/tvbox-nas-x86_64.zip"
-      - name: Upload offline package
-        uses: actions/upload-artifact@v4
-        with:
-          name: tvbox-nas-x86_64
-          path: tvbox-nas-x86_64.zip
-          if-no-files-found: error
-          retention-days: 14
-
+          tar -tzf nas/runtime.tar.gz | grep -q '^state/vocab/categories.json$'
+          tar -tzf nas/runtime.tar.gz | grep -q '^radar/discovered.json$'
           ls -lh nas/runtime.tar.gz
       - name: Build amd64 image from offline files
         run: docker build --platform linux/amd64 -f nas/Dockerfile -t tvbox-nas:test nas
