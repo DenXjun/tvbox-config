@@ -44,6 +44,7 @@ def run_pipeline():
     started=datetime.now(timezone.utc).isoformat(); ok=False; msg=""
     try:
         env=os.environ.copy()
+        env["TVBOX_NAS_MODE"]="1"
         manual=[x["url"] for x in upstreams() if x["enabled"]]
         if manual: env["NAS_EXTRA_UPSTREAMS"]="\n".join(manual)
         cmds=[
