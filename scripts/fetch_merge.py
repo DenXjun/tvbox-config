@@ -5737,7 +5737,13 @@ def main() -> int:
     live = {"lives": [l for l in lives if isinstance(l, dict) and l.get("name")]}
     # ---- 直播重构：以本次实测聚合为主入口（央视/卫视/港台分组 + 核心频道多线路）----
     repo_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    curated_lives, adult_lives = build_curated_lives(repo_dir)
+    _nas_vod_only = os.environ.get("TVBOX_NAS_MODE") == "1"
+    if _nas_vod_only:
+        # NAS edition is VOD-only: do not initialize/probe/build any live pipeline.
+        curated_lives, adult_lives = [], []
+        print("[nas] VOD-only mode: skip live aggregation/build", flush=True)
+    else:
+        curated_lives, adult_lives = build_curated_lives(repo_dir)
     # 门禁同口径终扫命中的直播条目下放 adult.json（与既有「成人直播」通道同格式）
     for l in _life_gate_items:
         adult_lives.append({
@@ -5820,7 +5826,9 @@ def main() -> int:
     # parses 复用 vod 全集：TVBox 站点不引用 parses（playUrl/jar 才是站点自有播放方式），
     # parses 是全局播放器池，单独配置需自带全集才不至于某些解析器不可用。
     short_sites = [s for s in (vod.get("sites") or []) if site_category_map.get(s.get("key")) == "short"]
-    if PUBLISH_ADULT:
+    if _nas_vod_only:
+        adult_sites = []
+    elif PUBLISH_ADULT:
         adult_sites = [s for s in (vod.get("sites") or []) if site_category_map.get(s.get("key")) == "adult"]
     else:
         # 不声明模式下 vod.sites 里已经没有成人源了（前面已剔除），用当时留存的那份
