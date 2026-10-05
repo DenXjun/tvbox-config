@@ -30,7 +30,31 @@ jobs:
       - name: NAS unit tests
         run: python -m pytest -q tests/test_nas_media_quality.py
       - name: Syntax check
-        run: python -m py_compile nas/app.py nas/media_quality.py nas/build_runtime.py scripts/export_healthy.py
+        run: python -m py_compile nas/app.py nas/media_quality.py nas/build_runtime.py scripts/export_healthy.py scripts/adult_leak_check.py scripts/mirror_probe.py scripts/evaluate_candidates.py
+      - name: VOD import boundary check
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "scripts")
+          import adult_leak_check
+          assert "live_aggregate" not in sys.modules
+          import fetch_merge
+          assert "live_aggregate" not in sys.modules
+          print("VOD adult gate imports without live_aggregate")
+          PY
+
+      - name: Placeholder mirror filter check
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "scripts")
+          import mirror_probe as m
+          for h in ("your-worker.workers.dev", "your-domain.com", "sites.ipaddress.com", "gitclone.com"):
+              assert not m._valid_discovered_host(h), h
+          assert m._valid_discovered_host("gh.zwy.one")
+          print("placeholder mirror filter ok")
+          PY
+
       - name: Prepare DRPY runtime dependencies
         run: npm ci --omit=dev --prefix drpy-sandbox
       - name: Build offline runtime
