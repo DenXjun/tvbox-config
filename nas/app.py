@@ -52,6 +52,7 @@ def run_pipeline():
           [sys.executable,"scripts/evaluate_candidates.py","--min-unique","3","--write-canary"],
           [sys.executable,"scripts/fetch_merge.py"],
           [sys.executable,"scripts/probe_sites.py","--only","http","--concurrency","16"],
+          [sys.executable,"nas/media_quality.py","--batch","probe/sites_probe.json"],
           [sys.executable,"scripts/dedup_mirrors.py"],
           [sys.executable,"scripts/drpy_probe.py","--workers","3"],
           [sys.executable,"scripts/store.py","--ingest-sites","tvbox.json","--ingest-probes","probe/sites_probe.json","probe/drpy_probe.json","--prune","--stats"],
