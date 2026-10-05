@@ -1,0 +1,41 @@
+name: nas-x86-validate
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [codex/synology-x86-v1]
+    paths:
+      - "nas/**"
+      - "scripts/export_healthy.py"
+      - "tests/test_nas_media_quality.py"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: NAS unit tests
+        run: python -m pytest -q tests/test_nas_media_quality.py
+      - name: Syntax check
+        run: python -m py_compile nas/app.py nas/media_quality.py scripts/export_healthy.py
+      - name: Build amd64 image
+        run: docker build --platform linux/amd64 -f nas/Dockerfile -t tvbox-nas:test .
+      - name: First boot smoke test
+        run: |
+          mkdir -p /tmp/tvbox-nas/{data,output,config,logs}
+          docker run -d --name tvbox-nas-test -p 18080:8080             -e TVBOX_INTERVAL_HOURS=9999             -v /tmp/tvbox-nas/data:/data             -v /tmp/tvbox-nas/output:/output             -v /tmp/tvbox-nas/config:/config             -v /tmp/tvbox-nas/logs:/logs             tvbox-nas:test
+          for i in $(seq 1 20); do
+            curl -fsS http://127.0.0.1:18080/api/status && break
+            sleep 2
+          done
+          curl -fsS http://127.0.0.1:18080/api/upstreams >/tmp/upstreams.json
+          test -s /tmp/upstreams.json
+          docker logs tvbox-nas-test
+          docker rm -f tvbox-nas-test
