@@ -115,7 +115,9 @@ def run_pipeline():
                 f.write("\n===== "+CURRENT["step"]+" =====\n"); f.flush()
                 p=subprocess.run(cmd,cwd=ROOT,env=env,stdout=f,stderr=subprocess.STDOUT,timeout=3600)
                 if p.returncode and cmd[1].endswith("fetch_merge.py"):
-                    raise RuntimeError("fetch_merge failed")
+                    f.flush()
+                    tail=latest_log_tail(30).replace("\n"," | ")
+                    raise RuntimeError(f"fetch_merge failed (exit {p.returncode}): {tail[-1800:]}")
         for src in ("tvbox.json","tvbox_recommended.json"):
             p=ROOT/src
             if p.exists(): (OUTPUT/src).write_bytes(p.read_bytes())
