@@ -5533,7 +5533,11 @@ def main() -> int:
     # 判定逻辑见 empty_guard_check / read_prev_counts。
     _cur = {"sites": len(kept_sites), "lives": len(lives), "parses": len(parses)}
     _prev = read_prev_counts("tvbox.json")
-    _blocked = empty_guard_check(_cur, _prev, EMPTY_GUARD_DROP_RATIO)
+    # NAS manager is intentionally VOD-only: live/parses may legitimately be empty.
+    # Keep the original full-output guard everywhere else.
+    _guard_cur = {"sites": _cur["sites"]} if os.environ.get("TVBOX_NAS_MODE") == "1" else _cur
+    _guard_prev = {"sites": _prev.get("sites", 0)} if os.environ.get("TVBOX_NAS_MODE") == "1" else _prev
+    _blocked = empty_guard_check(_guard_cur, _guard_prev, EMPTY_GUARD_DROP_RATIO)
     if _blocked:
         _guard_note = {
             "triggered_at": generated_at,
