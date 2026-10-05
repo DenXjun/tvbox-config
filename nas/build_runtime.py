@@ -10,7 +10,7 @@ import re, shutil, tarfile
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"nas"/"runtime"
 ARCHIVE=ROOT/"nas"/"runtime.tar.gz"
-CODE_DIRS=("scripts","config","drpy-sandbox")
+CODE_DIRS=("scripts","config","drpy-sandbox","state/vocab")
 PRODUCTS=("tvbox.json","vod.json","short.json","tvbox_recommended.json")
 ROOT_FILES=("list.json","status.json","checks.json")
 SEED_STATE=("adult_leak_whitelist.txt","blacklist_auto.txt","blacklist_manual.txt",
@@ -18,6 +18,7 @@ SEED_STATE=("adult_leak_whitelist.txt","blacklist_auto.txt","blacklist_manual.tx
             "upstream_baseline.json","upstream_failures.json","upstream_latency.json",
             "upstream_retry.json","upstreams_state.json","validated.json","whitelist_manual.txt")
 SEED_PROBE=("drpy_probe.json","sites_probe.json")
+SEED_RADAR=("discovered.json",)
 DEP_RE=re.compile(r"(?:\./)?deps/[^\s\"'<>\\),;]+")
 
 def dep_refs():
@@ -40,7 +41,7 @@ for name in CODE_DIRS:
 refs=dep_refs()
 for rel in sorted(refs):
     dst=OUT/rel; dst.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(ROOT/rel,dst)
-for dirname,names in (("state",SEED_STATE),("probe",SEED_PROBE)):
+for dirname,names in (("state",SEED_STATE),("probe",SEED_PROBE),("radar",SEED_RADAR)):
     dst=OUT/dirname; dst.mkdir()
     for name in names:
         src=ROOT/dirname/name
