@@ -1,4 +1,4 @@
-name: nas-x86-validate
+name: nas-x86-package
 
 on:
   workflow_dispatch:
@@ -6,36 +6,85 @@ on:
     branches: [codex/synology-x86-v1]
     paths:
       - "nas/**"
-      - "scripts/export_healthy.py"
-      - "tests/test_nas_media_quality.py"
+      - "scripts/**"
+      - "config/**"
+      - "drpy-sandbox/**"
+      - "tvbox.json"
+      - "vod.json"
+      - "short.json"
+      - "tvbox_recommended.json"
+      - ".github/workflows/nas-x86-validate.yml"
 
 permissions:
   contents: read
 
 jobs:
-  test:
+  package:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: NAS unit tests
         run: python -m pytest -q tests/test_nas_media_quality.py
+
       - name: Syntax check
-        run: python -m py_compile nas/app.py nas/media_quality.py scripts/export_healthy.py
-      - name: Build amd64 image
-        run: docker build --platform linux/amd64 -f nas/Dockerfile -t tvbox-nas:test .
+        run: python -m py_compile nas/app.py nas/media_quality.py nas/build_runtime.py scripts/export_healthy.py
+
+      - name: Build offline runtime
+        run: |
+          python nas/build_runtime.py
+          test -s nas/runtime.tar.gz
+          tar -tzf nas/runtime.tar.gz | grep -q '^nas/app.py$'
+          tar -tzf nas/runtime.tar.gz | grep -q '^scripts/fetch_merge.py$'
+          tar -tzf nas/runtime.tar.gz | grep -q '^drpy-sandbox/package.json$'
+          ls -lh nas/runtime.tar.gz
+
+      - name: Build amd64 image from offline files
+        run: docker build --platform linux/amd64 -f nas/Dockerfile -t tvbox-nas:test nas
+
       - name: First boot smoke test
         run: |
           mkdir -p /tmp/tvbox-nas/{data,output,config,logs}
-          docker run -d --name tvbox-nas-test -p 18080:8080             -e TVBOX_INTERVAL_HOURS=9999             -v /tmp/tvbox-nas/data:/data             -v /tmp/tvbox-nas/output:/output             -v /tmp/tvbox-nas/config:/config             -v /tmp/tvbox-nas/logs:/logs             tvbox-nas:test
-          for i in $(seq 1 20); do
-            curl -fsS http://127.0.0.1:18080/api/status && break
+          docker run -d --name tvbox-nas-test -p 18080:8080 \
+            -e TVBOX_INTERVAL_HOURS=9999 \
+            -e TVBOX_AUTO_RUN=0 \
+            -v /tmp/tvbox-nas/data:/data \
+            -v /tmp/tvbox-nas/output:/output \
+            -v /tmp/tvbox-nas/config:/config \
+            -v /tmp/tvbox-nas/logs:/logs \
+            tvbox-nas:test
+          ok=0
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:18080/api/status >/tmp/status.json; then ok=1; break; fi
             sleep 2
           done
+          docker logs tvbox-nas-test
+          test "$ok" = 1
           curl -fsS http://127.0.0.1:18080/api/upstreams >/tmp/upstreams.json
           test -s /tmp/upstreams.json
-          docker logs tvbox-nas-test
           docker rm -f tvbox-nas-test
+
+      - name: Assemble Synology offline package
+        run: |
+          rm -rf /tmp/tvbox-nas-x86_64
+          mkdir -p /tmp/tvbox-nas-x86_64/{data,output,config,logs}
+          cp nas/Dockerfile /tmp/tvbox-nas-x86_64/
+          cp nas/docker-compose.yml /tmp/tvbox-nas-x86_64/
+          cp nas/runtime.tar.gz /tmp/tvbox-nas-x86_64/
+          cp nas/README.md /tmp/tvbox-nas-x86_64/README.md
+          cd /tmp
+          zip -qr "$GITHUB_WORKSPACE/tvbox-nas-x86_64.zip" tvbox-nas-x86_64
+          ls -lh "$GITHUB_WORKSPACE/tvbox-nas-x86_64.zip"
+
+      - name: Upload offline package
+        uses: actions/upload-artifact@v4
+        with:
+          name: tvbox-nas-x86_64
+          path: tvbox-nas-x86_64.zip
+          if-no-files-found: error
+          retention-days: 14
