@@ -13,6 +13,7 @@ LOGS=Path(os.getenv("TVBOX_LOGS","/logs"))
 PORT=int(os.getenv("TVBOX_PORT","8080"))
 INTERVAL=int(os.getenv("TVBOX_INTERVAL_HOURS","12"))*3600
 DB=DATA/"nas.db"
+UPSTREAM_CFG=CONFIG/"upstreams.json"
 RUN_LOCK=threading.Lock()
 
 for p in (DATA,OUTPUT,CONFIG,LOGS): p.mkdir(parents=True,exist_ok=True)
@@ -28,16 +29,34 @@ def valid_url(v):
         u=urlparse(v); return u.scheme in ("http","https") and bool(u.netloc)
     except Exception: return False
 
+def _upstream_doc():
+    try:
+        d=json.loads(UPSTREAM_CFG.read_text(encoding="utf-8"))
+        if isinstance(d,dict) and isinstance(d.get("upstreams"),list): return d
+    except (OSError,ValueError): pass
+    # Seed from repository config on first boot.
+    seed=ROOT/"config"/"upstreams.json"
+    try:
+        d=json.loads(seed.read_text(encoding="utf-8"))
+        if isinstance(d,dict) and isinstance(d.get("upstreams"),list): return d
+    except (OSError,ValueError): pass
+    return {"version":1,"upstreams":[]}
+
+def _save_upstream_doc(d):
+    tmp=UPSTREAM_CFG.with_suffix(".tmp")
+    tmp.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding="utf-8"); tmp.replace(UPSTREAM_CFG)
+
 def add_upstream(url,name="",source="manual"):
     if not valid_url(url): raise ValueError("invalid http/https URL")
-    with db() as c:
-        c.execute("insert or ignore into upstreams(url,name,source,created) values(?,?,?,?)",
-                  (url,name or url,source,datetime.now(timezone.utc).isoformat()))
+    d=_upstream_doc()
+    if any(x.get("url")==url for x in d["upstreams"]): return
+    stamp=datetime.now(timezone.utc).date().isoformat()
+    d["upstreams"].append({"name":name or ("nas-"+str(len(d["upstreams"])+1)),"url":url,"type":"vod","priority":50,"enabled":True,"added_at":stamp,"source":source,"format":"json"})
+    _save_upstream_doc(d)
 
 def upstreams():
-    with db() as c:
-        return [{"id":r[0],"url":r[1],"name":r[2],"enabled":bool(r[3]),"source":r[4]}
-                for r in c.execute("select id,url,name,enabled,source from upstreams order by id desc")]
+    return [{"id":i+1,"url":x.get("url"),"name":x.get("name"),"enabled":x.get("enabled",True),"source":x.get("source","seed")}
+            for i,x in enumerate(_upstream_doc().get("upstreams",[])) if x.get("url")]
 
 def run_pipeline():
     if not RUN_LOCK.acquire(blocking=False): return False,"already running"
@@ -45,8 +64,9 @@ def run_pipeline():
     try:
         env=os.environ.copy()
         env["TVBOX_NAS_MODE"]="1"
-        manual=[x["url"] for x in upstreams() if x["enabled"]]
-        if manual: env["NAS_EXTRA_UPSTREAMS"]="\n".join(manual)
+        # Point the upstream module at the persistent NAS copy.
+        d=_upstream_doc(); _save_upstream_doc(d)
+        env["UPSTREAM_CONFIG"]=str(UPSTREAM_CFG)
         cmds=[
           [sys.executable,"scripts/mirror_probe.py"],
           [sys.executable,"scripts/discover_upstreams.py","--pages","1"],
