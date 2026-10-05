@@ -1,9 +1,9 @@
 {
  "summary": {
   "probe_failures": 247,
-  "upstream_failures": 124,
-  "dep_unreferenced": 6490,
-  "dep_jar_mismatch": 75
+  "upstream_failures": 125,
+  "dep_unreferenced": 6899,
+  "dep_jar_mismatch": 77
  },
  "probe_samples": [
   {
