@@ -13,6 +13,8 @@ services:
       TVBOX_INTERVAL_HOURS: "12"
       MEDIA_PROBE_LIMIT: "40"
       PROBE_QUOTA: "160"
+      TVBOX_AUTO_RUN: "1"
+      TVBOX_FIRST_RUN_DELAY: "120"
     volumes:
       - ./data:/data
       - ./output:/output
