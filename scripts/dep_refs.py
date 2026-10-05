@@ -64,8 +64,9 @@ CONSUMER_GLOBS = (
 )
 
 # 反过来，state/ probe/ snapshot/ raw/ 里同样大量出现 deps 路径，但它们是**台账**
-# 不是消费者：`state/deps_broken_refs.json` 记的正是"引用了但文件不存在"的 3918 条
-# 坏引用，`state/deps_redirect.json` 是 2900 条改名映射（老路径→新路径）。把它们
+# 不是消费者：历史上的 `state/deps_broken_refs.json`（Sep27 快照，3918 条）已废弃，
+# 当前权威坏引用由 `scripts/config_validate.py` 写入 `state/broken_refs.json`（当前 total=0）。
+# `state/deps_redirect.json` 是 2900 条改名映射（老路径→新路径）。把它们
 # 算进引用集会反过来给死文件发放通行证，让 unreferenced 判定大幅虚低。
 NON_CONSUMER_DIRS = ("state", "probe", "snapshot", "raw", "raw-vod", "radar")
 
