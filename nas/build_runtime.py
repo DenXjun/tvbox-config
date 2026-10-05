@@ -42,7 +42,7 @@ refs=dep_refs()
 for rel in sorted(refs):
     dst=OUT/rel; dst.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(ROOT/rel,dst)
 for dirname,names in (("state",SEED_STATE),("probe",SEED_PROBE),("radar",SEED_RADAR)):
-    dst=OUT/dirname; dst.mkdir()
+    dst=OUT/dirname; dst.mkdir(parents=True, exist_ok=True)
     for name in names:
         src=ROOT/dirname/name
         if src.is_file(): shutil.copy2(src,dst/name)
