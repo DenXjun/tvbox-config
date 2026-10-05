@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T06:08:55+08:00",
+ "generated_at": "2026-10-05T06:21:57+08:00",
  "ttl_days": 14,
  "fvs": {
   "a1e9ee9307b27a46": {
@@ -3053,6 +3053,41 @@
    "ts": 1791065335.5815966,
    "key": "jkunzyapi",
    "api": "https://www.jkunzyapi.com/api.php/provide/vod/at/seaxml/"
+  },
+  "c87890571858a863": {
+   "ok": true,
+   "ms": 1152,
+   "ts": 1791152517.9559612,
+   "key": "影剧资源",
+   "api": "https://yjzy.tv/api.php/provide/vod/"
+  },
+  "bb0fc0a8f2accfdb": {
+   "ok": true,
+   "ms": 426,
+   "ts": 1791152517.9559612,
+   "key": "pool_7",
+   "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/"
+  },
+  "f635231a0eacca8c": {
+   "ok": true,
+   "ms": 433,
+   "ts": 1791152517.9559612,
+   "key": "pool_8",
+   "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/"
+  },
+  "ff09a2f472badf2a": {
+   "ok": true,
+   "ms": 753,
+   "ts": 1791152517.9559612,
+   "key": "pool_36",
+   "api": "https://yonghu.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/json/"
+  },
+  "4198f5360549a515": {
+   "ok": true,
+   "ms": 688,
+   "ts": 1791152517.9559612,
+   "key": "public_57",
+   "api": "https://api.1080zyku.com/inc/api.php/provide/vod"
   }
  }
 }
