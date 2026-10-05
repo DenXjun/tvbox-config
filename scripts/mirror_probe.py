@@ -352,6 +352,20 @@ def _recent_tested(fixed_hosts, rounds, dead, now=None):
     return skip
 
 
+PLACEHOLDER_HOSTS = {
+    "your-worker.workers.dev", "your-domain.com", "example.com", "example.org",
+    "localhost", "sites.ipaddress.com", "gitclone.com",
+}
+
+def _valid_discovered_host(host):
+    h = (host or "").strip().lower().rstrip(".")
+    if not h or h in PLACEHOLDER_HOSTS:
+        return False
+    if h.startswith(("your-", "example.", "www.example.")):
+        return False
+    return "." in h and " " not in h
+
+
 def discover_hosts(fixed_hosts, rounds, dead, proven=None, web=None):
     """本轮要新试的镜像：[(prefix, 出现次数, origin)]，origin ∈ upstream|online。
 
@@ -363,7 +377,7 @@ def discover_hosts(fixed_hosts, rounds, dead, proven=None, web=None):
     out = []
     for origin, counter in (("upstream", proven), ("online", web)):
         for h, n in counter.most_common():
-            if h in skip or h in PREFIX_HOST_DENY:
+            if h in skip or h in PREFIX_HOST_DENY or not _valid_discovered_host(h):
                 continue
             skip.add(h)  # 同一条名单里两路都出现时不重复试
             out.append((f"https://{h}/", n, origin))
