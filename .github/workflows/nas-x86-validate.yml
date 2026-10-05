@@ -9,6 +9,7 @@ on:
       - "scripts/**"
       - "config/**"
       - "drpy-sandbox/**"
+      - "tests/test_nas_media_quality.py"
       - "tvbox.json"
       - "vod.json"
       - "short.json"
@@ -47,11 +48,13 @@ jobs:
           tar -tzf nas/runtime.tar.gz | grep -q '^drpy-sandbox/node_modules/'
           tar -tzf nas/runtime.tar.gz | grep -q '^state/vocab/categories.json$'
           tar -tzf nas/runtime.tar.gz | grep -q '^radar/discovered.json$'
+          test -z "$(tar -tzf nas/runtime.tar.gz | sort | uniq -d | head -1)"
           ls -lh nas/runtime.tar.gz
       - name: Build amd64 image from offline files
         run: docker build --platform linux/amd64 -f nas/Dockerfile -t tvbox-nas:test nas
       - name: First boot smoke test
         run: |
+          rm -rf /tmp/tvbox-nas
           mkdir -p /tmp/tvbox-nas/{data,output,config,logs}
           docker run -d --name tvbox-nas-test -p 18080:8080 \
             -e TVBOX_INTERVAL_HOURS=9999 \
@@ -68,11 +71,46 @@ jobs:
           done
           docker logs tvbox-nas-test
           test "$ok" = 1
+          python -c 'import json; d=json.load(open("/tmp/status.json")); assert d["auto_run"] is False; assert d["subscription_ready"] is False'
+          test "$(curl -sS -o /tmp/notready.json -w '%{http_code}' http://127.0.0.1:18080/tvbox.json)" = 503
+          grep -q 'subscription_not_ready' /tmp/notready.json
           curl -fsS http://127.0.0.1:18080/api/upstreams >/tmp/upstreams.json
           test -s /tmp/upstreams.json
+          docker exec tvbox-nas-test test -L /app/state
+          docker exec tvbox-nas-test test -L /app/deps
           docker exec tvbox-nas-test test -s /app/state/vocab/categories.json
           test -s /tmp/tvbox-nas/data/state/vocab/categories.json
+          docker exec tvbox-nas-test python -c 'import sys; sys.path.insert(0,"scripts"); import fetch_merge; assert "live_aggregate" not in sys.modules'
+          echo dependency-ok >/tmp/tvbox-nas/data/deps/smoke.txt
+          test "$(curl -fsS http://127.0.0.1:18080/deps/smoke.txt)" = dependency-ok
           docker rm -f tvbox-nas-test
+      - name: Existing NAS upgrade smoke test
+        run: |
+          echo history-must-survive >/tmp/tvbox-nas/data/state/history-marker.txt
+          echo dep-must-survive >/tmp/tvbox-nas/data/deps/dep-marker.txt
+          rm -rf /tmp/tvbox-nas/data/state/vocab
+          docker run -d --name tvbox-nas-upgrade -p 18081:8080 \
+            -e TVBOX_AUTO_RUN=1 \
+            -e TVBOX_FIRST_RUN_DELAY=9999 \
+            -v /tmp/tvbox-nas/data:/data \
+            -v /tmp/tvbox-nas/output:/output \
+            -v /tmp/tvbox-nas/config:/config \
+            -v /tmp/tvbox-nas/logs:/logs \
+            tvbox-nas:test
+          ok=0
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:18081/api/status >/tmp/upgrade-status.json; then ok=1; break; fi
+            sleep 2
+          done
+          docker logs tvbox-nas-upgrade
+          test "$ok" = 1
+          python -c 'import json; d=json.load(open("/tmp/upgrade-status.json")); assert d["auto_run"] is True; assert d["next_auto_in"] is not None and d["next_auto_in"] > 0'
+          test "$(cat /tmp/tvbox-nas/data/state/history-marker.txt)" = history-must-survive
+          test "$(cat /tmp/tvbox-nas/data/deps/dep-marker.txt)" = dep-must-survive
+          test -s /tmp/tvbox-nas/data/state/vocab/categories.json
+          docker exec tvbox-nas-upgrade test -s /app/state/vocab/categories.json
+          docker exec tvbox-nas-upgrade python -c 'import sys; sys.path.insert(0,"scripts"); import adult_leak_check, fetch_merge; assert "live_aggregate" not in sys.modules'
+          docker rm -f tvbox-nas-upgrade
       - name: Assemble Synology offline package
         run: |
           rm -rf /tmp/tvbox-nas-x86_64
