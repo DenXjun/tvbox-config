@@ -18,6 +18,23 @@ RUN_LOCK=threading.Lock()
 
 for p in (DATA,OUTPUT,CONFIG,LOGS): p.mkdir(parents=True,exist_ok=True)
 
+def ensure_persistent_state():
+    target=DATA/"state"; target.mkdir(parents=True,exist_ok=True)
+    state=ROOT/"state"
+    if state.is_symlink():
+        return
+    # First boot: preserve shipped seed state, then replace /app/state with a symlink.
+    if state.exists():
+        for src in state.iterdir():
+            dst=target/src.name
+            if src.is_file() and not dst.exists():
+                dst.write_bytes(src.read_bytes())
+        import shutil
+        shutil.rmtree(state)
+    state.symlink_to(target, target_is_directory=True)
+
+ensure_persistent_state()
+
 def db():
     c=sqlite3.connect(DB)
     c.execute("""create table if not exists runs(id integer primary key, started text, finished text, ok integer, message text)""")
