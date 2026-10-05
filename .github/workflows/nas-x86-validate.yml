@@ -70,6 +70,8 @@ jobs:
           test "$ok" = 1
           curl -fsS http://127.0.0.1:18080/api/upstreams >/tmp/upstreams.json
           test -s /tmp/upstreams.json
+          docker exec tvbox-nas-test test -s /app/state/vocab/categories.json
+          test -s /tmp/tvbox-nas/data/state/vocab/categories.json
           docker rm -f tvbox-nas-test
       - name: Assemble Synology offline package
         run: |
