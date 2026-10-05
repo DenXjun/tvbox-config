@@ -60,10 +60,6 @@ def score(site_key):
     latency=max(0,1-min((w["avg_first_byte_ms"] or 5000)/5000,1))*10
     return round(stability+speed+latency,1)
 
-if __name__=="__main__":
-    import argparse
-    ap=argparse.ArgumentParser(); ap.add_argument("site_key"); ap.add_argument("url"); a=ap.parse_args()
-    r=record(a.site_key,a.url); print(json.dumps({"probe":r,"history":stats(a.site_key),"score":score(a.site_key)},ensure_ascii=False))
 
 
 def ingest_probe_file(path, limit=40):
@@ -91,3 +87,16 @@ def export_scores(path):
     out={k:{"score":score(k),**stats(k)} for k in keys}
     Path(path).write_text(json.dumps({"generated_at":datetime.now(timezone.utc).isoformat(),"items":out},ensure_ascii=False,indent=2),encoding="utf-8")
     return out
+
+if __name__=="__main__":
+    import argparse
+    ap=argparse.ArgumentParser()
+    ap.add_argument("site_key",nargs="?"); ap.add_argument("url",nargs="?")
+    ap.add_argument("--batch",default=""); ap.add_argument("--limit",type=int,default=int(os.getenv("MEDIA_PROBE_LIMIT","40")))
+    a=ap.parse_args()
+    if a.batch:
+        result=ingest_probe_file(a.batch,a.limit); export_scores(DATA/"quality_scores.json"); print(json.dumps(result,ensure_ascii=False))
+    elif a.site_key and a.url:
+        r=record(a.site_key,a.url); print(json.dumps({"probe":r,"history":stats(a.site_key),"score":score(a.site_key)},ensure_ascii=False))
+    else:
+        ap.error("provide site_key + url, or --batch FILE")
