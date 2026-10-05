@@ -81,14 +81,13 @@ jobs:
           docker exec tvbox-nas-test test -s /app/state/vocab/categories.json
           test -s /tmp/tvbox-nas/data/state/vocab/categories.json
           docker exec tvbox-nas-test python -c 'import sys; sys.path.insert(0,"scripts"); import fetch_merge; assert "live_aggregate" not in sys.modules'
-          echo dependency-ok >/tmp/tvbox-nas/data/deps/smoke.txt
+          docker exec tvbox-nas-test sh -c 'echo dependency-ok > /data/deps/smoke.txt'
           test "$(curl -fsS http://127.0.0.1:18080/deps/smoke.txt)" = dependency-ok
           docker rm -f tvbox-nas-test
       - name: Existing NAS upgrade smoke test
         run: |
-          echo history-must-survive >/tmp/tvbox-nas/data/state/history-marker.txt
-          echo dep-must-survive >/tmp/tvbox-nas/data/deps/dep-marker.txt
-          rm -rf /tmp/tvbox-nas/data/state/vocab
+          docker run --rm -v /tmp/tvbox-nas/data:/data tvbox-nas:test sh -c \
+            'echo history-must-survive > /data/state/history-marker.txt; echo dep-must-survive > /data/deps/dep-marker.txt; rm -rf /data/state/vocab'
           docker run -d --name tvbox-nas-upgrade -p 18081:8080 \
             -e TVBOX_AUTO_RUN=1 \
             -e TVBOX_FIRST_RUN_DELAY=9999 \
@@ -105,9 +104,9 @@ jobs:
           docker logs tvbox-nas-upgrade
           test "$ok" = 1
           python -c 'import json; d=json.load(open("/tmp/upgrade-status.json")); assert d["auto_run"] is True; assert d["next_auto_in"] is not None and d["next_auto_in"] > 0'
-          test "$(cat /tmp/tvbox-nas/data/state/history-marker.txt)" = history-must-survive
-          test "$(cat /tmp/tvbox-nas/data/deps/dep-marker.txt)" = dep-must-survive
-          test -s /tmp/tvbox-nas/data/state/vocab/categories.json
+          test "$(docker exec tvbox-nas-upgrade cat /data/state/history-marker.txt)" = history-must-survive
+          test "$(docker exec tvbox-nas-upgrade cat /data/deps/dep-marker.txt)" = dep-must-survive
+          docker exec tvbox-nas-upgrade test -s /data/state/vocab/categories.json
           docker exec tvbox-nas-upgrade test -s /app/state/vocab/categories.json
           docker exec tvbox-nas-upgrade python -c 'import sys; sys.path.insert(0,"scripts"); import adult_leak_check, fetch_merge; assert "live_aggregate" not in sys.modules'
           docker rm -f tvbox-nas-upgrade
