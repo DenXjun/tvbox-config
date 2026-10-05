@@ -1,12 +1,12 @@
 {
  "live": {
   "deleted_upstream_kept": 0,
-  "published_urls": 8086,
+  "published_urls": 8095,
   "raw_dir": "raw/live",
   "side": "live",
   "sources": [
    {
-    "dropped": 861,
+    "dropped": 857,
     "dropped_sample": [
      {
       "group": "🕘️更新时间",
@@ -21,14 +21,14 @@
       "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226338/1.m3u8"
      }
     ],
-    "kept": 2087,
-    "kept_ratio": 0.7079,
+    "kept": 2091,
+    "kept_ratio": 0.7093,
     "source": "3377-iptv",
     "status": "ok",
     "urls": 2948
    },
    {
-    "dropped": 116,
+    "dropped": 115,
     "dropped_sample": [
      {
       "group": "央视频道",
@@ -43,14 +43,14 @@
       "url": "http://183.10.180.81:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0"
      }
     ],
-    "kept": 51,
-    "kept_ratio": 0.3054,
+    "kept": 52,
+    "kept_ratio": 0.3114,
     "source": "bestfan-status",
     "status": "ok",
     "urls": 167
    },
    {
-    "dropped": 861,
+    "dropped": 857,
     "dropped_sample": [
      {
       "group": "🕘️更新时间",
@@ -65,8 +65,8 @@
       "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226338/1.m3u8"
      }
     ],
-    "kept": 2087,
-    "kept_ratio": 0.7079,
+    "kept": 2091,
+    "kept_ratio": 0.7093,
     "source": "bruce0422-iptv",
     "status": "ok",
     "urls": 2948
@@ -94,7 +94,7 @@
     "urls": 58
    },
    {
-    "dropped": 1792,
+    "dropped": 1797,
     "dropped_sample": [
      {
       "group": "更新时间",
@@ -109,8 +109,8 @@
       "url": "http://58.57.40.22:9901/tsfile/live/0001_1.m3u8"
      }
     ],
-    "kept": 663,
-    "kept_ratio": 0.2701,
+    "kept": 658,
+    "kept_ratio": 0.268,
     "source": "ccsh-iptv",
     "status": "ok",
     "urls": 2455
@@ -138,7 +138,7 @@
     "urls": 93
    },
    {
-    "dropped": 861,
+    "dropped": 857,
     "dropped_sample": [
      {
       "group": "🕘️更新时间",
@@ -153,14 +153,14 @@
       "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226338/1.m3u8"
      }
     ],
-    "kept": 2087,
-    "kept_ratio": 0.7079,
+    "kept": 2091,
+    "kept_ratio": 0.7093,
     "source": "guovin-gd-ipv4",
     "status": "ok",
     "urls": 2948
    },
    {
-    "dropped": 861,
+    "dropped": 857,
     "dropped_sample": [
      {
       "group": "🕘️更新时间",
@@ -175,14 +175,14 @@
       "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226338/1.m3u8"
      }
     ],
-    "kept": 2087,
-    "kept_ratio": 0.7079,
+    "kept": 2091,
+    "kept_ratio": 0.7093,
     "source": "guovin-release",
     "status": "ok",
     "urls": 2948
    },
    {
-    "dropped": 38,
+    "dropped": 37,
     "dropped_sample": [
      {
       "group": "湖南台",
@@ -197,14 +197,14 @@
       "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0m"
      }
     ],
-    "kept": 18,
-    "kept_ratio": 0.3214,
+    "kept": 20,
+    "kept_ratio": 0.3509,
     "source": "hujingguang-cntv",
     "status": "ok",
-    "urls": 56
+    "urls": 57
    },
    {
-    "dropped": 163,
+    "dropped": 162,
     "dropped_sample": [
      {
       "group": "央视",
@@ -219,8 +219,8 @@
       "url": "http://gslbserv.itv.cmvideo.cn/1000000005000265001/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=3"
      }
     ],
-    "kept": 25,
-    "kept_ratio": 0.133,
+    "kept": 26,
+    "kept_ratio": 0.1383,
     "source": "ibert-fmml",
     "status": "ok",
     "urls": 188
@@ -248,7 +248,7 @@
     "urls": 96
    },
    {
-    "dropped": 483,
+    "dropped": 485,
     "dropped_sample": [
      {
       "group": "📺央视频道",
@@ -263,14 +263,14 @@
       "url": "rtsp://60.13.27.115/PLTV/88888910/224/3221225567/10000100000000060000000000107347_0.smil"
      }
     ],
-    "kept": 164,
-    "kept_ratio": 0.2535,
+    "kept": 162,
+    "kept_ratio": 0.2504,
     "source": "iptv0610-xp",
     "status": "ok",
     "urls": 647
    },
    {
-    "dropped": 2164,
+    "dropped": 2180,
     "dropped_sample": [
      {
       "group": "🦧温馨提示",
@@ -285,14 +285,14 @@
       "url": "https://icloud.ifanr.pp.ua/温馨提示.mp4"
      }
     ],
-    "kept": 1110,
-    "kept_ratio": 0.339,
+    "kept": 1092,
+    "kept_ratio": 0.3337,
     "source": "itcoffe-itv",
     "status": "ok",
-    "urls": 3274
+    "urls": 3272
    },
    {
-    "dropped": 861,
+    "dropped": 857,
     "dropped_sample": [
      {
       "group": "🕘️更新时间",
@@ -307,14 +307,14 @@
       "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226338/1.m3u8"
      }
     ],
-    "kept": 2087,
-    "kept_ratio": 0.7079,
+    "kept": 2091,
+    "kept_ratio": 0.7093,
     "source": "juntv-main",
     "status": "ok",
     "urls": 2948
    },
    {
-    "dropped": 5638,
+    "dropped": 5648,
     "dropped_sample": [
      {
       "group": "更新时间",
@@ -326,17 +326,17 @@
      },
      {
       "group": "更新时间",
-      "url": "https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239858729476.mp4"
+      "url": "https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240202339353.mp4"
      }
     ],
-    "kept": 1502,
-    "kept_ratio": 0.2104,
+    "kept": 1495,
+    "kept_ratio": 0.2093,
     "source": "kimwang-bbxx365lite",
     "status": "ok",
-    "urls": 7140
+    "urls": 7143
    },
    {
-    "dropped": 861,
+    "dropped": 857,
     "dropped_sample": [
      {
       "group": "🕘️更新时间",
@@ -351,14 +351,14 @@
       "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226338/1.m3u8"
      }
     ],
-    "kept": 2087,
-    "kept_ratio": 0.7079,
+    "kept": 2091,
+    "kept_ratio": 0.7093,
     "source": "kshao123-tv",
     "status": "ok",
     "urls": 2948
    },
    {
-    "dropped": 17,
+    "dropped": 19,
     "dropped_sample": [
      {
       "group": "China",
@@ -373,8 +373,8 @@
       "url": "http://hwapi.yntv.net/ew265l/848y54.m3u8"
      }
     ],
-    "kept": 23,
-    "kept_ratio": 0.575,
+    "kept": 21,
+    "kept_ratio": 0.525,
     "source": "romaxa55-cn",
     "status": "ok",
     "urls": 40
@@ -402,7 +402,7 @@
     "urls": 96
    },
    {
-    "dropped": 230,
+    "dropped": 228,
     "dropped_sample": [
      {
       "group": "央视频道",
@@ -417,8 +417,8 @@
       "url": "http://101.66.194.125:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=0&authid=0"
      }
     ],
-    "kept": 312,
-    "kept_ratio": 0.5756,
+    "kept": 314,
+    "kept_ratio": 0.5793,
     "source": "vbskycn-iptv4",
     "status": "ok",
     "urls": 542
@@ -446,7 +446,7 @@
     "urls": 1061
    },
    {
-    "dropped": 201,
+    "dropped": 199,
     "dropped_sample": [
      {
       "group": "🕘️更新时间",
@@ -461,8 +461,8 @@
       "url": "http://www.freetv.top/migu/624878396.m3u8?migutoken=3adcad950884d4ecc6c6967edee9c162189a1e09480eb5c29b369864aeedaed43c3f951d7eb6c32d86baac49792aacb3264b8f074e74"
      }
     ],
-    "kept": 2184,
-    "kept_ratio": 0.9157,
+    "kept": 2186,
+    "kept_ratio": 0.9166,
     "source": "xuy132-tv",
     "status": "ok",
     "urls": 2385
@@ -534,7 +534,7 @@
     "urls": 96
    },
    {
-    "dropped": 118,
+    "dropped": 116,
     "dropped_sample": [
      {
       "group": "地方频道",
@@ -549,14 +549,14 @@
       "url": "https://l2fpdktp.live.sxmty.com/live/hls/e4c3b363cc4549788e2d983f403e07db/d99ce1eb686e41b9afc888110bd95aa7.m3u8?zshanxd"
      }
     ],
-    "kept": 286,
-    "kept_ratio": 0.7079,
+    "kept": 288,
+    "kept_ratio": 0.7129,
     "source": "zhi35-iptv",
     "status": "ok",
     "urls": 404
    },
    {
-    "dropped": 1792,
+    "dropped": 1797,
     "dropped_sample": [
      {
       "group": "更新时间",
@@ -571,8 +571,8 @@
       "url": "http://58.57.40.22:9901/tsfile/live/0001_1.m3u8"
      }
     ],
-    "kept": 663,
-    "kept_ratio": 0.2701,
+    "kept": 658,
+    "kept_ratio": 0.268,
     "source": "zwc456baby-iptv",
     "status": "ok",
     "urls": 2455
@@ -580,9 +580,9 @@
   ],
   "summary": {
    "note": "dropped 去向 = 探活死链剔除/分组筛选（live-prune 独立职能），审计只定位来源",
-   "raw_urls_dropped": 20266,
-   "raw_urls_in_published": 19859,
-   "raw_urls_total": 40125
+   "raw_urls_dropped": 20273,
+   "raw_urls_in_published": 19854,
+   "raw_urls_total": 40127
   }
  },
  "vod": {
@@ -604,6 +604,7 @@
    "auto/205-34s/mtv9527/mao/-/raw/master/xb/%E5%A5%B3%E5%9B%A2%E7%83%AD%E8%88%9E.json",
    "auto/232-19s/p/k/d/k/git/raw/master/xpath/94sm.json",
    "auto/232-19s/p/k/d/k/git/raw/master/xpath/zxzj.json",
+   "auto/25-239s/victor1616888/tvbox/blob/main/tvbox.jar",
    "auto/3-427s/box/tm/sites/码上👓玉/%E4%B8%87%E8%83%BD%E5%BD%B1%E8%A7%86.json",
    "auto/3-427s/box/tm/sites/码上👓玉/%E4%BC%98%E9%85%B7.js",
    "auto/3-427s/box/tm/sites/码上👓玉/%E7%94%B5%E5%BD%B1%E6%B8%AF.json",
@@ -661,6 +662,31 @@
    "auto/5-427s/box/tm/sites/码上👓玉/%E7%94%B5%E5%BD%B1%E6%B8%AF.json",
    "auto/5-427s/box/tm/sites/码上👓玉/%E8%85%BE%E8%AE%AF.js",
    "auto/5-427s/box/tm/sites/码上👓玉/%E8%8A%92%E6%9E%9C.js",
+   "auto/50-145s/JS/AnFuns~98f86a.js",
+   "auto/50-145s/JS/drpy.min~982578.js",
+   "auto/50-145s/JS/gbk~9347d3.js",
+   "auto/50-145s/JS/两个磁力~36b56e.js",
+   "auto/50-145s/JS/乐鱼影视~823205.js",
+   "auto/50-145s/JS/五五五~d3d947.js",
+   "auto/50-145s/JS/喵次元~9adf3f.js",
+   "auto/50-145s/JS/喵物次元~73c7ad.js",
+   "auto/50-145s/JS/曲奇动漫~11bec2.js",
+   "auto/50-145s/JS/模板~cf8dab.js",
+   "auto/50-145s/JS/金曼影视~f70f7a.js",
+   "auto/50-145s/XBPQ/三四八~000cf4.json",
+   "auto/50-145s/XBPQ/二三三~f37dc3.json",
+   "auto/50-145s/XBPQ/柒月影视~2f31dc.json",
+   "auto/50-145s/XBPQ/维奇动漫~92e40a.json",
+   "auto/50-145s/XBPQ/萌猫影视~af9033.json",
+   "auto/50-145s/XBPQ/追影视频~09cc81.json",
+   "auto/50-145s/XYQHiker/云盘搜索~f1aefc.json",
+   "auto/50-145s/XYQHiker/云盘论坛~e65da8.json",
+   "auto/50-145s/XYQHiker/云盘资源~ea16d1.json",
+   "auto/50-145s/XYQHiker/云盘资源分享~926e41.json",
+   "auto/50-145s/XYQHiker/天天开心~6f85c0.json",
+   "auto/50-145s/XYQHiker/阿里苏苏~9e79ae.json",
+   "auto/50-145s/danmu~39d70e.jar",
+   "auto/50-145s/spider~877119.jar",
    "auto/61-108s/pg.jar",
    "auto/70-137s/lwlxh/tvhome/raw/master/o.jar",
    "auto/79-108s/lib/drpy2.min~250d6d.js",
@@ -708,14 +734,21 @@
    "deepseek/8815wmz/iptv-org.github.io/iptv/index.m3u",
    "deepseek/8815wmz/live.m3u",
    "feishu-sync/iptv.m3u",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
    "feishu-sync/lib/drpy-core-lite.min.js",
    "feishu-sync/lib/drpy2.min.js",
    "feishu-sync/iptv.m3u",
-   "feishu-sync/yuan/zb.txt",
    "feishu-sync/live.m3u",
    "feishu-sync/ceshi/zb.php",
-   "feishu-sync/h3mb5a.txt",
    "feishu-sync/live.txt",
+   "feishu-sync/raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png",
+   "feishu-sync/raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png",
+   "feishu-sync/raw.githubusercontent.com/fuleishu/ceshi/refs/heads/main/aptv.m3u",
    "feishu-sync/m3u/iptv.m3u",
    "feishu-sync/heads/main/interface.txt",
    "feishu-sync/output/result.m3u",
@@ -726,8 +759,6 @@
    "feishu-sync/IPTV.m3u",
    "feishu-sync/live.txt",
    "feishu-sync/tv.txt",
-   "feishu-sync/yydfys/yydf/-/raw/main/yydf/lib/live.txt",
-   "feishu-sync/yydfys/yydf/-/raw/main/yydf/lib/zhibo.txt",
    "feishu-sync/live.m3u",
    "feishu-sync/live.m3u",
    "feishu-sync/live.m3u",
@@ -741,8 +772,18 @@
    "feishu-sync/live.m3u",
    "feishu-sync/iptv-org.github.io/iptv/index.m3u",
    "feishu-sync/live.m3u",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
+   "feishu-sync/api.php",
    "feishu-sync/js/drpy-core-lite.min.js",
    "feishu-sync/iptv.m3u",
+   "feishu-sync/raw.githubusercontent.com/tushen6/Tomorrow/master/py/275听书.py",
+   "feishu-sync/raw.githubusercontent.com/tushen6/Tomorrow/master/py/红果短剧.py",
    "feishu-sync/all.m3u",
    "wex/newwex/iptv.m3u",
    "wex/newwex/live.m3u",
@@ -765,21 +806,23 @@
    "wex/newwex/output/result.m3u",
    "wex/newwex/all.m3u"
   ],
-  "deleted_upstream_protected": 59,
-  "deps_entries": 9833,
+  "deleted_upstream_protected": 75,
+  "deps_entries": 10434,
   "ledger_dir": "raw-vod",
-  "manifest_entries": 15431,
-  "match": 6184,
+  "manifest_entries": 16059,
+  "match": 6779,
   "mismatch": [
+   "auto/1-698s/api/json.php",
+   "auto/1-698s/api/json.php",
    "auto/25-11s/api/json.php",
    "auto/5-390s/inc/api.php",
    "auto/6-387s/api/xml.php",
    "auto/6-387s/api/xml.php",
    "feishu-sync/live.m3u",
    "feishu-sync/live.txt",
-   "feishu-sync/iptv.txt",
    "feishu-sync/live.txt",
    "feishu-sync/api.php",
+   "feishu-sync/js/drpy-core-lite.min.js",
    "feishu-sync/api/xml.php",
    "feishu-sync/live.m3u",
    "feishu-sync/live.m3u",
@@ -802,6 +845,7 @@
    "feishu-sync/heads/main/suale.txt",
    "feishu-sync/lives/chinese.m3u",
    "feishu-sync/best_sorted.m3u",
+   "feishu-sync/heads/main/live.txt",
    "feishu-sync/result.txt",
    "feishu-sync/output/all_merged.m3u",
    "feishu-sync/output/result.m3u",
@@ -813,14 +857,17 @@
    "feishu-sync/result.txt",
    "feishu-sync/output/all_merged.m3u",
    "feishu-sync/output/all_merged.m3u",
+   "feishu-sync/heads/main/模板.js",
    "feishu-sync/output/all_merged.m3u",
-   "feishu-sync/heads/main/gbk.js",
    "feishu-sync/result.txt",
    "feishu-sync/output/all_merged.m3u",
    "feishu-sync/output/all_merged.m3u",
    "feishu-sync/douyuyqk.m3u",
    "feishu-sync/huyayqk.m3u",
    "feishu-sync/IPTV.m3u",
+   "feishu-sync/heads/main/live.txt",
+   "feishu-sync/result.txt",
+   "feishu-sync/output/all_merged.m3u",
    "feishu-sync/output/all_merged.m3u",
    "feishu-sync/live.txt",
    "feishu-sync/tv.m3u",
@@ -830,7 +877,6 @@
    "feishu-sync/tv.m3u",
    "feishu-sync/live.m3u",
    "feishu-sync/tv.m3u",
-   "feishu-sync/live.txt",
    "feishu-sync/tv.m3u",
    "feishu-sync/all.m3u",
    "feishu-sync/live.txt",
@@ -840,6 +886,7 @@
    "feishu-sync/live.m3u",
    "feishu-sync/output/result.m3u",
    "feishu-sync/live~4be02b.m3u",
+   "feishu-sync/js/drpy-core-lite.min.js",
    "feishu-sync/api~16a353.php",
    "feishu-sync/api/xml.php",
    "feishu-sync/live.txt",
@@ -934,9 +981,6 @@
    "auto/1-163s/6/js/麦豆.js",
    "auto/1-163s/6/w.jar",
    "auto/1-698s/heads/main/yingshi/py8/嗷呜动漫.py",
-   "auto/1-698s/api/json.php",
-   "auto/1-698s/api/json.php",
-   "auto/1-698s/api/json.php",
    "auto/10-306s/纯福利/plugin/adult/51吸瓜动态版.py",
    "auto/10-306s/纯福利/plugin/adult/Phb.py",
    "auto/10-306s/纯福利/plugin/adult/lavAPP.py",
@@ -1243,7 +1287,6 @@
    "auto/105-66s/lib/cheerio.min.js",
    "auto/106-53s/fantaiying/ext/-/raw/main/企鹅直播.json",
    "auto/106-63s/fantaiying/ext/-/raw/main/bilibili.json",
-   "auto/106-64s/github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
    "auto/107-64s/github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
    "auto/107-64s/555ys.js",
    "auto/107-64s/剧ok.js",
@@ -1471,23 +1514,6 @@
    "auto/12-306s/纯福利/py/好色™ Tv.py",
    "auto/12-306s/hudie/jar/d479d37ee36fa366b646f77d17b76fb1.jar",
    "auto/12-306s/hudie/lib/op_ticket_1_5673241091_1788770930556_IMPGdz5q.py",
-   "auto/120-56s/jar/custom_spider.jar",
-   "auto/120-56s/json/js/aiyingshi.js",
-   "auto/120-56s/json/js/cilixiong.js",
-   "auto/120-56s/json/js/dubo.js",
-   "auto/120-56s/json/js/dygangs.js",
-   "auto/120-56s/json/js/jpyy.js",
-   "auto/120-56s/json/js/kankan70.js",
-   "auto/120-56s/json/js/kuaikan.js",
-   "auto/120-56s/json/js/lovemovie.js",
-   "auto/120-56s/json/js/mp4movie.js",
-   "auto/120-56s/json/js/mxanime.js",
-   "auto/120-56s/json/js/newvision.js",
-   "auto/120-56s/json/js/nivod.js",
-   "auto/120-56s/json/js/sp360.js",
-   "auto/120-56s/json/js/star.js",
-   "auto/120-56s/json/js/tiantian.js",
-   "auto/120-56s/json/js/xb6v.js",
    "auto/120-64s/github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
    "auto/120-69s/2311/lib/JustLive.js",
    "auto/120-69s/2311/lib/ab.jar",
@@ -1557,7 +1583,6 @@
    "auto/123-69s/2311/lib/cheerio.min.js",
    "auto/123-69s/2311/pandaQ230928.jar",
    "auto/125-43s/songlees355-wq/okay/blob/main/jar/ceshi.jar",
-   "auto/125-53s/fantaiying/ext/-/raw/main/企鹅直播.json",
    "auto/125-56s/jar/custom_spider.jar",
    "auto/125-56s/json/js/aiyingshi.js",
    "auto/125-56s/json/js/cilixiong.js",
@@ -1920,16 +1945,10 @@
    "auto/142-59s/ok/8JbvxsFR.png",
    "auto/142-59s/lrzy/jar/dongli-spider.jar",
    "auto/142-64s/github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
-   "auto/143-45s/p/c/d/c/git/raw/master/jar/custom_spider.jar",
    "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/94sm.json",
-   "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/Djx.json",
-   "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/Nfuxs.json",
    "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/agefans.json",
-   "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/cjtys.json",
    "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/imy.json",
-   "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/jpys.json",
    "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/saohuotv2.json",
-   "auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/tvci.json",
    "auto/143-53s/fantaiying/ext/-/raw/main/企鹅直播.json",
    "auto/144-32s/%E4%BA%91%E7%9B%98/XYQHiker/DOVX搜索.json",
    "auto/144-32s/%E4%BA%91%E7%9B%98/XYQHiker/云盘搜索.json",
@@ -2281,6 +2300,15 @@
    "auto/164-56s/json/js/star.js",
    "auto/164-56s/json/js/tiantian.js",
    "auto/164-56s/json/js/xb6v.js",
+   "auto/165-32s/QBtV.js",
+   "auto/165-32s/UvyH.js",
+   "auto/165-32s/WHNe.json",
+   "auto/165-32s/WaKD.js",
+   "auto/165-32s/cCn.js",
+   "auto/165-32s/chcz.js",
+   "auto/165-32s/owaw.js",
+   "auto/165-32s/rJOj.js",
+   "auto/165-32s/zAuw.js",
    "auto/165-48s/2312/PandaQ231205.jar",
    "auto/166-12s/jar/custom_spider.jar",
    "auto/166-13s/tvbox/%E7%91%9F%E7%91%9F/18.jar",
@@ -2294,15 +2322,7 @@
    "auto/166-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/gbk.js",
    "auto/166-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/模板.js",
    "auto/166-13s/tvbox/%E7%91%9F%E7%91%9F/yt.jar",
-   "auto/166-32s/heads/main/jiaoyu.jar",
-   "auto/166-32s/heads/main/Htuxiaobei.json",
-   "auto/166-32s/heads/main/Htuxiaobei2.json",
    "auto/166-32s/heads/main/Hxiaoxuejiaoyu.json",
-   "auto/166-32s/heads/main/Hxiaoxueshuxue.json",
-   "auto/166-32s/heads/main/Hxiaoxueyingyu.json",
-   "auto/166-32s/heads/main/Hxiaoxueyuwen.json",
-   "auto/166-32s/heads/main/Hxtjy.json",
-   "auto/166-32s/heads/main/Hyizhidonghua.json",
    "auto/166-48s/2312/PandaQ231205.jar",
    "auto/167-12s/XS.jar",
    "auto/167-12s/wp.txt",
@@ -7872,6 +7892,7 @@
    "auto/5-390s/search.php",
    "auto/5-390s/js/drpy~449697.js",
    "auto/5-390s/js/drpy~cae65f.js",
+   "auto/5-390s/js/drpy~8ffd0a.js",
    "auto/5-390s/js/drpy~5be6dd.js",
    "auto/5-390s/js/drpy~449697.js",
    "auto/5-390s/vodsearch/-------------.html",
@@ -8042,6 +8063,31 @@
    "auto/50-142s/box/tms/custom_spider.jar",
    "auto/50-142s/box/tms/lib/cheerio.min.js",
    "auto/50-142s/vodsearch/{wd}----------1---.html",
+   "auto/50-145s/JS/AnFuns~98f86a.js",
+   "auto/50-145s/JS/drpy.min~982578.js",
+   "auto/50-145s/JS/gbk~9347d3.js",
+   "auto/50-145s/JS/两个磁力~36b56e.js",
+   "auto/50-145s/JS/乐鱼影视~823205.js",
+   "auto/50-145s/JS/五五五~d3d947.js",
+   "auto/50-145s/JS/喵次元~9adf3f.js",
+   "auto/50-145s/JS/喵物次元~73c7ad.js",
+   "auto/50-145s/JS/曲奇动漫~11bec2.js",
+   "auto/50-145s/JS/模板~cf8dab.js",
+   "auto/50-145s/JS/金曼影视~f70f7a.js",
+   "auto/50-145s/XBPQ/三四八~000cf4.json",
+   "auto/50-145s/XBPQ/二三三~f37dc3.json",
+   "auto/50-145s/XBPQ/柒月影视~2f31dc.json",
+   "auto/50-145s/XBPQ/维奇动漫~92e40a.json",
+   "auto/50-145s/XBPQ/萌猫影视~af9033.json",
+   "auto/50-145s/XBPQ/追影视频~09cc81.json",
+   "auto/50-145s/XYQHiker/云盘搜索~f1aefc.json",
+   "auto/50-145s/XYQHiker/云盘论坛~e65da8.json",
+   "auto/50-145s/XYQHiker/云盘资源~ea16d1.json",
+   "auto/50-145s/XYQHiker/云盘资源分享~926e41.json",
+   "auto/50-145s/XYQHiker/天天开心~6f85c0.json",
+   "auto/50-145s/XYQHiker/阿里苏苏~9e79ae.json",
+   "auto/50-145s/danmu~39d70e.jar",
+   "auto/50-145s/spider~877119.jar",
    "auto/50-151s/raw.githubusercontent.com/yw88075/tvbox/main/HeChengChaXiu.jar",
    "auto/50-152s/yuyu10588/tt/raw/t/t/drpy2.min.js",
    "auto/50-152s/yuyu10588/tt/raw/t/t/gbk.js",
@@ -8415,6 +8461,13 @@
    "auto/55-151s/wzs1973/test/raw/branch/master/棋牌天地.txt",
    "auto/55-151s/wzs1973/test/raw/branch/master/美食合集.json",
    "auto/55-151s/wzs1973/test/raw/branch/master/软件教程.json",
+   "auto/56-137s/search/index.html",
+   "auto/56-137s/images01/20210326/93827cff964b4497a04f315ca47d530e.jpeg",
+   "auto/56-137s/search.php",
+   "auto/56-137s/search/page/{pg}/wd/{wd}.html",
+   "auto/56-137s/show/20-----------.html",
+   "auto/56-137s/index.php/vod/search/page/{pg}/wd/{wd}.html",
+   "auto/56-137s/index.php/vod/search/page/{pg}/wd/{wd}~6710c9.html",
    "auto/56-150s/spider2.jar",
    "auto/56-150s/uutuv4.txt",
    "auto/57-117s/jar/XBPQ.jar",
@@ -9241,6 +9294,23 @@
    "auto/84-77s/%E5%BD%B1%E8%A7%86/XYQHiker/七新影视.json",
    "auto/84-77s/%E5%BD%B1%E8%A7%86/XYQHiker/奇趣影视.json",
    "auto/84-77s/%E5%BD%B1%E8%A7%86/XYQHiker/电影盒子.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/B站课堂.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/QXB/小强迷.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/QXB/歪片星球.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XB/0855影视.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XB/搜狗影院.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XB/蓝光影院.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XB/酷云影院.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XB/骚火电影.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XP/dandanzan10.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XP/meiju56.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XYQ/87影视N.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XYQ/凌云影视.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/XYQ/酷狗mv.json",
+   "auto/84-91s/wzs1973/test/raw/branch/master/jar/0925.jar",
+   "auto/84-91s/wzs1973/test/raw/branch/master/jar/QXBiubiu.jar",
+   "auto/84-91s/wzs1973/test/raw/branch/master/jar/xifan.jar",
+   "auto/84-91s/wzs1973/test/raw/branch/master/美食合集.json",
    "auto/84-96s/pg.jar",
    "auto/85-103s/fty1201.jar",
    "auto/85-103s/lib/fm1201.jar",
@@ -9830,6 +9900,7 @@
    "feishu-sync/heroaku/TVbox/raw/branch/main/libs/drpy.min.js",
    "feishu-sync/jyj/c120487/raw/branch/main/20230116.txt",
    "feishu-sync/wp-api/getvodurl.php",
+   "feishu-sync/wp-api/ifrty.php",
    "feishu-sync/live~4be02b~7a3334.m3u",
    "feishu-sync/iptv.m3u",
    "feishu-sync/s----------.html",
@@ -9877,6 +9948,9 @@
    "feishu-sync/一木源/JSON/娱乐包/看演唱会.json",
    "feishu-sync/lives/chinese~57114b.m3u",
    "feishu-sync/best_sorted~3770e7.m3u",
+   "feishu-sync/heads/main/live~4de3a3.txt",
+   "feishu-sync/output/live~7f0b2f.txt",
+   "feishu-sync/result~67ea0a.txt",
    "feishu-sync/result~6b1f20.txt",
    "feishu-sync/live_test~2d20a5.m3u",
    "feishu-sync/lives/chinese~158422.m3u",

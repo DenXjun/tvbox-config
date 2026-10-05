@@ -1,124 +1,114 @@
 #EXTM3U
-# 全部 - 更新: 2026/10/5 09:21:22
+# 全部 - 更新: 2026/10/5 15:29:58
 
 #EXTINF:-1 tvg-logo="https://dogpan.com/f/O7LoFv/touming.png" group-title="✈️TG频道@stymei",☁️官网jsnzkpg.com
 https://k0u3cydy43y9zw2408x8760xfx5xx9z.djvod.ndcimgs.com/upic/2026/03/07/21/BMjAyNjAzMDcyMTIyMzlfNDI0MDI5NTBfMTg5Nzk0ODUxNjg5XzFfMw==_b_Bc33d39ac3524c256f9ddabce4588794b.mp4
 # ===== 正在直播 =====
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/403a12aa187f47045c18d137cd8103dc.png" group-title="NBA",掘金 vs 爵士 89-102 [解说]
-https://hello.ooo0ooo.top/live/3944619.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/403a12aa187f47045c18d137cd8103dc.png" group-title="NBA",掘金 vs 爵士 89-102 [原声]
-https://pul-tenm.gkykp.com/live/hd-en-2-3944619.m3u8?txSecret=31f0a938c9c262146a975d71d2d12740&txTime=6AC44CC0
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png" group-title="NBA",快船 vs 勇士 93-92 [解说]
-https://hello.ooo0ooo.top/live/3944623.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png" group-title="NBA",快船 vs 勇士 93-92 [原声]
-https://pul-tenm.gkykp.com/live/hd-en-2-3944623.m3u8?txSecret=47313158ea4bf16b3fb8e2781a62bc1b&txTime=6AC44CC0
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png" group-title="中北美国联",哥斯达黎加 vs 海地 2-0 [解说]
-https://hello.ooo0ooo.top/live/4642661.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png" group-title="中北美国联",哥斯达黎加 vs 海地 2-0 [原声]
-https://pul-tenm.gkykp.com/live/sd-1-4642661.m3u8?txSecret=0e4aea24fc86ecb7e10a951bed759f28&txTime=6AC44CC0
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/d2eb31019ccdef2dbc979866452ea0f8.png" group-title="墨女超",帕丘卡女足 vs 托卢卡女足 0-0 [解说]
-https://hello.ooo0ooo.top/live/4599500.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/d2eb31019ccdef2dbc979866452ea0f8.png" group-title="墨女超",帕丘卡女足 vs 托卢卡女足 0-0 [原声]
-https://pul-tenm.gkykp.com/live/sd-1-4599500.m3u8?txSecret=d0e15b13718d23c461e16c8a6b92545e&txTime=6AC44CC0
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/bd204b38f3037dcd4478b7782e08519c.png" group-title="牙买超",普莱森特法山 vs 金斯敦骑兵 1-1 [解说]
-https://hello.ooo0ooo.top/live/4649086.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/bd204b38f3037dcd4478b7782e08519c.png" group-title="牙买超",普莱森特法山 vs 金斯敦骑兵 1-1 [原声]
-https://pul-tenm.gkykp.com/live/sd-1-4649086.m3u8?txSecret=dc75c7fe685ccce2cd77f5e721e3e65a&txTime=6AC44CC0
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/97f1608bfe5c72492cb5e201f93a6cda.png" group-title="玻利杯",石油独立 vs 玻利瓦尔 0-3 [解说]
-https://hello.ooo0ooo.top/live/4615289.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/97f1608bfe5c72492cb5e201f93a6cda.png" group-title="玻利杯",石油独立 vs 玻利瓦尔 0-3 [原声]
-https://pul-tenm.gkykp.com/live/sd-1-4615289.m3u8?txSecret=706da0ba189303d3cafa02e25dc83cd6&txTime=6AC44CC0
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/578175c1a0691907824154179e179ade.png" group-title="阿甲",里奥夸尔托学生队 vs 竞技 0-2 [解说]
-https://hello.ooo0ooo.top/live/4539783.m3u8
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/578175c1a0691907824154179e179ade.png" group-title="阿甲",里奥夸尔托学生队 vs 竞技 0-2 [原声]
-https://pul-tenm.gkykp.com/live/sd-1-4539783.m3u8?txSecret=17e1bc193005a3fe032abb612feb96bf&txTime=6AC44CC0
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/15f6890f73ff4f23a4b0fb1bd0f00eb8.png" group-title="印班超",南美联合 vs 马德拉斯工兵 2-2 [解说]
+https://hello.ooo0ooo.top/live/4653325.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/15f6890f73ff4f23a4b0fb1bd0f00eb8.png" group-title="印班超",南美联合 vs 马德拉斯工兵 2-2 [原声]
+https://pul-tenm.gkykp.com/live/sd-1-4653325.m3u8?txSecret=7890f5f9c6cca67e675bb1328e01a0a3&txTime=6AC4A300
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/8e93da8386dc5b378446762993400ca7.png" group-title="韩篮甲",蔚山现代太阳神 vs 釜山宙斯盾 87-97 [解说]
+https://hello.ooo0ooo.top/live/3933441.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/8e93da8386dc5b378446762993400ca7.png" group-title="韩篮甲",蔚山现代太阳神 vs 釜山宙斯盾 87-97 [原声]
+https://pul-tenm.gkykp.com/live/sd-2-3933441.m3u8?txSecret=8c6cab7e73266d66b05b85967c6bd0c7&txTime=6AC49BF8
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/10c94f16a2db4872b22d66aa3949bdc0.png" group-title="麒麟杯",厄瓜多尔 vs 巴拿马 0-1 [解说]
+https://hello.ooo0ooo.top/live/4652341.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/10c94f16a2db4872b22d66aa3949bdc0.png" group-title="麒麟杯",厄瓜多尔 vs 巴拿马 0-1 [原声]
+https://pul-tenm.gkykp.com/live/hd-en-1-4652341.m3u8?txSecret=b39a19fa5e1323ba5a7cadece1af5564&txTime=6AC4A300
 
 # ===== 赛事回放 =====
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/0c7d6546c9204e45c17bc2d9d05f7a4b.png" group-title="赛事回放",[回放] 乌兰巴托FC vs 乌兰固木市 8-0 [蒙古超] 2026-10-05 13:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/ed65ef6d5001834822874997083/playlist_eof.m3u8?t=6ac395c7&us=7e4b60533c&sign=8d6c78d67f53b6c1157c886f12bde7bb
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/b6d69c1c07b1d8d83b953b28563999ae.png" group-title="赛事回放",[回放] 尼加拉瓜 vs 多米尼加共和国 1-2 [中北美国联] 2026-10-05 10:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/46e8a4855001834822865667450/playlist_eof.m3u8?t=6ac397e4&us=ea25e6a0cf&sign=8273d38b75b60c2acacdeb27d25700fe
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/f83a93401d7a60595338bae0337d344c.png" group-title="赛事回放",[回放] 拉尼洛斯 vs 卡利美洲 1-2 [哥伦甲] 2026-10-05 09:15
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/2488160b5001834822987266708/playlist_eof.m3u8?t=6ac3908e&us=a8e8be1a1d&sign=4973e322fabc2ef793f3dd769586fa84
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/d2eb31019ccdef2dbc979866452ea0f8.png" group-title="赛事回放",[回放] 帕丘卡女足 vs 托卢卡女足 1-2 [墨女超] 2026-10-05 09:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/a085dbef5001834823031086060/playlist_eof.m3u8?t=6ac38ea1&us=4bde4feac7&sign=2f436d0eaa86ab736416af7a84c12690
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/bd204b38f3037dcd4478b7782e08519c.png" group-title="赛事回放",[回放] 普莱森特法山 vs 金斯敦骑兵 1-1 [牙买超] 2026-10-05 08:30
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/05695d115001834823022215059/playlist_eof.m3u8?t=6ac39330&us=2951785b2e&sign=42acee4674e3386dcd3006342a968218
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/578175c1a0691907824154179e179ade.png" group-title="赛事回放",[回放] 里奥夸尔托学生队 vs 竞技 1-2 [阿甲] 2026-10-05 08:30
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/1e443bd75001834823029161544/playlist_eof.m3u8?t=6ac3937e&us=335be8e97f&sign=4fb5489dbe3ffc8880444c31d16c0c15
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png" group-title="赛事回放",[回放] 哥斯达黎加 vs 海地 2-0 [中北美国联] 2026-10-05 08:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/44fa76325001834823026712063/playlist_eof.m3u8?t=6ac38b63&us=5007ec1314&sign=e5743856b318590e62c415dbc2688e63
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/97f1608bfe5c72492cb5e201f93a6cda.png" group-title="赛事回放",[回放] 石油独立 vs 玻利瓦尔 0-3 [玻利杯] 2026-10-05 07:30
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/700e38c65001834823020407110/playlist_eof.m3u8?t=6ac39440&us=c66bb1802b&sign=7d217237f57d1b8ce3e2a6efa87d3550
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/70c92764e181ce7abe6176c411a93fe3.png" group-title="赛事回放",[回放] 布卡拉曼加 vs 巴兰基亚青年 3-1 [哥伦甲] 2026-10-05 07:10
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/87935c685001834822978362177/playlist_eof.m3u8?t=6ac38d91&us=ce1746bc48&sign=80f4d91cc58d70ad01acd4f0211a6e9f
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/cda795b064373aa4c921f70322254750.png" group-title="赛事回放",[回放] 瓜达拉哈拉女足 vs 华雷斯女足 1-0 [墨女超] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/33a1a7c45001834822899121691/playlist_eof.m3u8?t=6ac38c1a&us=d0586dcc99&sign=14dabed4ad435a2f963f629f9082d95f
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/28535a49d948c5ae240e96bb49377ba9.png" group-title="赛事回放",[回放] 休斯顿达斯女足 vs 华盛顿精神女足 2-3 [美女职] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/0bc1aeb25001834823015718050/playlist_eof.m3u8?t=6ac38e27&us=02f37f16ba&sign=746ba1fdea31f7b8368bbe02c062288e
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/cff843c1f724a378bd0ae42d842ef807.png" group-title="赛事回放",[回放] 阿鲁巴 vs 安圭拉 3-2 [中北美国联] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/4da7bcd15001834823023006087/playlist_eof.m3u8?t=6ac38d92&us=d632315c46&sign=a399113d7bf51c4e51e8f4192b8feaae
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png" group-title="赛事回放",[回放] 快船 vs 勇士 104-101 [NBA] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/75d81e885001834822852739790/playlist_eof.m3u8?t=6ac38a8e&us=09da8627ae&sign=bf8b0e3e1c6c535c618d2ebd402044c4
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png" group-title="赛事回放",[回放] 快船 vs 勇士 104-101 [NBA] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/00e4eaf35001834823022038292/playlist_eof.m3u8?t=6ac38a8e&us=09da8627ae&sign=9730004c30d8da4a9d73ef2ccd4cb24e
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png" group-title="赛事回放",[回放] 快船 vs 勇士 104-101 [NBA] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/ed9de7695001834822976360839/playlist_eof.m3u8?t=6ac38a8e&us=09da8627ae&sign=462209162d51b86983fc5edaccfe6a44
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/403a12aa187f47045c18d137cd8103dc.png" group-title="赛事回放",[回放] 掘金 vs 爵士 97-109 [NBA] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5286b2335001834823023233069/playlist_eof.m3u8?t=6ac395a3&us=f632482f11&sign=8a8af58a653b06bb81d73b6f60870832
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/403a12aa187f47045c18d137cd8103dc.png" group-title="赛事回放",[回放] 掘金 vs 爵士 97-109 [NBA] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/a321d24e5001834822975489086/playlist_eof.m3u8?t=6ac395a3&us=f632482f11&sign=8df347f35b023ea2b7f475b9ded8abb5
+#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/403a12aa187f47045c18d137cd8103dc.png" group-title="赛事回放",[回放] 掘金 vs 爵士 97-109 [NBA] 2026-10-05 07:00
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/027da0f75001834823015325808/playlist_eof.m3u8?t=6ac395a3&us=f632482f11&sign=294e6830c5c87c4ff96e26967889bf5c
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/fd1c8d30eff11d5da787064344aa0d6c.png" group-title="赛事回放",[回放] 蒙特维多竞技 vs 佩纳罗尔 0-1 [乌拉甲] 2026-10-05 06:35
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/bb4316fb5001834823021385890/playlist_eof.m3u8?t=6ac33e99&us=054cf9c18e&sign=102c2a4ba2c14bf7a0840f1578a61bdb
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/bb4316fb5001834823021385890/playlist_eof.m3u8?t=6ac3958d&us=6605ef1848&sign=7204695cb22a7b18a475b09febed4d39
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/5d8f8c8c289dbb2d67203988c8275cbc.png" group-title="赛事回放",[回放] 阿根廷青年人 vs 堤格雷 2-1 [阿甲] 2026-10-05 06:15
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/ed9e5a805001834822976361253/playlist_eof.m3u8?t=6ac33972&us=ee4af71163&sign=23dc68b8b7a9104d529fa10f70892c48
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/ed9e5a805001834822976361253/playlist_eof.m3u8?t=6ac3902b&us=bcad66ff86&sign=432fb79faa72743180739ea0acfe9266
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/acd13ba5d6eeda01d5c5a72b8213d9f2.png" group-title="赛事回放",[回放] 莫利尼斯联 vs 竞技联队 0-6 [牙买超] 2026-10-05 06:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/07ff970d5001834822847618849/playlist_eof.m3u8?t=6ac3351d&us=c2fc63100d&sign=6e62041e3bb89a00c65378b8bbb77eae
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/07ff970d5001834822847618849/playlist_eof.m3u8?t=6ac38ce1&us=552b3fd197&sign=8b1b692b0b196413ee4d73382a49f312
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/bced686ea9d08190520be6eaaa6edf0b.png" group-title="赛事回放",[回放] 新墨西哥联 vs 凤凰重生 2-1 [美乙] 2026-10-05 06:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/1ac8f21c5001834822851122496/playlist_eof.m3u8?t=6ac3377a&us=8fcae0c5d7&sign=d6e0b8d432b597bd5fcc0f4853075bbf
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/1ac8f21c5001834822851122496/playlist_eof.m3u8?t=6ac38f9e&us=b5220bbde2&sign=b8e635f99d13e5f47018493f699df288
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/edb8dfb5b878d0e33c4a86488ad8eb6a.png" group-title="赛事回放",[回放] 特立尼达和多巴哥 vs 库拉索 1-1 [中北美国联] 2026-10-05 06:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/d0f91ceb5001834823011430380/playlist_eof.m3u8?t=6ac3351d&us=c2fc63100d&sign=3c216069b9dfed593403b2489bc72a71
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/d0f91ceb5001834823011430380/playlist_eof.m3u8?t=6ac38e42&us=80449f966f&sign=9dab3ca938cb40163d801931e278bab1
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/80ce4326387c091af8b8647f3292c818.png" group-title="赛事回放",[回放] 波多黎各 vs 开曼群岛 1-0 [中北美国联] 2026-10-05 06:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/bbb254415001834822972415582/playlist_eof.m3u8?t=6ac3351d&us=c2fc63100d&sign=94b1bcd3194f6c647313f25658c02006
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/bbb254415001834822972415582/playlist_eof.m3u8?t=6ac38db4&us=e525d86cc4&sign=c8eff7dbe2226ea95a8cebf3312c676f
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/b6cd6f7995d906fc541b42b8219df67a.png" group-title="赛事回放",[回放] 图库曼圣马丁 vs 迪罗甘拿斯亚 1-0 [阿乙] 2026-10-05 05:30
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/9571ffd15001834823017024372/playlist_eof.m3u8?t=6ac33ef8&us=0019e008dc&sign=b8c742ac51c9ff8d19d71d8650c29a02
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/9571ffd15001834823017024372/playlist_eof.m3u8?t=6ac3972d&us=d625e02fcd&sign=27db413796d3ee9ec8b12e53f5d3c9a1
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/d390f3b4be2499face8eb4af0e73140e.png" group-title="赛事回放",[回放] 瓜比拉 vs 东方石油 2-1 [玻利杯] 2026-10-05 05:15
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5654ae115001834823016608113/playlist_eof.m3u8?t=6ac339e9&us=7a5a956854&sign=9e9f5c1faec16de03839e8baeeb9538e
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/972c2e951d1ba7680faee53a342bd0a2.png" group-title="赛事回放",[回放] 侨卡巴 vs 佩雷拉 4-0 [哥伦甲] 2026-10-05 05:05
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/ac05975a5001834823007197065/playlist_eof.m3u8?t=6ac337d8&us=896a69a9c7&sign=af4fb8070cfd10af4b8c8c41e37100ca
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/265454b5fee1950f8aa1173147c8c593.png" group-title="赛事回放",[回放] 波哥大国际 vs 云斯卡尔达斯 1-1 [哥伦甲] 2026-10-05 05:05
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/060188dd5001834822847562304/playlist_eof.m3u8?t=6ac335b2&us=9770aa0b15&sign=28a21af097a45f2eefe409f40d221594
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/8eaf7a1c977421912b949fb270d3365a.png" group-title="赛事回放",[回放] 锡帕基拉老虎 vs 国际帕尔米拉 1-0 [哥伦乙] 2026-10-05 05:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/fbb3cff35001834823015054382/playlist_eof.m3u8?t=6ac335c1&us=fe9d3fc0fa&sign=b03da45129b6639d95cad4d831324819
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/37869351904578ff964a25ce93b800fd.png" group-title="赛事回放",[回放] 戈多伊克鲁斯 vs 洛斯安第斯 2-1 [阿乙] 2026-10-05 05:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/28debefb5001834822970730362/playlist_eof.m3u8?t=6ac3385c&us=60f8ad466a&sign=73924f2b69e8933629b994a25111f49a
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/594209ef41234822a5e4c7d15a374eda.png" group-title="赛事回放",[回放] 纯果FC vs 蒂沃利加登斯 0-2 [牙买超] 2026-10-05 04:30
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5789f5a85001834822967746326/playlist_eof.m3u8?t=6ac33cce&us=ae07c82724&sign=c2c7e0d0860dc165aac69f5163ccecbe
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/c2ab2f0ed0777f4c193e319ef0ac1889.png" group-title="赛事回放",[回放] 瑰宝海滩 vs 胡曼伯狮子 1-1 [牙买超] 2026-10-05 04:30
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/3cbad6705001834822977437795/playlist_eof.m3u8?t=6ac33d71&us=2a8c9149f1&sign=bf3d60b857cd0884002472d8e46c480c
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/109f72e810b7fdf166636650f0ed244a.png" group-title="赛事回放",[回放] 拉费尔拿 vs 阿特兰大竞技 2-3 [阿乙] 2026-10-05 04:30
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/cb70e2555001834823004402848/playlist_eof.m3u8?t=6ac33f08&us=fa6545a6d6&sign=b92b34ca3f1ae5de78281c4401bb7df2
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/c9c85c7d77f99df77836a650af27b4d1.png" group-title="赛事回放",[回放] 查克佛伊维 vs 贝尔格拉诺防卫队 2-2 [阿乙] 2026-10-05 04:20
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/f2999bc85001834822898661741/playlist_eof.m3u8?t=6ac337a7&us=b93ddaa974&sign=4c9dadda25343a3d33b737f5c2257d47
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/3600f317bbf219e234c2805d4758993a.png" group-title="赛事回放",[回放] 东部海豚 vs 锡瓦奥 1-2 [多米联] 2026-10-05 04:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/a34d52f45001834823017605451/playlist_eof.m3u8?t=6ac3400d&us=bb5f56348c&sign=8d0b2a8a2fe178016cd11b24c215759d
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/8ec4ad81ed3423bbbfed382d8203ca6f.png" group-title="赛事回放",[回放] 萨尔塞多 vs 莫卡 1-0 [多米联] 2026-10-05 04:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/c7218b9a5001834823004253579/playlist_eof.m3u8?t=6ac33853&us=920789504d&sign=208dc15623cd059118319d54efbc9442
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/dda89ded6a1290219694047416afecdf.png" group-title="赛事回放",[回放] 魁北克苏普拉 vs 太平洋FC 5-0 [加拿职] 2026-10-05 04:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/70c0922f5001834822964768566/playlist_eof.m3u8?t=6ac3386e&us=aa4bf12fbd&sign=ed7ed9ef48f5b158e81a4f051c98b026
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/football/team/c90b74c91a43e6170c860a5e328293ff.png" group-title="赛事回放",[回放] 圣胡安圣马丁 vs 阿马格罗 1-2 [阿乙] 2026-10-05 04:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/780a98745001834823003187352/playlist_eof.m3u8?t=6ac337ba&us=e16b443c4f&sign=d7b1e19aecf3d800ac4fc907bc49dc4f
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5654ae115001834823016608113/playlist_eof.m3u8?t=6ac39243&us=49d28d3ab6&sign=ca55639a39263cd60a11b96d088a938a
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png" group-title="赛事回放",[回放] 女武神 vs 王牌 71-60 [WNBA] 2026-10-05 04:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/0f25c8c45001834822966932533/playlist_eof.m3u8?t=6ac3396a&us=cb4f9174e0&sign=ad8dc6705144b15055c89b80176be97d
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/0f25c8c45001834822966932533/playlist_eof.m3u8?t=6ac3918c&us=599aa3f75c&sign=e89dc42c80c478f21a8353f68acdcf53
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png" group-title="赛事回放",[回放] 女武神 vs 王牌 71-60 [WNBA] 2026-10-05 04:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/fa3b99015001834822966046282/playlist_eof.m3u8?t=6ac3396a&us=cb4f9174e0&sign=f32fefa106ac803e9a856b36fc15628e
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/fa3b99015001834822966046282/playlist_eof.m3u8?t=6ac3918c&us=599aa3f75c&sign=9a73a34d9aecb53d5c8a44ff703b81d3
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/be3ef0f7745b3b45b846fac31ca987c6.png" group-title="赛事回放",[回放] 梦想 vs 自由人 92-82 [WNBA] 2026-10-05 02:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/64a219c85001834822957494732/playlist_eof.m3u8?t=6ac33cb1&us=94ca6f19c3&sign=9401b6d17f5850460accefcf4f6aee45
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/64a219c85001834822957494732/playlist_eof.m3u8?t=6ac3949a&us=42f5be20b2&sign=fc3f40ca6c1c2df546970a35d4d46743
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/be3ef0f7745b3b45b846fac31ca987c6.png" group-title="赛事回放",[回放] 梦想 vs 自由人 92-82 [WNBA] 2026-10-05 02:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/6fa910a25001834822957904910/playlist_eof.m3u8?t=6ac33cb1&us=94ca6f19c3&sign=13b4773599c05beb5160859f0a3d9e8b
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/6fa910a25001834822957904910/playlist_eof.m3u8?t=6ac3949a&us=42f5be20b2&sign=274cdeb0037b5384d17b13093e87be9d
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/7fc7f8abf95e4d3d969fbb95c601a7c5.png" group-title="赛事回放",[回放] 贝鲁特体育 vs 沙格斯贝鲁特 75-67 [西亚锦] 2026-10-05 01:45
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5aab95ff5001834822957006059/playlist_eof.m3u8?t=6ac335d8&us=21ffd3eec1&sign=6fe39838f271ad1563becb4c332e38a6
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5aab95ff5001834822957006059/playlist_eof.m3u8?t=6ac38d95&us=6d059c86a5&sign=b5354c8e6c7f170d09f5a3ba3a754cdb
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/e3a3ec04a37490b55dfea4d2c2157e0a.png" group-title="赛事回放",[回放] 穆尔西亚 vs 巴塞罗那 100-94 [西篮甲] 2026-10-05 01:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/3fc71ee75001834822824294677/playlist_eof.m3u8?t=6ac3402a&us=0c6a49480b&sign=c8d6308c0971d754b35e21b47c6208d8
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/3fc71ee75001834822824294677/playlist_eof.m3u8?t=6ac397e8&us=dc6e914af9&sign=9b3a1162199e7d2c38b91a905ffa283e
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/5e722af9ec414d9925470ff6a845a069.png" group-title="赛事回放",[回放] 巴斯克尼亚 vs 吉罗纳 118-78 [西篮甲] 2026-10-05 01:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/7368b3a95001834822988302687/playlist_eof.m3u8?t=6ac3390d&us=41aafbcdf9&sign=9fbce5f2c490e154513dc64ca690170e
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/7368b3a95001834822988302687/playlist_eof.m3u8?t=6ac391d4&us=43ec748743&sign=5c7ee2313acdcba48f07a82081b35c14
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/94b5920c88dadfa905f8ab9fe3842915.png" group-title="赛事回放",[回放] 勒芒 vs 巴黎 101-103 [法篮甲] 2026-10-05 00:50
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/c50dd1cb5001834822989503748/playlist_eof.m3u8?t=6ac334ba&us=6faec3d36f&sign=ab68ef07361823e74840175c8b2be02e
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/c50dd1cb5001834822989503748/playlist_eof.m3u8?t=6ac38c7f&us=46abd3e8e2&sign=29a4e2e287866c6e80e1b00a3cd50eef
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/8575524716dc80cd0ae1605885344687.png" group-title="赛事回放",[回放] 伊罗尼纳哈里亚 vs 海法夏普尔 66-81 [俱乐部友谊赛] 2026-10-05 00:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/f04535815001834822983217751/playlist_eof.m3u8?t=6ac340cb&us=340b03bb10&sign=ddd6b82566170f6b30c201484bfea3fb
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/f04535815001834822983217751/playlist_eof.m3u8?t=6ac38a8e&us=09da8627ae&sign=af2f804cc3c39408b54bdda925da4f7f
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/b5be2bd7664ac9d7777016fb139b852e.png" group-title="赛事回放",[回放] 格罗兹尼迪纳摩 vs 坦波夫 83-64 [俄篮超] 2026-10-05 00:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/6f0a05865001834822947091918/playlist_eof.m3u8?t=6ac3377e&us=e0f69b5ddb&sign=ca98f49145da6fde41b95d530d062359
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/6f0a05865001834822947091918/playlist_eof.m3u8?t=6ac3902c&us=121793e780&sign=3f8f1e8b44c5c2b847f8e6aaf6fe0187
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/2b434c60d717f359dc315064848bbf9e.png" group-title="赛事回放",[回放] 路德维希堡 vs 特里尔 80-94 [德篮甲] 2026-10-05 00:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/cbedf4c65001834822948735723/playlist_eof.m3u8?t=6ac33821&us=c1f5c948b8&sign=16ae284196e2dcf1c791a7b5f39e7e9b
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/cbedf4c65001834822948735723/playlist_eof.m3u8?t=6ac39142&us=cf19472618&sign=756537f2d3d24a200b73ad05d7406443
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/2b434c60d717f359dc315064848bbf9e.png" group-title="赛事回放",[回放] 路德维希堡 vs 特里尔 80-94 [德篮甲] 2026-10-05 00:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/a34793f75001834823000919319/playlist_eof.m3u8?t=6ac33821&us=c1f5c948b8&sign=2961804f7a270f21838c1638c73b5bb4
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/a34793f75001834823000919319/playlist_eof.m3u8?t=6ac39142&us=cf19472618&sign=7f2154c4dd66d45a83cecc3a4f7a69ab
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/1155c645f679bb1168cc6165be9a19cb.png" group-title="赛事回放",[回放] BC萨马拉 vs 海参崴迪纳摩 84-98 [VTB] 2026-10-04 21:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/e2a200fd5001834822979978598/playlist_eof.m3u8?t=6ac33a11&us=4cde948fd5&sign=ed3fb8695b6b0abbc8879b8d46bc26a9
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/e2a200fd5001834822979978598/playlist_eof.m3u8?t=6ac393ad&us=d5d6585a41&sign=ef2ce472d86976e85b78795101fbc423
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/99a5187dc20d019f4fd223a6a6de80a6.png" group-title="赛事回放",[回放] 拜仁慕尼黑 vs 奥尔登堡 113-60 [德篮甲] 2026-10-04 21:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/cc475b755001834822948783879/playlist_eof.m3u8?t=6ac3389f&us=55f3935827&sign=316f88fc2b0dfaa451471d1ad594c0ee
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/cc475b755001834822948783879/playlist_eof.m3u8?t=6ac39227&us=b37974805a&sign=60b133627e3c2128f636a07afb2f619c
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/625f50425c3acc79d6d09981fc37c334.png" group-title="赛事回放",[回放] 哈根 vs 法兰克福 88-93 [德篮甲] 2026-10-04 21:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/dfc9daae5001834822979800986/playlist_eof.m3u8?t=6ac33b68&us=245b7021a6&sign=98657cc187135a9c984c7fff25bfdd9d
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/dfc9daae5001834822979800986/playlist_eof.m3u8?t=6ac3948a&us=8d0f70cb3d&sign=a8612d25d253ab328c82237b013a7a05
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/cf529ca2b3236d084d84a8b7dac61909.png" group-title="赛事回放",[回放] 费内巴切 vs 科尔菲兹 85-84 [土篮超] 2026-10-04 20:30
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/690986fa5001834822804317841/playlist_eof.m3u8?t=6ac336e2&us=8a810899a1&sign=e6a1f07fb519b46a1ca212fa30e418f9
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/690986fa5001834822804317841/playlist_eof.m3u8?t=6ac38fa2&us=0387782a45&sign=692728217dd6255d36c139de78424d04
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/f543e2984c94dacf868dd4d86b8fe764.png" group-title="赛事回放",[回放] 乌法 vs 新西伯利亚 101-59 [俄篮超] 2026-10-04 20:15
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/a2c757475001834822975439048/playlist_eof.m3u8?t=6ac341eb&us=ae2dd5d084&sign=74a234861d3f74fe6b46c05590e4b813
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/a2c757475001834822975439048/playlist_eof.m3u8?t=6ac38aa9&us=9d57975e19&sign=d5e746e506f8cee02c6cb6dc175a6412
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/dc187400fb6adb05d00ea15af09b565a.png" group-title="赛事回放",[回放] 列夫达 vs 阿尔泰巴尔瑙尔 91-81 [俄篮超] 2026-10-04 20:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5365f7685001834822974329763/playlist_eof.m3u8?t=6ac33a3e&us=e97590425b&sign=c3849ce4b9b79f8c0b058dee9e95a8e2
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5365f7685001834822974329763/playlist_eof.m3u8?t=6ac39271&us=7e37295a0f&sign=97cfedc82a353cbb9cb5a405843e19f2
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/81573b5cd5d783d0f04f47991fdc5967.png" group-title="赛事回放",[回放] 莫斯科中央陆军B队 vs 伊泽夫斯克 71-77 [俄篮超] 2026-10-04 19:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/4657d3a15001834822919161682/playlist_eof.m3u8?t=6ac33d02&us=a9b8c06e48&sign=cab7694de460be0e4e389335515c648d
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/4657d3a15001834822919161682/playlist_eof.m3u8?t=6ac39473&us=36aaa9fae3&sign=c8cb1aae055d16cecd04fd294629ef61
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/4f313ff84e5a97eea3b99be6cf1819d9.png" group-title="赛事回放",[回放] 马钢城冶金 vs 车里雅宾斯克奥林匹克 79-93 [俄篮超] 2026-10-04 19:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/fdc126605001834822918324537/playlist_eof.m3u8?t=6ac3345b&us=25e4eb74f7&sign=616dd9c61d70441d97cd51b18963f697
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/fdc126605001834822918324537/playlist_eof.m3u8?t=6ac38ca8&us=b3918350de&sign=27f3fb108fd25d0389f23a035c04d65d
 #EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/2a665dd04839b77def746a1280e28a82.png" group-title="赛事回放",[回放] 奥布拉多 vs 皇家马德里 107-114 [西篮甲] 2026-10-04 18:30
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5acc7cf65001834822957020072/playlist_eof.m3u8?t=6ac33e0f&us=ec8d637684&sign=c3648de8f6bb97f938c07c2a118cf798
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/ff7eb693fa86fd7083b96d45271f2d6e.png" group-title="赛事回放",[回放] 卡伊罗瓦市 vs 巴赫斯塞希尔科勒吉 76-84 [土篮超] 2026-10-04 18:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/ec56fe195001834822928422215/playlist_eof.m3u8?t=6ac33eab&us=d4ba10e536&sign=e3c7ae0a4bd4e9038d4f7cd036c510fc
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/ff7eb693fa86fd7083b96d45271f2d6e.png" group-title="赛事回放",[回放] 卡伊罗瓦市 vs 巴赫斯塞希尔科勒吉 76-84 [土篮超] 2026-10-04 18:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/8dfad8a25001834822801847547/playlist_eof.m3u8?t=6ac33eab&us=d4ba10e536&sign=1cde8874eee74e707a18a634c77f3775
-#EXTINF:-1 tvg-logo="https://cdn.sportnanoapi.com/basketball/team/c07c10156a191227aba68cc149673084.png" group-title="赛事回放",[回放] 拉科鲁尼亚 vs 毕尔巴鄂 104-101 [西篮甲] 2026-10-04 18:00
-https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/cce0b0ff5001834822860947160/playlist_eof.m3u8?t=6ac335c7&us=cd980a2af3&sign=b36ab00c5db3684cc321c00a949692f5
+https://hello.ooo0ooo.top/replay/d5ff014avodsgp1302796787/5acc7cf65001834822957020072/playlist_eof.m3u8?t=6ac39613&us=882b3676f9&sign=1a49036ded9b831fc95bda6d7e2abf83

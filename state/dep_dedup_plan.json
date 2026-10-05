@@ -1,23 +1,7 @@
 {
- "generated_at": "2026-10-05 09:23:09",
+ "generated_at": "2026-10-05 15:31:17",
  "note": "DRY-RUN：只输出去重计划，不自动替换引用（人工确认后再开启）",
  "duplicate_groups": [
-  {
-   "md5": "ba09abcabb8f5eeef64dd6b08e86ee0c",
-   "paths": [
-    "deps/feishu-sync/cctv.php",
-    "deps/feishu-sync/cctv.php"
-   ],
-   "keep": "deps/feishu-sync/cctv.php"
-  },
-  {
-   "md5": "387f6a52c138133fc3c5b2c9729e3077",
-   "paths": [
-    "deps/feishu-sync/inc/apijson_vod.php",
-    "deps/auto/202-101s/inc/apijson_vod.php"
-   ],
-   "keep": "deps/feishu-sync/inc/apijson_vod.php"
-  },
   {
    "md5": "939ffbc2941a28ca533f2653fa4b449e",
    "paths": [
@@ -30,12 +14,53 @@
    "md5": "73a181ace3001954c224a28c46b9fe62",
    "paths": [
     "deps/feishu-sync/niulai.php",
-    "deps/sv/quanying/niulai.php"
+    "deps/auto/64-110s/niulai.php"
    ],
    "keep": "deps/feishu-sync/niulai.php"
   },
   {
-   "md5": "10d55c1d560c8b920bbb3ef0605e3ca6",
+   "md5": "dac15518ecb9aac330f0c2d1408dc9c1",
+   "paths": [
+    "deps/feishu-sync/lib/api.png",
+    "deps/auto/1-698s/heads/main/yingshi/js7/api.png"
+   ],
+   "keep": "deps/feishu-sync/lib/api.png"
+  },
+  {
+   "md5": "fd3cefc7302f3a39a442682f802b11e5",
+   "paths": [
+    "deps/feishu-sync/rsrc/2026/0501/23/d064709f380b4075ac3a4ec302d4244d.png",
+    "deps/sv/lege-dj/heads/main/TV/jar/xyqxbpq.jar",
+    "deps/auto/56-137s/drpys/lib/xyqxbpq.jar"
+   ],
+   "keep": "deps/auto/56-137s/drpys/lib/xyqxbpq.jar"
+  },
+  {
+   "md5": "ba09abcabb8f5eeef64dd6b08e86ee0c",
+   "paths": [
+    "deps/feishu-sync/cctv.php",
+    "deps/feishu-sync/cctv.php"
+   ],
+   "keep": "deps/feishu-sync/cctv.php"
+  },
+  {
+   "md5": "387f6a52c138133fc3c5b2c9729e3077",
+   "paths": [
+    "deps/feishu-sync/inc/apijson_vod.php",
+    "deps/auto/212-101s/inc/apijson_vod.php"
+   ],
+   "keep": "deps/feishu-sync/inc/apijson_vod.php"
+  },
+  {
+   "md5": "c96b69de5ace48bcf0e522147364e048",
+   "paths": [
+    "deps/feishu-sync/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg",
+    "deps/auto/33-167s/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg"
+   ],
+   "keep": "deps/feishu-sync/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg"
+  },
+  {
+   "md5": "9537865484187fe74d87be38518ce7b1",
    "paths": [
     "deps/feishu-sync/api/xml.php",
     "deps/auto/6-387s/api/xml.php"
@@ -43,25 +68,15 @@
    "keep": "deps/feishu-sync/api/xml.php"
   },
   {
-   "md5": "fd3cefc7302f3a39a442682f802b11e5",
+   "md5": "6f60bd2569f6d1affe5965e0ec704619",
    "paths": [
-    "deps/feishu-sync/rsrc/2026/0501/23/d064709f380b4075ac3a4ec302d4244d.png",
-    "deps/sv/lege-dj/heads/main/TV/jar/xyqxbpq.jar",
-    "deps/auto/141-41s/HTB/PG/jar/xyqxbpq.jar"
+    "deps/feishu-sync/inc/api.php",
+    "deps/auto/5-390s/inc/api.php"
    ],
-   "keep": "deps/auto/141-41s/HTB/PG/jar/xyqxbpq.jar"
+   "keep": "deps/feishu-sync/inc/api.php"
   },
   {
-   "md5": "4d860d06ec233dbcb891b76055f099d5",
-   "paths": [
-    "deps/feishu-sync/rsrc/2026/0418/17/1d9136626610437ab0cac0dbe262d1ed.png",
-    "deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/jars/养生堂.jar",
-    "deps/auto/141-41s/HTB/PG/jar/xbpq.jar"
-   ],
-   "keep": "deps/auto/141-41s/HTB/PG/jar/xbpq.jar"
-  },
-  {
-   "md5": "9f5dbfb40c8e4e02f39b48994d956cc0",
+   "md5": "83cddd4a84667c7b5b43bb4595c332d4",
    "paths": [
     "deps/feishu-sync/inc/api_mac10.php",
     "deps/feishu-sync/inc/api_mac10.php"
@@ -69,66 +84,11 @@
    "keep": "deps/feishu-sync/inc/api_mac10.php"
   },
   {
-   "md5": "e80798750eca57470f29d1942bce39bb",
-   "paths": [
-    "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/%E5%93%94%E6%BB%B4%E5%BD%B1%E8%A7%86.jar",
-    "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E5%A8%B1%E4%B9%90jar/%E8%81%9A%E7%9F%AD%E8%A7%86%E9%A2%91.jar"
-   ],
-   "keep": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/%E5%93%94%E6%BB%B4%E5%BD%B1%E8%A7%86.jar"
-  },
-  {
-   "md5": "dac15518ecb9aac330f0c2d1408dc9c1",
-   "paths": [
-    "deps/feishu-sync/lib/api.png",
-    "deps/auto/1-698s/heads/main/yingshi/js7/api.png",
-    "deps/auto/196-454s/lib/api.png"
-   ],
-   "keep": "deps/feishu-sync/lib/api.png"
-  },
-  {
-   "md5": "c96b69de5ace48bcf0e522147364e048",
-   "paths": [
-    "deps/feishu-sync/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg",
-    "deps/auto/32-167s/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg"
-   ],
-   "keep": "deps/feishu-sync/rsrc/2026/0810/15/d4ef68f275be721a92f218de955a8328.jpg"
-  },
-  {
-   "md5": "bff0e83714a9073c270776c37cc64791",
-   "paths": [
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/duanju.php",
-    "deps/feishu-sync/duanju.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/api~16a353.php"
-   ],
-   "keep": "deps/feishu-sync/duanju.php"
-  },
-  {
-   "md5": "d41d8cd98f00b204e9800998ecf8427e",
-   "paths": [
-    "deps/feishu-sync/api~16a353.php",
-    "deps/feishu-sync/box/m.json",
-    "deps/feishu-sync/heads/main/gbk.js",
-    "deps/feishu-sync/js/drpy-core-lite.min.js"
-   ],
-   "keep": "deps/feishu-sync/box/m.json"
-  },
-  {
    "md5": "48c90b00f12401e6ecfe4be1da307c7e",
    "paths": [
     "deps/feishu-sync/PY/七猫.py",
-    "deps/auto/1-698s/heads/main/yingshi/py8/七猫影视.py"
+    "deps/auto/1-698s/heads/main/yingshi/py8/七猫影视.py",
+    "deps/auto/208-192s/py/%E4%B8%83%E7%8C%AB%E5%BD%B1%E8%A7%86.py"
    ],
    "keep": "deps/feishu-sync/PY/七猫.py"
   },
@@ -141,6 +101,14 @@
    "keep": "deps/feishu-sync/ww.php"
   },
   {
+   "md5": "e80798750eca57470f29d1942bce39bb",
+   "paths": [
+    "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/%E5%93%94%E6%BB%B4%E5%BD%B1%E8%A7%86.jar",
+    "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/%E5%A8%B1%E4%B9%90jar/%E8%81%9A%E7%9F%AD%E8%A7%86%E9%A2%91.jar"
+   ],
+   "keep": "deps/feishu-sync/%E4%B8%80%E6%9C%A8%E6%BA%90/JAR/XB%E5%8C%85jar/%E5%93%94%E6%BB%B4%E5%BD%B1%E8%A7%86.jar"
+  },
+  {
    "md5": "4f99d6633e81c0027ea82d342550c70b",
    "paths": [
     "deps/feishu-sync/xiayede/drpy/raw/master/drpy2.min.js",
@@ -148,20 +116,26 @@
     "deps/feishu-sync/gt/leevi0709/one/main/js/drpy2.min.js",
     "deps/feishu-sync/franksun1211/TVBOX/raw/main/APP/TVBoxOSC/tvbox/JS/drpy2.min.js",
     "deps/shiguang/svip/heads/main/js/drpy2.min.js",
-    "deps/auto/47-149s/JS/drpy2.min.js",
-    "deps/auto/53-140s/yuyu10588/tt/raw/t/t/drpy2.min.js",
-    "deps/auto/196-454s/heads/main/JS/drpy2.min.js",
-    "deps/auto/196-454s/gt/leevi0709/one/main/js/drpy2.min.js"
+    "deps/auto/40-152s/yuyu10588/tt/raw/t/t/drpy2.min.js",
+    "deps/auto/47-149s/JS/drpy2.min.js"
    ],
    "keep": "deps/auto/47-149s/JS/drpy2.min.js"
   },
   {
-   "md5": "34089771b070251f85e000aef7d65cda",
+   "md5": "93e0decefe3a2ad8949c5fe389d6cab2",
    "paths": [
-    "deps/feishu-sync/plugin/py_3qu.py",
-    "deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_3qu.py"
+    "deps/feishu-sync/down.php/93e0decefe3a2ad8949c5fe389d6cab2.js",
+    "deps/auto/1-698s/heads/main/yingshi/js/聚合短剧.js"
    ],
-   "keep": "deps/feishu-sync/plugin/py_3qu.py"
+   "keep": "deps/auto/1-698s/heads/main/yingshi/js/聚合短剧.js"
+  },
+  {
+   "md5": "bff0e83714a9073c270776c37cc64791",
+   "paths": [
+    "deps/feishu-sync/duanju.php",
+    "deps/feishu-sync/duanju.php"
+   ],
+   "keep": "deps/feishu-sync/duanju.php"
   },
   {
    "md5": "128ea626b0d78e3c01102dca5ee26172",
@@ -172,10 +146,19 @@
    "keep": "deps/feishu-sync/plugin/py_bilimd.py"
   },
   {
+   "md5": "34089771b070251f85e000aef7d65cda",
+   "paths": [
+    "deps/feishu-sync/plugin/py_3qu.py",
+    "deps/feishu-sync/heroaku/TVboxo/raw/main/Py/py_3qu.py"
+   ],
+   "keep": "deps/feishu-sync/plugin/py_3qu.py"
+  },
+  {
    "md5": "2fd5cd58eb6300c53ed81c2834fcf750",
    "paths": [
     "deps/feishu-sync/tly824/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-    "deps/shiguang/svip/heads/main/drpy_libs/drpy2.min.js"
+    "deps/shiguang/svip/heads/main/drpy_libs/drpy2.min.js",
+    "deps/auto/38-160s/app/t4/files/drpy_libs/drpy2.min.js"
    ],
    "keep": "deps/shiguang/svip/heads/main/drpy_libs/drpy2.min.js"
   },
@@ -197,9 +180,9 @@
     "deps/xingwei/kstore/xw/js/drpy2.min.js",
     "deps/auto/1-698s/heads/main/yingshi/js/drpy2.min.js",
     "deps/auto/1-698s/heads/main/yingshi/js/drpy2.min_2.js",
-    "deps/auto/196-454s/lib/drpy2.min.js",
-    "deps/auto/196-454s/lib/drpy2.min.js",
-    "deps/auto/234-8s/heads/master/lib/drpy2.min.js"
+    "deps/auto/26-215s/lib/drpy2.min.js",
+    "deps/auto/85-89s/vox/ext/drpy2.min.js",
+    "deps/auto/240-9s/heads/master/lib/drpy2.min.js"
    ],
    "keep": "deps/qist/jsm/lib/drpy2.min.js"
   },
@@ -207,6 +190,7 @@
    "md5": "f3357ca13e600f1676dd9ed712023c93",
    "paths": [
     "deps/feishu-sync/m.json",
+    "deps/feishu-sync/box/m.json",
     "deps/feishu-sync/box/m.json"
    ],
    "keep": "deps/feishu-sync/m.json"
@@ -227,9 +211,7 @@
     "deps/feishu-sync/lib/get.js",
     "deps/feishu-sync/monosodium-glutamate/wjwj/raw/master/lib/get.js",
     "deps/feishu-sync/JS/get.js",
-    "deps/auto/1-698s/heads/main/yingshi/js7/get.js",
-    "deps/auto/196-454s/lib/get.js",
-    "deps/auto/196-454s/JS/get.js"
+    "deps/auto/1-698s/heads/main/yingshi/js7/get.js"
    ],
    "keep": "deps/feishu-sync/JS/get.js"
   },
@@ -268,6 +250,31 @@
    "keep": "deps/auto/1-698s/heads/main/yingshi/py/兄弟影视.min.py"
   },
   {
+   "md5": "83d7645e7fa012dba942c467774e7b2b",
+   "paths": [
+    "deps/feishu-sync/down.php/83d7645e7fa012dba942c467774e7b2b.py",
+    "deps/auto/1-698s/heads/main/yingshi/py/央视综艺.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py/央视综艺.py"
+  },
+  {
+   "md5": "60fab5ff33f0b0fd88f099ae3be708bf",
+   "paths": [
+    "deps/feishu-sync/down.php/60fab5ff33f0b0fd88f099ae3be708bf.py",
+    "deps/auto/1-698s/heads/main/yingshi/py/T3猎手.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py/T3猎手.py"
+  },
+  {
+   "md5": "643d3f9a0b601f25d3e372eeb66e82a5",
+   "paths": [
+    "deps/feishu-sync/down.php/643d3f9a0b601f25d3e372eeb66e82a5.py",
+    "deps/feishu-sync/heads/main/py/Mang.py",
+    "deps/auto/1-698s/heads/main/yingshi/py/T3芒果TV.py"
+   ],
+   "keep": "deps/feishu-sync/heads/main/py/Mang.py"
+  },
+  {
    "md5": "95480fedd4d5e2054cc08dbec9a7e9fd",
    "paths": [
     "deps/feishu-sync/zh/2242.php",
@@ -276,29 +283,11 @@
    "keep": "deps/feishu-sync/zh/2242.php"
   },
   {
-   "md5": "b63a0eb8852bb7ab06500c424ccc3dae",
-   "paths": [
-    "deps/feishu-sync/rsrc/2026/0508/10/56d0b667615145949789418bff9f22a5.png",
-    "deps/sv/api/Supprise0901/api/blob/main/api.jar"
-   ],
-   "keep": "deps/sv/api/Supprise0901/api/blob/main/api.jar"
-  },
-  {
-   "md5": "48e9d346cdf6da376c53136693bec95a",
-   "paths": [
-    "deps/feishu-sync/lib/qxdj.py",
-    "deps/auto/1-698s/heads/main/yingshi/py/七星短剧.py",
-    "deps/auto/196-454s/down.php/48e9d346cdf6da376c53136693bec95a.py"
-   ],
-   "keep": "deps/feishu-sync/lib/qxdj.py"
-  },
-  {
    "md5": "23f8ab276a3597af0523ec3f30e665e8",
    "paths": [
     "deps/feishu-sync/PY/MiFunP动漫.py",
     "deps/feishu-sync/f/7e20bdb7.py",
-    "deps/auto/1-698s/heads/main/yingshi/py5/MiFunP动漫.py",
-    "deps/auto/196-454s/PY/MiFunP动漫.py"
+    "deps/auto/1-698s/heads/main/yingshi/py5/MiFunP动漫.py"
    ],
    "keep": "deps/feishu-sync/f/7e20bdb7.py"
   },
@@ -306,16 +295,15 @@
    "md5": "ef500758044f347f085cedbc3c53a1a8",
    "paths": [
     "deps/feishu-sync/download/4127/PY/分享努努.py",
-    "deps/auto/1-698s/heads/main/yingshi/py/努努影院.py",
-    "deps/auto/141-41s/HTB/PG/PY/努努影院.py"
+    "deps/auto/1-698s/heads/main/yingshi/py/努努影院.py"
    ],
-   "keep": "deps/auto/141-41s/HTB/PG/PY/努努影院.py"
+   "keep": "deps/feishu-sync/download/4127/PY/分享努努.py"
   },
   {
    "md5": "f46830f7da0b1d1fa23ebc377266ce6b",
    "paths": [
     "deps/feishu-sync/PY/wawa.py",
-    "deps/auto/196-454s/PY/wawa.py"
+    "deps/auto/40-152s/js/py/plugin/app/哇哇APP.py"
    ],
    "keep": "deps/feishu-sync/PY/wawa.py"
   },
@@ -324,8 +312,7 @@
    "paths": [
     "deps/feishu-sync/heads/main/py/哔哩视频.py",
     "deps/shiguang/svip/heads/main/py/哔哩视频.py",
-    "deps/auto/1-698s/heads/main/yingshi/py/哔哩视频.py",
-    "deps/auto/196-454s/heads/main/py/哔哩视频.py"
+    "deps/auto/1-698s/heads/main/yingshi/py/哔哩视频.py"
    ],
    "keep": "deps/feishu-sync/heads/main/py/哔哩视频.py"
   },
@@ -349,25 +336,16 @@
    "md5": "2090fedb67387ea1a1ad908a94eb0aa6",
    "paths": [
     "deps/feishu-sync/heads/main/PY/枫叶音乐.py",
-    "deps/auto/1-698s/heads/main/yingshi/py/枫叶音乐.py",
-    "deps/auto/196-454s/down.php/2090fedb67387ea1a1ad908a94eb0aa6.py"
+    "deps/auto/1-698s/heads/main/yingshi/py/枫叶音乐.py"
    ],
    "keep": "deps/feishu-sync/heads/main/PY/枫叶音乐.py"
-  },
-  {
-   "md5": "643d3f9a0b601f25d3e372eeb66e82a5",
-   "paths": [
-    "deps/feishu-sync/heads/main/py/Mang.py",
-    "deps/auto/1-698s/heads/main/yingshi/py/T3芒果TV.py",
-    "deps/auto/196-454s/down.php/643d3f9a0b601f25d3e372eeb66e82a5.py"
-   ],
-   "keep": "deps/feishu-sync/heads/main/py/Mang.py"
   },
   {
    "md5": "f9f11e089ea36cc3f658e9fbd6e2fc35",
    "paths": [
     "deps/feishu-sync/PY/酷我音乐.py",
-    "deps/feishu-sync/f/eded33cf.py"
+    "deps/feishu-sync/f/eded33cf.py",
+    "deps/auto/208-192s/py/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90.py"
    ],
    "keep": "deps/feishu-sync/PY/酷我音乐.py"
   },
@@ -375,7 +353,8 @@
    "md5": "0b91b125a11c7d229b28079a24dc68ce",
    "paths": [
     "deps/feishu-sync/PY/麻花.py",
-    "deps/auto/1-698s/heads/main/yingshi/py8/麻花影视.py"
+    "deps/auto/1-698s/heads/main/yingshi/py8/麻花影视.py",
+    "deps/auto/208-192s/py/%E9%BA%BB%E8%8A%B1%E5%BD%B1%E8%A7%86.py"
    ],
    "keep": "deps/feishu-sync/PY/麻花.py"
   },
@@ -396,14 +375,6 @@
    "keep": "deps/feishu-sync/dr_py/libs/drpy2.min.js"
   },
   {
-   "md5": "cbed65279fa292f6d6b76fdbd67b4a13",
-   "paths": [
-    "deps/feishu-sync/tly824/TvBoxx/master/js/drpy2.min.js",
-    "deps/auto/196-454s/js/drpy2.min.js"
-   ],
-   "keep": "deps/auto/196-454s/js/drpy2.min.js"
-  },
-  {
    "md5": "3e7e0c8a023b624cec6bdcc200f06f02",
    "paths": [
     "deps/feishu-sync/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
@@ -421,6 +392,14 @@
    "keep": "deps/auto/1-698s/heads/main/yingshi/py5/ApptoV4.py"
   },
   {
+   "md5": "56ac2028f2dd8336dccad017927cbef1",
+   "paths": [
+    "deps/feishu-sync/lib/AppToV5.py",
+    "deps/auto/8-306s/hudie/lib/AppToV5.py"
+   ],
+   "keep": "deps/feishu-sync/lib/AppToV5.py"
+  },
+  {
    "md5": "99ed736540ae820ae00d67669d22dc90",
    "paths": [
     "deps/feishu-sync/lib/jd4k.js",
@@ -432,16 +411,16 @@
    "md5": "b353b31963c82ba6393bfc163d6322db",
    "paths": [
     "deps/feishu-sync/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-    "deps/feishu-sync/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js"
+    "deps/feishu-sync/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+    "deps/auto/72-106s/PG/lib/drpy2.min.js"
    ],
-   "keep": "deps/feishu-sync/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js"
+   "keep": "deps/auto/72-106s/PG/lib/drpy2.min.js"
   },
   {
    "md5": "86074e0b4f6b217ba3d8ab1f6abe279f",
    "paths": [
     "deps/feishu-sync/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/drpy2.min.js",
-    "deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/drpy2.min.js",
-    "deps/auto/196-454s/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/drpy2.min.js"
+    "deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/drpy2.min.js"
    ],
    "keep": "deps/feishu-sync/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/drpy2.min.js"
   },
@@ -454,28 +433,34 @@
     "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/两个BT.js",
     "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/剧荒.js",
     "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/天天影视.js",
-    "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/快云影院.js",
     "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/稀饭影视.js",
     "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/胖虎影视.js",
-    "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/追剧兔.js"
+    "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/追剧兔.js",
+    "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/快云影院.js"
    ],
    "keep": "deps/feishu-sync/qq_32394351/dr_py/-/raw/master/js/剧荒.js"
   },
   {
-   "md5": "c2672c193d2f796a7b510a72250e793d",
+   "md5": "1661383c0738156c5bb952d5954f4461",
    "paths": [
-    "deps/feishu-sync/raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png",
-    "deps/feishu-sync/lib/茫茫.png"
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php",
+    "deps/feishu-sync/api~16a353.php"
    ],
-   "keep": "deps/feishu-sync/lib/茫茫.png"
-  },
-  {
-   "md5": "a417c447566b07c4f89bea95b100a0fa",
-   "paths": [
-    "deps/feishu-sync/raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png",
-    "deps/feishu-sync/lib/藤藤.png"
-   ],
-   "keep": "deps/feishu-sync/lib/藤藤.png"
+   "keep": "deps/feishu-sync/api~16a353.php"
   },
   {
    "md5": "072e7d2e5c69f201f0bf58ee5ec55b2b",
@@ -486,12 +471,14 @@
    "keep": "deps/feishu-sync/heads/main/OK/py/Applzxw.py"
   },
   {
-   "md5": "af1413f326a5c4677286bceaee6db6ad",
+   "md5": "48e9d346cdf6da376c53136693bec95a",
    "paths": [
-    "deps/feishu-sync/一木源/JAR/动漫包jar/age动漫.js",
-    "deps/auto/35-163s/6/lib/drpy.min.js"
+    "deps/feishu-sync/down.php/48e9d346cdf6da376c53136693bec95a.py",
+    "deps/feishu-sync/lib/qxdj.py",
+    "deps/auto/1-698s/heads/main/yingshi/py/七星短剧.py",
+    "deps/auto/208-192s/py/%E4%B8%83%E6%98%9F%E7%9F%AD%E5%89%A7.py"
    ],
-   "keep": "deps/auto/35-163s/6/lib/drpy.min.js"
+   "keep": "deps/feishu-sync/lib/qxdj.py"
   },
   {
    "md5": "173dc4668f9e8ac10bb2cdb2fa38be78",
@@ -502,35 +489,37 @@
    "keep": "deps/feishu-sync/zh/2243.php"
   },
   {
-   "md5": "0e593b02b1c211f1b45608de83415d1a",
-   "paths": [
-    "deps/feishu-sync/PY/天天影视.py",
-    "deps/auto/196-454s/PY/天天影视.py"
-   ],
-   "keep": "deps/feishu-sync/PY/天天影视.py"
-  },
-  {
-   "md5": "442595981352d6ab19cf2f039078a39e",
-   "paths": [
-    "deps/feishu-sync/lib/华数.py",
-    "deps/auto/196-454s/lib/%E5%8D%8E%E6%95%B0.py"
-   ],
-   "keep": "deps/feishu-sync/lib/华数.py"
-  },
-  {
    "md5": "36e912f23c87e7c514874296b850c8c7",
    "paths": [
     "deps/feishu-sync/heads/main/sys/YouTube.py",
-    "deps/auto/1-698s/heads/main/yingshi/py9/油管.py"
+    "deps/auto/1-698s/heads/main/yingshi/py9/油管.py",
+    "deps/auto/208-192s/py/%E6%B2%B9%E7%AE%A1.py"
    ],
    "keep": "deps/feishu-sync/heads/main/sys/YouTube.py"
+  },
+  {
+   "md5": "16ba56f7ddd38134bb0725ad63f1f72b",
+   "paths": [
+    "deps/feishu-sync/down.php/16ba56f7ddd38134bb0725ad63f1f72b.js",
+    "deps/auto/1-698s/heads/main/yingshi/js/荐片.js"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/js/荐片.js"
+  },
+  {
+   "md5": "038e981187e4f9b966e1fd489172ec50",
+   "paths": [
+    "deps/feishu-sync/heads/main/sys/金牌.py",
+    "deps/auto/208-192s/py/%E9%87%91%E7%89%8CAPP.py"
+   ],
+   "keep": "deps/feishu-sync/heads/main/sys/金牌.py"
   },
   {
    "md5": "6a30ae917c8e8c11584b7617c0fa23b4",
    "paths": [
     "deps/feishu-sync/f/d44dd2cf.py",
     "deps/feishu-sync/raw.githubusercontent.com/tushen6/Tomorrow/master/py/275听书.py",
-    "deps/auto/1-698s/heads/main/yingshi/py9/275听书-带封面.py"
+    "deps/auto/1-698s/heads/main/yingshi/py9/275听书-带封面.py",
+    "deps/auto/208-192s/py/275%E5%90%AC%E4%B9%A6.py"
    ],
    "keep": "deps/feishu-sync/f/d44dd2cf.py"
   },
@@ -538,10 +527,33 @@
    "md5": "adeac7be989cdaad7cf0c08baa4ecda9",
    "paths": [
     "deps/feishu-sync/lib/fy.py",
-    "deps/auto/1-698s/heads/main/yingshi/py5/fy.py",
-    "deps/auto/196-454s/lib/fy.py"
+    "deps/auto/1-698s/heads/main/yingshi/py5/fy.py"
    ],
    "keep": "deps/feishu-sync/lib/fy.py"
+  },
+  {
+   "md5": "244183a9ace16f1fff31694ab56890e4",
+   "paths": [
+    "deps/feishu-sync/heads/master/py/短剧聚合2.py",
+    "deps/auto/208-192s/py/%E7%9F%AD%E5%89%A7%E8%81%9A%E5%90%88.py"
+   ],
+   "keep": "deps/feishu-sync/heads/master/py/短剧聚合2.py"
+  },
+  {
+   "md5": "b63a0eb8852bb7ab06500c424ccc3dae",
+   "paths": [
+    "deps/feishu-sync/rsrc/2026/0508/10/56d0b667615145949789418bff9f22a5.png",
+    "deps/sv/api/Supprise0901/api/blob/main/api.jar"
+   ],
+   "keep": "deps/sv/api/Supprise0901/api/blob/main/api.jar"
+  },
+  {
+   "md5": "d8dce233903ee59fb3e1bc45e97e2625",
+   "paths": [
+    "deps/feishu-sync/raw.githubusercontent.com/tushen6/Tomorrow/master/py/红果短剧.py",
+    "deps/auto/8-306s/hudie/lib/op_ticket_1_5673241091_1788770930556_IMPGdz5q.py"
+   ],
+   "keep": "deps/auto/8-306s/hudie/lib/op_ticket_1_5673241091_1788770930556_IMPGdz5q.py"
   },
   {
    "md5": "ee3b1867c645bcf22c5e3110a50e2e36",
@@ -552,6 +564,14 @@
    "keep": "deps/feishu-sync/heads/main/PY/土豆浏览器.py"
   },
   {
+   "md5": "4253339c721bb45cbdd40ec42aa3683c",
+   "paths": [
+    "deps/feishu-sync/JS/分享星辰.js",
+    "deps/auto/1-698s/heads/main/yingshi/js/星辰影院.js"
+   ],
+   "keep": "deps/feishu-sync/JS/分享星辰.js"
+  },
+  {
    "md5": "870d79582ae2ab54b2ad0f0cd1f2c544",
    "paths": [
     "deps/feishu-sync/JS/hy.js",
@@ -560,12 +580,12 @@
    "keep": "deps/feishu-sync/JS/hy.js"
   },
   {
-   "md5": "4253339c721bb45cbdd40ec42aa3683c",
+   "md5": "2dfd46b7b542f1f4ac34e0af4ec5549b",
    "paths": [
-    "deps/feishu-sync/JS/分享星辰.js",
-    "deps/auto/1-698s/heads/main/yingshi/js/星辰影院.js"
+    "deps/feishu-sync/down.php/2dfd46b7b542f1f4ac34e0af4ec5549b.py",
+    "deps/auto/8-306s/hudie/lib/央视.py"
    ],
-   "keep": "deps/feishu-sync/JS/分享星辰.js"
+   "keep": "deps/auto/8-306s/hudie/lib/央视.py"
   },
   {
    "md5": "abc13beac287a298e6b7ca91af7404cd",
@@ -584,12 +604,36 @@
    "keep": "deps/cluntop/box/jar/xs.jar"
   },
   {
+   "md5": "a417c447566b07c4f89bea95b100a0fa",
+   "paths": [
+    "deps/feishu-sync/raw.githubusercontent.com/IY-CPU/IY/main/lib/藤藤.png",
+    "deps/feishu-sync/lib/藤藤.png"
+   ],
+   "keep": "deps/feishu-sync/lib/藤藤.png"
+  },
+  {
+   "md5": "c2672c193d2f796a7b510a72250e793d",
+   "paths": [
+    "deps/feishu-sync/raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png",
+    "deps/feishu-sync/lib/茫茫.png"
+   ],
+   "keep": "deps/feishu-sync/lib/茫茫.png"
+  },
+  {
    "md5": "48758c8f37306b9522328c1b80fc9857",
    "paths": [
     "deps/cluntop/fun/pg.jar",
     "deps/cluntop/jsm/pg.jar"
    ],
    "keep": "deps/cluntop/fun/pg.jar"
+  },
+  {
+   "md5": "dffec63fb83a2b31b8606bd4bf6bead9",
+   "paths": [
+    "deps/nxppru/0825/jar/pg.jar",
+    "deps/auto/60-117s/jar/pg.jar"
+   ],
+   "keep": "deps/nxppru/0825/jar/pg.jar"
   },
   {
    "md5": "85aada83b0ac4531eda6e36ff245aa34",
@@ -616,21 +660,141 @@
    "keep": "deps/feishu-sync/py/哔哩直播.py"
   },
   {
-   "md5": "170bdf847fcc8dedf9252d6af5c1b155",
+   "md5": "8c3df6ce38f08448975b5e893ade75de",
    "paths": [
-    "deps/shiguang/svip/heads/main/XYQHiker/电影牛.json",
-    "deps/auto/22-270s/tvbox-master-doki/json/XYQHiker/电影牛影院.json"
+    "deps/shiguang/svip/heads/main/py/若惜影视.py",
+    "deps/auto/40-152s/js/py/plugin/app/若惜追剧APP.py"
    ],
-   "keep": "deps/shiguang/svip/heads/main/XYQHiker/电影牛.json"
+   "keep": "deps/shiguang/svip/heads/main/py/若惜影视.py"
+  },
+  {
+   "md5": "04307a937bb35c22bf9b0b1ea586f3e1",
+   "paths": [
+    "deps/shiguang/svip/heads/main/py/嗷呜动漫.py",
+    "deps/auto/40-152s/js/py/plugin/html/嗷呜动漫.py"
+   ],
+   "keep": "deps/shiguang/svip/heads/main/py/嗷呜动漫.py"
   },
   {
    "md5": "ee49e6ad625a84ec29251a7ca2c8a2aa",
    "paths": [
     "deps/cluntop/jsm/lib/wogg.json",
-    "deps/auto/53-140s/lib/wogg.json",
-    "deps/auto/66-108s/pg/lib/wogg.json"
+    "deps/auto/40-152s/lib/wogg.json",
+    "deps/auto/66-108s/lib/wogg.json"
    ],
    "keep": "deps/cluntop/jsm/lib/wogg.json"
+  },
+  {
+   "md5": "a2ef6faddc91911b12dbbec1cab7b011",
+   "paths": [
+    "deps/sv/wangxiaoer/file/images/bwc/20260414181247-ae51abfbfe.txt",
+    "deps/auto/77-102s/tvbox-config/lib/20260414181247-ae51abfbfe.txt"
+   ],
+   "keep": "deps/sv/wangxiaoer/file/images/bwc/20260414181247-ae51abfbfe.txt"
+  },
+  {
+   "md5": "1d5071d244f0594d505404dd9f14c5d1",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/VIP兔.py",
+    "deps/auto/208-192s/py/VIP%E5%85%94.py"
+   ],
+   "keep": "deps/auto/208-192s/py/VIP%E5%85%94.py"
+  },
+  {
+   "md5": "00f70d75a94160f616f3baacb0dd95fe",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/yd.py",
+    "deps/auto/8-306s/hudie/lib/yd.py"
+   ],
+   "keep": "deps/auto/8-306s/hudie/lib/yd.py"
+  },
+  {
+   "md5": "78de2a0442454bc6c6437f9395d9b043",
+   "paths": [
+    "deps/xingfu/bbm/tgyg/py/初见影视.py",
+    "deps/auto/208-192s/py/%E5%88%9D%E8%A7%81%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/xingfu/bbm/tgyg/py/初见影视.py"
+  },
+  {
+   "md5": "302a6d941ada75e7646be5e0168c9974",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/草莓影视.py",
+    "deps/auto/208-192s/py/%E8%8D%89%E8%8E%93%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/草莓影视.py"
+  },
+  {
+   "md5": "5160e6435ffabb78d6a33ef748a27464",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/泡泡影院.py",
+    "deps/auto/208-192s/py/%E6%B3%A1%E6%B3%A1%E5%BD%B1%E9%99%A2.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/泡泡影院.py"
+  },
+  {
+   "md5": "067e5864ee239c65017fdda022682b93",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/枫叶影院 (2).py",
+    "deps/auto/208-192s/py/%E6%9E%AB%E5%8F%B6%E5%BD%B1%E9%99%A2.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/枫叶影院 (2).py"
+  },
+  {
+   "md5": "25a8e5da1ff4ec392e126d603123b3b3",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/楓林網.py",
+    "deps/auto/208-192s/py/%E6%A5%93%E6%9E%97%E7%B6%B2.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/楓林網.py"
+  },
+  {
+   "md5": "a714e48655cdca9445eb560bfea4e978",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/30剧集网.py",
+    "deps/auto/208-192s/py/30%E5%89%A7%E9%9B%86%E7%BD%91.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/30剧集网.py"
+  },
+  {
+   "md5": "a2b86d7b73c50b592d23a8a1774edcaf",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/枫叶4K.py",
+    "deps/auto/208-192s/py/%E6%9E%AB%E5%8F%B64K.py"
+   ],
+   "keep": "deps/auto/208-192s/py/%E6%9E%AB%E5%8F%B64K.py"
+  },
+  {
+   "md5": "db5c8bc52eaf14bed7c105a9633a2942",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/宅男影视.py",
+    "deps/auto/208-192s/py/%E5%AE%85%E7%94%B7%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/宅男影视.py"
+  },
+  {
+   "md5": "e7199748d74abf7958b0bda71ecb6e61",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/青空次元.py",
+    "deps/auto/208-192s/py/%E9%9D%92%E7%A9%BA%E6%AC%A1%E5%85%83.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/青空次元.py"
+  },
+  {
+   "md5": "798b67dfd97f05d419463984c920b7d7",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/高清点播.py",
+    "deps/auto/208-192s/py/%E9%AB%98%E6%B8%85%E7%82%B9%E6%92%AD.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/高清点播.py"
+  },
+  {
+   "md5": "9323a736a4715ad817690f431fa52d72",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/看剧AI.py",
+    "deps/auto/208-192s/py/%E7%9C%8B%E5%89%A7AI.py"
+   ],
+   "keep": "deps/auto/208-192s/py/%E7%9C%8B%E5%89%A7AI.py"
   },
   {
    "md5": "a81c03da23212c9ffc8a699465dedc8b",
@@ -641,15 +805,6 @@
    "keep": "deps/xingfu/bbm/tgyg/jar/XBPQ.jar"
   },
   {
-   "md5": "1ba5e1b505b032e18b9b0be81b0d801f",
-   "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/js8/腾爱优b站.js",
-    "deps/auto/196-454s/f/04b5c0b4.js",
-    "deps/auto/196-454s/down.php/d40402848cc35e9f2fa1351557f2af1c.js"
-   ],
-   "keep": "deps/auto/196-454s/f/04b5c0b4.js"
-  },
-  {
    "md5": "4db0b39cd8b8b13dc83cedb553c470e0",
    "paths": [
     "deps/auto/1-698s/heads/main/yingshi/py9/vf四级老片.py",
@@ -658,28 +813,236 @@
    "keep": "deps/auto/1-698s/heads/main/yingshi/py/vf.py"
   },
   {
+   "md5": "b5c1cbf03cace4094e890a8da64b7aba",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/真狼影视.py",
+    "deps/auto/208-192s/py/%E7%9C%9F%E7%8B%BC%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/真狼影视.py"
+  },
+  {
+   "md5": "31d853053381f3b16b6ff14840ada7df",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/4K影视.py",
+    "deps/auto/208-192s/py/4K%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/208-192s/py/4K%E5%BD%B1%E8%A7%86.py"
+  },
+  {
+   "md5": "7275597d21e60098a869649a427c14f6",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/freeokok_spider.py",
+    "deps/auto/208-192s/py/FreeOK.py"
+   ],
+   "keep": "deps/auto/208-192s/py/FreeOK.py"
+  },
+  {
+   "md5": "f7986081bad6745fb4f3d4bdafb20572",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/袋鼠影视.py",
+    "deps/auto/208-192s/py/%E8%A2%8B%E9%BC%A0%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/袋鼠影视.py"
+  },
+  {
+   "md5": "a2ccad16a401b2198b2d0cfacd8503ae",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/视觉影视(翻).py",
+    "deps/auto/208-192s/py/%E8%A7%86%E8%A7%89%E5%BD%B1%E9%99%A2.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/视觉影视(翻).py"
+  },
+  {
+   "md5": "e68e683ddb23acd55e81731d5e1611a0",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/蝶卡影视.py",
+    "deps/auto/208-192s/py/%E8%9D%B6%E5%8D%A1%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/蝶卡影视.py"
+  },
+  {
+   "md5": "2e49e85e89ee96f0528b74cfca1db22d",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/美剧天堂.py",
+    "deps/auto/208-192s/py/%E7%BE%8E%E5%89%A7%E5%A4%A9%E5%A0%82.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/美剧天堂.py"
+  },
+  {
+   "md5": "1c6faf5dd6b20c35f58586425dd9588b",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/太乙影视(1).py",
+    "deps/auto/208-192s/py/%E5%A4%AA%E4%B9%99%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/太乙影视(1).py"
+  },
+  {
+   "md5": "daddea04a06ff038ab63556c6bef2569",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/多瑙影院.py",
+    "deps/auto/208-192s/py/%E5%A4%9A%E7%91%99%E5%BD%B1%E9%99%A2.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/多瑙影院.py"
+  },
+  {
+   "md5": "f178926b4f7018458b6971b78e52aaf5",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/柯南影视.py",
+    "deps/auto/208-192s/py/%E6%9F%AF%E5%8D%97%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/柯南影视.py"
+  },
+  {
+   "md5": "764231e04c3fe5ba2345290638c02b19",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/枝枝影视.py",
+    "deps/auto/208-192s/py/%E6%9E%9D%E6%9E%9D%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/枝枝影视.py"
+  },
+  {
+   "md5": "1cad4d185ead9ea02e4e93922b28bf34",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/DJ呦呦.py",
+    "deps/auto/208-192s/py/DJ%E5%91%A6%E5%91%A6.py"
+   ],
+   "keep": "deps/auto/208-192s/py/DJ%E5%91%A6%E5%91%A6.py"
+  },
+  {
+   "md5": "8ece97e46b8eb7512bf8154da043524a",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/悦听吧.py",
+    "deps/auto/208-192s/py/%E6%82%A6%E5%90%AC%E5%90%A7.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/悦听吧.py"
+  },
+  {
+   "md5": "6d855a3567e596fb13ad9b73f6929a93",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/58影视.py",
+    "deps/auto/208-192s/py/58%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/208-192s/py/58%E5%BD%B1%E8%A7%86.py"
+  },
+  {
+   "md5": "5a9509ec652319955a4f7655084ad4cb",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/追光影视.py",
+    "deps/auto/208-192s/py/%E8%BF%BD%E5%85%89%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/追光影视.py"
+  },
+  {
+   "md5": "01b8603f9d8396101929c3a85dd6cb8f",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/嘀嗒影视.py",
+    "deps/auto/208-192s/py/%E5%98%80%E5%97%92%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/嘀嗒影视.py"
+  },
+  {
+   "md5": "6146ef28593f3ed375c9b57fe6b7d419",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/神马影视.py",
+    "deps/auto/208-192s/py/%E7%A5%9E%E9%A9%AC%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/神马影视.py"
+  },
+  {
+   "md5": "c12e67ca9b7fe97212e4e037aefd46c8",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/麒麟影视.py",
+    "deps/auto/208-192s/py/%E9%BA%92%E9%BA%9F%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/麒麟影视.py"
+  },
+  {
+   "md5": "f8f9770b6ae9721339ca663ccc067e65",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/大马猴.py",
+    "deps/auto/208-192s/py/%E5%A4%A7%E9%A9%AC%E7%8C%B4.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/大马猴.py"
+  },
+  {
+   "md5": "fa09c7a8a119788f33b828d3f6b914a0",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/威视TV.py",
+    "deps/auto/208-192s/py/%E5%A8%81%E8%A7%86TV.py"
+   ],
+   "keep": "deps/auto/208-192s/py/%E5%A8%81%E8%A7%86TV.py"
+  },
+  {
+   "md5": "50044f29473ab3d13de5d21fdf224154",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/808影视.py",
+    "deps/auto/208-192s/py/808%E5%BD%B1%E9%99%A2.py"
+   ],
+   "keep": "deps/auto/208-192s/py/808%E5%BD%B1%E9%99%A2.py"
+  },
+  {
+   "md5": "95d43f20ba084c734a7524bef2d420d2",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/共青春.py",
+    "deps/auto/208-192s/py/%E5%85%B1%E9%9D%92%E6%98%A5%E5%BD%B1%E9%99%A2.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/共青春.py"
+  },
+  {
+   "md5": "c732b3da7d7040adbfe6a49a2462122f",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/悟空影视.py",
+    "deps/auto/208-192s/py/%E6%82%9F%E7%A9%BA%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/悟空影视.py"
+  },
+  {
    "md5": "5400347f1e7d1129e0daa30032bc9cef",
    "paths": [
     "deps/auto/1-698s/heads/main/yingshi/py9/油管直播.py",
-    "deps/auto/196-454s/heads/main/MAfly1/tvboxyoutube.py"
+    "deps/auto/208-192s/py/%E6%B2%B9%E7%AE%A1%E7%9B%B4%E6%92%AD.py"
    ],
    "keep": "deps/auto/1-698s/heads/main/yingshi/py9/油管直播.py"
   },
   {
-   "md5": "243fa57b00b9320468c9e37edb410065",
+   "md5": "493e9e051087366751fc298966e18140",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/py8/skapp.py",
-    "deps/auto/196-454s/lib/skapp.py"
+    "deps/auto/1-698s/heads/main/yingshi/py9/爱壹帆.py",
+    "deps/auto/208-192s/py/%E7%88%B1%E5%A3%B9%E5%B8%86.py"
    ],
-   "keep": "deps/auto/196-454s/lib/skapp.py"
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/爱壹帆.py"
   },
   {
-   "md5": "2415e7f8a6dd2054e09e6c284f46fdc8",
+   "md5": "42dc8224bd357e7416616ce4948f643f",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/txt/xly.txt",
-    "deps/auto/196-454s/JS/xly.txt"
+    "deps/auto/1-698s/heads/main/yingshi/py9/映像星球.py",
+    "deps/auto/208-192s/py/%E6%98%A0%E5%83%8F%E6%98%9F%E7%90%83.py"
    ],
-   "keep": "deps/auto/196-454s/JS/xly.txt"
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/映像星球.py"
+  },
+  {
+   "md5": "a8151b62a52808529bbec6e5076d0b5d",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/腾讯视频.py",
+    "deps/auto/208-192s/py/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/腾讯视频.py"
+  },
+  {
+   "md5": "dacd5a383ab20542f4618efb123b3563",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py8/星河影视.py",
+    "deps/auto/208-192s/py/%E6%98%9F%E6%B2%B3%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py8/星河影视.py"
+  },
+  {
+   "md5": "603fbeda2a738de9b12bc3d4aa877dc4",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py5/apiv161351吸瓜动态版.py",
+    "deps/auto/8-306s/纯福利/plugin/adult/51吸瓜动态版.py"
+   ],
+   "keep": "deps/auto/8-306s/纯福利/plugin/adult/51吸瓜动态版.py"
   },
   {
    "md5": "4206546d08931174a577535f9e937cb6",
@@ -690,149 +1053,130 @@
    "keep": "deps/auto/1-698s/heads/main/yingshi/py/推特.py"
   },
   {
-   "md5": "22b4d0c2d9a1038632995b6277ac1093",
+   "md5": "d4b79c09a0e52a5e006dcbc3fe47be4a",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/py8/WLZB.py",
-    "deps/auto/196-454s/lib/%E7%BD%91%E7%BB%9C%E7%9B%B4%E6%92%AD.py"
+    "deps/auto/1-698s/heads/main/yingshi/py/小红薯.py",
+    "deps/auto/8-306s/纯福利/plugin/adult/小红薯APP.py"
    ],
-   "keep": "deps/auto/1-698s/heads/main/yingshi/py8/WLZB.py"
+   "keep": "deps/auto/8-306s/纯福利/plugin/adult/小红薯APP.py"
   },
   {
-   "md5": "60fab5ff33f0b0fd88f099ae3be708bf",
+   "md5": "7ff9cd98d74295e12ef6ae2797988b48",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/py/T3猎手.py",
-    "deps/auto/196-454s/down.php/60fab5ff33f0b0fd88f099ae3be708bf.py"
+    "deps/auto/1-698s/heads/main/yingshi/py/cam4.py",
+    "deps/auto/29-201s/tvbox/%E6%B1%9F%E6%B9%96/py/cam4.py"
    ],
-   "keep": "deps/auto/1-698s/heads/main/yingshi/py/T3猎手.py"
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py/cam4.py"
   },
   {
-   "md5": "83d7645e7fa012dba942c467774e7b2b",
+   "md5": "6d96829b69503cf0c3156df06588ea1a",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/py/央视综艺.py",
-    "deps/auto/196-454s/down.php/83d7645e7fa012dba942c467774e7b2b.py"
+    "deps/auto/1-698s/heads/main/yingshi/py/绝对影视.py",
+    "deps/auto/40-152s/js/py/plugin/html/绝对影视.py"
    ],
-   "keep": "deps/auto/1-698s/heads/main/yingshi/py/央视综艺.py"
+   "keep": "deps/auto/40-152s/js/py/plugin/html/绝对影视.py"
+  },
+  {
+   "md5": "62e673ba034d77165dc8f29fe6c7a75e",
+   "paths": [
+    "deps/auto/1-698s/heads/main/yingshi/py9/低端影视.py",
+    "deps/auto/208-192s/py/%E4%BD%8E%E7%AB%AF%E5%BD%B1%E8%A7%86.py"
+   ],
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/低端影视.py"
   },
   {
    "md5": "80719367ae58803c0825101ca13bc019",
    "paths": [
     "deps/auto/1-698s/heads/main/yingshi/js7/童趣.js",
-    "deps/auto/3-427s/box/tm/sites/码上👓多/tongqu.js",
-    "deps/auto/196-454s/heads/main/JS/童趣.js"
+    "deps/auto/3-427s/box/tm/sites/码上👓多/tongqu.js"
    ],
-   "keep": "deps/auto/196-454s/heads/main/JS/童趣.js"
+   "keep": "deps/auto/3-427s/box/tm/sites/码上👓多/tongqu.js"
   },
   {
-   "md5": "7a8bad04d1457d6ffd8ec4014eba61be",
+   "md5": "ead143caab5026aba986bd712d556d39",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/js6/网易公版影像.js",
-    "deps/auto/196-454s/js/网易公版影像.js"
+    "deps/auto/1-698s/heads/main/yingshi/py9/熊猫直播[播] (2).py",
+    "deps/auto/208-192s/py/%E7%86%8A%E7%8C%AB%E7%9B%B4%E6%92%AD.py"
    ],
-   "keep": "deps/auto/196-454s/js/网易公版影像.js"
+   "keep": "deps/auto/1-698s/heads/main/yingshi/py9/熊猫直播[播] (2).py"
   },
   {
-   "md5": "74994f52646a7ee1454b31e9f67a84d7",
+   "md5": "1ed84aa69a5abd4423beed4fc753eafb",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/js6/酷6网.js",
-    "deps/auto/196-454s/js/酷6网.js"
+    "deps/auto/1-698s/heads/main/yingshi/js2/第一故事.js",
+    "deps/auto/85-89s/vox/ext/第一故事.js"
    ],
-   "keep": "deps/auto/196-454s/js/酷6网.js"
+   "keep": "deps/auto/85-89s/vox/ext/第一故事.js"
   },
   {
-   "md5": "bf711ee81735a076fd1d19deba9e86ef",
+   "md5": "b8efd7a523dac2c7b3eccbb9a097b1c9",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/py/黑料弹幕版.py",
-    "deps/auto/141-41s/HTB/PG/PY/黑料弹幕版.py"
+    "deps/auto/1-698s/heads/main/yingshi/js2/泥泥视频.js",
+    "deps/auto/85-89s/vox/ext/泥泥视频.js"
    ],
-   "keep": "deps/auto/141-41s/HTB/PG/PY/黑料弹幕版.py"
-  },
-  {
-   "md5": "16ba56f7ddd38134bb0725ad63f1f72b",
-   "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/js/荐片.js",
-    "deps/auto/196-454s/down.php/16ba56f7ddd38134bb0725ad63f1f72b.js"
-   ],
-   "keep": "deps/auto/1-698s/heads/main/yingshi/js/荐片.js"
-  },
-  {
-   "md5": "93e0decefe3a2ad8949c5fe389d6cab2",
-   "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/js/聚合短剧.js",
-    "deps/auto/196-454s/down.php/93e0decefe3a2ad8949c5fe389d6cab2.js"
-   ],
-   "keep": "deps/auto/1-698s/heads/main/yingshi/js/聚合短剧.js"
+   "keep": "deps/auto/85-89s/vox/ext/泥泥视频.js"
   },
   {
    "md5": "e4bcc33e52a9df2d55f5580b0eea19e9",
    "paths": [
     "deps/auto/1-698s/heads/main/yingshi/json1/白嫖1.json",
-    "deps/auto/53-140s/js/s/白嫖2.json"
+    "deps/auto/40-152s/js/s/白嫖1.json"
    ],
-   "keep": "deps/auto/53-140s/js/s/白嫖2.json"
+   "keep": "deps/auto/40-152s/js/s/白嫖1.json"
   },
   {
-   "md5": "7bbbe722d01fe5bdf4a0bc2ca8c7d9a6",
+   "md5": "64038f99b86d4e7ca2d4747a72ec63f9",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/json1/DLXFS.json",
-    "deps/auto/53-140s/XBPQ/哆啦新番社.json"
+    "deps/auto/1-698s/heads/main/yingshi/json1/一个纯粹的x站.json",
+    "deps/auto/29-201s/tvbox/%E6%B1%9F%E6%B9%96/json/一个纯粹的x站.json"
    ],
-   "keep": "deps/auto/53-140s/XBPQ/哆啦新番社.json"
+   "keep": "deps/auto/1-698s/heads/main/yingshi/json1/一个纯粹的x站.json"
   },
   {
-   "md5": "b3a5068f8b2be69858bb382af52ec9f2",
+   "md5": "76ac0dead8739a14eb1482d3fbd42f1d",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/js/sogou.js",
-    "deps/auto/196-454s/js/sogou.js"
+    "deps/auto/1-698s/heads/main/yingshi/json1/文件夹.json",
+    "deps/auto/29-201s/tvbox/%E6%B1%9F%E6%B9%96/json/文件夹.json"
    ],
-   "keep": "deps/auto/196-454s/js/sogou.js"
+   "keep": "deps/auto/1-698s/heads/main/yingshi/json1/文件夹.json"
   },
   {
-   "md5": "605cb37ffbb7b5c1a02fad0debb50616",
+   "md5": "4b4da78831157376c5dc4757e4520a68",
    "paths": [
-    "deps/auto/1-698s/heads/main/yingshi/py/UVod.py",
-    "deps/auto/141-41s/HTB/PG/PY/UVod.py"
+    "deps/auto/1-698s/heads/main/yingshi/js/人人电影.js",
+    "deps/auto/85-89s/vox/ext/人人电影.js"
    ],
-   "keep": "deps/auto/141-41s/HTB/PG/PY/UVod.py"
+   "keep": "deps/auto/85-89s/vox/ext/人人电影.js"
   },
   {
-   "md5": "03bb31fb78aaee82e772a18cd10f3af2",
+   "md5": "dd82f310001f9ad6c798bdf82eda9c0c",
    "paths": [
-    "deps/auto/2-459s/heads/main/lz/douban_min.js",
-    "deps/auto/54-140s/box/duo/lib/doubanbf.js"
+    "deps/auto/1-698s/heads/main/yingshi/py9/哇哇APP.py",
+    "deps/auto/208-192s/py/%E5%93%87%E5%93%87APP.py"
    ],
-   "keep": "deps/auto/54-140s/box/duo/lib/doubanbf.js"
+   "keep": "deps/auto/208-192s/py/%E5%93%87%E5%93%87APP.py"
   },
   {
    "md5": "e67e816405afa451ced61154536b1853",
    "paths": [
     "deps/auto/3-427s/box/tm/sites/js/drpy2.min.js",
-    "deps/auto/24-243s/lib/drpy2.min.js",
-    "deps/auto/73-103s/lib/drpy2.min.js"
+    "deps/auto/24-243s/lib/drpy2.min.js"
    ],
    "keep": "deps/auto/24-243s/lib/drpy2.min.js"
   },
   {
-   "md5": "5c5116c70e15343433c8480c3b448408",
+   "md5": "3e8507d544313a0143ed8708356591c9",
    "paths": [
-    "deps/auto/3-427s/box/tm/sites/码上👓多/duo.jar",
-    "deps/auto/54-140s/box/duo/lib/duo.jar"
+    "deps/auto/3-427s/box/tm/sites/码上👓多/changmeng.js",
+    "deps/auto/47-149s/JS/畅梦影视.js"
    ],
-   "keep": "deps/auto/54-140s/box/duo/lib/duo.jar"
-  },
-  {
-   "md5": "d42cc8d191481fc9beeb1bff4bc747cb",
-   "paths": [
-    "deps/auto/3-427s/box/tm/sites/码上👓多/main.jar",
-    "deps/auto/54-140s/box/duo/main.jar"
-   ],
-   "keep": "deps/auto/54-140s/box/duo/main.jar"
+   "keep": "deps/auto/47-149s/JS/畅梦影视.js"
   },
   {
    "md5": "13a57e1729e9197c997ab5e4d7a12001",
    "paths": [
     "deps/auto/3-427s/box/tm/sites/码上👓多/hoho.js",
-    "deps/auto/23-253s/js/吼吼[飞].js",
-    "deps/auto/72-103s/lib/吼吼[飞].js"
+    "deps/auto/23-253s/js/吼吼[飞].js"
    ],
    "keep": "deps/auto/23-253s/js/吼吼[飞].js"
   },
@@ -845,28 +1189,20 @@
    "keep": "deps/auto/3-427s/box/tm/sites/码上👓香/XYQ.jar"
   },
   {
-   "md5": "f4a10e32f0fe69d40ffee4e0bfad5889",
+   "md5": "ea63783cd0324faa628a436afb691ed5",
    "paths": [
-    "deps/auto/3-427s/box/tm/sites/码上👓多/sea.js",
-    "deps/auto/73-103s/lib/haiyangtingshu.js"
+    "deps/auto/3-427s/box/tm/sites/码上👓多/yousheng.js",
+    "deps/auto/93-78s/%E5%8D%97%E9%A3%8E/js/有声小说吧.js"
    ],
-   "keep": "deps/auto/73-103s/lib/haiyangtingshu.js"
+   "keep": "deps/auto/3-427s/box/tm/sites/码上👓多/yousheng.js"
   },
   {
    "md5": "e3b586ae53ca8fb779010ba232b0a3bf",
    "paths": [
     "deps/auto/3-427s/box/tm/sites/码上👓多/zhonghua.js",
-    "deps/auto/26-211s/dr/js/中华听书网.js"
+    "deps/auto/27-211s/dr/js/中华听书网.js"
    ],
-   "keep": "deps/auto/26-211s/dr/js/中华听书网.js"
-  },
-  {
-   "md5": "b114715b6c1776b35bfa0cec511f0d7f",
-   "paths": [
-    "deps/auto/3-427s/box/tm/sites/码上👓香/DOVX搜索.json",
-    "deps/auto/156-32s/%E4%BA%91%E7%9B%98/XYQHiker/DOVX搜索.json"
-   ],
-   "keep": "deps/auto/3-427s/box/tm/sites/码上👓香/DOVX搜索.json"
+   "keep": "deps/auto/27-211s/dr/js/中华听书网.js"
   },
   {
    "md5": "6f6d2ded5c6a5ae6c778e1df0788c650",
@@ -877,189 +1213,93 @@
    "keep": "deps/auto/47-149s/XYQHiker/高清MP4.json"
   },
   {
-   "md5": "40ad8585fa9e7e88b98244009e51b5ee",
-   "paths": [
-    "deps/auto/3-427s/box/tm/sites/码上👓香/量子影视.json",
-    "deps/auto/22-270s/tvbox-master-doki/json/XYQHiker/量子影视.json"
-   ],
-   "keep": "deps/auto/3-427s/box/tm/sites/码上👓香/量子影视.json"
-  },
-  {
-   "md5": "99926f6a4829af738b777cd0bf1073cb",
-   "paths": [
-    "deps/auto/3-427s/box/tm/sites/码上👓香/55影视.json",
-    "deps/auto/22-270s/tvbox-master-doki/json/XYQHiker/55影视.json"
-   ],
-   "keep": "deps/auto/3-427s/box/tm/sites/码上👓香/55影视.json"
-  },
-  {
-   "md5": "1b5402022d5a77ace09ae3c147d038b1",
-   "paths": [
-    "deps/auto/3-427s/box/tm/sites/码上👓香/臭蛋蛋影视.json",
-    "deps/auto/22-270s/tvbox-master-doki/json/XYQHiker/臭蛋蛋影视.json"
-   ],
-   "keep": "deps/auto/3-427s/box/tm/sites/码上👓香/臭蛋蛋影视.json"
-  },
-  {
    "md5": "e53384e56ffe1132cd166e58fe7625fe",
    "paths": [
     "deps/auto/3-427s/box/tm/sites/码上👓香/奇趣影视.json",
-    "deps/auto/22-270s/tvbox-master-doki/json/XYQHiker/奇趣影视.json"
+    "deps/auto/47-149s/XYQHiker/奇趣影视.json"
    ],
-   "keep": "deps/auto/3-427s/box/tm/sites/码上👓香/奇趣影视.json"
+   "keep": "deps/auto/47-149s/XYQHiker/奇趣影视.json"
   },
   {
-   "md5": "15547fea3a8ab0d0d70c3a2a2d492d78",
+   "md5": "4b5ab67ab673d17399a415679e34e35f",
    "paths": [
-    "deps/auto/3-427s/box/tm/sites/码上👓香/voflix HD.json",
-    "deps/auto/22-270s/tvbox-master-doki/json/XYQHiker/voflix_HD.json"
+    "deps/auto/8-306s/hudie/lib/猎手.py",
+    "deps/auto/40-152s/js/py/plugin/app/电影猎手.py"
    ],
-   "keep": "deps/auto/3-427s/box/tm/sites/码上👓香/voflix HD.json"
+   "keep": "deps/auto/8-306s/hudie/lib/猎手.py"
   },
   {
-   "md5": "624adc3765d2855bc13fcf7b2638f3c6",
+   "md5": "98e25197fce4b874343de7d40011de1d",
    "paths": [
-    "deps/auto/5-390s/inc/api.php",
-    "deps/auto/106-59s/inc/ldg_api.php",
-    "deps/auto/205-70s/inc/ldg_api.php"
+    "deps/auto/37-160s/jar/fmys.jar",
+    "deps/auto/38-160s/app/t4/files/jar/fm.jar"
    ],
-   "keep": "deps/auto/5-390s/inc/api.php"
+   "keep": "deps/auto/37-160s/jar/fmys.jar"
   },
   {
-   "md5": "fc692ca5f9fa2dfa443f96c37edaa81a",
+   "md5": "c438aa25b206a9c3f6335b4bcac12722",
    "paths": [
-    "deps/auto/22-270s/tvbox-master-doki/jar/XBPQ.jar",
-    "deps/auto/99-66s/HeChengChaXiu.jar"
+    "deps/auto/37-160s/js/lib/drpy2.min.js",
+    "deps/auto/93-78s/%E5%8D%97%E9%A3%8E/api/drpy2.min.js"
    ],
-   "keep": "deps/auto/99-66s/HeChengChaXiu.jar"
+   "keep": "deps/auto/37-160s/js/lib/drpy2.min.js"
   },
   {
-   "md5": "27488b1b4bc34b4b3c492e0f636fa6bf",
+   "md5": "4145467d49e0437dc43e8bbb79e3ff7d",
    "paths": [
-    "deps/auto/22-270s/tvbox-master-doki/js/drpy.min.js",
-    "deps/auto/127-48s/2312/lib/drpy2.min.js"
+    "deps/auto/40-152s/jar/XBPQ.jar",
+    "deps/auto/56-137s/drpys/lib/XBPQ.jar",
+    "deps/auto/60-117s/jar/XBPQ.jar",
+    "deps/auto/72-106s/PG/lib/XBPQ.jar"
    ],
-   "keep": "deps/auto/127-48s/2312/lib/drpy2.min.js"
+   "keep": "deps/auto/40-152s/jar/XBPQ.jar"
   },
   {
-   "md5": "a09c2bfde6376c5bb63b338e936c6631",
+   "md5": "e46355a632ad1abd6eb9738a99b33b55",
    "paths": [
-    "deps/auto/22-270s/tvbox-master-doki/json/shiliu.json",
-    "deps/auto/73-103s/lib/shiliu.json"
+    "deps/auto/77-102s/tvbox-config/spider.jar",
+    "deps/auto/86-88s/tvbox-config/spider.jar"
    ],
-   "keep": "deps/auto/73-103s/lib/shiliu.json"
+   "keep": "deps/auto/86-88s/tvbox-config/spider.jar"
   },
   {
-   "md5": "6d16f0215aaf24c96dbc46c57618140a",
+   "md5": "d888bd0bc144db7fc3dd68c7ab3a70d9",
    "paths": [
-    "deps/auto/22-270s/tvbox-master-doki/js/drpy2.min.js",
-    "deps/auto/29-196s/tvbox-master-doki/js/drpy2.min.js"
+    "deps/auto/106-64s/github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
+    "deps/auto/254-3s/jar/custom_spider.jar"
    ],
-   "keep": "deps/auto/22-270s/tvbox-master-doki/js/drpy2.min.js"
-  },
-  {
-   "md5": "b5b537a83bb164129697c3c6f265a251",
-   "paths": [
-    "deps/auto/23-253s/js/唐人街影视[飞].js",
-    "deps/auto/72-103s/lib/唐人街影视[飞].js"
-   ],
-   "keep": "deps/auto/23-253s/js/唐人街影视[飞].js"
-  },
-  {
-   "md5": "4b02c9277f5f398e4e5084769df8996b",
-   "paths": [
-    "deps/auto/24-243s/lib/EMO蓝光[V2].js",
-    "deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/不开心.js"
-   ],
-   "keep": "deps/auto/24-243s/lib/EMO蓝光[V2].js"
-  },
-  {
-   "md5": "2edad1261812201f38395b5673f546bb",
-   "paths": [
-    "deps/auto/26-211s/dr/js/FreeOK.js",
-    "deps/auto/127-48s/2312/lib/FreeOK.js"
-   ],
-   "keep": "deps/auto/26-211s/dr/js/FreeOK.js"
-  },
-  {
-   "md5": "46da6b6a6a111d7924717db2ae790de3",
-   "paths": [
-    "deps/auto/32-167s/library/46da6-aa33493f-1c1d-4f35-9990-0be4bdbf0c64.png",
-    "deps/auto/193-12s/library/46da6-aa33493f-1c1d-4f35-9990-0be4bdbf0c64.png"
-   ],
-   "keep": "deps/auto/32-167s/library/46da6-aa33493f-1c1d-4f35-9990-0be4bdbf0c64.png"
-  },
-  {
-   "md5": "3862c5fff107f31c72542e7224fdd4bd",
-   "paths": [
-    "deps/auto/53-140s/lib/drpy2.min.js",
-    "deps/auto/66-108s/pg/lib/drpy2.min.js"
-   ],
-   "keep": "deps/auto/53-140s/lib/drpy2.min.js"
-  },
-  {
-   "md5": "c99b19e111411b725fd8f7062bb3d2f3",
-   "paths": [
-    "deps/auto/72-103s/lib/007影视.js",
-    "deps/auto/122-51s/0124/lib/007.js"
-   ],
-   "keep": "deps/auto/72-103s/lib/007影视.js"
-  },
-  {
-   "md5": "6fe9072a1011336574eeaff4716dde85",
-   "paths": [
-    "deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-    "deps/auto/236-7s/%E4%BD%93%E8%82%B2/JS/drpy.min.js"
-   ],
-   "keep": "deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
-  },
-  {
-   "md5": "dbc93cb9a14cff520dc4f26e6eddb68c",
-   "paths": [
-    "deps/auto/100-64s/github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
-    "deps/auto/191-12s/jar/custom_spider.jar"
-   ],
-   "keep": "deps/auto/191-12s/jar/custom_spider.jar"
-  },
-  {
-   "md5": "9cc29f6286b2fe7910628852929c4bdb",
-   "paths": [
-    "deps/auto/122-51s/0124/PandaQ231205.jar",
-    "deps/auto/127-48s/2312/PandaQ231205.jar"
-   ],
-   "keep": "deps/auto/122-51s/0124/PandaQ231205.jar"
+   "keep": "deps/auto/254-3s/jar/custom_spider.jar"
   },
   {
    "md5": "219f0c8c01909e6a8686a94418c08acd",
    "paths": [
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/jar/custom_spider.jar",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/94sm.json",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/cjtys.json",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/tvci.json",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/Djx.json",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/imy.json",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/jpys.json",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/Nfuxs.json",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/saohuotv2.json",
-    "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/agefans.json"
+    "deps/auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/jpys.json",
+    "deps/auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/tvci.json",
+    "deps/auto/143-45s/p/c/d/c/git/raw/master/jar/custom_spider.jar",
+    "deps/auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/Djx.json",
+    "deps/auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/cjtys.json",
+    "deps/auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/Nfuxs.json"
    ],
-   "keep": "deps/auto/136-45s/p/c/d/c/git/raw/master/sub/xpath/Djx.json"
+   "keep": "deps/auto/143-45s/p/c/d/c/git/raw/master/sub/xpath/Djx.json"
   },
   {
-   "md5": "40d30fe3d9671e0d700f1c272bb20aaa",
+   "md5": "9c17a9fc4d1eaebf54d1ad9b196c0e93",
    "paths": [
-    "deps/auto/196-454s/down.php/40d30fe3d9671e0d700f1c272bb20aaa.js",
-    "deps/auto/196-454s/f/696546f2.js"
+    "deps/auto/229-22s/kulao/ext/f05e3b39.js",
+    "deps/auto/229-22s/kulao/ext/9e53615c.py",
+    "deps/auto/229-22s/kulao/ext/04b5c0b4.js",
+    "deps/auto/229-22s/kulao/ext/e1aeef83.py",
+    "deps/auto/229-22s/kulao/ext/f7b46c7f.js"
    ],
-   "keep": "deps/auto/196-454s/f/696546f2.js"
+   "keep": "deps/auto/229-22s/kulao/ext/f05e3b39.js"
   },
   {
-   "md5": "34dc804020748504a15e2767b37656c3",
+   "md5": "9657a8b8dd7e1ec988c8eb6f11be5465",
    "paths": [
-    "deps/auto/196-454s/f/8788241d.jar",
-    "deps/auto/196-454s/heads/main/MAfly1/paomadeng.jar"
+    "deps/feishu-sync/tv.m3u",
+    "deps/feishu-sync/tv.m3u"
    ],
-   "keep": "deps/auto/196-454s/f/8788241d.jar"
+   "keep": "deps/feishu-sync/tv.m3u"
   },
   {
    "md5": "9a47ce5b99b10eaad39e8d7b250829b6",
@@ -1090,14 +1330,6 @@
    "keep": "deps/feishu-sync/m3u/iptv.m3u"
   },
   {
-   "md5": "195a8643f10175722743b9acac86794d",
-   "paths": [
-    "deps/feishu-sync/tv.m3u",
-    "deps/feishu-sync/tv.m3u"
-   ],
-   "keep": "deps/feishu-sync/tv.m3u"
-  },
-  {
    "md5": "c45c262b9a8f21ba9409e1e1dd29694d",
    "paths": [
     "deps/feishu-sync/ipv4.m3u",
@@ -1114,23 +1346,22 @@
    "keep": "deps/feishu-sync/output/result.m3u"
   },
   {
+   "md5": "e84c95b40a0d10e821113cccb35a13b8",
+   "paths": [
+    "deps/feishu-sync/output/result.m3u",
+    "deps/feishu-sync/output/result.m3u"
+   ],
+   "keep": "deps/feishu-sync/output/result.m3u"
+  },
+  {
    "md5": "ad5475bc70255c8f7db823f4cd002688",
    "paths": [
     "deps/feishu-sync/migu_video/interface.txt",
     "deps/feishu-sync/heads/main/interface.txt",
     "deps/feishu-sync/heads/main/interface.txt",
-    "deps/feishu-sync/heads/main/interface.txt",
-    "deps/feishu-sync/develop202.github.io/migu_video/interface.txt"
+    "deps/feishu-sync/heads/main/interface.txt"
    ],
    "keep": "deps/feishu-sync/migu_video/interface.txt"
-  },
-  {
-   "md5": "60811dbd8bcbb5ef1cdb8fb39342b004",
-   "paths": [
-    "deps/feishu-sync/all.m3u",
-    "deps/feishu-sync/all.m3u"
-   ],
-   "keep": "deps/feishu-sync/all.m3u"
   },
   {
    "md5": "724edf0be6cbed219616cae999248e63",
@@ -1194,8 +1425,7 @@
    "md5": "c8d03dd7c689bd383ea1a02cc523ad99",
    "paths": [
     "deps/feishu-sync/live.txt",
-    "deps/feishu-sync/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/live.txt",
-    "deps/feishu-sync/live.txt"
+    "deps/feishu-sync/raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/live.txt"
    ],
    "keep": "deps/feishu-sync/live.txt"
   },
@@ -1217,7 +1447,7 @@
    "keep": "deps/feishu-sync/iptv.txt"
   },
   {
-   "md5": "d450c43be1e50012538f5f2c4ee7545e",
+   "md5": "5bdfb81f9945cca5fa7d679e879d6588",
    "paths": [
     "deps/feishu-sync/ipv4.txt",
     "deps/feishu-sync/ipv4.txt"
@@ -1225,7 +1455,15 @@
    "keep": "deps/feishu-sync/ipv4.txt"
   },
   {
-   "md5": "9dd02f9b3c15fd8fa829335ccee205db",
+   "md5": "73e33ad397c8ceccec612f592158fe16",
+   "paths": [
+    "deps/feishu-sync/live~4be02b.m3u",
+    "deps/feishu-sync/live~4be02b.m3u"
+   ],
+   "keep": "deps/feishu-sync/live~4be02b.m3u"
+  },
+  {
+   "md5": "a020a75167f157bbfd759934fe140070",
    "paths": [
     "deps/feishu-sync/raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv.txt",
     "deps/feishu-sync/heads/master/iptv.txt"
@@ -1233,7 +1471,7 @@
    "keep": "deps/feishu-sync/heads/master/iptv.txt"
   },
   {
-   "md5": "be171d702fd00528ee87780590671b88",
+   "md5": "5e84d3ea2fec4efc5087147abc787bb1",
    "paths": [
     "deps/feishu-sync/heads/main/zubo_all.txt",
     "deps/feishu-sync/q1017673817/iptvz/blob/main/zubo_all.txt"
@@ -1241,9 +1479,8 @@
    "keep": "deps/feishu-sync/heads/main/zubo_all.txt"
   },
   {
-   "md5": "80dbbf3f8cd9a391c2f5fb8d6704e688",
+   "md5": "56cf951e3af0e1c9c4a350c287d475bc",
    "paths": [
-    "deps/feishu-sync/live~4be02b.m3u",
     "deps/feishu-sync/live~4be02b.m3u",
     "deps/feishu-sync/live~4be02b.m3u"
    ],
@@ -1253,13 +1490,22 @@
    "md5": "3a9159da458760cd1b5b2d61b468de39",
    "paths": [
     "deps/feishu-sync/iptv-org.github.io/iptv/index.m3u",
-    "deps/feishu-sync/iptv-org.github.io/iptv/index.m3u",
-    "deps/feishu-sync/iptv/index.m3u"
+    "deps/feishu-sync/iptv-org.github.io/iptv/index.m3u"
    ],
-   "keep": "deps/feishu-sync/iptv/index.m3u"
+   "keep": "deps/feishu-sync/iptv-org.github.io/iptv/index.m3u"
   },
   {
-   "md5": "ad9e360b28088fd24d957f3f7ca54c41",
+   "md5": "60bcd4ad7becc5c09a0a581e562a37fb",
+   "paths": [
+    "deps/feishu-sync/live~4be02b.m3u",
+    "deps/feishu-sync/live~4be02b.m3u",
+    "deps/feishu-sync/live~4be02b.m3u",
+    "deps/feishu-sync/live~4be02b.m3u"
+   ],
+   "keep": "deps/feishu-sync/live~4be02b.m3u"
+  },
+  {
+   "md5": "2859c4d3636e364890098386fd51bd0b",
    "paths": [
     "deps/feishu-sync/output/all_merged.m3u",
     "deps/feishu-sync/output/all_merged.m3u"
@@ -1267,38 +1513,29 @@
    "keep": "deps/feishu-sync/output/all_merged.m3u"
   },
   {
-   "md5": "4cd390c2ea9d3623b583562e219bd385",
+   "md5": "fef9c762c04b3b2e0b53731ae69d7371",
    "paths": [
+    "deps/feishu-sync/all.m3u",
+    "deps/feishu-sync/all.m3u"
+   ],
+   "keep": "deps/feishu-sync/all.m3u"
+  },
+  {
+   "md5": "407320a993a611401de79c3b765bacbe",
+   "paths": [
+    "deps/feishu-sync/live~4be02b.m3u",
     "deps/feishu-sync/live~4be02b.m3u",
     "deps/feishu-sync/live~4be02b.m3u"
    ],
    "keep": "deps/feishu-sync/live~4be02b.m3u"
   },
   {
-   "md5": "22d8d294b475ae5186b59aecbc5b6767",
-   "paths": [
-    "deps/feishu-sync/live~4be02b.m3u",
-    "deps/feishu-sync/live~4be02b.m3u"
-   ],
-   "keep": "deps/feishu-sync/live~4be02b.m3u"
-  },
-  {
-   "md5": "9657a8b8dd7e1ec988c8eb6f11be5465",
+   "md5": "0bcac31170ae12ccef96c43589cd7108",
    "paths": [
     "deps/feishu-sync/tv.m3u",
     "deps/feishu-sync/tv.m3u"
    ],
    "keep": "deps/feishu-sync/tv.m3u"
-  },
-  {
-   "md5": "7051a6faa99bdc9740919eaef9ce43b0",
-   "paths": [
-    "deps/feishu-sync/live~4be02b.m3u",
-    "deps/feishu-sync/live~4be02b.m3u",
-    "deps/feishu-sync/live~4be02b.m3u",
-    "deps/feishu-sync/live~4be02b.m3u"
-   ],
-   "keep": "deps/feishu-sync/live~4be02b.m3u"
   },
   {
    "md5": "e67caccf49d6f78fad30c74a53ce9435",
@@ -1309,15 +1546,6 @@
    "keep": "deps/feishu-sync/tv.txt"
   },
   {
-   "md5": "a3ba09347ac4523d0b9d6031b9b3c58c",
-   "paths": [
-    "deps/feishu-sync/live.txt",
-    "deps/feishu-sync/live.txt",
-    "deps/feishu-sync/live.txt"
-   ],
-   "keep": "deps/feishu-sync/live.txt"
-  },
-  {
    "md5": "7b50f727862676c4046cb38078317ae3",
    "paths": [
     "deps/feishu-sync/heads/main/安博.txt",
@@ -1326,181 +1554,130 @@
    "keep": "deps/feishu-sync/py/anbo.txt"
   },
   {
-   "md5": "3becb0173ba2d0c938c51ee9b38236f1",
+   "md5": "116f0299d89655782cd85d8148cc608a",
    "paths": [
-    "deps/feishu-sync/live.txt",
-    "deps/feishu-sync/live.txt"
+    "deps/feishu-sync/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg7.js",
+    "deps/feishu-sync/tly824/TvBoxx/master/js/gbk.js",
+    "deps/feishu-sync/dm/js/gbk.js",
+    "deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg7.js",
+    "deps/feishu-sync/tly824/hipy-server/master/app/t4/files/drpy_libs/gbk.js",
+    "deps/feishu-sync/dr_py/libs/gbk.js",
+    "deps/shiguang/svip/heads/main/drpy_libs/gbk.js",
+    "deps/feishu-sync/dr_py/libs/gbk.js",
+    "deps/auto/27-211s/dr/lib/gbk.js",
+    "deps/auto/3-427s/box/tm/sites/js/gbk.js",
+    "deps/auto/23-253s/lib/gbk.js",
+    "deps/auto/24-243s/lib/gbk.js",
+    "deps/auto/38-160s/app/t4/files/drpy_libs/gbk.js",
+    "deps/auto/37-160s/js/lib/gbk.js",
+    "deps/auto/66-108s/lib/gbk.js",
+    "deps/auto/93-78s/%E5%8D%97%E9%A3%8E/api/gbk.js",
+    "deps/auto/50-145s/JS/gbk.js"
    ],
-   "keep": "deps/feishu-sync/live.txt"
+   "keep": "deps/auto/50-145s/JS/gbk.js"
   },
   {
-   "md5": "bc80ddbb9cf3e13cf52fbc3f5c485c89",
+   "md5": "def27f3dd18d15be6f1cb4651d95c0a1",
    "paths": [
-    "deps/feishu-sync/heads/master/output/result.txt",
-    "deps/feishu-sync/gh/mytv-android/iptv-api@master/output/result.txt"
+    "deps/feishu-sync/gt/leevi0709/one/main/js/gbk.js",
+    "deps/shiguang/svip/heads/main/js/gbk.js",
+    "deps/feishu-sync/franksun1211/TVBOX/raw/main/APP/TVBoxOSC/tvbox/JS/gbk.js",
+    "deps/feishu-sync/heads/main/JS/gbk.js",
+    "deps/feishu-sync/xiayede/drpy/raw/master/gbk.js",
+    "deps/auto/47-149s/JS/gbk.js",
+    "deps/auto/40-152s/yuyu10588/tt/raw/t/t/gbk.js"
    ],
-   "keep": "deps/feishu-sync/heads/master/output/result.txt"
+   "keep": "deps/auto/47-149s/JS/gbk.js"
   },
   {
-   "md5": "040b57a9ad429d953fb6e42e00b4a34a",
+   "md5": "4656e3ee7df1f4db03a6c0af17295b1d",
    "paths": [
-    "deps/feishu-sync/heads/master/output/result.m3u",
-    "deps/feishu-sync/gh/mytv-android/iptv-api@master/output/result.m3u"
+    "deps/feishu-sync/lib/drpy-core-lite.min.js",
+    "deps/feishu-sync/tly824/tvbox/master/lib/drpy-core-lite.min.js",
+    "deps/nxppru/0825/lib/drpy-core-lite.min.js",
+    "deps/feishu-sync/js/drpy-core-lite.min.js",
+    "deps/feishu-sync/js/drpy-core-lite.min.js",
+    "deps/feishu-sync/lib/drpy-core-lite.min.js",
+    "deps/feishu-sync/lib/drpy-core-lite.min.js",
+    "deps/qist/jsm/lib/drpy-core-lite.min.js",
+    "deps/qist/9918/lib/drpy-core-lite.min.js",
+    "deps/nxppru/0821/lib/drpy-core-lite.min.js",
+    "deps/auto/1-698s/heads/main/yingshi/js/drpy-core-lite.min.js",
+    "deps/auto/26-215s/lib/drpy-core-lite.min.js",
+    "deps/xingwei/kstore/xw/js/drpy-core-lite.min.js",
+    "deps/auto/240-9s/heads/master/lib/drpy-core-lite.min.js"
    ],
-   "keep": "deps/feishu-sync/heads/master/output/result.m3u"
+   "keep": "deps/qist/jsm/lib/drpy-core-lite.min.js"
+  },
+  {
+   "md5": "d41d8cd98f00b204e9800998ecf8427e",
+   "paths": [
+    "deps/feishu-sync/js/drpy-core-lite.min.js",
+    "deps/feishu-sync/heads/main/模板.js"
+   ],
+   "keep": "deps/feishu-sync/heads/main/模板.js"
+  },
+  {
+   "md5": "e17c4f8943a65ef801f8baecfe603f56",
+   "paths": [
+    "deps/feishu-sync/franksun1211/TVBOX/raw/main/APP/TVBoxOSC/tvbox/JS/模板.js",
+    "deps/shiguang/svip/heads/main/js/模板.js",
+    "deps/feishu-sync/xiayede/drpy/raw/master/模板.js",
+    "deps/auto/40-152s/yuyu10588/tt/raw/t/t/模板.js"
+   ],
+   "keep": "deps/shiguang/svip/heads/main/js/模板.js"
+  },
+  {
+   "md5": "08e3eb4cdf178554eb231e7715ca7966",
+   "paths": [
+    "deps/feishu-sync/fantaiying/ext/-/raw/main/模板.js",
+    "deps/feishu-sync/js/模板.js",
+    "deps/feishu-sync/heads/main/模板.js",
+    "deps/feishu-sync/FTY/模板.js",
+    "deps/feishu-sync/dr_py/libs/模板.js",
+    "deps/feishu-sync/dr_py/libs/模板.js",
+    "deps/feishu-sync/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg6.js",
+    "deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg6.js",
+    "deps/auto/3-427s/box/tm/sites/js/模板.js",
+    "deps/auto/24-243s/lib/模板.js",
+    "deps/auto/50-145s/JS/模板.js"
+   ],
+   "keep": "deps/feishu-sync/js/模板.js"
+  },
+  {
+   "md5": "fad0fdfd539c35e60b2cbc2d182a3db0",
+   "paths": [
+    "deps/feishu-sync/FTY/gbk.js",
+    "deps/feishu-sync/heads/main/gbk.js",
+    "deps/feishu-sync/fantaiying/ext/-/raw/main/gbk.js",
+    "deps/feishu-sync/libs/gbk.js",
+    "deps/feishu-sync/heads/main/gbk.js",
+    "deps/auto/40-152s/lib/gbk.js"
+   ],
+   "keep": "deps/feishu-sync/FTY/gbk.js"
   },
   {
    "md5": "f4f72962fb5d6e15d4e32b39c02056f0",
    "paths": [
     "deps/feishu-sync/tly824/TvBoxx/master/js/cheerio.min.js",
-    "deps/feishu-sync/dm/js/cheerio.min.js",
-    "deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/cheerio.min.js",
-    "deps/auto/196-454s/js/cheerio.min.js",
-    "deps/auto/236-7s/%E4%BD%93%E8%82%B2/JS/cheerio.min.js"
+    "deps/feishu-sync/dm/js/cheerio.min.js"
    ],
-   "keep": "deps/auto/196-454s/js/cheerio.min.js"
-  },
-  {
-   "md5": "73b45a2c1774ab7629e60c4447708a34",
-   "paths": [
-    "deps/feishu-sync/tly824/TvBoxx/master/js/mould.js",
-    "deps/auto/196-454s/js/mould.js"
-   ],
-   "keep": "deps/auto/196-454s/js/mould.js"
-  },
-  {
-   "md5": "116f0299d89655782cd85d8148cc608a",
-   "paths": [
-    "deps/feishu-sync/tly824/TvBoxx/master/js/gbk.js",
-    "deps/feishu-sync/dm/js/gbk.js",
-    "deps/shiguang/svip/heads/main/drpy_libs/gbk.js",
-    "deps/feishu-sync/tly824/hipy-server/master/app/t4/files/drpy_libs/gbk.js",
-    "deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg7.js",
-    "deps/feishu-sync/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg7.js",
-    "deps/feishu-sync/dr_py/libs/gbk.js",
-    "deps/feishu-sync/dr_py/libs/gbk.js",
-    "deps/auto/3-427s/box/tm/sites/js/gbk.js",
-    "deps/auto/23-253s/lib/gbk.js",
-    "deps/auto/26-211s/dr/lib/gbk.js",
-    "deps/auto/24-243s/lib/gbk.js",
-    "deps/auto/50-145s/JS/gbk.js",
-    "deps/auto/72-103s/lib/gbk.js",
-    "deps/auto/73-103s/lib/gbk.js",
-    "deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/gbk.js",
-    "deps/auto/99-66s/lib/gbk.js",
-    "deps/auto/188-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/gbk.js",
-    "deps/auto/196-454s/js/gbk.js",
-    "deps/auto/196-454s/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg7.js",
-    "deps/auto/236-7s/%E4%BD%93%E8%82%B2/JS/gbk.js"
-   ],
-   "keep": "deps/auto/50-145s/JS/gbk.js"
-  },
-  {
-   "md5": "08e3eb4cdf178554eb231e7715ca7966",
-   "paths": [
-    "deps/feishu-sync/dr_py/libs/模板.js",
-    "deps/feishu-sync/heads/main/模板.js",
-    "deps/feishu-sync/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg6.js",
-    "deps/feishu-sync/fantaiying/ext/-/raw/main/模板.js",
-    "deps/feishu-sync/FTY/模板.js",
-    "deps/feishu-sync/heads/main/模板.js",
-    "deps/feishu-sync/dr_py/libs/模板.js",
-    "deps/feishu-sync/js/模板.js",
-    "deps/sv/tiantiankaixin/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg6.js",
-    "deps/auto/3-427s/box/tm/sites/js/模板.js",
-    "deps/auto/24-243s/lib/模板.js",
-    "deps/auto/50-145s/JS/模板.js",
-    "deps/auto/72-103s/lib/模板.js",
-    "deps/auto/73-103s/lib/模板.js",
-    "deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/模板.js",
-    "deps/auto/99-66s/lib/模板.js",
-    "deps/auto/196-454s/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83/api/qyg6.js",
-    "deps/auto/236-7s/%E4%BD%93%E8%82%B2/JS/模板.js"
-   ],
-   "keep": "deps/feishu-sync/js/模板.js"
-  },
-  {
-   "md5": "e17c4f8943a65ef801f8baecfe603f56",
-   "paths": [
-    "deps/feishu-sync/xiayede/drpy/raw/master/模板.js",
-    "deps/shiguang/svip/heads/main/js/模板.js",
-    "deps/feishu-sync/franksun1211/TVBOX/raw/main/APP/TVBoxOSC/tvbox/JS/模板.js",
-    "deps/auto/53-140s/yuyu10588/tt/raw/t/t/模板.js"
-   ],
-   "keep": "deps/shiguang/svip/heads/main/js/模板.js"
-  },
-  {
-   "md5": "4656e3ee7df1f4db03a6c0af17295b1d",
-   "paths": [
-    "deps/feishu-sync/tly824/tvbox/master/lib/drpy-core-lite.min.js",
-    "deps/feishu-sync/js/drpy-core-lite.min.js",
-    "deps/nxppru/0825/lib/drpy-core-lite.min.js",
-    "deps/feishu-sync/lib/drpy-core-lite.min.js",
-    "deps/feishu-sync/lib/drpy-core-lite.min.js",
-    "deps/qist/9918/lib/drpy-core-lite.min.js",
-    "deps/qist/jsm/lib/drpy-core-lite.min.js",
-    "deps/nxppru/0821/lib/drpy-core-lite.min.js",
-    "deps/feishu-sync/js/drpy-core-lite.min.js",
-    "deps/feishu-sync/lib/drpy-core-lite.min.js",
-    "deps/auto/1-698s/heads/main/yingshi/js/drpy-core-lite.min.js",
-    "deps/xingwei/kstore/xw/js/drpy-core-lite.min.js",
-    "deps/auto/196-454s/lib/drpy-core-lite.min.js",
-    "deps/auto/196-454s/lib/drpy-core-lite.min.js",
-    "deps/auto/234-8s/heads/master/lib/drpy-core-lite.min.js"
-   ],
-   "keep": "deps/qist/jsm/lib/drpy-core-lite.min.js"
-  },
-  {
-   "md5": "def27f3dd18d15be6f1cb4651d95c0a1",
-   "paths": [
-    "deps/shiguang/svip/heads/main/js/gbk.js",
-    "deps/feishu-sync/heads/main/JS/gbk.js",
-    "deps/feishu-sync/xiayede/drpy/raw/master/gbk.js",
-    "deps/feishu-sync/gt/leevi0709/one/main/js/gbk.js",
-    "deps/feishu-sync/franksun1211/TVBOX/raw/main/APP/TVBoxOSC/tvbox/JS/gbk.js",
-    "deps/auto/47-149s/JS/gbk.js",
-    "deps/auto/53-140s/js/gbk.js",
-    "deps/auto/53-140s/yuyu10588/tt/raw/t/t/gbk.js",
-    "deps/auto/196-454s/heads/main/JS/gbk.js",
-    "deps/auto/196-454s/gt/leevi0709/one/main/js/gbk.js"
-   ],
-   "keep": "deps/auto/47-149s/JS/gbk.js"
-  },
-  {
-   "md5": "cb0a3a7655fd05629b5b98f09d39c892",
-   "paths": [
-    "deps/feishu-sync/gt/leevi0709/one/main/js/模板.js",
-    "deps/auto/196-454s/gt/leevi0709/one/main/js/模板.js"
-   ],
-   "keep": "deps/feishu-sync/gt/leevi0709/one/main/js/模板.js"
-  },
-  {
-   "md5": "fad0fdfd539c35e60b2cbc2d182a3db0",
-   "paths": [
-    "deps/feishu-sync/libs/gbk.js",
-    "deps/feishu-sync/fantaiying/ext/-/raw/main/gbk.js",
-    "deps/feishu-sync/FTY/gbk.js",
-    "deps/feishu-sync/heads/main/gbk.js",
-    "deps/auto/53-140s/lib/gbk.js",
-    "deps/auto/66-108s/pg/lib/gbk.js"
-   ],
-   "keep": "deps/feishu-sync/FTY/gbk.js"
+   "keep": "deps/feishu-sync/dm/js/cheerio.min.js"
   },
   {
    "md5": "1ad9ccab749a1c5a72b7769f9acc1211",
    "paths": [
     "deps/feishu-sync/tly824/hipy-server/master/app/t4/files/drpy_libs/模板.js",
-    "deps/auto/188-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/模板.js"
+    "deps/auto/38-160s/app/t4/files/drpy_libs/模板.js"
    ],
-   "keep": "deps/auto/188-13s/tvbox/%E7%91%9F%E7%91%9F/drpy_libs/模板.js"
+   "keep": "deps/auto/38-160s/app/t4/files/drpy_libs/模板.js"
   },
   {
    "md5": "cfb3108f05a22718108b01a9b5100818",
    "paths": [
     "deps/feishu-sync/dm/js/模板.js",
     "deps/auto/23-253s/js/模板.js",
-    "deps/auto/26-211s/dr/lib/模板.js",
-    "deps/auto/53-140s/js/模板.js"
+    "deps/auto/27-211s/dr/lib/模板.js"
    ],
    "keep": "deps/auto/23-253s/js/模板.js"
   },
@@ -1508,8 +1685,7 @@
    "md5": "809b62fc614a950443531b46a00d36b2",
    "paths": [
     "deps/feishu-sync/heads/main/JS/模板.js",
-    "deps/auto/47-149s/JS/模板.js",
-    "deps/auto/196-454s/heads/main/JS/模板.js"
+    "deps/auto/47-149s/JS/模板.js"
    ],
    "keep": "deps/auto/47-149s/JS/模板.js"
   },
@@ -1518,18 +1694,17 @@
    "paths": [
     "deps/auto/3-427s/box/tm/sites/js/cheerio.min.js",
     "deps/auto/24-243s/lib/cheerio.min.js",
-    "deps/auto/73-103s/lib/cheerio.min.js",
-    "deps/auto/99-66s/lib/cheerio.min.js"
+    "deps/auto/52-142s/box/tms/lib/cheerio.min.js"
    ],
-   "keep": "deps/auto/99-66s/lib/cheerio.min.js"
+   "keep": "deps/auto/24-243s/lib/cheerio.min.js"
   },
   {
-   "md5": "8334804836aa5e0ada548eb574e28517",
+   "md5": "ef674d485d9fe8e03f92a4c0238e152c",
    "paths": [
-    "deps/auto/22-270s/tvbox-master-doki/js/模板.js",
-    "deps/auto/29-196s/tvbox-master-doki/js/模板.js"
+    "deps/auto/37-160s/js/lib/模板.js",
+    "deps/auto/93-78s/%E5%8D%97%E9%A3%8E/api/模板.js"
    ],
-   "keep": "deps/auto/22-270s/tvbox-master-doki/js/模板.js"
+   "keep": "deps/auto/37-160s/js/lib/模板.js"
   }
  ]
 }

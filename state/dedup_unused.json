@@ -101,12 +101,6 @@
   "md5": "6fbde6762f293d1cc8ff64f8ce090fbc",
   "keep_within_group": "deps/laozhang/serv00/zq/pro.jar"
  },
- "deps/jar/ok.jar": {
-  "bytes": 1645789,
-  "unused_since": "2026-10-05",
-  "md5": "1bc1d832b86b666f818fda06260aebad",
-  "keep_within_group": "deps/auto/86-82s/jar/ok.jar"
- },
  "deps/external/972fbc35e5-d44dd2cf.py": {
   "bytes": 1566543,
   "unused_since": "2026-10-05",
@@ -130,12 +124,6 @@
   "unused_since": "2026-10-05",
   "md5": "9237bddaebf29f45e617f5328bdc5474",
   "keep_within_group": "deps/sv/iqinu/jar/dx260509.jar"
- },
- "deps/jar/se.jar": {
-  "bytes": 1186595,
-  "unused_since": "2026-10-05",
-  "md5": "875ce871703d1c382e0498711b9d3ba0",
-  "keep_within_group": "deps/auto/179-18s/tvbox/%E7%91%9F%E7%91%9F/18.jar"
  },
  "deps/other/pikpakclass.a.json.db.gz": {
   "bytes": 1145838,
@@ -347,12 +335,6 @@
   "md5": "82a31f7dab4c0eb89a46584f3934d810",
   "keep_within_group": "deps/auto/5-196s/tvbox-master-doki/jar/ppx.txt"
  },
- "deps/jar/sdtv.jar": {
-  "bytes": 603744,
-  "unused_since": "2026-10-05",
-  "md5": "87d5916b7bb5c8acacac5490e802828e",
-  "keep_within_group": "deps/auto/205-70s/sdtv.jar"
- },
  "deps/txt/fan_5543dae0.txt": {
   "bytes": 591716,
   "unused_since": "2026-10-05",
@@ -551,12 +533,6 @@
   "md5": "41c87635d7592069884a5dafa12acabe",
   "keep_within_group": "deps/localized/694a87f31b-box.jar"
  },
- "deps/js/jsencrypt.js": {
-  "bytes": 221343,
-  "unused_since": "2026-10-05",
-  "md5": "017a775b14d5551b503c2371ff5d12e7",
-  "keep_within_group": "deps/auto/53-140s/js/jsencrypt.js"
- },
  "deps/py/op_ticket_1_5673241091_1788770930556_IMPGdz5q.py": {
   "bytes": 215416,
   "unused_since": "2026-10-05",
@@ -574,12 +550,6 @@
   "unused_since": "2026-10-05",
   "md5": "dbc93cb9a14cff520dc4f26e6eddb68c",
   "keep_within_group": "deps/auto/191-12s/jar/custom_spider.jar"
- },
- "deps/js/drpy2.js": {
-  "bytes": 157695,
-  "unused_since": "2026-10-05",
-  "md5": "a7b5c931ca322eccfe6eaf471308500a",
-  "keep_within_group": "deps/auto/53-140s/js/drpy2.js"
  },
  "deps/external/70a577d50c-lf_p2p2_min.js": {
   "bytes": 142922,
@@ -724,5 +694,47 @@
   "unused_since": "2026-10-05",
   "md5": "4f99d6633e81c0027ea82d342550c70b",
   "keep_within_group": "deps/feishu-sync/heads/main/JS/drpy2.min.js"
+ },
+ "deps/jar/spider_7d6b078a.jar": {
+  "bytes": 2007316,
+  "unused_since": "2026-10-05",
+  "md5": "7d6b078abcc1fff233f95ddc1b1ebc6f",
+  "keep_within_group": "deps/auto/58-127s/jar/spider.jar"
+ },
+ "deps/jar/spider_466fd45c.jar": {
+  "bytes": 1909012,
+  "unused_since": "2026-10-05",
+  "md5": "466fd45c357313a23e0e05d201b38d6c",
+  "keep_within_group": "deps/auto/26-215s/jar/spider.jar"
+ },
+ "deps/jar/spider_74f28d2b.jar": {
+  "bytes": 1876244,
+  "unused_since": "2026-10-05",
+  "md5": "74f28d2b50645632151773ca8ce89270",
+  "keep_within_group": "deps/auto/59-125s/tvbox/TVBoxOSC/tvbox/spider.jar"
+ },
+ "deps/jar/vox_c0233cac.jar": {
+  "bytes": 1830939,
+  "unused_since": "2026-10-05",
+  "md5": "c0233cac71276c53bf1576f38efbf38f",
+  "keep_within_group": "deps/auto/85-89s/vox/jar/vox.jar"
+ },
+ "deps/jar/xbpq_19eb103c.jar": {
+  "bytes": 671316,
+  "unused_since": "2026-10-05",
+  "md5": "19eb103c421f76b9a3b8a1c8fcdcbc38",
+  "keep_within_group": "deps/auto/147-43s/songlees355-wq/okay/blob/main/jar/ceshi.jar"
+ },
+ "deps/jar/d479d37ee36fa366b646f77d17b76fb1.jar": {
+  "bytes": 597190,
+  "unused_since": "2026-10-05",
+  "md5": "5247674e4fadd6c45fd4b92d50a87add",
+  "keep_within_group": "deps/auto/8-306s/hudie/jar/d479d37ee36fa366b646f77d17b76fb1.jar"
+ },
+ "deps/jar/fmys.jar": {
+  "bytes": 327169,
+  "unused_since": "2026-10-05",
+  "md5": "98e25197fce4b874343de7d40011de1d",
+  "keep_within_group": "deps/auto/37-160s/jar/fmys.jar"
  }
 }

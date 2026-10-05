@@ -1,859 +1,450 @@
 {
- "date": "2026-10-05T01:40:01+08:00",
+ "date": "2026-10-05T07:46:56+08:00",
  "baseline_created": false,
  "sites": {
-  "added": 78,
-  "removed": 613,
-  "modified": 272,
+  "added": 735,
+  "removed": 940,
+  "modified": 111,
   "added_list": [
    {
-    "key": "tcniao_auto",
-    "name": "🦜TC鸟Auto(自动测速)"
+    "key": "湿园",
+    "name": "[137ms|zy] 🍊湿园"
    },
    {
-    "key": "腾优爱芒B",
-    "name": "⭐Maflya丨腾优爱芒B"
+    "key": "naixxzy.com",
+    "name": "★奶香香(直连)"
    },
    {
-    "key": "Maflya瓜子备用",
-    "name": "⭐Maflya丨瓜子丨备用"
+    "key": "ManJuQiMao",
+    "name": "🍉漫剧┃小猫🍉"
    },
    {
-    "key": "搜狗影视",
-    "name": "搜狗影视"
+    "key": "csp_xBPQ_爱酷",
+    "name": "爱酷"
    },
    {
-    "key": "玩偶哥哥",
-    "name": "🌐玩偶┃4K"
+    "key": "✨榴莲视频①✨",
+    "name": "✨榴莲视频①✨"
    },
    {
-    "key": "zmingcx",
-    "name": "🦜知更鸟文章站"
+    "key": "kjh998_宅男影视",
+    "name": "宅男影视"
    },
    {
-    "key": "Maflya酷六JS",
-    "name": "⭐Maflya丨酷六丨JS"
+    "key": "✨宇逍遥✨",
+    "name": "✨宇逍遥✨"
    },
    {
-    "key": "Maflya央视PY",
-    "name": "⭐Maflya丨央视丨PY"
+    "key": "Aries不承担任何风险-柯南影视",
+    "name": "👮‍♂️柯南┃影视"
    },
    {
-    "key": "Maflya人人备用",
-    "name": "⭐Maflya丨人人丨备用"
+    "key": "csp_appysv2_钟特影视",
+    "name": "钟特影视(M)"
    },
    {
-    "key": "酷看",
-    "name": "[367ms|直播] 💡酷看"
+    "key": "kjh998_七星短剧",
+    "name": "七星短剧"
    },
    {
-    "key": "yisou",
-    "name": "宜搜"
+    "key": "kjh998_首映网",
+    "name": "首映网"
    },
    {
-    "key": "public_45",
-    "name": "索尼资源"
+    "key": "Tg|豆瓣",
+    "name": "🔍Tg豆瓣┃刷新一下源才能出来"
    },
    {
-    "key": "爱盼",
-    "name": "爱盼 • 4K"
+    "key": "淘精岁月",
+    "name": "㊙️淘精岁月"
    },
    {
-    "key": "Maflya芒果PY",
-    "name": "⭐Maflya丨芒果丨PY"
+    "key": "一个g影院",
+    "name": "❤️一G┃影院"
    },
    {
-    "key": "csp_XBPQ",
-    "name": "😦白嫖影视 "
+    "key": "kjh998_白洋影院",
+    "name": "白洋影院"
    },
    {
-    "key": "Maflya博看听书",
-    "name": "⭐Maflya丨博看丨听书"
+    "key": "优势",
+    "name": "优势丨APP"
    },
    {
-    "key": "Maflya七星短剧",
-    "name": "⭐Maflya丨七星丨短剧"
+    "key": "Aries不承担任何风险-VidHub高清追剧视频库①",
+    "name": "🇻VidHub①┃高清"
    },
    {
-    "key": "Maflya荐片JS",
-    "name": "⭐Maflya丨荐片丨JS"
+    "key": "Aries不承担任何风险哈哈👙乐逍遥",
+    "name": "Aries不承担任何风险哈哈👙乐逍遥"
    },
    {
-    "key": "⭐Maflya电视直播集合",
-    "name": "⭐Maflya丨电视丨直播"
+    "key": "csp_appysv2_天空影视V2",
+    "name": "天空影视V2(M)"
    },
    {
-    "key": "Maflya短剧JS",
-    "name": "⭐Maflya丨短剧丨JS"
+    "key": "snzy",
+    "name": "🎥┃索尼┃资源"
    },
    {
-    "key": "public_26",
-    "name": "影视 • 极速[直连]"
+    "key": "kjh998_爱壹帆",
+    "name": "爱壹帆"
    },
    {
-    "key": "Maflya栏目PY",
-    "name": "⭐Maflya丨栏目丨PY"
+    "key": "kjh998_CNFLIX",
+    "name": "CNFLIX"
    },
    {
-    "key": "Maflya哔哩PY",
-    "name": "⭐Maflya丨哔哩丨PY"
+    "key": "中医药区",
+    "name": "🅱️┃中医┃药区"
    },
    {
-    "key": "upyunsou",
-    "name": "Up云搜"
+    "key": "csp_Tvyb",
+    "name": "☁️TVB云播"
    },
    {
-    "key": "tcniao_v15",
-    "name": "🦜TC鸟V15(多线路)"
+    "key": "kjh998_泡泡影院",
+    "name": "泡泡影院"
    },
    {
-    "key": "1",
-    "name": "👖IPTV"
+    "key": "AnimeMoDu",
+    "name": "🤡魔都┃动漫🤡"
    },
    {
-    "key": "⭐Maflya-油管直播",
-    "name": "⭐Maflya丨YouTube丨直播"
+    "key": "巧技三",
+    "name": "⚡QD4K"
    },
    {
-    "key": "xb6v",
-    "name": "(js)磁力新6V┃🧲"
+    "key": "全盘",
+    "name": "全盘┃搜索"
    },
    {
-    "key": "Maflya永乐JS",
-    "name": "⭐Maflya丨永乐丨JS"
+    "key": "MyUcPan",
+    "name": "💓我的┃UC💓‍"
    },
    {
-    "key": "public_37",
-    "name": "天涯影视"
+    "key": "Hudie",
+    "name": "🦋蝴蝶"
    },
    {
-    "key": "tcniao_v26",
-    "name": "🦜TC鸟V26(最新)"
+    "key": "kjh998_樱之空动漫",
+    "name": "樱之空动漫"
    },
    {
-    "key": "zmingcx_v12",
-    "name": "🦜知更鸟V12(脚本截取)"
+    "key": "Aries不承担任何风险-VidHub高清追剧视频库",
+    "name": "🇻VidHub┃高清"
    },
    {
-    "key": "Maflya哔哩音乐",
-    "name": "⭐Maflya丨哔哩丨音乐"
+    "key": "免费影院",
+    "name": "㊙️免费影院"
    },
    {
-    "key": "tcniao_v27",
-    "name": "🦜TC鸟V27(配置中心)"
+    "key": "ManJuHongGuo",
+    "name": "🍉漫短┃小红🍉"
    },
    {
-    "key": "MT影剧",
-    "name": "MT影剧"
+    "key": "kjh998_pomo",
+    "name": "pomo"
+   },
+   {
+    "key": "kuaiche",
+    "name": "快车|点播"
+   },
+   {
+    "key": "海豚",
+    "name": "海豚┃4K"
+   },
+   {
+    "key": "农民影视",
+    "name": "农民🌾蓝光影视"
+   },
+   {
+    "key": "kjh998_未来影院(关梯)",
+    "name": "未来影院(关梯)"
+   },
+   {
+    "key": "樱樱女子",
+    "name": "✨Aries|樱樱女子✨"
+   },
+   {
+    "key": "鹤雪",
+    "name": "鹤雪｜APP"
+   },
+   {
+    "key": "有声小说吧",
+    "name": "📚有声小说吧"
+   },
+   {
+    "key": "Aries不承担任何风险-星辰影院",
+    "name": "🌠星辰┃影院"
+   },
+   {
+    "key": "*辣椒资源",
+    "name": "(vpn)辣椒资源"
+   },
+   {
+    "key": "MyPan115",
+    "name": "💓我的┃115💓‍"
+   },
+   {
+    "key": "小红薯APP.py",
+    "name": "小红薯APP.py"
+   },
+   {
+    "key": "初中教育",
+    "name": "初中教育"
+   },
+   {
+    "key": "kjh998_哇哇APP",
+    "name": "哇哇APP"
+   },
+   {
+    "key": "七色谷",
+    "name": "㊙️七色谷"
+   },
+   {
+    "key": "kjh998_嘀嗒影视",
+    "name": "嘀嗒影视"
+   }
+  ],
+  "removed_list": [
+   {
+    "key": "public_65",
+    "name": "黑木耳"
+   },
+   {
+    "key": "金鹰影视e",
+    "name": "😰金鹰影视"
+   },
+   {
+    "key": "hllt",
+    "name": "黑料论坛"
+   },
+   {
+    "key": "妙笔影院",
+    "name": "妙笔影院"
+   },
+   {
+    "key": "✨85PO✨",
+    "name": "✨85PO✨"
+   },
+   {
+    "key": "line_129",
+    "name": "易看资源(切)"
+   },
+   {
+    "key": "土豆弹幕版",
+    "name": "土豆🥔弹幕4K"
+   },
+   {
+    "key": "csp_biubiu_酷云影院",
+    "name": "📽️酷云影院"
+   },
+   {
+    "key": "茶杯",
+    "name": "🍵1080P┃茶杯"
+   },
+   {
+    "key": "csp_Kugou",
+    "name": "🐶酷狗音乐🎵免费畅听"
+   },
+   {
+    "key": "湿乐园",
+    "name": "湿乐园"
+   },
+   {
+    "key": "line_226",
+    "name": "🚈轻轨"
+   },
+   {
+    "key": "Emby",
+    "name": "[380ms|王二小] 💓Emby┃4K💓"
+   },
+   {
+    "key": "✨豆瓣✨",
+    "name": "✨豆瓣✨"
    },
    {
     "key": "public_53",
     "name": "鸭鸭资源"
    },
    {
-    "key": "Maflya枫叶音乐",
-    "name": "⭐Maflya丨枫叶丨音乐"
+    "key": "速播资源",
+    "name": "[322ms|我的] 速播资源"
    },
    {
-    "key": "指南",
-    "name": "指南 • 4K"
+    "key": "T4-xinshijue",
+    "name": "影视-新视觉(T4)"
    },
    {
-    "key": "p2100",
-    "name": "飘零资源"
+    "key": "Wexciyuancheng",
+    "name": "🤡元城┃番剧🤡"
    },
    {
-    "key": "MaflyaMiFunPPY",
-    "name": "⭐Maflya丨MiFunP丨PY"
+    "key": "py_ikan",
+    "name": "🔥爱看"
    },
    {
-    "key": "Maflya聚合戏曲",
-    "name": "⭐Maflya丨聚合丨戏曲"
+    "key": "py_freezb",
+    "name": "免费直播_Py"
    },
    {
-    "key": "即刻",
-    "name": "即刻 • 4K"
+    "key": "2b95a57602ae920c848d81627e162f9e",
+    "name": "28-无尽"
    },
    {
-    "key": "src_9",
-    "name": "豪华资源"
+    "key": "全民视界",
+    "name": "🌠全民┃影视"
    },
    {
-    "key": "Maflya云播PY",
-    "name": "⭐Maflya丨云播丨PY"
+    "key": "py_wmkk",
+    "name": "完美看看(半残)"
    },
    {
-    "key": "Maflya奈飞4K",
-    "name": "⭐Maflya丨奈飞丨4K"
+    "key": "Wexxsmp3",
+    "name": "🎤随身┃相声🎤"
    },
    {
-    "key": "jszycj",
-    "name": "⭐Maflya丨极速丨采集"
+    "key": "ckzy",
+    "name": "C K 资源"
    },
    {
-    "key": "pool_31",
-    "name": "无尽（备用2)"
+    "key": "public_41",
+    "name": "旺旺短剧"
    },
    {
-    "key": "裤佬片单导航",
-    "name": "✈️TG频道@stymei"
+    "key": "csp_学习园地",
+    "name": "🐞学习园地"
    },
    {
-    "key": "芒果Tv",
-    "name": "芒果Tv"
+    "key": "奇趣影视",
+    "name": "🍋奇趣┃影视"
    },
    {
-    "key": "DiDuan",
-    "name": "码上👓饭-⏮️低端┃直连"
-   }
-  ],
-  "removed_list": [
-   {
-    "key": "py_fengyeyingyuan",
-    "name": "💎fengyeyingyuan┃[PY]"
+    "key": "line_122",
+    "name": "松鼠资源(切)"
    },
    {
-    "key": "py_华谊影视",
-    "name": "💎华谊影视┃[PY]"
+    "key": "csp_XYQHikerAL_9995",
+    "name": "三九五📀云盘"
    },
    {
-    "key": "py_哔哩视频",
-    "name": "💎哔哩视频┃[PY]"
+    "key": "ywxsl",
+    "name": "夜晚小树林"
    },
    {
-    "key": "DUB",
-    "name": "DUB"
+    "key": "public_56",
+    "name": "蜂巢片库"
    },
    {
-    "key": "py_didayingshi",
-    "name": "💎didayingshi┃[PY]"
+    "key": "line_132",
+    "name": "闪电资源(切)"
    },
    {
-    "key": "py_51爆料",
-    "name": "💎51爆料┃[PY]"
+    "key": "T4-saohuo",
+    "name": "影视-骚火(T4)"
    },
    {
-    "key": "py_ASMRtingshu",
-    "name": "💎ASMRtingshu┃[PY]"
+    "key": "line_223",
+    "name": "海外电影(聚)"
    },
    {
-    "key": "py_简云",
-    "name": "💎简云┃[PY]"
+    "key": "line_97",
+    "name": "if101(海外推荐)"
    },
    {
-    "key": "py_AppToV5",
-    "name": "💎AppToV5┃[PY]"
+    "key": "ffzy5",
+    "name": "非凡影视"
    },
    {
-    "key": "py_miyunshipin",
-    "name": "💎miyunshipin┃[PY]"
+    "key": "csp_XYQHikerAL_阿里苏苏",
+    "name": "苏苏🛰️臻享4K"
    },
    {
-    "key": "py_七味",
-    "name": "💎七味┃[PY]"
+    "key": "百年直播",
+    "name": "百年直播"
    },
    {
-    "key": "cms_jszyapicom",
-    "name": "影视 | 极速[直连]"
+    "key": "line_175",
+    "name": "天诚影视(聚)"
    },
    {
-    "key": "py_APPV2",
-    "name": "💎APPV2┃[PY]"
+    "key": "line_301",
+    "name": "坦克资源"
    },
    {
-    "key": "py_juziziyuan",
-    "name": "💎juziziyuan┃[PY]"
+    "key": "dyttcj",
+    "name": "⭐Maflya丨天堂丨采集"
    },
    {
-    "key": "py_AI漫剧",
-    "name": "💎AI漫剧┃[PY]"
+    "key": "电影驿站",
+    "name": "🕋电影┃驿站"
    },
    {
-    "key": "py_uaa有声",
-    "name": "💎uaa有声┃[PY]"
+    "key": "电影大师",
+    "name": "🦁电影┃大师"
    },
    {
-    "key": "py_chengrenleyuan",
-    "name": "💎chengrenleyuan┃[PY]"
+    "key": "huyaapi",
+    "name": "虎牙资源"
    },
    {
-    "key": "py_火车影视",
-    "name": "💎火车影视┃[PY]"
+    "key": "WoGG",
+    "name": "玩偶哥哥"
    },
    {
-    "key": "py_douhuayingshi",
-    "name": "💎douhuayingshi┃[PY]"
+    "key": "csp_SNzy",
+    "name": "🐉┃索尼┃高清"
    },
    {
-    "key": "py_jiaoshou",
-    "name": "💎jiaoshou┃[PY]"
+    "key": "Maflya雄鹰影视",
+    "name": "⭐Maflya丨雄鹰丨影视"
    },
    {
-    "key": "py_chujianyingshi",
-    "name": "💎chujianyingshi┃[PY]"
+    "key": "line_287",
+    "name": "北雁资源"
    },
    {
-    "key": "py_悠悠APP",
-    "name": "💎悠悠APP┃[PY]"
-   },
-   {
-    "key": "py_baose",
-    "name": "💎baose┃[PY]"
-   },
-   {
-    "key": "py_ytb",
-    "name": "💎ytb┃[PY]"
-   },
-   {
-    "key": "py_枫叶影院",
-    "name": "💎枫叶影院┃[PY]"
-   },
-   {
-    "key": "py_juhezhibo",
-    "name": "💎juhezhibo┃[PY]"
-   },
-   {
-    "key": "py_feiliushipin",
-    "name": "💎feiliushipin┃[PY]"
-   },
-   {
-    "key": "稀饭",
-    "name": "稀饭丨APP"
-   },
-   {
-    "key": "py_ptt_red",
-    "name": "💎ptt_red┃[PY]"
-   },
-   {
-    "key": "py_枝枝影视",
-    "name": "💎枝枝影视┃[PY]"
-   },
-   {
-    "key": "py_悟空影视",
-    "name": "💎悟空影视┃[PY]"
-   },
-   {
-    "key": "裤佬央视PY",
-    "name": "[367ms|直播] 👖裤佬丨央视丨PY"
-   },
-   {
-    "key": "py_猎手影视",
-    "name": "💎猎手影视┃[PY]"
-   },
-   {
-    "key": "py_pengranxindong",
-    "name": "💎pengranxindong┃[PY]"
-   },
-   {
-    "key": "py_fangzhong_shu",
-    "name": "💎fangzhong_shu┃[PY]"
-   },
-   {
-    "key": "py_日久生情",
-    "name": "💎日久生情┃[PY]"
-   },
-   {
-    "key": "py_永乐视频",
-    "name": "💎永乐视频┃[PY]"
-   },
-   {
-    "key": "py_hanime1",
-    "name": "💎hanime1┃[PY]"
-   },
-   {
-    "key": "py_绝对影视",
-    "name": "💎绝对影视┃[PY]"
-   },
-   {
-    "key": "py_Mang",
-    "name": "💎Mang┃[PY]"
-   },
-   {
-    "key": "py_kanjuAI",
-    "name": "💎kanjuAI┃[PY]"
-   },
-   {
-    "key": "py_七星短剧",
-    "name": "💎七星短剧┃[PY]"
-   },
-   {
-    "key": "py_batiandianying",
-    "name": "💎batiandianying┃[PY]"
-   },
-   {
-    "key": "py_yingzhikongdongman",
-    "name": "💎yingzhikongdongman┃[PY]"
-   },
-   {
-    "key": "tv_pref-007_UpYun",
-    "name": "☁️UP云搜·小盒子"
-   },
-   {
-    "key": "py_jinpaiAPP",
-    "name": "💎jinpaiAPP┃[PY]"
-   },
-   {
-    "key": "py_qilinyingshi",
-    "name": "💎qilinyingshi┃[PY]"
-   },
-   {
-    "key": "py_jimoayi",
-    "name": "💎jimoayi┃[PY]"
-   },
-   {
-    "key": "py_剧粑粑影视",
-    "name": "💎剧粑粑影视┃[PY]"
-   },
-   {
-    "key": "py_yinshouxueyuan",
-    "name": "💎yinshouxueyuan┃[PY]"
+    "key": "line_221",
+    "name": "酷猫影视(聚)"
    }
   ],
   "modified_list": [
    {
-    "key": "drpy_js_我爱电影网",
-    "name": "我爱电影网[DRPY]",
+    "key": "神马影院",
+    "name": "🐴神马┃影院",
     "changes": [
      {
-      "field": "api",
-      "old": "./deps/auto/36-163s/6/lib/drpy.min.js",
-      "new": "./deps/auto/35-163s/6/lib/drpy.min.js"
+      "field": "name",
+      "old": "🦄神马┃影院",
+      "new": "🐴神马┃影院"
      },
      {
       "field": "jar",
-      "old": "./deps/auto/36-163s/6/w.jar",
-      "new": "./deps/auto/35-163s/6/w.jar"
+      "old": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/mygoww/xoxo/main/XBQH.jar;md5;3ec42e286452fc6c253ffe064eba6eaf",
+      "new": "./deps/auto/56-137s/drpys/lib/xyqxbpq.jar"
      }
     ]
    },
    {
-    "key": "csp_xBPQ_视觉",
-    "name": "🅱️视觉影视|T追剧",
+    "key": "小红",
+    "name": "小红影视",
     "changes": [
      {
       "field": "jar",
-      "old": "./deps/auto/110-66s/HeChengChaXiu.jar",
-      "new": "./deps/auto/99-66s/HeChengChaXiu.jar"
+      "old": "./deps/auto/53-140s/jar/XBPQ.jar",
+      "new": "./deps/auto/40-152s/jar/XBPQ.jar"
      }
     ]
    },
    {
-    "key": "编程",
-    "name": "🧒编程┃哔哩",
+    "key": "夜貓_csp_秒播",
+    "name": "😾夜猫秒播",
     "changes": [
      {
       "field": "jar",
-      "old": "./deps/auto/74-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
-      "new": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar"
-     }
-    ]
-   },
-   {
-    "key": "guazi",
-    "name": "瓜子 | 影视",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/120-59s/lrzy/jar/dongli-spider.jar",
-      "new": "./deps/auto/108-59s/lrzy/jar/dongli-spider.jar"
-     }
-    ]
-   },
-   {
-    "key": "ikanbotsq",
-    "name": "🈵爱看机器人sq",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
-     }
-    ]
-   },
-   {
-    "key": "drpy__豆瓣",
-    "name": "豆瓣🏛[DRPY]",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
-     }
-    ]
-   },
-   {
-    "key": "夜貓_zying",
-    "name": "😾追影影视",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
-     }
-    ]
-   },
-   {
-    "key": "蓝光影视",
-    "name": "⚡蓝光┃APP",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/30-196s/tvbox-master-doki/js/drpy2.min.js",
-      "new": "./deps/auto/29-196s/tvbox-master-doki/js/drpy2.min.js"
-     }
-    ]
-   },
-   {
-    "key": "夜貓_4k影视",
-    "name": "😾4K影视",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
-     }
-    ]
-   },
-   {
-    "key": "csp_FreeOk",
-    "name": "👌️Frek┃影视",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/163-36s/%E5%B0%8F%E7%B1%B3/spider.jar",
-      "new": "./deps/auto/148-36s/%E5%B0%8F%E7%B1%B3/spider.jar"
-     }
-    ]
-   },
-   {
-    "key": "drpy_js_555影视",
-    "name": "555影视[DRPY]",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/36-163s/6/lib/drpy.min.js",
-      "new": "./deps/auto/35-163s/6/lib/drpy.min.js"
-     },
-     {
-      "field": "jar",
-      "old": "./deps/auto/36-163s/6/w.jar",
-      "new": "./deps/auto/35-163s/6/w.jar"
-     }
-    ]
-   },
-   {
-    "key": "夜貓_圣城影视",
-    "name": "😾圣城影视",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
-     }
-    ]
-   },
-   {
-    "key": "drpy_js_看视界",
-    "name": "看视界[DRPY]",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/36-163s/6/lib/drpy.min.js",
-      "new": "./deps/auto/35-163s/6/lib/drpy.min.js"
-     },
-     {
-      "field": "jar",
-      "old": "./deps/auto/36-163s/6/w.jar",
-      "new": "./deps/auto/35-163s/6/w.jar"
-     }
-    ]
-   },
-   {
-    "key": "lf_search",
-    "name": "🔎lf_搜索影片3",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/lf_search3_min.js",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/lf_search3_min.js"
-     }
-    ]
-   },
-   {
-    "key": "妙笔影院",
-    "name": "妙笔影院",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️妙笔影院.py",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️妙笔影院.py"
-     }
-    ]
-   },
-   {
-    "key": "CK(VPN)",
-    "name": "🛩CK(VPN)",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
-     }
-    ]
-   },
-   {
-    "key": "日久生情",
-    "name": "日久生情",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️日久生情.py",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️日久生情.py"
-     }
-    ]
-   },
-   {
-    "key": "csp_YingShi",
-    "name": "影视|海外",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/71-108s/pg/pg.jar",
-      "new": "./deps/auto/66-108s/pg/pg.jar"
-     }
-    ]
-   },
-   {
-    "key": "思维",
-    "name": "🧒思维┃儿童",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/74-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
-      "new": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar"
-     }
-    ]
-   },
-   {
-    "key": "csp_七年",
-    "name": "🅱️七年影视|T追剧",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/110-66s/HeChengChaXiu.jar",
-      "new": "./deps/auto/99-66s/HeChengChaXiu.jar"
-     }
-    ]
-   },
-   {
-    "key": "drpy_js_小强迷",
-    "name": "小强迷[DRPY]",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/36-163s/6/lib/drpy.min.js",
-      "new": "./deps/auto/35-163s/6/lib/drpy.min.js"
-     },
-     {
-      "field": "jar",
-      "old": "./deps/auto/36-163s/6/w.jar",
-      "new": "./deps/auto/35-163s/6/w.jar"
-     }
-    ]
-   },
-   {
-    "key": "drpy_js_新安影院",
-    "name": "新安影院[DRPY]",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/36-163s/6/lib/drpy.min.js",
-      "new": "./deps/auto/35-163s/6/lib/drpy.min.js"
-     },
-     {
-      "field": "jar",
-      "old": "./deps/auto/36-163s/6/w.jar",
-      "new": "./deps/auto/35-163s/6/w.jar"
-     }
-    ]
-   },
-   {
-    "key": "夜貓_saohuo",
-    "name": "😾骚火影视",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
-     }
-    ]
-   },
-   {
-    "key": "haudu",
-    "name": "huadu",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/229-35s/open/huadu_open.js",
-      "new": "./deps/auto/212-35s/open/huadu_open.js"
-     }
-    ]
-   },
-   {
-    "key": "✨高清SEX国产✨",
-    "name": "✨高清SEX国产✨",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/156-41s/HTB/PG/jar/xyqxbpq.jar",
-      "new": "./deps/auto/141-41s/HTB/PG/jar/xyqxbpq.jar"
-     }
-    ]
-   },
-   {
-    "key": "✨三区✨",
-    "name": "✨Aries|三区✨",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/156-41s/HTB/PG/jar/xyqxbpq.jar",
-      "new": "./deps/auto/141-41s/HTB/PG/jar/xyqxbpq.jar"
-     }
-    ]
-   },
-   {
-    "key": "drpy_js_冲TMTV[飞]",
-    "name": "冲TMTV[飞][DRPY]",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/36-163s/6/lib/drpy.min.js",
-      "new": "./deps/auto/35-163s/6/lib/drpy.min.js"
-     },
-     {
-      "field": "jar",
-      "old": "./deps/auto/36-163s/6/w.jar",
-      "new": "./deps/auto/35-163s/6/w.jar"
-     }
-    ]
-   },
-   {
-    "key": "万物复苏",
-    "name": "万物复苏",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️万物复苏.py",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/jwarrenrzflynn/TVpy/main/py/18㊙️万物复苏.py"
-     }
-    ]
-   },
-   {
-    "key": "if101",
-    "name": "🌟if101",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
-     }
-    ]
-   },
-   {
-    "key": "JuWang",
-    "name": "剧王｜短剧",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/120-59s/lrzy/jar/dongli-spider.jar",
-      "new": "./deps/auto/108-59s/lrzy/jar/dongli-spider.jar"
-     }
-    ]
-   },
-   {
-    "key": "仓鼠2",
-    "name": "🐨仓鼠┃小米",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/163-36s/%E5%B0%8F%E7%B1%B3/spider.jar",
-      "new": "./deps/auto/148-36s/%E5%B0%8F%E7%B1%B3/spider.jar"
-     }
-    ]
-   },
-   {
-    "key": "hipy_js_KTV歌厅[听]1",
-    "name": "KTV歌厅",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/57-140s/lib/drpy2.min.js",
-      "new": "./deps/auto/53-140s/lib/drpy2.min.js"
-     },
-     {
-      "field": "jar",
-      "old": "./deps/auto/57-140s/pg.jar",
-      "new": "./deps/auto/53-140s/pg.jar"
-     }
-    ]
-   },
-   {
-    "key": "夜貓_小镇",
-    "name": "😾电影小镇",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
-     }
-    ]
-   },
-   {
-    "key": "南瓜影视",
-    "name": "🎯南瓜影视",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
-     }
-    ]
-   },
-   {
-    "key": "js_豆瓣热播",
-    "name": "🅱️追剧影院|T热播",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/110-66s/lib/Api.js",
-      "new": "./deps/auto/99-66s/lib/Api.js"
-     },
-     {
-      "field": "jar",
-      "old": "./deps/auto/110-66s/HeChengChaXiu.jar",
-      "new": "./deps/auto/99-66s/HeChengChaXiu.jar"
-     }
-    ]
-   },
-   {
-    "key": "老王",
-    "name": "🧿老王｜影视",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "./deps/auto/74-106s/%E6%AC%A7%E6%AD%8C/jars/养生堂.jar",
-      "new": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/jars/养生堂.jar"
-     }
-    ]
-   },
-   {
-    "key": "夜貓_nmys",
-    "name": "😾农民秒播",
-    "changes": [
-     {
-      "field": "jar",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
      }
     ]
    },
@@ -863,165 +454,619 @@
     "changes": [
      {
       "field": "jar",
-      "old": "./deps/auto/57-140s/pg.jar",
-      "new": "./deps/auto/53-140s/pg.jar"
+      "old": "./deps/auto/53-140s/pg.jar",
+      "new": "./deps/auto/40-152s/pg.jar"
      }
     ]
    },
    {
-    "key": "leshi",
-    "name": "乐视采集【📺】",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/229-35s/open/caiji.js",
-      "new": "./deps/auto/212-35s/open/caiji.js"
-     }
-    ]
-   },
-   {
-    "key": "一三九",
-    "name": "一三九",
-    "changes": [
-     {
-      "field": "api",
-      "old": "./deps/auto/100-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js",
-      "new": "./deps/auto/90-77s/%E5%BD%B1%E8%A7%86/JS/drpy.min.js"
-     }
-    ]
-   },
-   {
-    "key": "北极狐[V2]",
-    "name": "北极狐[V2]",
-    "changes": [
-     {
-      "field": "api",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
-     }
-    ]
-   },
-   {
-    "key": "次元城动漫",
-    "name": "🏰┃次元城┃动漫",
+    "key": "夜貓_csp_红狐狸影视",
+    "name": "😾狐狸影视",
     "changes": [
      {
       "field": "jar",
-      "old": "./deps/auto/122-58s/spider.jar",
-      "new": "./deps/auto/110-58s/spider.jar"
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
      }
     ]
    },
    {
-    "key": "drpy_js_RP影视",
-    "name": "影视|RP影视[DRPY]",
+    "key": "二矿动漫",
+    "name": "⛏️┃二矿┃4K动漫",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "./deps/auto/110-58s/spider.jar",
+      "new": "./deps/auto/117-58s/spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "ikanbotsq",
+    "name": "🈵爱看机器人sq",
     "changes": [
      {
       "field": "api",
-      "old": "./deps/auto/36-163s/6/lib/drpy.min.js",
-      "new": "./deps/auto/35-163s/6/lib/drpy.min.js"
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+     }
+    ]
+   },
+   {
+    "key": "欧帝影院",
+    "name": "🔥欧帝影院",
+    "changes": [
+     {
+      "field": "api",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+     }
+    ]
+   },
+   {
+    "key": "drpy_js_88ball",
+    "name": "88看球[js]",
+    "changes": [
+     {
+      "field": "api",
+      "old": "./deps/auto/66-108s/pg/lib/drpy2.min.js",
+      "new": "./deps/auto/66-108s/lib/drpy2.min.js"
      },
      {
       "field": "jar",
-      "old": "./deps/auto/36-163s/6/w.jar",
-      "new": "./deps/auto/35-163s/6/w.jar"
+      "old": "./deps/auto/66-108s/pg/pg.jar",
+      "new": "./deps/auto/66-108s/pg.jar"
      }
     ]
    },
    {
-    "key": "夜貓_南瓜",
-    "name": "😾南瓜影视",
+    "key": "随客",
+    "name": "随客影视",
     "changes": [
      {
       "field": "jar",
-      "old": "https://github.boringhex.top/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
-      "new": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+      "old": "./deps/auto/53-140s/jar/XBPQ.jar",
+      "new": "./deps/auto/40-152s/jar/XBPQ.jar"
      }
     ]
    },
    {
-    "key": "drpy_js_JRS看直播",
-    "name": "体育|JRS看直播[DRPY]",
+    "key": "1",
+    "name": "👖IPTV",
     "changes": [
      {
       "field": "api",
-      "old": "./deps/auto/36-163s/6/lib/drpy.min.js",
-      "new": "./deps/auto/35-163s/6/lib/drpy.min.js"
+      "old": "https://jsnz.pages.dev/f/f05e3b39.js",
+      "new": "./deps/auto/229-22s/kulao/ext/f05e3b39.js"
+     }
+    ]
+   },
+   {
+    "key": "BAIJIA",
+    "name": "百家网盘",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "./deps/auto/53-140s/pg.jar",
+      "new": "./deps/auto/40-152s/pg.jar"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_4k影视",
+    "name": "😾4K影视",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "米饭",
+    "name": "米饭｜动漫",
+    "changes": [
+     {
+      "field": "name",
+      "old": "🤣米饭｜动漫",
+      "new": "米饭｜动漫"
      },
      {
       "field": "jar",
-      "old": "./deps/auto/36-163s/6/w.jar",
-      "new": "./deps/auto/35-163s/6/w.jar"
+      "old": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
+      "new": "./deps/auto/36-160s/%E6%BD%87%E6%B4%92/spider.jar"
      }
     ]
    },
    {
-    "key": "口才",
-    "name": "🧒口才┃儿童",
+    "key": "小学数学",
+    "name": "小学┃数学",
     "changes": [
      {
+      "field": "name",
+      "old": "🌏小学数学",
+      "new": "小学┃数学"
+     },
+     {
       "field": "jar",
-      "old": "./deps/auto/74-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
-      "new": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar"
+      "old": "https://ghfast.top/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/spider1.jar",
+      "new": "./deps/auto/166-32s/heads/main/jiaoyu.jar"
      }
     ]
    },
    {
-    "key": "✨皮皮妖影视✨",
-    "name": "✨皮皮妖|影视✨",
+    "key": "夜貓_drpy_ol",
+    "name": "🛫欧乐影视(墙外)",
     "changes": [
      {
-      "field": "jar",
-      "old": "./deps/auto/156-41s/HTB/PG/jar/xbpq.jar",
-      "new": "./deps/auto/141-41s/HTB/PG/jar/xbpq.jar"
+      "field": "api",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
      }
     ]
    },
    {
-    "key": "拼音",
-    "name": "🧒拼音┃儿童",
+    "key": "extend",
+    "name": "Extend",
     "changes": [
      {
       "field": "jar",
-      "old": "./deps/auto/74-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
-      "new": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar"
+      "old": "file://Download/extend.jar",
+      "new": "https://github.com/extend.jar"
      }
     ]
    },
    {
-    "key": "Ikan",
-    "name": "Ikan",
+    "key": "csp_hiker_兔小贝2",
+    "name": "兔小贝┃儿歌2",
     "changes": [
      {
+      "field": "name",
+      "old": "🌏兔小贝2",
+      "new": "兔小贝┃儿歌2"
+     },
+     {
       "field": "jar",
-      "old": "./deps/auto/179-27s/custom_spider.jar",
-      "new": "./deps/auto/163-27s/custom_spider.jar"
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/frxz751113/AAAAA/refs/heads/main/json/spider1.jar",
+      "new": "./deps/auto/166-32s/heads/main/jiaoyu.jar"
      }
     ]
    },
    {
-    "key": "科学",
-    "name": "🧒科学┃哔哩",
+    "key": "drpy",
+    "name": "🔥豆瓣評分🔍搜尋",
+    "changes": [
+     {
+      "field": "api",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_热播库",
+    "name": "😾热播库影",
     "changes": [
      {
       "field": "jar",
-      "old": "./deps/auto/74-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
-      "new": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar"
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "魔力高清",
+    "name": "魔力┃影视",
+    "changes": [
+     {
+      "field": "name",
+      "old": "🥮魔力┃高清",
+      "new": "魔力┃影视"
+     },
+     {
+      "field": "api",
+      "old": "./deps/auto/22-270s/tvbox-master-doki/js/drpy2.min.js",
+      "new": "https://ygbh.site/max/js/drpy2.min.js"
+     },
+     {
+      "field": "jar",
+      "old": "./deps/auto/22-270s/tvbox-master-doki/jar/spider.jar",
+      "new": ""
+     }
+    ]
+   },
+   {
+    "key": "csp_xBPQ_瓜皮TV",
+    "name": "瓜皮",
+    "changes": [
+     {
+      "field": "name",
+      "old": "🍉瓜皮TV ",
+      "new": "瓜皮"
+     },
+     {
+      "field": "jar",
+      "old": "https://agit.ai/wzs1973/test/raw/branch/master/jar/999.png;md5;3E92F56BD34DBC49F26EBCE77B845255",
+      "new": "https://agit.ai/wzs1973/test/raw/branch/master/jar/0925.jar;md5;0E705BB970B09245B190D01F3A5EE792"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_短剧侠",
+    "name": "😾爱短剧侠",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "小兵网盘",
+    "name": "🎖️┃小兵┃网盘",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "./deps/auto/110-58s/spider.jar",
+      "new": "./deps/auto/117-58s/spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "18",
+    "name": "㊙️18j",
+    "changes": [
+     {
+      "field": "name",
+      "old": "👖有声",
+      "new": "㊙️18j"
+     },
+     {
+      "field": "api",
+      "old": "https://jsnz.pages.dev/f/e126d1e4.py",
+      "new": "csp_XBPQ"
+     },
+     {
+      "field": "jar",
+      "old": "",
+      "new": "./deps/auto/29-201s/tvbox/%E6%B1%9F%E6%B9%96/jar/yt.jar"
+     }
+    ]
+   },
+   {
+    "key": "爱壹帆",
+    "name": "🌐┃爱壹帆┃海外",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "./deps/auto/110-58s/spider.jar",
+      "new": "./deps/auto/117-58s/spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_蘑菇",
+    "name": "😾蘑菇剧场",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "哔哩音乐",
+    "name": "🅱️┃音乐┃合集",
+    "changes": [
+     {
+      "field": "name",
+      "old": "🎧哔哩｜音乐",
+      "new": "🅱️┃音乐┃合集"
+     },
+     {
+      "field": "api",
+      "old": "csp_Bili",
+      "new": "./deps/auto/26-215s/lib/drpy2.min.js"
+     },
+     {
+      "field": "jar",
+      "old": "./deps/auto/99-66s/HeChengChaXiu.jar",
+      "new": "./deps/auto/26-215s/jar/spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "益智动画",
+    "name": "益智┃动画",
+    "changes": [
+     {
+      "field": "name",
+      "old": "🌏益智动画",
+      "new": "益智┃动画"
+     },
+     {
+      "field": "jar",
+      "old": "https://ghfast.top/https://raw.githubusercontent.com/frxz751113/IPTVzb1/refs/heads/main/spider1.jar",
+      "new": "./deps/auto/166-32s/heads/main/jiaoyu.jar"
+     }
+    ]
+   },
+   {
+    "key": "企鹅体育xp",
+    "name": "🐧鹅鹅┃体育",
+    "changes": [
+     {
+      "field": "name",
+      "old": "🐧大鹅┃体育🌐",
+      "new": "🐧鹅鹅┃体育"
+     },
+     {
+      "field": "jar",
+      "old": "https://ghp.ci/https://raw.githubusercontent.com/vbskycn/tvbox/main/jar/王小二.jar",
+      "new": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1709373406207/fan.txt;md5;b283549a522bd5a164524d7ae4781806"
+     }
+    ]
+   },
+   {
+    "key": "白嫖3",
+    "name": "白嫖影视",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "./deps/auto/53-140s/jar/XBPQ.jar",
+      "new": "./deps/auto/40-152s/jar/XBPQ.jar"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_saohuo",
+    "name": "😾骚火影视",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "two",
+    "name": "Two",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "",
+      "new": "https://github.com/custom_spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_厂长zy",
+    "name": "😾夜猫厂长",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "豆花影院",
+    "name": "🍮┃豆花┃极速",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "./deps/auto/110-58s/spider.jar",
+      "new": "./deps/auto/117-58s/spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "one",
+    "name": "One",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "",
+      "new": "https://github.com/custom_spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "欧乐影院",
+    "name": "🌅歐樂影院♒",
+    "changes": [
+     {
+      "field": "api",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+     }
+    ]
+   },
+   {
+    "key": "csp_xpath_lib",
+    "name": "LIBVIO(XP)",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "",
+      "new": "https://tangsan99999.github.io/jar/custom_spider.jar;md5;98a6d241643db3880fe0e7c6e5e8fd4e"
+     }
+    ]
+   },
+   {
+    "key": "drpy_js_酷吧",
+    "name": "酷吧[js]|磁",
+    "changes": [
+     {
+      "field": "api",
+      "old": "./deps/auto/66-108s/pg/lib/drpy2.min.js",
+      "new": "./deps/auto/66-108s/lib/drpy2.min.js"
+     },
+     {
+      "field": "jar",
+      "old": "./deps/auto/66-108s/pg/pg.jar",
+      "new": "./deps/auto/66-108s/pg.jar"
+     }
+    ]
+   },
+   {
+    "key": "多瑙影视",
+    "name": "🈵多瑙影视♒",
+    "changes": [
+     {
+      "field": "api",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+     }
+    ]
+   },
+   {
+    "key": "UM电影[V2]",
+    "name": "UM电影[V2]🏆索尼",
+    "changes": [
+     {
+      "field": "api",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+     }
+    ]
+   },
+   {
+    "key": "莱米",
+    "name": "莱米｜APP",
+    "changes": [
+     {
+      "field": "name",
+      "old": "👑莱米｜弹幕",
+      "new": "莱米｜APP"
+     },
+     {
+      "field": "jar",
+      "old": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
+      "new": "./deps/auto/36-160s/%E6%BD%87%E6%B4%92/spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "csp_xBPQ_黑洞",
+    "name": "黑洞",
+    "changes": [
+     {
+      "field": "name",
+      "old": "🌑黑洞网",
+      "new": "黑洞"
+     },
+     {
+      "field": "jar",
+      "old": "https://agit.ai/wzs1973/test/raw/branch/master/jar/999.png;md5;3E92F56BD34DBC49F26EBCE77B845255",
+      "new": "https://agit.ai/wzs1973/test/raw/branch/master/jar/0925.jar;md5;0E705BB970B09245B190D01F3A5EE792"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_drpy_xb",
+    "name": "🛫小宝影视(墙外)",
+    "changes": [
+     {
+      "field": "api",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
+     }
+    ]
+   },
+   {
+    "key": "csp_XYQBiu_凌云影视",
+    "name": "凌云影视(XYQ)",
+    "changes": [
+     {
+      "field": "name",
+      "old": "🍨凌云影视",
+      "new": "凌云影视(XYQ)"
+     },
+     {
+      "field": "jar",
+      "old": "https://agit.ai/wzs1973/test/raw/branch/master/jar/999.png;md5;3E92F56BD34DBC49F26EBCE77B845255",
+      "new": "https://agit.ai/wzs1973/test/raw/branch/master/jar/0925.jar;md5;0E705BB970B09245B190D01F3A5EE792"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_zying",
+    "name": "😾追影影视",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "八天",
+    "name": "八天丨APP",
+    "changes": [
+     {
+      "field": "name",
+      "old": "👑八天丨弹幕",
+      "new": "八天丨APP"
+     },
+     {
+      "field": "jar",
+      "old": "./deps/auto/69-106s/%E6%AC%A7%E6%AD%8C/spider.jar",
+      "new": "./deps/auto/36-160s/%E6%BD%87%E6%B4%92/spider.jar"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_茶狐",
+    "name": "😾茶狐影视",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "夜貓_新视觉",
+    "name": "😾新视觉影院",
+    "changes": [
+     {
+      "field": "jar",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/Xymz.jar"
+     }
+    ]
+   },
+   {
+    "key": "ikanbot3",
+    "name": "爱看机器人3",
+    "changes": [
+     {
+      "field": "api",
+      "old": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js",
+      "new": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/sqspot/tac/main/lib/drpy2.min.js"
      }
     ]
    }
   ]
  },
  "lives": {
-  "added": 53,
-  "removed": 17
+  "added": 29,
+  "removed": 105
  },
  "quality": {
-  "searchable_prev": 2771,
-  "searchable_curr": 2218,
-  "searchable_delta": -553,
-  "avg_speed_ms_prev": 879.1,
-  "avg_speed_ms_curr": 882.4,
-  "avg_speed_delta": 3.2999999999999545
+  "searchable_prev": 2218,
+  "searchable_curr": 2440,
+  "searchable_delta": 222,
+  "avg_speed_ms_prev": 882.4,
+  "avg_speed_ms_curr": 893.6,
+  "avg_speed_delta": 11.200000000000045
  }
 }

@@ -1,28 +1,28 @@
 # 每日健康日报（人读版）
 
-生成时间：2026-10-05T01:40:01
+生成时间：2026-10-05T07:46:56
 
 ## 总览
 
 | 类别 | 总量 | healthy | degraded | unknown | dead |
 |---|---|---|---|---|---|
-| 点播 | 8846 | 316 | 2072 | 5908 | 550 |
-| 直播 | 702 | 170 | 261 | 249 | 22 |
+| 点播 | 8865 | 316 | 2071 | 5933 | 545 |
+| 直播 | 706 | 165 | 270 | 249 | 22 |
 
-较上轮变化：新增 9｜掉线 103｜恢复 47｜移除 0（点播）；新增 2｜掉线 0｜恢复 0｜移除 0（直播）
+较上轮变化：新增 26｜掉线 128｜恢复 47｜移除 12（点播）；新增 4｜掉线 0｜恢复 0｜移除 0（直播）
 
 ## 点播掉线（前 10）
 
 - 🧿即看┃蓝光（degraded → dead）
 - 🧿影院┃蓝光（degraded → dead）
 - рҹҗјв”ғиӮҘзҢ«в”ғAPP（degraded → dead）
-- 🔰特狗（degraded → dead）
 - 💣焦炭影视（degraded → dead）
 -  💠测试(R)（degraded → dead）
 - LIB（degraded → dead）
 - ✨九一┃追番（degraded → dead）
 - ✨动漫┃之家（degraded → dead）
 - 奇优（degraded → dead）
+- 饭团（degraded → dead）
 
 ## 点播恢复（前 10）
 
@@ -39,12 +39,13 @@
 
 ## 点播新增（前 10）
 
-- 🦜TC鸟Auto(自动测速)（unknown）
-- 🦜TC鸟Fly(飞哥影视)（unknown）
-- 🦜TC鸟V13(完整URL)（unknown）
-- 🦜TC鸟V14(纯数字收藏)（unknown）
-- 🦜TC鸟V15(多线路)（unknown）
-- 🦜TC鸟V26(最新)（unknown）
-- 🦜TC鸟V27(配置中心)（unknown）
-- 🦜知更鸟V12(脚本截取)（unknown）
-- 🦜知更鸟文章站（unknown）
+- 影视•爬虫[直连]（unknown）
+- 无上┃采集（unknown）
+- 樱之空[直连]（unknown）
+- 🅱️┃哔哩┃合集2（unknown）
+- 🅱️┃哔哩┃合集3（unknown）
+- 🅱️┃哔哩┃直连（unknown）
+- 🅱️┃中医┃药区（unknown）
+- 🅱️┃体育┃健身（unknown）
+- 🅱️┃哔哩┃精简（unknown）
+- 🅱️┃戏曲┃合集（unknown）

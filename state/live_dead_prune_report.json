@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-05 01:40:00",
+ "generated_at": "2026-10-05 07:46:55",
  "action": "pruned",
- "db_total": 702,
+ "db_total": 706,
  "db_dead": 22,
  "buckets": {
   "direct": 21,
@@ -33,7 +33,7 @@
   "https://tv.711933.xyz/iptv2.m3u",
   "https://tv.tmxk.kdns.fr/ex64181y"
  ],
- "product_hit": 17,
- "ratio": 0.0342,
- "pruned_in_products": 48
+ "product_hit": 14,
+ "ratio": 0.0315,
+ "pruned_in_products": 40
 }

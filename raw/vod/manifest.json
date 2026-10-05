@@ -354,12 +354,19 @@
  },
  "auto/101-74s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/jsm.json",
+    "sha256": "43612c53e9224a18d3b89b3556c415529ef95b0772b67aebacc1945a9744b5ea"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "jsm.json",
-  "sha256": "43612c53e9224a18d3b89b3556c415529ef95b0772b67aebacc1945a9744b5ea",
-  "size": 34730,
+  "sha256": "f565c6554fb72b0924c63a27c8f46ce3af0c8510f96938db509ec4b955bf9257",
+  "size": 47091,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/alantang1977/cluntop/main/jsm.json"
  },
@@ -795,7 +802,7 @@
  "auto/104-69s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
   "sha256": "356ecfa405e1975803960a5d6687de795729aab5fd5f7f0930f8c2aa1f00b111",
@@ -900,12 +907,19 @@
  },
  "auto/105-66s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/m.json",
+    "sha256": "717f1a37d427a764430cf499f12a7b0fdff99be290beb68045ff2520cbf314a4"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
-  "sha256": "717f1a37d427a764430cf499f12a7b0fdff99be290beb68045ff2520cbf314a4",
-  "size": 27343,
+  "sha256": "356ecfa405e1975803960a5d6687de795729aab5fd5f7f0930f8c2aa1f00b111",
+  "size": 28916,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/hexiu/main/m.json"
  },
@@ -1029,7 +1043,7 @@
  "auto/106-64s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "tvbox1.json",
   "sha256": "0108c4461cae5034a2f2e2d3dc7b55c9286b5a141f24256ad5153e1a2e64fa5f",
@@ -1164,6 +1178,17 @@
   "size": 30571,
   "status": "ok",
   "url": "https://szyyds.cn/tv/x.json"
+ },
+ "auto/107-63s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~b21579.json",
+  "sha256": "049bf42bf781acaeb64bb3228cc6af2e438717a436f10eea0dc4db84d56f334f",
+  "size": 25785,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/huban/config.json"
  },
  "auto/107-64s": {
   "first_seen": "2026-10-02",
@@ -1322,7 +1347,7 @@
  "auto/108-63s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "wangerxiao.json",
   "sha256": "0e26b985bbe3e097f07527fa26278924828f0836f553dec185b53a2c47a04582",
@@ -1492,6 +1517,17 @@
   "status": "ok",
   "url": "https://szyyds.cn/tv/x.json"
  },
+ "auto/109-63s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "test_config.json",
+  "sha256": "e06f610d03e2c9966b471239dfe14206c4a45b70bba549e73fc9d3a22f2dbf4c",
+  "size": 19061,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/gaojunxiangfree/ming-tv/main/app/src/main/assets/test_config.json"
+ },
  "auto/109-66s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
@@ -1615,14 +1651,19 @@
     "date": "2026-10-02",
     "path": "history/2026-10-02/js.json",
     "sha256": "a7bc871bdb1524a43dd53d26bb78b1daa943dac25b93df902a597207b718eeec"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js.json",
+    "sha256": "dccdf94ca8976e028447e4c91b4b70ecbaac84e142be8174b2027c7405987458"
    }
   ],
-  "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js.json",
-  "sha256": "dccdf94ca8976e028447e4c91b4b70ecbaac84e142be8174b2027c7405987458",
-  "size": 48029,
+  "sha256": "cc4480eca92bbbbd5f20db905c2d843d3d81724919ac266ea7ddd65d6e108648",
+  "size": 52714,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/0/js.json"
  },
@@ -1738,12 +1779,19 @@
  },
  "auto/110-63s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/m.json",
+    "sha256": "ffe6a8033cbfd752b7395821a32a75d7028b8bfc715fb33dfd0f1b3a7cfe07af"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
-  "sha256": "ffe6a8033cbfd752b7395821a32a75d7028b8bfc715fb33dfd0f1b3a7cfe07af",
-  "size": 22462,
+  "sha256": "356ecfa405e1975803960a5d6687de795729aab5fd5f7f0930f8c2aa1f00b111",
+  "size": 28916,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/ck/main/box/fty/m.json"
  },
@@ -1901,7 +1949,7 @@
  "auto/111-62s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "x.json",
   "sha256": "6ad54de8458333a1e5420062d84f7a6ba02f386cb3427ec49f24fd598ac138ad",
@@ -2062,14 +2110,21 @@
  },
  "auto/112-61s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js~8dc010.json",
+    "sha256": "24aa67b2bedce11f8e41ed02a3ade2b7b2457754e29c5a2f9e88ee29841dfaf0"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "18-1.txt",
-  "sha256": "24aa67b2bedce11f8e41ed02a3ade2b7b2457754e29c5a2f9e88ee29841dfaf0",
-  "size": 30119,
+  "path": "js~8dc010.json",
+  "sha256": "b65c9d17aa675371bc2503222ee2a592ebf60a90e7eafccb6374da6736537e5f",
+  "size": 16384,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/dalazhi/tvbox/main/18-1.txt"
+  "url": "https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/js/js.json"
  },
  "auto/112-63s": {
   "first_seen": "2026-10-01",
@@ -2206,12 +2261,19 @@
  },
  "auto/113-61s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/m.json",
+    "sha256": "494fd30e9e28a5f08566c5be24192eb705666e91c1a6543c6bbfdb046a2139d0"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
-  "sha256": "494fd30e9e28a5f08566c5be24192eb705666e91c1a6543c6bbfdb046a2139d0",
-  "size": 20815,
+  "sha256": "356ecfa405e1975803960a5d6687de795729aab5fd5f7f0930f8c2aa1f00b111",
+  "size": 28916,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/fty/main/2312/m.json"
  },
@@ -2374,12 +2436,19 @@
  },
  "auto/114-59s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/2.json",
+    "sha256": "1c56cf48bc72c49f66c77105e010ce374c5bd83b7408f014530fe5157bb2785b"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "2.json",
-  "sha256": "1c56cf48bc72c49f66c77105e010ce374c5bd83b7408f014530fe5157bb2785b",
-  "size": 32966,
+  "sha256": "9c653c48b4d82f9d93dc5010cff439372687482897725f1e08b2d5714d46eb2b",
+  "size": 16302,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/alantang1977/TVsmile/main/2.json"
  },
@@ -2525,7 +2594,7 @@
  "auto/115-59s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "yxrj_pz.json",
   "sha256": "8b44726b516492b081b5d9cca03f7e173b96c8afedaf859d3de8cacd3f7c1a5c",
@@ -2693,7 +2762,7 @@
  "auto/116-58s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
   "sha256": "698fa344cf80e03a291dfb37dd0562fada28ff5829fd76f62506f031be6cddee",
@@ -2840,6 +2909,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/shichuanenhui/TvBox/main/fty/fty.json"
  },
+ "auto/117-58s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "new0828-cdn~fbf72c.json",
+  "sha256": "4a13e0ae30fd70db3acb3bab40a6a2e5ef8c9c764819b854e44818ca9c00a349",
+  "size": 20745,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/jison5030-wq/ys/main/new0828-cdn.json"
+ },
  "auto/117-61s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
@@ -2970,12 +3050,19 @@
  },
  "auto/118-57s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/m.json",
+    "sha256": "6cd8df3ac3501e1df1e3b303e128eeaba7ae3014558c7c2c9511655642a0a81f"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
-  "sha256": "6cd8df3ac3501e1df1e3b303e128eeaba7ae3014558c7c2c9511655642a0a81f",
-  "size": 19858,
+  "sha256": "356ecfa405e1975803960a5d6687de795729aab5fd5f7f0930f8c2aa1f00b111",
+  "size": 28916,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/fty/main/0124/m.json"
  },
@@ -3149,12 +3236,19 @@
  },
  "auto/119-57s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/m.json",
+    "sha256": "ed8efbb32d1ee3aaf2d37daa6c246268ae81571aad664a42f2f01ec4d69934ad"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
-  "sha256": "ed8efbb32d1ee3aaf2d37daa6c246268ae81571aad664a42f2f01ec4d69934ad",
-  "size": 19817,
+  "sha256": "356ecfa405e1975803960a5d6687de795729aab5fd5f7f0930f8c2aa1f00b111",
+  "size": 28916,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/fty/main/2401/m.json"
  },
@@ -3308,16 +3402,21 @@
     "date": "2026-10-03",
     "path": "history/2026-10-03/js.json",
     "sha256": "39b90ad66b27e11861e372ecf565b2ad39547bef0d7f724fda8afd759e50c1c9"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js.json",
+    "sha256": "70bc4c5c7bdc211e236e6d8c2160101e42c92a85228b323885d9dd8409476b35"
    }
   ],
-  "last_changed": "2026-10-03",
-  "last_checked": "2026-10-03",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js.json",
-  "sha256": "70bc4c5c7bdc211e236e6d8c2160101e42c92a85228b323885d9dd8409476b35",
-  "size": 91507,
+  "sha256": "8e0e75f546dbb539db4b948f2128324d2e12e6356b21b40672b7a7360c7d152d",
+  "size": 76485,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/0/js.json"
+  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/1/js.json"
  },
  "auto/12-306s": {
   "first_seen": "2026-10-01",
@@ -3395,7 +3494,7 @@
  "auto/120-56s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "index2.json",
   "sha256": "68f1414cf5b6a3eac68f4f45bca9dd01b9da4d289617c09071b60004355720f5",
@@ -3570,7 +3669,7 @@
  "auto/121-54s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "TVBOX%E7%9B%92%E5%AD%90.txt",
   "sha256": "59e54a05286681df74762dd6d9fca08da3cfb92c1cdd2106d4197c7256866a5d",
@@ -3855,7 +3954,7 @@
  "auto/123-53s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "4k.json",
   "sha256": "35fe6927060dec7616a6378465032f741e5d3e049ec3d79f2b6d458d4467874d",
@@ -4011,12 +4110,19 @@
  },
  "auto/124-53s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/fty.json",
+    "sha256": "ac7663542dd06ac863643c6c85a6da469a9dfe1bd36e14917c6993b4a8effc03"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "fty.json",
-  "sha256": "ac7663542dd06ac863643c6c85a6da469a9dfe1bd36e14917c6993b4a8effc03",
-  "size": 17149,
+  "sha256": "8d296a6060dfedc230f6b47bc8ec0defa42b806e8821f8c6069987ee16657383",
+  "size": 12787,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/shichuanenhui/TvBox/main/fty/fty.json"
  },
@@ -4183,7 +4289,7 @@
  "auto/125-53s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "%E5%B0%8F%E9%9B%85TV.txt",
   "sha256": "0d6b8c5a30811cfa9d9b5f30538e541512bbbc8b40282771e6e7a653a7a3b888",
@@ -4322,7 +4428,7 @@
  "auto/126-52s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "jhkx-full.json",
   "sha256": "66a03753f635d9646a7a7c50bf15000b52e55b4b446c15978226d4db73c2378c",
@@ -4456,12 +4562,19 @@
  },
  "auto/127-52s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/tvbox~95df4d.json",
+    "sha256": "761624cbc30c8c9d1cba1ab78d945596cca9c5527709051244d3ea30f743321d"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "tvbox~2f806a.json",
-  "sha256": "761624cbc30c8c9d1cba1ab78d945596cca9c5527709051244d3ea30f743321d",
-  "size": 17628,
+  "path": "tvbox~95df4d.json",
+  "sha256": "b8ec00a14cad9465526b7b125aac197363a518bf51139a2bb86b7bebaa978fe2",
+  "size": 10116,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/mrgaoshuiquan/tvbox-config/main/tvbox.json"
  },
@@ -4631,12 +4744,19 @@
  },
  "auto/128-52s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/jsm.json",
+    "sha256": "de09932493ec6e63cf037f6685922a368d5cf460bd481debede771847107c33a"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "jsm.json",
-  "sha256": "de09932493ec6e63cf037f6685922a368d5cf460bd481debede771847107c33a",
-  "size": 23849,
+  "sha256": "f565c6554fb72b0924c63a27c8f46ce3af0c8510f96938db509ec4b955bf9257",
+  "size": 47091,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/ne7359/tvurl/main/tools/jsm.json"
  },
@@ -4785,12 +4905,19 @@
  },
  "auto/129-51s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/m.json",
+    "sha256": "5bff3bc8068075550ea3ee043668f918945a227f80118d3df9e8103325e4995f"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
-  "sha256": "5bff3bc8068075550ea3ee043668f918945a227f80118d3df9e8103325e4995f",
-  "size": 17597,
+  "sha256": "356ecfa405e1975803960a5d6687de795729aab5fd5f7f0930f8c2aa1f00b111",
+  "size": 28916,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/feimao/main/0124/m.json"
  },
@@ -4964,16 +5091,21 @@
     "date": "2026-10-03",
     "path": "history/2026-10-03/js.json",
     "sha256": "70bc4c5c7bdc211e236e6d8c2160101e42c92a85228b323885d9dd8409476b35"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js.json",
+    "sha256": "d78131f6740c86299a8bba4f38e6798a6662abfb3ccbe63f15444b52aab5865c"
    }
   ],
-  "last_changed": "2026-10-03",
-  "last_checked": "2026-10-03",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js.json",
-  "sha256": "d78131f6740c86299a8bba4f38e6798a6662abfb3ccbe63f15444b52aab5865c",
-  "size": 79593,
+  "sha256": "31a9a921d8a7d2a80e0dada273043f18d69f353f0698e6c7aeabd9a864f220e7",
+  "size": 73377,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/1/js.json"
+  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/2/js.json"
  },
  "auto/13-43s": {
   "first_seen": "2026-09-29",
@@ -5065,12 +5197,19 @@
  },
  "auto/130-49s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/jsm.json",
+    "sha256": "e995a74fcbd130d442b4cde6308f6c12aafd214f0b6e969dd40195a3775f5cb7"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "jsm.json",
-  "sha256": "e995a74fcbd130d442b4cde6308f6c12aafd214f0b6e969dd40195a3775f5cb7",
-  "size": 23671,
+  "sha256": "f565c6554fb72b0924c63a27c8f46ce3af0c8510f96938db509ec4b955bf9257",
+  "size": 47091,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/Trysknee01/selfhost-config/main/tools/jsm.json"
  },
@@ -5211,12 +5350,19 @@
  },
  "auto/131-49s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/jsm.json",
+    "sha256": "0695597c375d465e172d57f6539c44b18d619fad8dad04ab4e757b7376f82caa"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "jsm.json",
-  "sha256": "0695597c375d465e172d57f6539c44b18d619fad8dad04ab4e757b7376f82caa",
-  "size": 23445,
+  "sha256": "f565c6554fb72b0924c63a27c8f46ce3af0c8510f96938db509ec4b955bf9257",
+  "size": 47091,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/xmbjm/tvbox/master/tools/jsm.json"
  },
@@ -5381,7 +5527,7 @@
  "auto/132-48s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "0.json",
   "sha256": "2d83952867f64bcf89285ae21ceda6409529fa5ac94575e2aba9696d09983ab0",
@@ -5526,12 +5672,19 @@
  },
  "auto/133-48s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/config.json",
+    "sha256": "c3a5c2622e0fa83b9e677f5ab10a06d282bd27d5ef1896a2ac517ec75e1aba36"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config.json",
-  "sha256": "c3a5c2622e0fa83b9e677f5ab10a06d282bd27d5ef1896a2ac517ec75e1aba36",
-  "size": 25430,
+  "sha256": "da11b213e242a56f03ebe23704692d8a6e9e6b4416223996ef1b6d28a7383ea8",
+  "size": 46193,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/Zss03040464/tvbox-config/main/config.json"
  },
@@ -5665,12 +5818,19 @@
  },
  "auto/134-48s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/m.json",
+    "sha256": "9b1696e7798776face13956076bd024c4be3934b285a5eee3b8f9b715cf11de9"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m.json",
-  "sha256": "9b1696e7798776face13956076bd024c4be3934b285a5eee3b8f9b715cf11de9",
-  "size": 16271,
+  "sha256": "356ecfa405e1975803960a5d6687de795729aab5fd5f7f0930f8c2aa1f00b111",
+  "size": 28916,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/feimao/main/2312/m.json"
  },
@@ -5834,7 +5994,7 @@
    }
   ],
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "0.json",
   "sha256": "2d83952867f64bcf89285ae21ceda6409529fa5ac94575e2aba9696d09983ab0",
@@ -5984,12 +6144,19 @@
  },
  "auto/136-47s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/config.json",
+    "sha256": "25e9c579766b900acdade9c407cd21bf5b42b33192aa323c57fea805c274a89f"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config.json",
-  "sha256": "25e9c579766b900acdade9c407cd21bf5b42b33192aa323c57fea805c274a89f",
-  "size": 16902,
+  "sha256": "da11b213e242a56f03ebe23704692d8a6e9e6b4416223996ef1b6d28a7383ea8",
+  "size": 46193,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/Trysknee01/selfhost-config/main/config.json"
  },
@@ -6149,7 +6316,7 @@
    }
   ],
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "new.json",
   "sha256": "70ddcf39ddb5c1eefbfaea137eba99cbb323e690d652ac96cc92422e1595456b",
@@ -6319,7 +6486,7 @@
    }
   ],
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "7.json",
   "sha256": "3c8f34f36708f6f3207bc4a47d8b617b41134d8addddb684e125f838a36fb33c",
@@ -6445,6 +6612,17 @@
   "size": 33598,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/tvbox2.json"
+ },
+ "auto/139-46s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "thdjk~d767e4.json",
+  "sha256": "aebec31ee34dac308d38650067334303e8f1f19af6fa80a9a8cb7e624765aa04",
+  "size": 16530,
+  "status": "ok",
+  "url": "http://ztha.top/TVBox/thdjk.json"
  },
  "auto/139-47s": {
   "first_seen": "2026-10-01",
@@ -6598,16 +6776,21 @@
     "date": "2026-10-03",
     "path": "history/2026-10-03/js.json",
     "sha256": "8e0e75f546dbb539db4b948f2128324d2e12e6356b21b40672b7a7360c7d152d"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js.json",
+    "sha256": "d78131f6740c86299a8bba4f38e6798a6662abfb3ccbe63f15444b52aab5865c"
    }
   ],
-  "last_changed": "2026-10-03",
-  "last_checked": "2026-10-03",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js.json",
-  "sha256": "d78131f6740c86299a8bba4f38e6798a6662abfb3ccbe63f15444b52aab5865c",
-  "size": 79593,
+  "sha256": "ec700276ef1709ef6f3f3cd1c30d595d79c1e0578cf9a9dd4c7ee9f1797005b4",
+  "size": 95133,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/2/js.json"
+  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/3/js.json"
  },
  "auto/14-46s": {
   "first_seen": "2026-09-29",
@@ -6674,7 +6857,7 @@
  "auto/140-46s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "thdjk.json",
   "sha256": "aebec31ee34dac308d38650067334303e8f1f19af6fa80a9a8cb7e624765aa04",
@@ -6832,16 +7015,21 @@
     "date": "2026-10-02",
     "path": "history/2026-10-02/thdjk.json",
     "sha256": "69a386e02cf4b8280ee3df3a1ad503a1d21741734bc2a0625bd84b7b493b7679"
+   },
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "aebec31ee34dac308d38650067334303e8f1f19af6fa80a9a8cb7e624765aa04"
    }
   ],
-  "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "thdjk.json",
-  "sha256": "aebec31ee34dac308d38650067334303e8f1f19af6fa80a9a8cb7e624765aa04",
-  "size": 16530,
+  "path": "18cn~8ca16f.json",
+  "sha256": "b95f6cf82edb829a59a6f4db48b091d953aeb22e6761c3af4403e239856f1a30",
+  "size": 22387,
   "status": "ok",
-  "url": "http://ztha.top/TVBox/thdjk.json"
+  "url": "https://raw.githubusercontent.com/kukuqi666/TVBoxOS-Mobile/main/website/tvbox/18cn.json"
  },
  "auto/141-47s": {
   "first_seen": "2026-10-01",
@@ -7018,7 +7206,7 @@
    }
   ],
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "thdjk.json",
   "sha256": "aebec31ee34dac308d38650067334303e8f1f19af6fa80a9a8cb7e624765aa04",
@@ -7164,7 +7352,7 @@
  "auto/143-45s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "mao.json",
   "sha256": "1b84240a09a4664a48f1b0b4dcb9bf2530a6325171b2f53435d588a0ad8102d5",
@@ -7322,7 +7510,7 @@
  "auto/144-45s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "tvboxx.json",
   "sha256": "941df31f2f1e56c6815da58ebac5487c3206280aa7c95ea2af8101019ae005c9",
@@ -7632,7 +7820,7 @@
  "auto/146-43s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "index.json",
   "sha256": "9ee8cc80b1f1d017c8237e3f1f5f3b954407de3e0494e3b3334b09e3683e7a73",
@@ -7773,14 +7961,21 @@
  },
  "auto/147-43s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/%E7%A6%8F%E5%88%A9%E6%8E%A5%E5%8F%A3~e27433.json",
+    "sha256": "87797b67524ce12eab6a389fe0e49517e5f215c1883bcd669bd988cf4ab0b7c4"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "tvbox2.json",
-  "sha256": "87797b67524ce12eab6a389fe0e49517e5f215c1883bcd669bd988cf4ab0b7c4",
-  "size": 33598,
+  "path": "%E7%A6%8F%E5%88%A9%E6%8E%A5%E5%8F%A3~e27433.json",
+  "sha256": "d975a469a581229be99092e77a31861129f7b7882acf9b7a176d762d6f2c9975",
+  "size": 10679,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/Dong-learn9/TVBox-zyjk/main/tvbox2.json"
+  "url": "https://raw.githubusercontent.com/songlees355-wq/okay/main/%E7%A6%8F%E5%88%A9%E6%8E%A5%E5%8F%A3.json"
  },
  "auto/147-46s": {
   "first_seen": "2026-10-01",
@@ -7929,12 +8124,19 @@
  },
  "auto/148-41s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/jsm.json",
+    "sha256": "4368f6e625b5f5ded2c7629bb18d5c28467b0813039105eca380cbfcd39f9de3"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "jsm.json",
-  "sha256": "4368f6e625b5f5ded2c7629bb18d5c28467b0813039105eca380cbfcd39f9de3",
-  "size": 24681,
+  "sha256": "f565c6554fb72b0924c63a27c8f46ce3af0c8510f96938db509ec4b955bf9257",
+  "size": 47091,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/franksun1211/TXT/main/HTB/PG/jsm.json"
  },
@@ -8098,7 +8300,7 @@
  "auto/149-41s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "movies.json",
   "sha256": "ebe8fe0c71ed43d042377774701799be0a0db57b45d9f198e6b45c5181cbc246",
@@ -8242,16 +8444,21 @@
     "date": "2026-10-03",
     "path": "history/2026-10-03/js.json",
     "sha256": "31a9a921d8a7d2a80e0dada273043f18d69f353f0698e6c7aeabd9a864f220e7"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js.json",
+    "sha256": "d78131f6740c86299a8bba4f38e6798a6662abfb3ccbe63f15444b52aab5865c"
    }
   ],
-  "last_changed": "2026-10-03",
-  "last_checked": "2026-10-03",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js.json",
-  "sha256": "d78131f6740c86299a8bba4f38e6798a6662abfb3ccbe63f15444b52aab5865c",
-  "size": 79593,
+  "sha256": "1a1967c176c4999d5a65692bee22d08d4a1c128d4bdc9833a915f9d3a00fe197",
+  "size": 94097,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/3/js.json"
+  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/4/js.json"
  },
  "auto/15-46s": {
   "first_seen": "2026-09-28",
@@ -8318,7 +8525,7 @@
  "auto/150-39s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "src_backup.json",
   "sha256": "df88abef0151122fb190ce870f064496de2b2b0c5e0ea4ccb621967f0c273474",
@@ -8614,7 +8821,7 @@
  "auto/152-37s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "jk.txt",
   "sha256": "f25b8ee27506713cba76b23f7ef88e15dd616cb9fa5eb8c0ad5cdf1e20743625",
@@ -8756,6 +8963,17 @@
   "size": 23470,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/tushen6/Tattoo/main/OK/okys.json"
+ },
+ "auto/153-36s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~371968.json",
+  "sha256": "1837411e76df21eca2c989de413597987553bac852cb4ea04793ddab2252bafb",
+  "size": 6823,
+  "status": "ok",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/Greatwallcorner/CatVodSpider/master/json/config.json"
  },
  "auto/153-37s": {
   "first_seen": "2026-10-01",
@@ -8926,14 +9144,19 @@
     "date": "2026-10-01",
     "path": "history/2026-10-01/box.json",
     "sha256": "7c659e7d136666cbc4243938985820c34d978dee50508459e83b7947a1cc79cd"
+   },
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "bbcffc6b8ae0b0a395c0b5908c6424bb76a56055a3397aa21f4e764d66752a8e"
    }
   ],
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "box~5c82e9.json",
-  "sha256": "bbcffc6b8ae0b0a395c0b5908c6424bb76a56055a3397aa21f4e764d66752a8e",
-  "size": 11907,
+  "path": "box~082565.json",
+  "sha256": "5358dbaeab515565a1a5882d518f11ea820b8a4bfad5785ce87d7b3a16a7b37f",
+  "size": 37337,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/FreeDTV/FreeD/master/box.json"
  },
@@ -9081,16 +9304,21 @@
     "date": "2026-10-01",
     "path": "history/2026-10-01/config.json",
     "sha256": "1837411e76df21eca2c989de413597987553bac852cb4ea04793ddab2252bafb"
+   },
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "049bf42bf781acaeb64bb3228cc6af2e438717a436f10eea0dc4db84d56f334f"
    }
   ],
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "config.json",
-  "sha256": "049bf42bf781acaeb64bb3228cc6af2e438717a436f10eea0dc4db84d56f334f",
-  "size": 25785,
+  "path": "api~ad53ee.json",
+  "sha256": "da11b213e242a56f03ebe23704692d8a6e9e6b4416223996ef1b6d28a7383ea8",
+  "size": 46193,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/json/config.json"
+  "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E5%B0%8F%E7%B1%B3/api.json"
  },
  "auto/155-39s": {
   "first_seen": "2026-10-01",
@@ -9222,7 +9450,7 @@
    }
   ],
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "adult.json",
   "sha256": "23ff70387cf78ac98bbc6222f1fcc91f07e8ba6f110fa46db459a24faedce5f2",
@@ -9361,16 +9589,21 @@
     "date": "2026-10-01",
     "path": "history/2026-10-01/config.json",
     "sha256": "bae6a74907f7e84fc16083e8f4f775462ded6bafe1d51f928fa7b9b26380568f"
+   },
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "10aaa6867536b0717df47ba5689c5db669a6b0d5864471fdaced8f32d8dfec2c"
    }
   ],
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "config.json",
-  "sha256": "10aaa6867536b0717df47ba5689c5db669a6b0d5864471fdaced8f32d8dfec2c",
-  "size": 14680,
+  "path": "adult~9e284f.json",
+  "sha256": "da11b213e242a56f03ebe23704692d8a6e9e6b4416223996ef1b6d28a7383ea8",
+  "size": 46193,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/Greatwallcorner/CatVodSpider/master/json/config.json"
+  "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/json/adult.json"
  },
  "auto/157-37s": {
   "first_seen": "2026-10-01",
@@ -9526,16 +9759,21 @@
     "date": "2026-10-01",
     "path": "history/2026-10-01/api.json",
     "sha256": "d0776c54bd3555d81279ebd42148632b9c885265e94c7871b6a52e78159d6021"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/config~8fb437.json",
+    "sha256": "318897d5a8be018442b386e6a31241d05239f6d1d78ccec60fa12c7e8cec68a3"
    }
   ],
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "api.json",
-  "sha256": "318897d5a8be018442b386e6a31241d05239f6d1d78ccec60fa12c7e8cec68a3",
-  "size": 9562,
+  "path": "config~8fb437.json",
+  "sha256": "9a892035021594dba29bf4590acb292474478942f6bf3e8d67b7e135daa8cdbb",
+  "size": 61653,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E5%B0%8F%E7%B1%B3/api.json"
+  "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/json/config.json"
  },
  "auto/158-37s": {
   "first_seen": "2026-10-03",
@@ -9660,16 +9898,21 @@
     "date": "2026-10-01",
     "path": "history/2026-10-01/config.json",
     "sha256": "551995b7c09862a91f750a256f9b58035202533ab8b9a6181339251fec183a41"
+   },
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "10aaa6867536b0717df47ba5689c5db669a6b0d5864471fdaced8f32d8dfec2c"
    }
   ],
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "config.json",
-  "sha256": "10aaa6867536b0717df47ba5689c5db669a6b0d5864471fdaced8f32d8dfec2c",
-  "size": 14680,
+  "path": "adult~a77f6b.json",
+  "sha256": "da11b213e242a56f03ebe23704692d8a6e9e6b4416223996ef1b6d28a7383ea8",
+  "size": 46193,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/liu673cn/FongMi/main/config.json"
+  "url": "https://raw.githubusercontent.com/xisohi/VodSpider/main/json/adult.json"
  },
  "auto/159-37s": {
   "first_seen": "2026-10-03",
@@ -9803,16 +10046,21 @@
     "date": "2026-10-04",
     "path": null,
     "sha256": "a3b4c885fe1e5d4a501d22a0ff5b44abde8464c2b95be5bb7cc2e2935827e559"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js~89124b.json",
+    "sha256": "1ceb732092eb2d53e39430110767d3a6d5b09e3502133ebdaf249e245b947e09"
    }
   ],
-  "last_changed": "2026-10-04",
+  "last_changed": "2026-10-05",
   "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js~89124b.json",
-  "sha256": "1ceb732092eb2d53e39430110767d3a6d5b09e3502133ebdaf249e245b947e09",
-  "size": 55741,
+  "sha256": "b3d1c9dd8b84cb24bb61d23726c8617a7e0fe25035469af1d96d527d5e0319b8",
+  "size": 75449,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/ne7359/tvurl/main/js.json"
+  "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/tv/6/js.json"
  },
  "auto/16-32s": {
   "first_seen": "2026-09-29",
@@ -9868,6 +10116,17 @@
   "size": 16572,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/victor1616888/zubozhuanIPTV/main/tvbox.json"
+ },
+ "auto/160-33s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "0827~df49d5.json",
+  "sha256": "1c2b6b2f9aa0c31a6458336215f6ea5e240d8c10f11c842ffe4fa9f32a4a999c",
+  "size": 9973,
+  "status": "ok",
+  "url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json"
  },
  "auto/160-36s": {
   "first_seen": "2026-10-01",
@@ -10031,7 +10290,7 @@
  "auto/161-33s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "okys.json",
   "sha256": "3e68e5a7b625092958570fae4001e2e1061d7678884ae6869a2156118e086fdc",
@@ -10178,14 +10437,21 @@
  },
  "auto/162-32s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "ad3be546bf99061c75f0243b88c464f247010daf759975c68db0b60addc6e89d"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "api.json",
-  "sha256": "ad3be546bf99061c75f0243b88c464f247010daf759975c68db0b60addc6e89d",
-  "size": 11034,
+  "path": "BT~088f3c.json",
+  "sha256": "9a892035021594dba29bf4590acb292474478942f6bf3e8d67b7e135daa8cdbb",
+  "size": 61653,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/liu673cn/TVBox_warehouse/main/%E4%BA%91%E7%9B%98/api.json"
+  "url": "https://raw.githubusercontent.com/davidlee6628/ssr/main/BT.json"
  },
  "auto/162-36s": {
   "first_seen": "2026-10-01",
@@ -10341,7 +10607,7 @@
  "auto/163-32s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "MY%E5%B7%A7%E5%B7%A7.txt",
   "sha256": "78e127ffdcde79464dd69372e835bcca653a62e769cf9de857a6c8c499cc3a5c",
@@ -10509,14 +10775,21 @@
  },
  "auto/164-32s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "5c6f4cff6dc8b48027922a18932b24edec3b50c00f585f434ef8d61f3b07b58e"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "config.json",
-  "sha256": "5c6f4cff6dc8b48027922a18932b24edec3b50c00f585f434ef8d61f3b07b58e",
-  "size": 10081,
+  "path": "api~2ae322.json",
+  "sha256": "da11b213e242a56f03ebe23704692d8a6e9e6b4416223996ef1b6d28a7383ea8",
+  "size": 46193,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/xisohi/VodSpider/main/json/config.json"
+  "url": "https://raw.githubusercontent.com/liu673cn/TVBox_warehouse/main/%E4%BA%91%E7%9B%98/api.json"
  },
  "auto/164-33s": {
   "first_seen": "2026-10-01",
@@ -10710,7 +10983,7 @@
    }
   ],
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "BT.json",
   "sha256": "ff1bf8635cc5e7990318bc297e9cb8fb21da673c3959ec4aeef0d233a2c5d90d",
@@ -10889,7 +11162,7 @@
    }
   ],
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "hxsr.json",
   "sha256": "4e10e8d8f2d81934c4c1de76b543e9659bcb017d7c9f1f04adcfabfd107c6db2",
@@ -11010,6 +11283,17 @@
   "size": 9325,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/c120487/00/main/tv002.txt"
+ },
+ "auto/167-31s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "%E5%B7%A7%E6%8A%80~58b7a7.txt",
+  "sha256": "0f7f402b90a9d55a8d23c185270944b610d73be21331fd9550fbfaa4af954038",
+  "size": 7759,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/adminouyang/231006/main/tvbox/%E7%82%B9%E6%92%AD%E6%BA%90/%E5%B7%A7%E6%8A%80.txt"
  },
  "auto/167-32s": {
   "first_seen": "2026-10-01",
@@ -11184,7 +11468,7 @@
  "auto/168-31s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "%E5%B7%A7%E6%8A%80.txt",
   "sha256": "0f7f402b90a9d55a8d23c185270944b610d73be21331fd9550fbfaa4af954038",
@@ -11428,16 +11712,21 @@
     "date": "2026-10-04",
     "path": "history/2026-10-04/js~544a75.json",
     "sha256": "df59d479c3c66fdefa8ffd55f2e265697dfbe71f4174cf15c6a99625b697e7f3"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js~544a75.json",
+    "sha256": "3be283d3ec1b3be300cc67163c27b954da3ae2eced1d585a12ce5cc12d6e8247"
    }
   ],
-  "last_changed": "2026-10-04",
+  "last_changed": "2026-10-05",
   "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js~544a75.json",
-  "sha256": "3be283d3ec1b3be300cc67163c27b954da3ae2eced1d585a12ce5cc12d6e8247",
-  "size": 52723,
+  "sha256": "1ceb732092eb2d53e39430110767d3a6d5b09e3502133ebdaf249e245b947e09",
+  "size": 55741,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/w0878512-glitch/tvbox-config/main/js.json"
+  "url": "https://raw.githubusercontent.com/ne7359/tvurl/main/js.json"
  },
  "auto/17-46s": {
   "first_seen": "2026-09-29",
@@ -11966,7 +12255,7 @@
  "auto/173-23s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "2.json",
   "sha256": "9c653c48b4d82f9d93dc5010cff439372687482897725f1e08b2d5714d46eb2b",
@@ -12275,7 +12564,7 @@
  "auto/175-21s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "xiaogege-all.json",
   "sha256": "4074ccb5836962ca23f1b137308ecb5c30ce1670064b11bfdae67bd9b0e22666",
@@ -13163,16 +13452,21 @@
     "date": "2026-10-02",
     "path": "history/2026-10-02/config.json",
     "sha256": "29704bf2ed19fc146f979d80f0f549364f84b6fe66e3b7e2ea49b4320bfcb954"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/config.json",
+    "sha256": "bf3254094f2b89dd12493acd745a9bf6b7f9fe6fd6c50b8972735c789a53553d"
    }
   ],
-  "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config.json",
-  "sha256": "bf3254094f2b89dd12493acd745a9bf6b7f9fe6fd6c50b8972735c789a53553d",
-  "size": 12119,
+  "sha256": "da11b213e242a56f03ebe23704692d8a6e9e6b4416223996ef1b6d28a7383ea8",
+  "size": 46193,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/config.json"
+  "url": "https://raw.githubusercontent.com/Greatwallcorner/TV-Multiplatform/main/composeApp/src/desktopTest/resources/config.json"
  },
  "auto/180-20s": {
   "first_seen": "2026-10-01",
@@ -13326,14 +13620,21 @@
  },
  "auto/181-18s": {
   "first_seen": "2026-10-02",
-  "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "a5eec0e962a5450be89a71331e0d1b9b60174f8e87cb09162ed1e3606ba28623"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "tvbox-pages.json",
-  "sha256": "a5eec0e962a5450be89a71331e0d1b9b60174f8e87cb09162ed1e3606ba28623",
-  "size": 11831,
+  "path": "config1~d691c7.json",
+  "sha256": "7a60d2a05a4605a1f7ad4623194ffa135f1313b3a6fc1416e1e81c8da2c66be4",
+  "size": 27848,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/tvbox-pages.json"
+  "url": "https://raw.githubusercontent.com/Greatwallcorner/TV-Multiplatform/main/composeApp/src/desktopTest/resources/config1.json"
  },
  "auto/181-20s": {
   "first_seen": "2026-10-01",
@@ -13481,16 +13782,21 @@
     "date": "2026-10-02",
     "path": "history/2026-10-02/config-pages.json",
     "sha256": "1c22912eb072f6aca1eb8e2376f0e49406a0dfa31fe6d884e5e7caf9e98d3db8"
+   },
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "b8ec00a14cad9465526b7b125aac197363a518bf51139a2bb86b7bebaa978fe2"
    }
   ],
-  "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "config-pages.json",
-  "sha256": "b8ec00a14cad9465526b7b125aac197363a518bf51139a2bb86b7bebaa978fe2",
-  "size": 10116,
+  "path": "%E6%88%90%E4%BA%BAai~80256e.txt",
+  "sha256": "5d887a17d2ffb618f6e52ef44d05adc1990b44ca6441f2f67433bfbb98ee7173",
+  "size": 11657,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/config-pages.json"
+  "url": "https://raw.githubusercontent.com/dongge0504-bot/-tvbox-config/main/%E6%88%90%E4%BA%BAai.txt"
  },
  "auto/182-20s": {
   "first_seen": "2026-10-03",
@@ -13660,6 +13966,17 @@
   "size": 11665,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/alantang1977/cluntop/main/js/aa.json"
+ },
+ "auto/183-18s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config-pages~d35e4f.json",
+  "sha256": "5d887a17d2ffb618f6e52ef44d05adc1990b44ca6441f2f67433bfbb98ee7173",
+  "size": 11657,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/config-pages.json"
  },
  "auto/183-19s": {
   "first_seen": "2026-10-03",
@@ -13937,7 +14254,7 @@
  "auto/185-18s": {
   "first_seen": "2026-10-03",
   "last_changed": "2026-10-03",
-  "last_checked": "2026-10-03",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config~697d33.json",
   "sha256": "458708d84f1b403bc84c94362e9f6bbedd204e2b4e7007d93462f511c48021cf",
@@ -14053,14 +14370,21 @@
  },
  "auto/186-18s": {
   "first_seen": "2026-10-03",
-  "last_changed": "2026-10-03",
-  "last_checked": "2026-10-03",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "0c0e42def40f18308579cce1178ec24638b6217d7489f687eadd804297dc6183"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "config1~80a4dc.json",
-  "sha256": "0c0e42def40f18308579cce1178ec24638b6217d7489f687eadd804297dc6183",
-  "size": 4381,
+  "path": "tvbox~689ceb.json",
+  "sha256": "1c22912eb072f6aca1eb8e2376f0e49406a0dfa31fe6d884e5e7caf9e98d3db8",
+  "size": 12300,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/Greatwallcorner/TV-Multiplatform/main/composeApp/src/desktopTest/resources/config1.json"
+  "url": "https://raw.githubusercontent.com/larry-biu/tvbox-config/main/tvbox.json"
  },
  "auto/186-19s": {
   "first_seen": "2026-10-04",
@@ -14182,7 +14506,7 @@
    }
   ],
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config~08351b.json",
   "sha256": "458708d84f1b403bc84c94362e9f6bbedd204e2b4e7007d93462f511c48021cf",
@@ -14288,7 +14612,7 @@
  "auto/188-18s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config1~5d8d33.json",
   "sha256": "0c0e42def40f18308579cce1178ec24638b6217d7489f687eadd804297dc6183",
@@ -14709,7 +15033,7 @@
  "auto/191-15s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "%E8%87%AA%E7%94%A8.json",
   "sha256": "facea3e3428648cb71ea59be5afa91e8af3b11b1c280f227d81bfbc15f093783",
@@ -14833,7 +15157,7 @@
    }
   ],
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "zy.txt",
   "sha256": "2593875c547f1fc30984a81af2f8241b71c8ec658e1a26ab4f0592abb422daa1",
@@ -14985,7 +15309,7 @@
    }
   ],
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "hx.txt",
   "sha256": "c72c2c91f5965ffab833eafdf65c5188432622cf3c3a9a4d77b5d96e94aa1115",
@@ -16154,16 +16478,21 @@
     "date": "2026-10-03",
     "path": "history/2026-10-03/js.json",
     "sha256": "1ceb732092eb2d53e39430110767d3a6d5b09e3502133ebdaf249e245b947e09"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js.json",
+    "sha256": "cc4480eca92bbbbd5f20db905c2d843d3d81724919ac266ea7ddd65d6e108648"
    }
   ],
-  "last_changed": "2026-10-03",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js.json",
-  "sha256": "cc4480eca92bbbbd5f20db905c2d843d3d81724919ac266ea7ddd65d6e108648",
-  "size": 52714,
+  "sha256": "1a1967c176c4999d5a65692bee22d08d4a1c128d4bdc9833a915f9d3a00fe197",
+  "size": 94097,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/xmbjm/tvbox/master/js.json"
+  "url": "https://raw.githubusercontent.com/xuy132/tvbox/main/tv/2/js.json"
  },
  "auto/20-36s": {
   "first_seen": "2026-09-28",
@@ -16839,6 +17168,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/franksun1211/TVpy/main/tvbox.json"
  },
+ "auto/205-10s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "type1-extra.json",
+  "sha256": "b01263e718fe8198db1e4235d60eaa9c829a6508b66f328dc15b4af84e4165c7",
+  "size": 4461,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/XiangNick/yingshi-repo/main/config/type1-extra.json"
+ },
  "auto/205-12s": {
   "first_seen": "2026-10-03",
   "history": [
@@ -17244,6 +17584,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/abu168888/tvbox-config/main/config.json"
  },
+ "auto/208-192s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "tvbox~357c24.json",
+  "sha256": "42e2987a6fb0b3b71609639ed8aec5ca78bfc0a593afb69dc782d8198dddeb30",
+  "size": 55636,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/Adb111/tvbox-config/main/tvbox.json"
+ },
  "auto/208-28s": {
   "first_seen": "2026-10-03",
   "last_changed": "2026-10-03",
@@ -17570,16 +17921,21 @@
     "date": "2026-10-03",
     "path": "history/2026-10-03/js.json",
     "sha256": "3be283d3ec1b3be300cc67163c27b954da3ae2eced1d585a12ce5cc12d6e8247"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/js.json",
+    "sha256": "39b90ad66b27e11861e372ecf565b2ad39547bef0d7f724fda8afd759e50c1c9"
    }
   ],
-  "last_changed": "2026-10-03",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js.json",
-  "sha256": "39b90ad66b27e11861e372ecf565b2ad39547bef0d7f724fda8afd759e50c1c9",
-  "size": 79075,
+  "sha256": "d78131f6740c86299a8bba4f38e6798a6662abfb3ccbe63f15444b52aab5865c",
+  "size": 79593,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/xuy132/tvbox/main/tv/2/js.json"
+  "url": "https://raw.githubusercontent.com/xuy132/tvbox/main/tv/5/js.json"
  },
  "auto/21-4s": {
   "first_seen": "2026-09-28",
@@ -17843,6 +18199,17 @@
   "size": 23985,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/alantang1977/pg/main/all.json"
+ },
+ "auto/212-101s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "R18~af4f1d.json",
+  "sha256": "b205ef8ae648d8013945b19aafc9950852633f06e9e672279d3703e10c60c644",
+  "size": 29691,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/kukuqi666/TVBoxOS-Mobile/main/website/tvbox/R18.json"
  },
  "auto/212-11s": {
   "first_seen": "2026-10-04",
@@ -18781,6 +19148,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/xiaolvdouya/zhiboyuan/main/N1.json"
  },
+ "auto/219-35s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "allinone~0a3963.json",
+  "sha256": "56569fe94e67670997aa07c1200558be0ed5ba677197802b1711e7a2676e0e93",
+  "size": 5050,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/gaoshangshuai/tvbox-test/main/allinone.json"
+ },
  "auto/219-36s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
@@ -19356,7 +19734,7 @@
  "auto/223-26s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-03",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "l8.json",
   "sha256": "d9d7d4ec2c22d1eee3855508ad70eab0e03401562927cca40790860ca809d81f",
@@ -19867,7 +20245,7 @@
  "auto/228-23s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "2~cb3e26.json",
   "sha256": "9c653c48b4d82f9d93dc5010cff439372687482897725f1e08b2d5714d46eb2b",
@@ -19990,6 +20368,17 @@
   "size": 8332,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/shengshimeiyan/ok-tvbox-config/main/xiaogege-all.json"
+ },
+ "auto/229-22s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~0c439d.json",
+  "sha256": "187abb67e252537b7cd1256fb60ca7fdeca781c0824bcf157ca1f04810574c8e",
+  "size": 6152,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/kulao/config.json"
  },
  "auto/229-25s": {
   "first_seen": "2026-10-03",
@@ -21408,6 +21797,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/franksun1211/TXT/main/TVbox/gm/gm.json"
  },
+ "auto/240-9s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "index_tc_multi~204d45.json",
+  "sha256": "a168f2012ffaa31d3769bb01cccfabd3fe9e1b523d4e6cf61053110bf91ac5d5",
+  "size": 3981,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/BlackJNG/TVBox_HL/main/index_tc_multi.json"
+ },
  "auto/241-13s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
@@ -21882,7 +22282,7 @@
  "auto/245-6s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "src.json",
   "sha256": "39c372e6c399e802d7a44be4097d6134474be31dc98ba4e1b69a0736069d9a9e",
@@ -22437,6 +22837,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/gaotianliuyun/fongmi/main/json/demo.json"
  },
+ "auto/250-4s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "doki-Dx~a553b8.json",
+  "sha256": "878e5c977e670e843509c91d577abd338c01d2fc9047d72e511938e794f05feb",
+  "size": 1145,
+  "status": "ok",
+  "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Dx.json"
+ },
  "auto/250-7s": {
   "first_seen": "2026-10-03",
   "last_changed": "2026-10-03",
@@ -22831,6 +23242,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/beanhacker/tvbox.github.io/main/12.json"
  },
+ "auto/254-3s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~85da7f.json",
+  "sha256": "114519226ad72f5b1328e77a96b961fee8bbc54f735e8fd232aca53707d74e27",
+  "size": 2036,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/examples/config.json"
+ },
  "auto/254-53s": {
   "first_seen": "2026-10-03",
   "last_changed": "2026-10-03",
@@ -22932,6 +23354,17 @@
   "size": 72928,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/franksun1211/ge6bu6-1/main/%E8%B1%9A%E8%B1%9A.txt"
+ },
+ "auto/255-3s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~4c9786.json",
+  "sha256": "08e03eb6022075438fe01834e95aa4c4e971867d8e30e1dc742ef8be411ee619",
+  "size": 1634,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json"
  },
  "auto/255-4s": {
   "first_seen": "2026-10-01",
@@ -23262,7 +23695,7 @@
  "auto/259-3s": {
   "first_seen": "2026-10-03",
   "last_changed": "2026-10-03",
-  "last_checked": "2026-10-03",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config~361e94.json",
   "sha256": "063622103c4b4909125516eea340ece574d7b45bedba65b963949ec1a27d55f1",
@@ -23324,6 +23757,17 @@
   "size": 73754,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/yw88075_js.json"
+ },
+ "auto/26-215s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~cda5a5.json",
+  "sha256": "dd825c7c0594ffac6c2e9f4c943db45630392a64244a73b4aa50c865e3155822",
+  "size": 51245,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/Bensonliu666/tvbox-config/main/config.json"
  },
  "auto/26-219s": {
   "first_seen": "2026-10-04",
@@ -23593,7 +24037,7 @@
  "auto/261-3s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config~c7eafb.json",
   "sha256": "063622103c4b4909125516eea340ece574d7b45bedba65b963949ec1a27d55f1",
@@ -24354,7 +24798,7 @@
  "auto/27-211s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "yw88075_js~2b9559.json",
   "sha256": "5e5eb8dd01d899f5837fe5112e71c5fdc4ac5d20fd8fc1678ce6cab59569aaff",
@@ -25084,7 +25528,7 @@
  "auto/28-203s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "js~033cad.json",
   "sha256": "dccdf94ca8976e028447e4c91b4b70ecbaac84e142be8174b2027c7405987458",
@@ -25672,6 +26116,17 @@
   "size": 86995,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/956065487/zhiboyuan/main/tvbox-master-doki/ceshi.json"
+ },
+ "auto/29-201s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "%E6%B1%9F%E6%B9%96~d4efb8.json",
+  "sha256": "2d6a55dc0d94ccfcc8da8b13edd79bee8d0382fcb8c76beaaa7ba8bbbf79efb7",
+  "size": 115966,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/xmbjm/TV-BOX/main/tvbox/%E6%B1%9F%E6%B9%96/%E6%B1%9F%E6%B9%96.json"
  },
  "auto/29-203s": {
   "first_seen": "2026-10-02",
@@ -26407,6 +26862,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/songlees355-wq/okay/main/tvbox.json"
  },
+ "auto/30-191s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "jsm~9bd33b.json",
+  "sha256": "781caa8a7d3c7d957b91211d7ea864e44f76cfd9ac5f8e7f1aea18d3be6e91cd",
+  "size": 82318,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/w0878512-glitch/tvbox-config/main/jsm.json"
+ },
  "auto/30-196s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
@@ -27028,6 +27494,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/huangxiong1992/jt/main/vip.json"
  },
+ "auto/31-182s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "maotv4~05dfbe.txt",
+  "sha256": "36b839e73b3a1a5cd8eb6d1ded2dd36900d1a6d5dcbbfbe3b8954be07b9a21cd",
+  "size": 40637,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/franksun1211/maotv-1/main/maotv4.txt"
+ },
  "auto/31-203s": {
   "first_seen": "2026-09-30",
   "last_changed": "2026-09-30",
@@ -27596,6 +28073,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/%E5%8D%95%E4%BB%93%E8%81%9A%E5%90%88.json"
  },
+ "auto/32-170s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~53f9c2.json",
+  "sha256": "f037c004862e84f791fffab936f92d78e41529ec5d532006c4fc36088d9f2f6b",
+  "size": 60351,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/XiangNick/yingshi-repo/main/config.json"
+ },
  "auto/32-201s": {
   "first_seen": "2026-09-30",
   "last_changed": "2026-09-30",
@@ -27988,7 +28476,7 @@
  "auto/33-167s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
-  "last_checked": "2026-10-04",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "%E5%8D%95%E4%BB%93%E8%81%9A%E5%90%88~735ba0.json",
   "sha256": "2495cfdd1bd033be44c25d798379748f68dfe604b4b8cceb73835bc1f7669dbf",
@@ -28179,6 +28667,17 @@
   "status": "ok",
   "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Dx.json"
  },
+ "auto/34-167s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "sige~35263e.json",
+  "sha256": "7360d52609ac9c6b1b8fb58f83fdbd6dcf9147e5a55464befc8975fa530188f1",
+  "size": 69109,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/aa3151036158/tvbox-config/main/output/sige.json"
+ },
  "auto/34-179s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
@@ -28335,14 +28834,21 @@
  },
  "auto/35-163s": {
   "first_seen": "2026-10-05",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "308358a01cfe23a886993feefaaa7baf738743082d72a5d0f1e75de7d0a7ab21"
+   }
+  ],
   "last_changed": "2026-10-05",
   "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "js~8dc010.json",
-  "sha256": "308358a01cfe23a886993feefaaa7baf738743082d72a5d0f1e75de7d0a7ab21",
-  "size": 51068,
+  "path": "jsm~84e7ba.json",
+  "sha256": "46b07c880e66db65ce89dd66ce20279175aaf9215214c8718b3af2bd2b998429",
+  "size": 50804,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/tv189ymail/2023/main/6/js.json"
+  "url": "https://raw.githubusercontent.com/Trysknee01/selfhost-config/main/jsm.json"
  },
  "auto/35-167s": {
   "first_seen": "2026-09-30",
@@ -28417,6 +28923,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/victor1616888/FongMi/release/other/sample/vod/online.json"
  },
+ "auto/36-160s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "api~2f35d1.json",
+  "sha256": "d2a0c11a6ab599c0ac3caa463a385aade49940be407c4d635fce7c23d82719a2",
+  "size": 61070,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%BD%87%E6%B4%92/api.json"
+ },
  "auto/36-163s": {
   "first_seen": "2026-09-30",
   "history": [
@@ -28481,14 +28998,21 @@
  },
  "auto/37-160s": {
   "first_seen": "2026-09-30",
-  "last_changed": "2026-09-30",
-  "last_checked": "2026-09-30",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/ysy.json",
+    "sha256": "d2a0c11a6ab599c0ac3caa463a385aade49940be407c4d635fce7c23d82719a2"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "api.json",
-  "sha256": "d2a0c11a6ab599c0ac3caa463a385aade49940be407c4d635fce7c23d82719a2",
-  "size": 61070,
+  "path": "ysy.json",
+  "sha256": "1d67c98a23a82c84e288ad0b547219369b2fae5dab7e246f3ae82f7d550ab4bf",
+  "size": 41941,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%BD%87%E6%B4%92/api.json"
+  "url": "https://raw.githubusercontent.com/xisohi/XHYSosc/master/ysy.json"
  },
  "auto/37-163s": {
   "first_seen": "2026-10-02",
@@ -28563,16 +29087,21 @@
     "date": "2026-10-01",
     "path": "history/2026-10-01/official.json",
     "sha256": "1d67c98a23a82c84e288ad0b547219369b2fae5dab7e246f3ae82f7d550ab4bf"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/hipy~50b412.json",
+    "sha256": "eabc2b67d9d23223aa42d3e9ea2c33819aa4f775c2a72f775e09e73e4ca0e3e4"
    }
   ],
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-04",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "official.json",
-  "sha256": "eabc2b67d9d23223aa42d3e9ea2c33819aa4f775c2a72f775e09e73e4ca0e3e4",
-  "size": 76728,
+  "path": "hipy~50b412.json",
+  "sha256": "a6545e6d6ee412bde5cc70f963b2941160590b3d061c9effc6f62ade0cbc46cc",
+  "size": 47354,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/TVboxorg/TVbox/main/dist/official.json"
+  "url": "https://raw.githubusercontent.com/xisohi/hipy/master/hipy.json"
  },
  "auto/38-167s": {
   "first_seen": "2026-09-30",
@@ -28595,6 +29124,17 @@
   "size": 40637,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/franksun1211/maotv-1/main/maotv4.txt"
+ },
+ "auto/39-157s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "jsm~f424dd.json",
+  "sha256": "d72e549a87bf38d9d80809f6b99a5dbff16215980b4b658a8871ae6d2a715f5c",
+  "size": 47348,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/xmbjm/tvbox/master/jsm.json"
  },
  "auto/39-160s": {
   "first_seen": "2026-09-30",
@@ -28744,6 +29284,17 @@
   "status": "ok",
   "url": "https://szyyds.cn/tv/x.json"
  },
+ "auto/40-152s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "box.json",
+  "sha256": "75521c360bc45ea3b0df74635618fd907aac1d51f2da6f6b26ca5027bc2d393c",
+  "size": 40072,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/alantang1977/cluntop/main/box.json"
+ },
  "auto/40-157s": {
   "first_seen": "2026-09-30",
   "last_changed": "2026-09-30",
@@ -28779,14 +29330,21 @@
  },
  "auto/41-152s": {
   "first_seen": "2026-09-30",
-  "last_changed": "2026-09-30",
-  "last_checked": "2026-09-30",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "75521c360bc45ea3b0df74635618fd907aac1d51f2da6f6b26ca5027bc2d393c"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "box~5c82e9.json",
-  "sha256": "75521c360bc45ea3b0df74635618fd907aac1d51f2da6f6b26ca5027bc2d393c",
+  "path": "box~44d385.json",
+  "sha256": "cb31da4b9445c9866ad1d53cef6a1d902ede17408195926c3519225706b23b66",
   "size": 40072,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/alantang1977/cluntop/main/box.json"
+  "url": "https://raw.githubusercontent.com/cluntop/tv/main/box.json"
  },
  "auto/41-160s": {
   "first_seen": "2026-09-30",
@@ -28874,14 +29432,21 @@
  },
  "auto/43-151s": {
   "first_seen": "2026-10-01",
-  "last_changed": "2026-10-01",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/qist_jsm~1df9c3.json",
+    "sha256": "e3b73fd47fdcf3d68874a6e617514f6b8395fbf780558fa05bf6b3ff34ae2b1b"
+   }
+  ],
+  "last_changed": "2026-10-05",
   "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "yw.json",
-  "sha256": "e3b73fd47fdcf3d68874a6e617514f6b8395fbf780558fa05bf6b3ff34ae2b1b",
-  "size": 46130,
+  "path": "qist_jsm~1df9c3.json",
+  "sha256": "79abdd1c541713bd4d81a9047ad42e1d284c3b67162af22a6cc3376bcd8b811e",
+  "size": 71844,
   "status": "ok",
-  "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json"
+  "url": "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/qist_jsm.json"
  },
  "auto/43-163s": {
   "first_seen": "2026-10-03",
@@ -28926,7 +29491,7 @@
  "auto/44-151s": {
   "first_seen": "2026-09-30",
   "last_changed": "2026-09-30",
-  "last_checked": "2026-09-30",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "qist_jsm.json",
   "sha256": "79abdd1c541713bd4d81a9047ad42e1d284c3b67162af22a6cc3376bcd8b811e",
@@ -28966,6 +29531,17 @@
   "size": 46988,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/jameslee38/dianshi/main/5.json"
+ },
+ "auto/45-150s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "aiyouteng~08f63a.json",
+  "sha256": "55584583cd2d8b14267efa7ced8182f3f6ba27fc73c5426b028fdf0e9db612c1",
+  "size": 57639,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/city10666/tvbox-beifen/main/aiyouteng.json"
  },
  "auto/45-151s": {
   "first_seen": "2026-09-30",
@@ -29025,14 +29601,21 @@
  },
  "auto/46-150s": {
   "first_seen": "2026-09-30",
-  "last_changed": "2026-09-30",
-  "last_checked": "2026-09-30",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "544b31a6d722c4683eb4b425534cc25bfab87102f39c7add955b86151c30b161"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "jsm.json",
-  "sha256": "544b31a6d722c4683eb4b425534cc25bfab87102f39c7add955b86151c30b161",
-  "size": 47204,
+  "path": "api~701138.json",
+  "sha256": "1cae34aac8c8aaa7d99cee605d4a9192e43aba2509855b699a4b7f2caf4b67cd",
+  "size": 67462,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/ne7359/tvurl/main/jsm.json"
+  "url": "https://raw.githubusercontent.com/niuber/niuber/main/tvbox/api.json"
  },
  "auto/46-151s": {
   "first_seen": "2026-10-01",
@@ -29242,6 +29825,17 @@
   "size": 46093,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/c120487/00/main/js0.json"
+ },
+ "auto/49-148s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "%E4%BC%98%E9%85%B7%E5%88%97%E8%A1%A8%2C%E7%AC%AC%E4%B8%89%E6%96%B9api~e3f515.json",
+  "sha256": "a16a49e185768bf4ffc9ae8c6a611ab6fcfaebfa1b60e093730621af8fd866d0",
+  "size": 47566,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/city10666/tvbox-beifen/main/%E4%BC%98%E9%85%B7%E5%88%97%E8%A1%A8%2C%E7%AC%AC%E4%B8%89%E6%96%B9api.json"
  },
  "auto/49-149s": {
   "first_seen": "2026-10-03",
@@ -29593,6 +30187,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/ck/main/box/duo/m.json"
  },
+ "auto/52-142s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "m~62b9d3.json",
+  "sha256": "b77fd4fd527a1ed97bfa5e5b55cab7c60d8003e1767883d9ccfcda692cefec7b",
+  "size": 61454,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/liu673cn/ck/main/box/tms/m.json"
+ },
  "auto/52-145s": {
   "first_seen": "2026-10-03",
   "last_changed": "2026-10-03",
@@ -29681,6 +30286,17 @@
   "size": 35918,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/ewctt/tvbox/main/box.json"
+ },
+ "auto/53-142s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "m~e25104.json",
+  "sha256": "dac54e13eaddb161e180ee60b94dd54c37029dd51b92aaa77a07f20da526d9ff",
+  "size": 61446,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/liu673cn/tms/main/2312/m.json"
  },
  "auto/53-145s": {
   "first_seen": "2026-10-01",
@@ -29860,7 +30476,7 @@
  "auto/55-140s": {
   "first_seen": "2026-10-03",
   "last_changed": "2026-10-03",
-  "last_checked": "2026-10-03",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "m~becf4b.json",
   "sha256": "c7cfe044c7ba69f88a22a59d59507e00de0ac665b4a4f312b378afd4a5d221b6",
@@ -29966,6 +30582,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/niuber/niuber/main/tvbox/TVBoxOSC/tvbox/api.json"
  },
+ "auto/56-137s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "jsm~a9ed7d.json",
+  "sha256": "25215d0db499dae9af7abb02c43908a9157ef76f88a7ae8b4f52dc015fe23773",
+  "size": 199976,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/xmbjm/TV-BOX/main/drpys/jsm.json"
+ },
  "auto/56-145s": {
   "first_seen": "2026-09-30",
   "history": [
@@ -30028,6 +30655,17 @@
   "size": 27029,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/xuy132/TVBox-api/master/918.json"
+ },
+ "auto/57-129s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "m~bd7eee.json",
+  "sha256": "7fcdeb4e83106a5525aab849c8d5a97900ec8934e705a64d93e795d29156d981",
+  "size": 40854,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/liu673cn/ck/main/box/xyq/m.json"
  },
  "auto/57-140s": {
   "first_seen": "2026-10-02",
@@ -30131,6 +30769,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/xuy132/tvbox/main/tv/0/918.json"
  },
+ "auto/58-127s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "mtv~fded96.json",
+  "sha256": "b24dcae1e0dc3ccd8ddbd544085181328c1cc554f2d20ea8c2a9214a7d5cfbe4",
+  "size": 40535,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/xisohi/XHYSosc/master/mtv.json"
+ },
  "auto/58-140s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
@@ -30203,6 +30852,17 @@
   "size": 29846,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/dalazhi/tvbox/main/18.txt"
+ },
+ "auto/59-125s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "api~e9c225.json",
+  "sha256": "a4ec5821be66f3ec4ae4f792d26e9138c0789f2e52a567d6b5ddaff17b84ef45",
+  "size": 64760,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/niuber/niuber/main/tvbox/TVBoxOSC/tvbox/api.json"
  },
  "auto/59-137s": {
   "first_seen": "2026-10-02",
@@ -30391,6 +31051,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/xmbjm/tvbox/master/xiaosa/api.json"
  },
+ "auto/60-117s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "918~874fec.json",
+  "sha256": "db47623626f9e9cdabc6b9e8eb06966028e873d6817733d1f500a4bcaa6b79bc",
+  "size": 27029,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/xuy132/TVBox-api/master/918.json"
+ },
  "auto/60-127s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
@@ -30499,6 +31170,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/franksun1211/X/main/py.json"
  },
+ "auto/61-117s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "918~e37130.json",
+  "sha256": "13f99aeaf80eee823c33e0ef52171e6b6e22b48cd95be46105626a052b115f65",
+  "size": 29005,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/xuy132/tvbox/main/tv/0/918.json"
+ },
  "auto/61-127s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
@@ -30564,6 +31246,17 @@
   "size": 47071,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/ne7359/tvurl/main/jsm.json"
+ },
+ "auto/62-115s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "%E5%BD%B1%E8%A7%86%E6%88%90%E4%BA%BA~0371b2.txt",
+  "sha256": "806508c99717484389c06d46fe7cc80b18b394d1f5f00f1ee0d97ff70ed907f6",
+  "size": 38153,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/dongge0504-bot/-tvbox-config/main/%E5%BD%B1%E8%A7%86%E6%88%90%E4%BA%BA.txt"
  },
  "auto/62-140s": {
   "first_seen": "2026-10-04",
@@ -30645,6 +31338,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/hebijunge/tvbox2/main/sun.json"
  },
+ "auto/63-114s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "api~702999.json",
+  "sha256": "c144aa01b2e414194eab0352d4be016eecd01535cfd91e2fe1dae785161e7196",
+  "size": 29492,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/xmbjm/tvbox/master/xiaosa/api.json"
+ },
  "auto/63-122s": {
   "first_seen": "2026-10-04",
   "last_changed": "2026-10-04",
@@ -30717,6 +31421,17 @@
   "size": 27089,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/hebijunge/tvbox3/main/sun.json"
+ },
+ "auto/64-110s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~8a549f.json",
+  "sha256": "2d156cfa0a6d2b71a4e693f4a68b3316288e10430397236922fa53962f9efd55",
+  "size": 33001,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/moyu/config.json"
  },
  "auto/64-115s": {
   "first_seen": "2026-10-01",
@@ -30816,6 +31531,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%AC%A7%E6%AD%8C/api.json"
  },
+ "auto/65-110s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "api~003789.json",
+  "sha256": "938f016f53976ddb6855e2d279f7fc69b9fc9118a50c748c50fd5ce26167590d",
+  "size": 48716,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/xiaosa/api.json"
+ },
  "auto/65-115s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
@@ -30896,14 +31622,21 @@
  },
  "auto/66-108s": {
   "first_seen": "2026-10-05",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "570ba9d6d5b59237054c538f047fb7e7ba45a53c9af3765eca209afd4b8e5602"
+   }
+  ],
   "last_changed": "2026-10-05",
   "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "jsm~756836.json",
-  "sha256": "570ba9d6d5b59237054c538f047fb7e7ba45a53c9af3765eca209afd4b8e5602",
-  "size": 38914,
+  "path": "py~3bbb30.json",
+  "sha256": "ca9845c752cdb2c841bd284d351db748765ff08281708684caa386070951dbbb",
+  "size": 37993,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/yw88075/tvbox/main/pg/jsm.json"
+  "url": "https://raw.githubusercontent.com/alantang1977/pg/main/py.json"
  },
  "auto/66-115s": {
   "first_seen": "2026-10-01",
@@ -30999,6 +31732,17 @@
   "size": 28670,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/w0878512-glitch/tvbox-config/main/xiaosa/api.json"
+ },
+ "auto/67-108s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "py~57e7f7.json",
+  "sha256": "20b0d4522d3777a0883d48aadf5c65f4fef5d028a6eaf804e52641628bfec1d5",
+  "size": 40630,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/franksun1211/X/main/py.json"
  },
  "auto/67-111s": {
   "first_seen": "2026-10-01",
@@ -31175,14 +31919,21 @@
  },
  "auto/69-106s": {
   "first_seen": "2026-10-05",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/sun~40904c.json",
+    "sha256": "781d777dacbab6ad317490ba87e47d66df911a61d22b274260c350bc3a48f74b"
+   }
+  ],
   "last_changed": "2026-10-05",
   "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "api~8c65b7.json",
-  "sha256": "781d777dacbab6ad317490ba87e47d66df911a61d22b274260c350bc3a48f74b",
-  "size": 56059,
+  "path": "sun~40904c.json",
+  "sha256": "18df433fe81ed28592c1f2d3c15131e1225d3d31a53df318a8691aa3efe256ad",
+  "size": 27089,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%AC%A7%E6%AD%8C/api.json"
+  "url": "https://raw.githubusercontent.com/hebijunge/tvbox2/main/sun.json"
  },
  "auto/69-111s": {
   "first_seen": "2026-10-01",
@@ -31338,6 +32089,17 @@
   "size": 26480,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/ysc/main/m.json"
+ },
+ "auto/70-106s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "sun~dd78b7.json",
+  "sha256": "22f16b4810e4b79aef20123c36e2b2df882366568a51c300b7839c895f33305f",
+  "size": 27089,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/hebijunge/tvbox3/main/sun.json"
  },
  "auto/70-108s": {
   "first_seen": "2026-10-01",
@@ -31523,6 +32285,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/cainisi/main/m.json"
  },
+ "auto/72-106s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "api~8c65b7.json",
+  "sha256": "ef8c531c9db876637ae3c603131ccca9eacf5c178d20a588e7d4912dab8e3078",
+  "size": 57249,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/PG/api.json"
+ },
  "auto/72-127s": {
   "first_seen": "2026-10-03",
   "last_changed": "2026-10-03",
@@ -31562,6 +32335,17 @@
   "size": 26480,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/ysc/main/m.json"
+ },
+ "auto/73-106s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "api~de294d.json",
+  "sha256": "e6c479c228a17acb6e59b8c3a54ab57e64fb05190db4a676f410ae85a8e4c9cd",
+  "size": 28670,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/w0878512-glitch/tvbox-config/main/xiaosa/api.json"
  },
  "auto/73-108s": {
   "first_seen": "2026-10-01",
@@ -31849,6 +32633,17 @@
   "status": "ok",
   "url": "https://clun.top/box.json"
  },
+ "auto/77-102s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config_clean~043225.json",
+  "sha256": "c929d7ddc5f4f80a084966b807ea06259d4221eee9a213046a1f26333eba74cd",
+  "size": 26329,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/abu168888/tvbox-config/main/config_clean.json"
+ },
  "auto/77-103s": {
   "first_seen": "2026-10-01",
   "history": [
@@ -31943,6 +32738,17 @@
   "size": 34074,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/tvbox.json"
+ },
+ "auto/78-100s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "jsm~756836.json",
+  "sha256": "5ae3687859a9a066d9a40552f7e3b03806a7dab7ef1ef3ba3c839377c0097606",
+  "size": 36381,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/victor1616888/Tang1977/main/jsm.json"
  },
  "auto/78-103s": {
   "first_seen": "2026-10-01",
@@ -32144,6 +32950,17 @@
   "status": "ok",
   "url": "https://clun.top/box.json"
  },
+ "auto/79-97s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "api~e07278.json",
+  "sha256": "ca637f0d278145dc12b6b5d343763f13510fc1100a00aee9168d3c57e7fe21f9",
+  "size": 51249,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E5%A4%A9%E5%BE%AE/api.json"
+ },
  "auto/8-19s": {
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
@@ -32165,6 +32982,17 @@
   "size": 51621,
   "status": "ok",
   "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+ },
+ "auto/8-306s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~a02180.json",
+  "sha256": "2c2c6f429579d953638539bdfc25058d4fccbeeda294ad5aada31b8bad66df50",
+  "size": 69432,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/hudie/config.json"
  },
  "auto/8-350s": {
   "first_seen": "2026-09-30",
@@ -32411,6 +33239,17 @@
   "status": "ok",
   "url": "https://clun.top/box.json"
  },
+ "auto/81-94s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "box~f9e8c0.json",
+  "sha256": "5358dbaeab515565a1a5882d518f11ea820b8a4bfad5785ce87d7b3a16a7b37f",
+  "size": 37337,
+  "status": "ok",
+  "url": "https://clun.top/box.json"
+ },
  "auto/81-98s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
@@ -32572,6 +33411,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/TVBox_warehouse/main/%E5%BD%B1%E8%A7%86/api.json"
  },
+ "auto/83-91s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "c88_box~6e4790.json",
+  "sha256": "00b29f5eab25925d45031c7d4ea988e8899bc97b8011975a02fb17cc943ddebd",
+  "size": 48077,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/hengge345666/tvbox-subs/main/mirror/c88_box.json"
+ },
  "auto/83-92s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
@@ -32666,6 +33516,17 @@
   "size": 35281,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/ewctt/tvbox/main/jsm.json"
+ },
+ "auto/84-91s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "TVBox~96efc2.json",
+  "sha256": "7005c4732e5f2db74f46117f6a671c308cb5e67a9ed0e1ae6811217de4140c94",
+  "size": 40367,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/maoystv/000/master/TVBox.json"
  },
  "auto/84-96s": {
   "first_seen": "2026-10-01",
@@ -32765,6 +33626,17 @@
   "size": 37947,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/OK/api.json"
+ },
+ "auto/85-89s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config~4a042e.json",
+  "sha256": "cb5a1db3cea7d049fa4464cc59f15e28ee4268f9d4fb740238d8cf13bdae1da7",
+  "size": 28696,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/DodgeZhang/tvbox/main/vox/config.json"
  },
  "auto/85-92s": {
   "first_seen": "2026-10-01",
@@ -32879,6 +33751,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/ewctt/tvbox/main/ok.json"
  },
+ "auto/86-88s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "config_bak~f35d08.json",
+  "sha256": "6bb0f6525e12e05046cd465a367c5e768fc9d418f471081dce55e73257216855",
+  "size": 24795,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/abu168888/tvbox-config/main/config_bak.json"
+ },
  "auto/86-92s": {
   "first_seen": "2026-10-02",
   "last_changed": "2026-10-02",
@@ -32989,14 +33872,21 @@
  },
  "auto/87-84s": {
   "first_seen": "2026-10-02",
-  "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": null,
+    "sha256": "f52d4ca1eaec4968ba3ef3fd4c6b5bfe0c5e707d0bb1a43630c3f8b168722a98"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "6.json",
-  "sha256": "f52d4ca1eaec4968ba3ef3fd4c6b5bfe0c5e707d0bb1a43630c3f8b168722a98",
-  "size": 21897,
+  "path": "jsm~02bced.json",
+  "sha256": "f7f8d7f2bee7e30fb7c6769eda50622c7ff2131769ce87c70061c10cbaca1476",
+  "size": 35281,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/lilivan1986/clash/main/6.json"
+  "url": "https://raw.githubusercontent.com/ewctt/tvbox/main/jsm.json"
  },
  "auto/87-92s": {
   "first_seen": "2026-10-01",
@@ -33106,6 +33996,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/yangxiaoge/tvbox_cust/master/tvbox/self_use.txt"
  },
+ "auto/88-82s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "demo.php",
+  "sha256": "f96167378ff48ff8e8896c01f633f08ad41be706059adef69323b4d3c7d11853",
+  "size": 18087,
+  "status": "ok",
+  "url": "http://rihou.cc:88/demo.php"
+ },
  "auto/88-89s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
@@ -33210,14 +34111,21 @@
  },
  "auto/89-82s": {
   "first_seen": "2026-10-02",
-  "last_changed": "2026-10-02",
-  "last_checked": "2026-10-02",
+  "history": [
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/%E6%96%B0%E9%BB%84%E8%B1%86~1772b5.txt",
+    "sha256": "5dae1b81b2f6e979d8de6d2875c7117e77396acb9a9819c7cb9d11a0642c25b1"
+   }
+  ],
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
-  "path": "no_ok.json",
-  "sha256": "5dae1b81b2f6e979d8de6d2875c7117e77396acb9a9819c7cb9d11a0642c25b1",
-  "size": 71964,
+  "path": "%E6%96%B0%E9%BB%84%E8%B1%86~1772b5.txt",
+  "sha256": "28b47fda08a635e80755113bbac6e9012ad32b5ff4ab7465715cbd9d998d01ae",
+  "size": 39183,
   "status": "ok",
-  "url": "https://raw.githubusercontent.com/lihanxing0404/mystudy/master/no_ok.json"
+  "url": "https://raw.githubusercontent.com/dongge0504-bot/-tvbox-config/main/%E6%96%B0%E9%BB%84%E8%B1%86.txt"
  },
  "auto/89-92s": {
   "first_seen": "2026-10-01",
@@ -33566,6 +34474,17 @@
   "status": "ok",
   "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/OK/api.json"
  },
+ "auto/91-79s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "adult~d2c78a.json",
+  "sha256": "f11c63a46b1e26b43efd2f744ae89ae283a73cf502bb7b688198324cc1733ca2",
+  "size": 14968,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/franksun1211/CatVodSpider-FM/main/json/adult.json"
+ },
  "auto/91-84s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
@@ -33701,7 +34620,7 @@
  "auto/92-78s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "config.json",
   "sha256": "4ca40e777e6605298acfc8710bc85123de7e90febb340a5024af15d593f72596",
@@ -33803,6 +34722,17 @@
   "size": 28916,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/liu673cn/feimao/main/2311/m.json"
+ },
+ "auto/93-78s": {
+  "first_seen": "2026-10-05",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
+  "ledger": null,
+  "path": "api~325412.json",
+  "sha256": "95805527859aff780e94c336dcda1e607969598d8e8aae6337ad9d91489abd4e",
+  "size": 47733,
+  "status": "ok",
+  "url": "https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E5%8D%97%E9%A3%8E/api.json"
  },
  "auto/93-82s": {
   "first_seen": "2026-10-01",
@@ -34155,7 +35085,7 @@
  "auto/96-76s": {
   "first_seen": "2026-10-01",
   "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "jsm.json",
   "sha256": "536f05f30f9fc64d696cfb2b1c02f74e933ebb7ffb723d1ecac1eb60fdf8dd76",
@@ -34430,14 +35360,19 @@
     "date": "2026-10-01",
     "path": "history/2026-10-01/self_use.txt",
     "sha256": "aef836527b607f83b8fa3046a561bc3a0818906b2dfa7a9a6c9c8a54449bf110"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/self_use.txt",
+    "sha256": "23ff70387cf78ac98bbc6222f1fcc91f07e8ba6f110fa46db459a24faedce5f2"
    }
   ],
-  "last_changed": "2026-10-01",
-  "last_checked": "2026-10-01",
+  "last_changed": "2026-10-05",
+  "last_checked": "2026-10-05",
   "ledger": null,
   "path": "self_use.txt",
-  "sha256": "23ff70387cf78ac98bbc6222f1fcc91f07e8ba6f110fa46db459a24faedce5f2",
-  "size": 27311,
+  "sha256": "3002fdb5a099d2ed9806b7912816fc946219b114fcae214b43dcce8a413478c9",
+  "size": 21822,
   "status": "ok",
   "url": "https://raw.githubusercontent.com/yangxiaoge/tvbox_cust/master/tvbox/self_use.txt"
  },
@@ -35163,6 +36098,8 @@
   "url": "http://550.3vcn.work/wdjyys.json"
  },
  "juhe-tvapi": {
+  "deleted_at": "2026-10-05",
+  "deleted_reason": "HTTPError: HTTP Error 404: Not Found",
   "first_seen": "2026-09-28",
   "history": [
    {
@@ -35238,7 +36175,7 @@
   "recovered_at": "2026-10-05",
   "sha256": "da11b213e242a56f03ebe23704692d8a6e9e6b4416223996ef1b6d28a7383ea8",
   "size": 46193,
-  "status": "ok",
+  "status": "deleted_upstream",
   "url": "https://raw.githubusercontent.com/ccAzy/juhe-tvapi/main/config.json"
  },
  "juwan/xhz": {
@@ -35632,17 +36569,15 @@
   "url": "https://play.iptv365.org/%E7%99%BD%E5%AB%96/api.json"
  },
  "sv/changqing": {
-  "deleted_at": "2026-10-04",
-  "deleted_reason": "HTTP 401",
   "first_seen": "2026-09-28",
   "last_changed": "2026-09-28",
   "last_checked": "2026-10-05",
   "ledger": null,
   "path": "changqing.json",
-  "recovered_at": "2026-10-04",
+  "recovered_at": "2026-10-05",
   "sha256": "3a3fbd37936e00c429b590adee07a7af1af51f1540fe8050665e75c24a742a2d",
   "size": 24728,
-  "status": "deleted_upstream",
+  "status": "ok",
   "url": "https://13413.kstore.space/tv/changqing.json"
  },
  "sv/feimao": {
@@ -35723,14 +36658,19 @@
     "date": "2026-10-03",
     "path": "history/2026-10-03/xn--5mqx81b535a.com",
     "sha256": "413cb7cb406043e01df6baa48028971d6bf5bf048401498b9fbe47ae3a34e69d"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/xn--5mqx81b535a.com",
+    "sha256": "36642a156685f2a1f7a80d8e7b9aa4288e314566ac725b4f5cfa0c4a51a767ae"
    }
   ],
-  "last_changed": "2026-10-03",
+  "last_changed": "2026-10-05",
   "last_checked": "2026-10-05",
   "ledger": null,
   "path": "xn--5mqx81b535a.com",
-  "sha256": "36642a156685f2a1f7a80d8e7b9aa4288e314566ac725b4f5cfa0c4a51a767ae",
-  "size": 34222,
+  "sha256": "5312246d5db54e012b582516b9f75c2b1a7e97127586310e5c3a4cab42853401",
+  "size": 32587,
   "status": "ok",
   "url": "http://xn--5mqx81b535a.com/"
  },
@@ -36216,13 +37156,18 @@
     "date": "2026-10-05",
     "path": "history/2026-10-05/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
     "sha256": "bf7a4521e30385fcecfa978798fd7fc9fbf27502225761924a7762d518f5437f"
+   },
+   {
+    "date": "2026-10-05",
+    "path": "history/2026-10-05/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
+    "sha256": "b6403ff84a67b3ebd5acaf549d647d13a486387425b939be09ebec96721bcbf1"
    }
   ],
   "last_changed": "2026-10-05",
   "last_checked": "2026-10-05",
   "ledger": null,
   "path": "%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95",
-  "sha256": "b6403ff84a67b3ebd5acaf549d647d13a486387425b939be09ebec96721bcbf1",
+  "sha256": "bd3a330267b947f00147d32b506452031128549d572da8633ba5a6806c3c8bf1",
   "size": 53840,
   "status": "ok",
   "url": "http://hb.xn--yet24tmq1a.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95"

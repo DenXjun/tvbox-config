@@ -1,24 +1,24 @@
 {
- "checked_at": "2026-10-05 09:03:14",
+ "checked_at": "2026-10-05 15:14:21",
  "sampled": 3,
  "healthy": 0,
  "verdict": "dead",
  "sites": {
-  "drpy_js_看片狂人": {
-   "name": "影视 | 看片狂人[js]",
-   "api": "https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy2.min.js",
-   "ok": false,
-   "reason": "HTTPError"
-  },
-  "蓝光影视": {
-   "name": "⚡蓝光┃APP",
-   "api": "./js/drpy2.min.js",
+  "py_apple": {
+   "name": "🍎┃苹果┃影视",
+   "api": "./lib/apple.py",
    "ok": null,
    "reason": "non-http-api"
   },
-  "BC影视": {
-   "name": "⚡追剧┃APP",
-   "api": "csp_AppYsV2",
+  "fY": {
+   "name": "🦋 枫叶影院.py(关梯子使用)",
+   "api": "./lib/枫叶影院.py",
+   "ok": null,
+   "reason": "non-http-api"
+  },
+  "007qg": {
+   "name": "🦋 007吃瓜.py｜🔞",
+   "api": "./lib/007吃瓜.py",
    "ok": null,
    "reason": "non-http-api"
   }

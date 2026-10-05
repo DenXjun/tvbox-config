@@ -1,62 +1,141 @@
 {
- "generated_at": "2026-10-05T01:40:01",
+ "generated_at": "2026-10-05T07:46:56",
  "is_baseline": false,
  "vod": {
-  "total": 8846,
+  "total": 8865,
   "summary": {
    "healthy": 316,
-   "degraded": 2072,
-   "unknown": 5908,
-   "dead": 550
+   "degraded": 2071,
+   "unknown": 5933,
+   "dead": 545
   },
   "new": [
    {
-    "key": "tcniao_auto",
-    "name": "🦜TC鸟Auto(自动测速)",
+    "key": "爬虫资源",
+    "name": "影视•爬虫[直连]",
     "health": "unknown"
    },
    {
-    "key": "tcniao_fly",
-    "name": "🦜TC鸟Fly(飞哥影视)",
+    "key": "无上资源",
+    "name": "无上┃采集",
     "health": "unknown"
    },
    {
-    "key": "tcniao_v13",
-    "name": "🦜TC鸟V13(完整URL)",
+    "key": "drpy_js_樱之空",
+    "name": "樱之空[直连]",
     "health": "unknown"
    },
    {
-    "key": "tcniao_v14",
-    "name": "🦜TC鸟V14(纯数字收藏)",
+    "key": "哔哩合集2",
+    "name": "🅱️┃哔哩┃合集2",
     "health": "unknown"
    },
    {
-    "key": "tcniao_v15",
-    "name": "🦜TC鸟V15(多线路)",
+    "key": "哔哩合集3",
+    "name": "🅱️┃哔哩┃合集3",
     "health": "unknown"
    },
    {
-    "key": "tcniao_v26",
-    "name": "🦜TC鸟V26(最新)",
+    "key": "bili_di",
+    "name": "🅱️┃哔哩┃直连",
     "health": "unknown"
    },
    {
-    "key": "tcniao_v27",
-    "name": "🦜TC鸟V27(配置中心)",
+    "key": "中医药区",
+    "name": "🅱️┃中医┃药区",
     "health": "unknown"
    },
    {
-    "key": "zmingcx_v12",
-    "name": "🦜知更鸟V12(脚本截取)",
+    "key": "体育健身",
+    "name": "🅱️┃体育┃健身",
     "health": "unknown"
    },
    {
-    "key": "zmingcx",
-    "name": "🦜知更鸟文章站",
+    "key": "哔哩精简",
+    "name": "🅱️┃哔哩┃精简",
+    "health": "unknown"
+   },
+   {
+    "key": "戏曲合集",
+    "name": "🅱️┃戏曲┃合集",
+    "health": "unknown"
+   },
+   {
+    "key": "歌手合集",
+    "name": "🅱️┃歌手┃合集",
+    "health": "unknown"
+   },
+   {
+    "key": "歌曲演唱",
+    "name": "🅱️┃歌曲┃演唱",
+    "health": "unknown"
+   },
+   {
+    "key": "球队球星",
+    "name": "🅱️┃球队┃球星",
+    "health": "unknown"
+   },
+   {
+    "key": "美女舞蹈",
+    "name": "🅱️┃美女┃舞蹈",
+    "health": "unknown"
+   },
+   {
+    "key": "音悦合集",
+    "name": "🅱️┃音悦┃合集",
     "health": "unknown"
    }
   ],
-  "gone": [],
+  "gone": [
+   {
+    "key": "山海资源",
+    "name": "山海🌀采集"
+   },
+   {
+    "key": "快云资源",
+    "name": "快云🌀采集"
+   },
+   {
+    "key": "侠客影视",
+    "name": "🌐侠客┃嗅探"
+   },
+   {
+    "key": "看客",
+    "name": "🔰看客"
+   },
+   {
+    "key": "drpyS_多多[盘]",
+    "name": "📀多多4K"
+   },
+   {
+    "key": "drpyS_木偶[盘]",
+    "name": "📀木偶4K"
+   },
+   {
+    "key": "drpyS_欧哥[盘]",
+    "name": "📀欧哥4K"
+   },
+   {
+    "key": "drpyS_立播[盘]",
+    "name": "📀立播4K"
+   },
+   {
+    "key": "drpyS_至臻[盘]",
+    "name": "📀至臻4K"
+   },
+   {
+    "key": "drpyS_虎斑[盘]",
+    "name": "📀虎斑4K"
+   },
+   {
+    "key": "baidu_cloud",
+    "name": "📀百度"
+   },
+   {
+    "key": "HDHaven",
+    "name": "栖影|网盘|磁力"
+   }
+  ],
   "down": [
    {
     "key": "即看影视",
@@ -73,12 +152,6 @@
    {
     "key": "иӮҘзҢ«",
     "name": "рҹҗјв”ғиӮҘзҢ«в”ғAPP",
-    "from": "degraded",
-    "to": "dead"
-   },
-   {
-    "key": "csp_AppV6_特狗_QJ",
-    "name": "🔰特狗",
     "from": "degraded",
     "to": "dead"
    },
@@ -145,6 +218,12 @@
    {
     "key": "稀饭影视",
     "name": "🍚稀饭┃影视",
+    "from": "degraded",
+    "to": "dead"
+   },
+   {
+    "key": "BILFUN影院",
+    "name": "🎞️Bilfun┃影库",
     "from": "degraded",
     "to": "dead"
    }
@@ -242,36 +321,46 @@
    }
   ],
   "counts": {
-   "new": 9,
-   "gone": 0,
-   "down": 103,
+   "new": 26,
+   "gone": 12,
+   "down": 128,
    "recovered": 47
   }
  },
  "live": {
-  "total": 702,
+  "total": 706,
   "summary": {
-   "degraded": 261,
-   "healthy": 170,
+   "degraded": 270,
+   "healthy": 165,
    "unknown": 249,
    "dead": 22
   },
   "counts": {
-   "new": 2,
+   "new": 4,
    "gone": 0,
    "down": 0,
    "recovered": 0
   },
   "new": [
    {
-    "key": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/lives/chinese.m3u",
-    "name": "Ryukyou┃中文精选(自动更新)",
-    "health": "healthy"
+    "key": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/jhzone/TVbox/main/result.txt",
+    "name": "软件小哥哥",
+    "health": "degraded"
    },
    {
-    "key": "https://github.mxw.qzz.io/https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u",
-    "name": "备用-CollectIPTV",
-    "health": "healthy"
+    "key": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/aa3151036158/tvbox-config/main/output/live.txt",
+    "name": "直播源",
+    "health": "degraded"
+   },
+   {
+    "key": "https://ghproxy.imciel.com/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt",
+    "name": "地方台",
+    "health": "degraded"
+   },
+   {
+    "key": "https://github.moeyy.xyz/https://raw.githubusercontent.com/huangxiong1992/testTV/refs/heads/main/MV.txt",
+    "name": "飞快线",
+    "health": "degraded"
    }
   ],
   "down": []
