@@ -12,6 +12,7 @@ CONFIG=Path(os.getenv("TVBOX_CONFIG","/config"))
 LOGS=Path(os.getenv("TVBOX_LOGS","/logs"))
 PORT=int(os.getenv("TVBOX_PORT","8080"))
 INTERVAL=int(os.getenv("TVBOX_INTERVAL_HOURS","12"))*3600
+AUTO_RUN=os.getenv("TVBOX_AUTO_RUN","1").lower() not in ("0","false","no")
 DB=DATA/"nas.db"
 UPSTREAM_CFG=CONFIG/"upstreams.json"
 RUN_LOCK=threading.Lock()
@@ -130,7 +131,9 @@ def run_pipeline():
     return ok,msg
 
 def scheduler():
-    time.sleep(15)
+    # Give DSM time to expose the Web UI before the first heavy maintenance pass.
+    if not AUTO_RUN: return
+    time.sleep(int(os.getenv("TVBOX_FIRST_RUN_DELAY","120")))
     while True:
         run_pipeline(); time.sleep(max(INTERVAL,3600))
 
