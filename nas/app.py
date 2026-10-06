@@ -103,6 +103,14 @@ def _validated_healthy(path):
         raise RuntimeError("healthy export has no validated sites")
     if doc.get("lives"):
         raise RuntimeError("NAS healthy export unexpectedly contains live sources")
+    if "spider" in doc or doc.get("parses"):
+        raise RuntimeError("NAS public subscription must not initialize global spider/parses")
+    for site in sites:
+        api=site.get("api") if isinstance(site,dict) else None
+        if site.get("type") not in (0,1) or not isinstance(api,str) or not api.startswith(("http://","https://")):
+            raise RuntimeError(f"NAS public subscription contains non-HTTP-CMS site: {site.get('key')}")
+        if any(str(k).startswith("_") for k in site):
+            raise RuntimeError(f"NAS public subscription leaks internal metadata: {site.get('key')}")
     return json.dumps(doc,ensure_ascii=False,indent=1).encode("utf-8")
 
 def run_pipeline():
