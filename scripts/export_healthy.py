@@ -101,7 +101,7 @@ def _nas_quality(repo):
     except (OSError,ValueError,TypeError):
         return {}
 
-_ADULT_RE = __import__("re").compile(r"(成人|伦理|福利|情色|三级|写真|18禁|AV|萝莉|OnlyFans|麻豆|国产自拍)", __import__("re").I)
+_ADULT_RE = __import__("re").compile(r"(成人|伦理|福利|情色|三级|写真|18禁|AV|萝莉|OnlyFans|麻豆|国产自拍|里番|擦边)", __import__("re").I)
 
 def _nas_filter_and_rank(sites, quality):
     """NAS 默认订阅只发布实测 L3 的 HTTP CMS。
@@ -114,11 +114,17 @@ def _nas_filter_and_rank(sites, quality):
         api=s.get("api")
         if s.get("type") not in (0,1) or not isinstance(api,str) or not api.startswith(("http://","https://")):
             continue
-        hay=" ".join(str(s.get(k) or "") for k in ("name","group","key","categories"))
-        if _ADULT_RE.search(hay):
+        identity=" ".join(str(s.get(k) or "") for k in ("name","group","key"))
+        if _ADULT_RE.search(identity):
             continue
         q=quality.get(s.get("key")) or {}
-        x=dict(s); x["_quality_score"]=q.get("score"); x["_stability_7d"]=(q.get("d7") or {}).get("success_rate")
+        x=dict(s)
+        cats=x.get("categories")
+        if isinstance(cats,list):
+            x["categories"]=[v for v in cats if not _ADULT_RE.search(str(v))]
+            if not x["categories"]:
+                x.pop("categories",None)
+        x["_quality_score"]=q.get("score"); x["_stability_7d"]=(q.get("d7") or {}).get("success_rate")
         clean.append(x)
     return sorted(clean,key=lambda x:(x.get("_quality_score") is not None,x.get("_quality_score") or -1,-(x.get("_latency_ms") or 999999)),reverse=True)
 
